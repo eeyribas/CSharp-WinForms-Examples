@@ -1,0 +1,11 @@
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Graphics-PictureViewer\Graphics-PictureViewer\bin\Release\Graphics-PictureViewer.exe.config
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Graphics-PictureViewer\Graphics-PictureViewer\bin\Release\Graphics-PictureViewer.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Graphics-PictureViewer\Graphics-PictureViewer\bin\Release\Graphics-PictureViewer.pdb
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Graphics-PictureViewer\Graphics-PictureViewer\obj\Release\Graphics-PictureViewer.csproj.AssemblyReference.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Graphics-PictureViewer\Graphics-PictureViewer\obj\Release\Graphics_PictureViewer.Form1.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Graphics-PictureViewer\Graphics-PictureViewer\obj\Release\Graphics_PictureViewer.Form2.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Graphics-PictureViewer\Graphics-PictureViewer\obj\Release\Graphics_PictureViewer.Properties.Resources.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Graphics-PictureViewer\Graphics-PictureViewer\obj\Release\Graphics-PictureViewer.csproj.GenerateResource.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Graphics-PictureViewer\Graphics-PictureViewer\obj\Release\Graphics-PictureViewer.csproj.CoreCompileInputs.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Graphics-PictureViewer\Graphics-PictureViewer\obj\Release\Graphics-PictureViewer.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Graphics-PictureViewer\Graphics-PictureViewer\obj\Release\Graphics-PictureViewer.pdb

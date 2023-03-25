@@ -1,0 +1,10 @@
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\CharacterGroups\bin\Debug\CharacterGroups.exe.config
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\CharacterGroups\bin\Debug\CharacterGroups.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\CharacterGroups\bin\Debug\CharacterGroups.pdb
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\CharacterGroups\obj\Debug\CharacterGroups.csproj.AssemblyReference.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\CharacterGroups\obj\Debug\CharacterGroups.Form1.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\CharacterGroups\obj\Debug\CharacterGroups.Properties.Resources.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\CharacterGroups\obj\Debug\CharacterGroups.csproj.GenerateResource.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\CharacterGroups\obj\Debug\CharacterGroups.csproj.CoreCompileInputs.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\CharacterGroups\obj\Debug\CharacterGroups.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\CharacterGroups\obj\Debug\CharacterGroups.pdb

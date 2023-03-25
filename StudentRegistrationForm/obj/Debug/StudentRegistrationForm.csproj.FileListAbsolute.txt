@@ -1,0 +1,11 @@
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StudentRegistrationForm\bin\Debug\StudentRegistrationForm.exe.config
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StudentRegistrationForm\bin\Debug\StudentRegistrationForm.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StudentRegistrationForm\bin\Debug\StudentRegistrationForm.pdb
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StudentRegistrationForm\obj\Debug\StudentRegistrationForm.csproj.AssemblyReference.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StudentRegistrationForm\obj\Debug\StudentRegistrationForm.About.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StudentRegistrationForm\obj\Debug\StudentRegistrationForm.Form1.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StudentRegistrationForm\obj\Debug\StudentRegistrationForm.Properties.Resources.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StudentRegistrationForm\obj\Debug\StudentRegistrationForm.csproj.GenerateResource.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StudentRegistrationForm\obj\Debug\StudentRegistrationForm.csproj.CoreCompileInputs.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StudentRegistrationForm\obj\Debug\StudentRegistrationForm.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StudentRegistrationForm\obj\Debug\StudentRegistrationForm.pdb

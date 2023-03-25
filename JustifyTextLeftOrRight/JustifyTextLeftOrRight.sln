@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32901.82
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JustifyTextLeftOrRight", "JustifyTextLeftOrRight.csproj", "{9C2DD90F-FC1D-4592-BF87-7D6C4B3257EE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9C2DD90F-FC1D-4592-BF87-7D6C4B3257EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C2DD90F-FC1D-4592-BF87-7D6C4B3257EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C2DD90F-FC1D-4592-BF87-7D6C4B3257EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C2DD90F-FC1D-4592-BF87-7D6C4B3257EE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C502B0E3-D1D0-4D41-8406-F4F7F1243932}
+	EndGlobalSection
+EndGlobal

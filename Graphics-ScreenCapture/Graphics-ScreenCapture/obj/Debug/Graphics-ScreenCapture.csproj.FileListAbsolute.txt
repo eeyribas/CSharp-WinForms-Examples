@@ -1,0 +1,10 @@
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Graphics-ScreenCapture\Graphics-ScreenCapture\bin\Debug\Graphics-ScreenCapture.exe.config
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Graphics-ScreenCapture\Graphics-ScreenCapture\bin\Debug\Graphics-ScreenCapture.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Graphics-ScreenCapture\Graphics-ScreenCapture\bin\Debug\Graphics-ScreenCapture.pdb
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Graphics-ScreenCapture\Graphics-ScreenCapture\obj\Debug\Graphics-ScreenCapture.csproj.AssemblyReference.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Graphics-ScreenCapture\Graphics-ScreenCapture\obj\Debug\Graphics_ScreenCapture.Form1.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Graphics-ScreenCapture\Graphics-ScreenCapture\obj\Debug\Graphics_ScreenCapture.Properties.Resources.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Graphics-ScreenCapture\Graphics-ScreenCapture\obj\Debug\Graphics-ScreenCapture.csproj.GenerateResource.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Graphics-ScreenCapture\Graphics-ScreenCapture\obj\Debug\Graphics-ScreenCapture.csproj.CoreCompileInputs.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Graphics-ScreenCapture\Graphics-ScreenCapture\obj\Debug\Graphics-ScreenCapture.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Graphics-ScreenCapture\Graphics-ScreenCapture\obj\Debug\Graphics-ScreenCapture.pdb
