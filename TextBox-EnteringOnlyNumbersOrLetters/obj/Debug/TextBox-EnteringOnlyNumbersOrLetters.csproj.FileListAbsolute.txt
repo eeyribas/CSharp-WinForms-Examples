@@ -1,0 +1,10 @@
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\TextBox-EnteringOnlyNumbersOrLetters\bin\Debug\TextBox-EnteringOnlyNumbersOrLetters.exe.config
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\TextBox-EnteringOnlyNumbersOrLetters\bin\Debug\TextBox-EnteringOnlyNumbersOrLetters.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\TextBox-EnteringOnlyNumbersOrLetters\bin\Debug\TextBox-EnteringOnlyNumbersOrLetters.pdb
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\TextBox-EnteringOnlyNumbersOrLetters\obj\Debug\TextBox-EnteringOnlyNumbersOrLetters.csproj.AssemblyReference.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\TextBox-EnteringOnlyNumbersOrLetters\obj\Debug\TextBox_EnteringOnlyNumbersOrLetters.Form1.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\TextBox-EnteringOnlyNumbersOrLetters\obj\Debug\TextBox_EnteringOnlyNumbersOrLetters.Properties.Resources.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\TextBox-EnteringOnlyNumbersOrLetters\obj\Debug\TextBox-EnteringOnlyNumbersOrLetters.csproj.GenerateResource.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\TextBox-EnteringOnlyNumbersOrLetters\obj\Debug\TextBox-EnteringOnlyNumbersOrLetters.csproj.CoreCompileInputs.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\TextBox-EnteringOnlyNumbersOrLetters\obj\Debug\TextBox-EnteringOnlyNumbersOrLetters.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\TextBox-EnteringOnlyNumbersOrLetters\obj\Debug\TextBox-EnteringOnlyNumbersOrLetters.pdb

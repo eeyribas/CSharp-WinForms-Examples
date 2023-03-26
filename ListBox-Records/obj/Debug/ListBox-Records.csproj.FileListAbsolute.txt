@@ -1,0 +1,10 @@
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\ListBox-Records\bin\Debug\ListBox-Records.exe.config
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\ListBox-Records\bin\Debug\ListBox-Records.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\ListBox-Records\bin\Debug\ListBox-Records.pdb
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\ListBox-Records\obj\Debug\ListBox-Records.csproj.AssemblyReference.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\ListBox-Records\obj\Debug\ListBox_Records.Form1.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\ListBox-Records\obj\Debug\ListBox_Records.Properties.Resources.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\ListBox-Records\obj\Debug\ListBox-Records.csproj.GenerateResource.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\ListBox-Records\obj\Debug\ListBox-Records.csproj.CoreCompileInputs.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\ListBox-Records\obj\Debug\ListBox-Records.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\ListBox-Records\obj\Debug\ListBox-Records.pdb

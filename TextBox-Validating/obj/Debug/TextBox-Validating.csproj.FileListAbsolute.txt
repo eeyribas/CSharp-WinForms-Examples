@@ -1,0 +1,10 @@
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\TextBox-Validating\bin\Debug\TextBox-Validating.exe.config
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\TextBox-Validating\bin\Debug\TextBox-Validating.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\TextBox-Validating\bin\Debug\TextBox-Validating.pdb
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\TextBox-Validating\obj\Debug\TextBox-Validating.csproj.AssemblyReference.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\TextBox-Validating\obj\Debug\TextBox_Validating.Form1.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\TextBox-Validating\obj\Debug\TextBox_Validating.Properties.Resources.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\TextBox-Validating\obj\Debug\TextBox-Validating.csproj.GenerateResource.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\TextBox-Validating\obj\Debug\TextBox-Validating.csproj.CoreCompileInputs.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\TextBox-Validating\obj\Debug\TextBox-Validating.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\TextBox-Validating\obj\Debug\TextBox-Validating.pdb

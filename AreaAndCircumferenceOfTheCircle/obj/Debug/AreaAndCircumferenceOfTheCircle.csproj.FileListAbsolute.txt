@@ -1,0 +1,10 @@
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\AreaAndCircumferenceOfTheCircle\bin\Debug\AreaAndCircumferenceOfTheCircle.exe.config
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\AreaAndCircumferenceOfTheCircle\bin\Debug\AreaAndCircumferenceOfTheCircle.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\AreaAndCircumferenceOfTheCircle\bin\Debug\AreaAndCircumferenceOfTheCircle.pdb
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\AreaAndCircumferenceOfTheCircle\obj\Debug\AreaAndCircumferenceOfTheCircle.csproj.AssemblyReference.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\AreaAndCircumferenceOfTheCircle\obj\Debug\AreaAndCircumferenceOfTheCircle.Form1.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\AreaAndCircumferenceOfTheCircle\obj\Debug\AreaAndCircumferenceOfTheCircle.Properties.Resources.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\AreaAndCircumferenceOfTheCircle\obj\Debug\AreaAndCircumferenceOfTheCircle.csproj.GenerateResource.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\AreaAndCircumferenceOfTheCircle\obj\Debug\AreaAndCircumferenceOfTheCircle.csproj.CoreCompileInputs.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\AreaAndCircumferenceOfTheCircle\obj\Debug\AreaAndCircumferenceOfTheCircle.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\AreaAndCircumferenceOfTheCircle\obj\Debug\AreaAndCircumferenceOfTheCircle.pdb

@@ -1,0 +1,10 @@
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Bitmap-Negative\bin\Debug\Bitmap-Negative.exe.config
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Bitmap-Negative\bin\Debug\Bitmap-Negative.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Bitmap-Negative\bin\Debug\Bitmap-Negative.pdb
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Bitmap-Negative\obj\Debug\Bitmap-Negative.csproj.AssemblyReference.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Bitmap-Negative\obj\Debug\Bitmap_Negative.Form1.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Bitmap-Negative\obj\Debug\Bitmap_Negative.Properties.Resources.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Bitmap-Negative\obj\Debug\Bitmap-Negative.csproj.GenerateResource.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Bitmap-Negative\obj\Debug\Bitmap-Negative.csproj.CoreCompileInputs.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Bitmap-Negative\obj\Debug\Bitmap-Negative.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Bitmap-Negative\obj\Debug\Bitmap-Negative.pdb

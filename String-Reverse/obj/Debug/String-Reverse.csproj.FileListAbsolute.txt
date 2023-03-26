@@ -1,0 +1,10 @@
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\String-Reverse\bin\Debug\String-Reverse.exe.config
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\String-Reverse\bin\Debug\String-Reverse.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\String-Reverse\bin\Debug\String-Reverse.pdb
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\String-Reverse\obj\Debug\String-Reverse.csproj.AssemblyReference.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\String-Reverse\obj\Debug\String_Reverse.Form1.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\String-Reverse\obj\Debug\String_Reverse.Properties.Resources.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\String-Reverse\obj\Debug\String-Reverse.csproj.GenerateResource.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\String-Reverse\obj\Debug\String-Reverse.csproj.CoreCompileInputs.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\String-Reverse\obj\Debug\String-Reverse.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\String-Reverse\obj\Debug\String-Reverse.pdb

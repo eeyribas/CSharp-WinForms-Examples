@@ -1,0 +1,10 @@
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\ScrollingText\bin\Debug\ScrollingText.exe.config
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\ScrollingText\bin\Debug\ScrollingText.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\ScrollingText\bin\Debug\ScrollingText.pdb
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\ScrollingText\obj\Debug\ScrollingText.csproj.AssemblyReference.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\ScrollingText\obj\Debug\ScrollingText.Form1.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\ScrollingText\obj\Debug\ScrollingText.Properties.Resources.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\ScrollingText\obj\Debug\ScrollingText.csproj.GenerateResource.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\ScrollingText\obj\Debug\ScrollingText.csproj.CoreCompileInputs.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\ScrollingText\obj\Debug\ScrollingText.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\ScrollingText\obj\Debug\ScrollingText.pdb

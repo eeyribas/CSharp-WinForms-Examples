@@ -1,0 +1,10 @@
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\TextBox-ColorChange\bin\Debug\TextBox-ColorChange.exe.config
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\TextBox-ColorChange\bin\Debug\TextBox-ColorChange.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\TextBox-ColorChange\bin\Debug\TextBox-ColorChange.pdb
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\TextBox-ColorChange\obj\Debug\TextBox-ColorChange.csproj.AssemblyReference.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\TextBox-ColorChange\obj\Debug\TextBox_ColorChange.Form1.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\TextBox-ColorChange\obj\Debug\TextBox_ColorChange.Properties.Resources.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\TextBox-ColorChange\obj\Debug\TextBox-ColorChange.csproj.GenerateResource.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\TextBox-ColorChange\obj\Debug\TextBox-ColorChange.csproj.CoreCompileInputs.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\TextBox-ColorChange\obj\Debug\TextBox-ColorChange.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\TextBox-ColorChange\obj\Debug\TextBox-ColorChange.pdb

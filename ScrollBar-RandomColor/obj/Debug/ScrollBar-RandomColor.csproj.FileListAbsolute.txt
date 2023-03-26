@@ -1,0 +1,10 @@
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\ScrollBar-RandomColor\bin\Debug\ScrollBar-RandomColor.exe.config
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\ScrollBar-RandomColor\bin\Debug\ScrollBar-RandomColor.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\ScrollBar-RandomColor\bin\Debug\ScrollBar-RandomColor.pdb
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\ScrollBar-RandomColor\obj\Debug\ScrollBar-RandomColor.csproj.AssemblyReference.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\ScrollBar-RandomColor\obj\Debug\ScrollBar_RandomColor.Form1.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\ScrollBar-RandomColor\obj\Debug\ScrollBar_RandomColor.Properties.Resources.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\ScrollBar-RandomColor\obj\Debug\ScrollBar-RandomColor.csproj.GenerateResource.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\ScrollBar-RandomColor\obj\Debug\ScrollBar-RandomColor.csproj.CoreCompileInputs.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\ScrollBar-RandomColor\obj\Debug\ScrollBar-RandomColor.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\ScrollBar-RandomColor\obj\Debug\ScrollBar-RandomColor.pdb
