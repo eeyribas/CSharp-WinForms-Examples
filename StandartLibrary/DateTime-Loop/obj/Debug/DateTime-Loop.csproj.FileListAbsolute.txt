@@ -1,0 +1,10 @@
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\DateTime-Loop\bin\Debug\DateTime-Loop.exe.config
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\DateTime-Loop\bin\Debug\DateTime-Loop.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\DateTime-Loop\bin\Debug\DateTime-Loop.pdb
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\DateTime-Loop\obj\Debug\DateTime-Loop.csproj.AssemblyReference.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\DateTime-Loop\obj\Debug\DateTime_Loop.Form1.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\DateTime-Loop\obj\Debug\DateTime_Loop.Properties.Resources.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\DateTime-Loop\obj\Debug\DateTime-Loop.csproj.GenerateResource.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\DateTime-Loop\obj\Debug\DateTime-Loop.csproj.CoreCompileInputs.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\DateTime-Loop\obj\Debug\DateTime-Loop.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\DateTime-Loop\obj\Debug\DateTime-Loop.pdb

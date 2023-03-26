@@ -1,0 +1,11 @@
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Form-OpenForms\bin\Debug\Form-OpenForms.exe.config
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Form-OpenForms\bin\Debug\Form-OpenForms.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Form-OpenForms\bin\Debug\Form-OpenForms.pdb
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Form-OpenForms\obj\Debug\Form-OpenForms.csproj.AssemblyReference.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Form-OpenForms\obj\Debug\Form_OpenForms.Form1.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Form-OpenForms\obj\Debug\Form_OpenForms.Form2.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Form-OpenForms\obj\Debug\Form_OpenForms.Properties.Resources.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Form-OpenForms\obj\Debug\Form-OpenForms.csproj.GenerateResource.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Form-OpenForms\obj\Debug\Form-OpenForms.csproj.CoreCompileInputs.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Form-OpenForms\obj\Debug\Form-OpenForms.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Form-OpenForms\obj\Debug\Form-OpenForms.pdb
