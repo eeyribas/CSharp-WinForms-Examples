@@ -1,0 +1,10 @@
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Array-AddShowOrderFindReverse\bin\Debug\Array-AddShowOrderFindReverse.exe.config
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Array-AddShowOrderFindReverse\bin\Debug\Array-AddShowOrderFindReverse.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Array-AddShowOrderFindReverse\bin\Debug\Array-AddShowOrderFindReverse.pdb
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Array-AddShowOrderFindReverse\obj\Debug\Array-AddShowOrderFindReverse.csproj.AssemblyReference.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Array-AddShowOrderFindReverse\obj\Debug\Array_AddShowOrderFindReverse.Form1.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Array-AddShowOrderFindReverse\obj\Debug\Array_AddShowOrderFindReverse.Properties.Resources.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Array-AddShowOrderFindReverse\obj\Debug\Array-AddShowOrderFindReverse.csproj.GenerateResource.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Array-AddShowOrderFindReverse\obj\Debug\Array-AddShowOrderFindReverse.csproj.CoreCompileInputs.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Array-AddShowOrderFindReverse\obj\Debug\Array-AddShowOrderFindReverse.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Array-AddShowOrderFindReverse\obj\Debug\Array-AddShowOrderFindReverse.pdb

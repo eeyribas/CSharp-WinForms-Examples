@@ -1,0 +1,10 @@
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Button-AcceptCancel\bin\Debug\Button-AcceptCancel.exe.config
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Button-AcceptCancel\bin\Debug\Button-AcceptCancel.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Button-AcceptCancel\bin\Debug\Button-AcceptCancel.pdb
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Button-AcceptCancel\obj\Debug\Button-AcceptCancel.csproj.AssemblyReference.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Button-AcceptCancel\obj\Debug\Button_AcceptCancel.Form1.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Button-AcceptCancel\obj\Debug\Button_AcceptCancel.Properties.Resources.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Button-AcceptCancel\obj\Debug\Button-AcceptCancel.csproj.GenerateResource.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Button-AcceptCancel\obj\Debug\Button-AcceptCancel.csproj.CoreCompileInputs.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Button-AcceptCancel\obj\Debug\Button-AcceptCancel.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Button-AcceptCancel\obj\Debug\Button-AcceptCancel.pdb

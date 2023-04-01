@@ -1,0 +1,10 @@
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Picture-BringForward\bin\Debug\Picture-BringForward.exe.config
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Picture-BringForward\bin\Debug\Picture-BringForward.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Picture-BringForward\bin\Debug\Picture-BringForward.pdb
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Picture-BringForward\obj\Debug\Picture-BringForward.csproj.AssemblyReference.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Picture-BringForward\obj\Debug\Picture_BringForward.Form1.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Picture-BringForward\obj\Debug\Picture_BringForward.Properties.Resources.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Picture-BringForward\obj\Debug\Picture-BringForward.csproj.GenerateResource.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Picture-BringForward\obj\Debug\Picture-BringForward.csproj.CoreCompileInputs.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Picture-BringForward\obj\Debug\Picture-BringForward.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Picture-BringForward\obj\Debug\Picture-BringForward.pdb

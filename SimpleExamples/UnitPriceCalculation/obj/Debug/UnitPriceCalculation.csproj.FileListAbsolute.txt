@@ -1,0 +1,10 @@
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\UnitPriceCalculation\bin\Debug\UnitPriceCalculation.exe.config
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\UnitPriceCalculation\bin\Debug\UnitPriceCalculation.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\UnitPriceCalculation\bin\Debug\UnitPriceCalculation.pdb
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\UnitPriceCalculation\obj\Debug\UnitPriceCalculation.csproj.AssemblyReference.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\UnitPriceCalculation\obj\Debug\UnitPriceCalculation.Form1.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\UnitPriceCalculation\obj\Debug\UnitPriceCalculation.Properties.Resources.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\UnitPriceCalculation\obj\Debug\UnitPriceCalculation.csproj.GenerateResource.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\UnitPriceCalculation\obj\Debug\UnitPriceCalculation.csproj.CoreCompileInputs.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\UnitPriceCalculation\obj\Debug\UnitPriceCalculation.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\UnitPriceCalculation\obj\Debug\UnitPriceCalculation.pdb
