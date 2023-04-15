@@ -31,19 +31,19 @@ namespace StudentRegistrationForm
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            this.MaleRadioBtn = new System.Windows.Forms.RadioButton();
-            this.CityCmb = new System.Windows.Forms.ComboBox();
-            this.IconPic3 = new System.Windows.Forms.PictureBox();
-            this.IconPic4 = new System.Windows.Forms.PictureBox();
-            this.IconPic2 = new System.Windows.Forms.PictureBox();
-            this.IconPic1 = new System.Windows.Forms.PictureBox();
-            this.IconRadioBtn4 = new System.Windows.Forms.RadioButton();
-            this.IconRadioBtn3 = new System.Windows.Forms.RadioButton();
-            this.CityLbl = new System.Windows.Forms.Label();
-            this.StudentNameTxt = new System.Windows.Forms.TextBox();
-            this.StudentNameLbl = new System.Windows.Forms.Label();
-            this.StudentListGrp = new System.Windows.Forms.GroupBox();
-            this.StudentsLvw = new System.Windows.Forms.ListView();
+            this.radioButton1 = new System.Windows.Forms.RadioButton();
+            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.radioButton6 = new System.Windows.Forms.RadioButton();
+            this.radioButton4 = new System.Windows.Forms.RadioButton();
+            this.label2 = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.listView1 = new System.Windows.Forms.ListView();
             this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
@@ -51,188 +51,188 @@ namespace StudentRegistrationForm
             this.columnHeader5 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader6 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader7 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.TownLbl = new System.Windows.Forms.Label();
-            this.ListTypeCmb = new System.Windows.Forms.ComboBox();
-            this.AddListBtn = new System.Windows.Forms.Button();
-            this.ImgList1 = new System.Windows.Forms.ImageList(this.components);
-            this.ImgList2 = new System.Windows.Forms.ImageList(this.components);
+            this.label3 = new System.Windows.Forms.Label();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.imageList1 = new System.Windows.Forms.ImageList(this.components);
+            this.imageList2 = new System.Windows.Forms.ImageList(this.components);
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
             this.toolStripStatusLabel2 = new System.Windows.Forms.ToolStripStatusLabel();
-            this.IconRadioBtn2 = new System.Windows.Forms.RadioButton();
-            this.MenuMns = new System.Windows.Forms.MenuStrip();
-            this.FileTsr = new System.Windows.Forms.ToolStripMenuItem();
+            this.radioButton5 = new System.Windows.Forms.RadioButton();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ClearSelectionMnsItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ClearListMnsItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ExitMnsItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.HelpTsr = new System.Windows.Forms.ToolStripMenuItem();
+            this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.AboutMnsItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.ToolboxTsr = new System.Windows.Forms.ToolStrip();
-            this.ClearTsr = new System.Windows.Forms.ToolStripButton();
-            this.ClearAllTsr = new System.Windows.Forms.ToolStripButton();
-            this.InfoTsr = new System.Windows.Forms.ToolStripButton();
-            this.StundentInfoGrp = new System.Windows.Forms.GroupBox();
-            this.TownLst = new System.Windows.Forms.ListBox();
-            this.HobbyGrp = new System.Windows.Forms.GroupBox();
-            this.SportChk = new System.Windows.Forms.CheckBox();
-            this.MusicChk = new System.Windows.Forms.CheckBox();
-            this.FilmChk = new System.Windows.Forms.CheckBox();
-            this.IconGrp = new System.Windows.Forms.GroupBox();
-            this.IconRadioBtn1 = new System.Windows.Forms.RadioButton();
-            this.GenderGrp = new System.Windows.Forms.GroupBox();
-            this.FemaleRadioBtn = new System.Windows.Forms.RadioButton();
-            ((System.ComponentModel.ISupportInitialize)(this.IconPic3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.IconPic4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.IconPic2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.IconPic1)).BeginInit();
-            this.StudentListGrp.SuspendLayout();
+            this.toolStrip1 = new System.Windows.Forms.ToolStrip();
+            this.toolStripButton1 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton2 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton3 = new System.Windows.Forms.ToolStripButton();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.listBox1 = new System.Windows.Forms.ListBox();
+            this.groupBox5 = new System.Windows.Forms.GroupBox();
+            this.checkBox3 = new System.Windows.Forms.CheckBox();
+            this.checkBox2 = new System.Windows.Forms.CheckBox();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.radioButton3 = new System.Windows.Forms.RadioButton();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.radioButton2 = new System.Windows.Forms.RadioButton();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.groupBox2.SuspendLayout();
             this.statusStrip1.SuspendLayout();
-            this.MenuMns.SuspendLayout();
-            this.ToolboxTsr.SuspendLayout();
-            this.StundentInfoGrp.SuspendLayout();
-            this.HobbyGrp.SuspendLayout();
-            this.IconGrp.SuspendLayout();
-            this.GenderGrp.SuspendLayout();
+            this.menuStrip1.SuspendLayout();
+            this.toolStrip1.SuspendLayout();
+            this.groupBox1.SuspendLayout();
+            this.groupBox5.SuspendLayout();
+            this.groupBox4.SuspendLayout();
+            this.groupBox3.SuspendLayout();
             this.SuspendLayout();
             // 
-            // MaleRadioBtn
+            // radioButton1
             // 
-            this.MaleRadioBtn.AutoSize = true;
-            this.MaleRadioBtn.Checked = true;
-            this.MaleRadioBtn.Location = new System.Drawing.Point(8, 23);
-            this.MaleRadioBtn.Margin = new System.Windows.Forms.Padding(4);
-            this.MaleRadioBtn.Name = "MaleRadioBtn";
-            this.MaleRadioBtn.Size = new System.Drawing.Size(59, 21);
-            this.MaleRadioBtn.TabIndex = 0;
-            this.MaleRadioBtn.TabStop = true;
-            this.MaleRadioBtn.Text = "Male";
-            this.MaleRadioBtn.UseVisualStyleBackColor = true;
+            this.radioButton1.AutoSize = true;
+            this.radioButton1.Checked = true;
+            this.radioButton1.Location = new System.Drawing.Point(8, 23);
+            this.radioButton1.Margin = new System.Windows.Forms.Padding(4);
+            this.radioButton1.Name = "radioButton1";
+            this.radioButton1.Size = new System.Drawing.Size(59, 21);
+            this.radioButton1.TabIndex = 0;
+            this.radioButton1.TabStop = true;
+            this.radioButton1.Text = "Male";
+            this.radioButton1.UseVisualStyleBackColor = true;
             // 
-            // CityCmb
+            // comboBox2
             // 
-            this.CityCmb.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.CityCmb.FormattingEnabled = true;
-            this.CityCmb.Items.AddRange(new object[] {
+            this.comboBox2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox2.FormattingEnabled = true;
+            this.comboBox2.Items.AddRange(new object[] {
             "Kütahya",
             "Bilecik",
             "Sakarya",
             "Bursa",
             "Sinop"});
-            this.CityCmb.Location = new System.Drawing.Point(140, 66);
-            this.CityCmb.Margin = new System.Windows.Forms.Padding(4);
-            this.CityCmb.Name = "CityCmb";
-            this.CityCmb.Size = new System.Drawing.Size(216, 24);
-            this.CityCmb.TabIndex = 3;
-            this.CityCmb.SelectedIndexChanged += new System.EventHandler(this.CityCmb_SelectedIndexChanged);
+            this.comboBox2.Location = new System.Drawing.Point(140, 66);
+            this.comboBox2.Margin = new System.Windows.Forms.Padding(4);
+            this.comboBox2.Name = "comboBox2";
+            this.comboBox2.Size = new System.Drawing.Size(216, 24);
+            this.comboBox2.TabIndex = 3;
+            this.comboBox2.SelectedIndexChanged += new System.EventHandler(this.comboBox2_SelectedIndexChanged);
             // 
-            // IconPic3
+            // pictureBox2
             // 
-            this.IconPic3.Image = ((System.Drawing.Image)(resources.GetObject("IconPic3.Image")));
-            this.IconPic3.Location = new System.Drawing.Point(35, 52);
-            this.IconPic3.Margin = new System.Windows.Forms.Padding(4);
-            this.IconPic3.Name = "IconPic3";
-            this.IconPic3.Size = new System.Drawing.Size(27, 25);
-            this.IconPic3.TabIndex = 7;
-            this.IconPic3.TabStop = false;
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(35, 52);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(27, 25);
+            this.pictureBox2.TabIndex = 7;
+            this.pictureBox2.TabStop = false;
             // 
-            // IconPic4
+            // pictureBox4
             // 
-            this.IconPic4.Image = ((System.Drawing.Image)(resources.GetObject("IconPic4.Image")));
-            this.IconPic4.Location = new System.Drawing.Point(157, 52);
-            this.IconPic4.Margin = new System.Windows.Forms.Padding(4);
-            this.IconPic4.Name = "IconPic4";
-            this.IconPic4.Size = new System.Drawing.Size(27, 25);
-            this.IconPic4.TabIndex = 6;
-            this.IconPic4.TabStop = false;
+            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
+            this.pictureBox4.Location = new System.Drawing.Point(157, 52);
+            this.pictureBox4.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(27, 25);
+            this.pictureBox4.TabIndex = 6;
+            this.pictureBox4.TabStop = false;
             // 
-            // IconPic2
+            // pictureBox3
             // 
-            this.IconPic2.Image = ((System.Drawing.Image)(resources.GetObject("IconPic2.Image")));
-            this.IconPic2.Location = new System.Drawing.Point(157, 20);
-            this.IconPic2.Margin = new System.Windows.Forms.Padding(4);
-            this.IconPic2.Name = "IconPic2";
-            this.IconPic2.Size = new System.Drawing.Size(27, 25);
-            this.IconPic2.TabIndex = 5;
-            this.IconPic2.TabStop = false;
+            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
+            this.pictureBox3.Location = new System.Drawing.Point(157, 20);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(27, 25);
+            this.pictureBox3.TabIndex = 5;
+            this.pictureBox3.TabStop = false;
             // 
-            // IconPic1
+            // pictureBox1
             // 
-            this.IconPic1.Image = ((System.Drawing.Image)(resources.GetObject("IconPic1.Image")));
-            this.IconPic1.InitialImage = null;
-            this.IconPic1.Location = new System.Drawing.Point(35, 20);
-            this.IconPic1.Margin = new System.Windows.Forms.Padding(4);
-            this.IconPic1.Name = "IconPic1";
-            this.IconPic1.Size = new System.Drawing.Size(27, 25);
-            this.IconPic1.TabIndex = 4;
-            this.IconPic1.TabStop = false;
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.InitialImage = null;
+            this.pictureBox1.Location = new System.Drawing.Point(35, 20);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(27, 25);
+            this.pictureBox1.TabIndex = 4;
+            this.pictureBox1.TabStop = false;
             // 
-            // IconRadioBtn4
+            // radioButton6
             // 
-            this.IconRadioBtn4.AutoSize = true;
-            this.IconRadioBtn4.Location = new System.Drawing.Point(129, 52);
-            this.IconRadioBtn4.Margin = new System.Windows.Forms.Padding(4);
-            this.IconRadioBtn4.Name = "IconRadioBtn4";
-            this.IconRadioBtn4.Size = new System.Drawing.Size(33, 21);
-            this.IconRadioBtn4.TabIndex = 3;
-            this.IconRadioBtn4.TabStop = true;
-            this.IconRadioBtn4.Text = " ";
-            this.IconRadioBtn4.UseVisualStyleBackColor = true;
+            this.radioButton6.AutoSize = true;
+            this.radioButton6.Location = new System.Drawing.Point(129, 52);
+            this.radioButton6.Margin = new System.Windows.Forms.Padding(4);
+            this.radioButton6.Name = "radioButton6";
+            this.radioButton6.Size = new System.Drawing.Size(33, 21);
+            this.radioButton6.TabIndex = 3;
+            this.radioButton6.TabStop = true;
+            this.radioButton6.Text = " ";
+            this.radioButton6.UseVisualStyleBackColor = true;
             // 
-            // IconRadioBtn3
+            // radioButton4
             // 
-            this.IconRadioBtn3.AutoSize = true;
-            this.IconRadioBtn3.Location = new System.Drawing.Point(8, 52);
-            this.IconRadioBtn3.Margin = new System.Windows.Forms.Padding(4);
-            this.IconRadioBtn3.Name = "IconRadioBtn3";
-            this.IconRadioBtn3.Size = new System.Drawing.Size(33, 21);
-            this.IconRadioBtn3.TabIndex = 2;
-            this.IconRadioBtn3.TabStop = true;
-            this.IconRadioBtn3.Text = " ";
-            this.IconRadioBtn3.UseVisualStyleBackColor = true;
+            this.radioButton4.AutoSize = true;
+            this.radioButton4.Location = new System.Drawing.Point(8, 52);
+            this.radioButton4.Margin = new System.Windows.Forms.Padding(4);
+            this.radioButton4.Name = "radioButton4";
+            this.radioButton4.Size = new System.Drawing.Size(33, 21);
+            this.radioButton4.TabIndex = 2;
+            this.radioButton4.TabStop = true;
+            this.radioButton4.Text = " ";
+            this.radioButton4.UseVisualStyleBackColor = true;
             // 
-            // CityLbl
+            // label2
             // 
-            this.CityLbl.AutoSize = true;
-            this.CityLbl.Location = new System.Drawing.Point(8, 70);
-            this.CityLbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.CityLbl.Name = "CityLbl";
-            this.CityLbl.Size = new System.Drawing.Size(39, 17);
-            this.CityLbl.TabIndex = 2;
-            this.CityLbl.Text = "City :";
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(8, 70);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(39, 17);
+            this.label2.TabIndex = 2;
+            this.label2.Text = "City :";
             // 
-            // StudentNameTxt
+            // textBox1
             // 
-            this.StudentNameTxt.Location = new System.Drawing.Point(96, 25);
-            this.StudentNameTxt.Margin = new System.Windows.Forms.Padding(4);
-            this.StudentNameTxt.Name = "StudentNameTxt";
-            this.StudentNameTxt.Size = new System.Drawing.Size(260, 22);
-            this.StudentNameTxt.TabIndex = 1;
+            this.textBox1.Location = new System.Drawing.Point(96, 25);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(4);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(260, 22);
+            this.textBox1.TabIndex = 1;
             // 
-            // StudentNameLbl
+            // label1
             // 
-            this.StudentNameLbl.AutoSize = true;
-            this.StudentNameLbl.Location = new System.Drawing.Point(8, 28);
-            this.StudentNameLbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.StudentNameLbl.Name = "StudentNameLbl";
-            this.StudentNameLbl.Size = new System.Drawing.Size(53, 17);
-            this.StudentNameLbl.TabIndex = 0;
-            this.StudentNameLbl.Text = "Name :";
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(8, 28);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(53, 17);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Name :";
             // 
-            // StudentListGrp
+            // groupBox2
             // 
-            this.StudentListGrp.Controls.Add(this.StudentsLvw);
-            this.StudentListGrp.Location = new System.Drawing.Point(404, 79);
-            this.StudentListGrp.Margin = new System.Windows.Forms.Padding(4);
-            this.StudentListGrp.Name = "StudentListGrp";
-            this.StudentListGrp.Padding = new System.Windows.Forms.Padding(4);
-            this.StudentListGrp.Size = new System.Drawing.Size(692, 414);
-            this.StudentListGrp.TabIndex = 10;
-            this.StudentListGrp.TabStop = false;
-            this.StudentListGrp.Text = "Student List";
+            this.groupBox2.Controls.Add(this.listView1);
+            this.groupBox2.Location = new System.Drawing.Point(404, 79);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(4);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(4);
+            this.groupBox2.Size = new System.Drawing.Size(692, 414);
+            this.groupBox2.TabIndex = 10;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "Student List";
             // 
-            // StudentsLvw
+            // listView1
             // 
-            this.StudentsLvw.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.listView1.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
             this.columnHeader1,
             this.columnHeader2,
             this.columnHeader3,
@@ -240,16 +240,16 @@ namespace StudentRegistrationForm
             this.columnHeader5,
             this.columnHeader6,
             this.columnHeader7});
-            this.StudentsLvw.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.StudentsLvw.FullRowSelect = true;
-            this.StudentsLvw.HideSelection = false;
-            this.StudentsLvw.Location = new System.Drawing.Point(4, 29);
-            this.StudentsLvw.Margin = new System.Windows.Forms.Padding(4);
-            this.StudentsLvw.Name = "StudentsLvw";
-            this.StudentsLvw.Size = new System.Drawing.Size(684, 381);
-            this.StudentsLvw.TabIndex = 9;
-            this.StudentsLvw.UseCompatibleStateImageBehavior = false;
-            this.StudentsLvw.View = System.Windows.Forms.View.Details;
+            this.listView1.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.listView1.FullRowSelect = true;
+            this.listView1.HideSelection = false;
+            this.listView1.Location = new System.Drawing.Point(4, 29);
+            this.listView1.Margin = new System.Windows.Forms.Padding(4);
+            this.listView1.Name = "listView1";
+            this.listView1.Size = new System.Drawing.Size(684, 381);
+            this.listView1.TabIndex = 9;
+            this.listView1.UseCompatibleStateImageBehavior = false;
+            this.listView1.View = System.Windows.Forms.View.Details;
             // 
             // columnHeader1
             // 
@@ -281,63 +281,63 @@ namespace StudentRegistrationForm
             // 
             this.columnHeader7.Text = "Sport";
             // 
-            // TownLbl
+            // label3
             // 
-            this.TownLbl.AutoSize = true;
-            this.TownLbl.Location = new System.Drawing.Point(8, 111);
-            this.TownLbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.TownLbl.Name = "TownLbl";
-            this.TownLbl.Size = new System.Drawing.Size(50, 17);
-            this.TownLbl.TabIndex = 4;
-            this.TownLbl.Text = "Town :";
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(8, 111);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(50, 17);
+            this.label3.TabIndex = 4;
+            this.label3.Text = "Town :";
             // 
-            // ListTypeCmb
+            // comboBox1
             // 
-            this.ListTypeCmb.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.ListTypeCmb.FormattingEnabled = true;
-            this.ListTypeCmb.Items.AddRange(new object[] {
+            this.comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
             "Large icon",
             "Details",
             "Small icon",
             "List",
             "Tile"});
-            this.ListTypeCmb.Location = new System.Drawing.Point(919, 496);
-            this.ListTypeCmb.Margin = new System.Windows.Forms.Padding(4);
-            this.ListTypeCmb.Name = "ListTypeCmb";
-            this.ListTypeCmb.Size = new System.Drawing.Size(160, 24);
-            this.ListTypeCmb.TabIndex = 12;
-            this.ListTypeCmb.SelectedIndexChanged += new System.EventHandler(this.ListTypeCmb_SelectedIndexChanged);
+            this.comboBox1.Location = new System.Drawing.Point(919, 496);
+            this.comboBox1.Margin = new System.Windows.Forms.Padding(4);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(160, 24);
+            this.comboBox1.TabIndex = 12;
+            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
-            // AddListBtn
+            // button1
             // 
-            this.AddListBtn.Location = new System.Drawing.Point(216, 492);
-            this.AddListBtn.Margin = new System.Windows.Forms.Padding(4);
-            this.AddListBtn.Name = "AddListBtn";
-            this.AddListBtn.Size = new System.Drawing.Size(180, 28);
-            this.AddListBtn.TabIndex = 11;
-            this.AddListBtn.Text = "Add Info In List >>";
-            this.AddListBtn.UseVisualStyleBackColor = true;
-            this.AddListBtn.Click += new System.EventHandler(this.AddListBtn_Click);
-            this.AddListBtn.MouseLeave += new System.EventHandler(this.AddListBtn_MouseLeave);
-            this.AddListBtn.MouseMove += new System.Windows.Forms.MouseEventHandler(this.AddListBtn_MouseMove);
+            this.button1.Location = new System.Drawing.Point(216, 492);
+            this.button1.Margin = new System.Windows.Forms.Padding(4);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(180, 28);
+            this.button1.TabIndex = 11;
+            this.button1.Text = "Add Info In List >>";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.button1.MouseLeave += new System.EventHandler(this.AddListBtn_MouseLeave);
+            this.button1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.AddListBtn_MouseMove);
             // 
-            // ImgList1
+            // imageList1
             // 
-            this.ImgList1.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("ImgList1.ImageStream")));
-            this.ImgList1.TransparentColor = System.Drawing.Color.Transparent;
-            this.ImgList1.Images.SetKeyName(0, "person1-small.jpg");
-            this.ImgList1.Images.SetKeyName(1, "person2-small.jpg");
-            this.ImgList1.Images.SetKeyName(2, "person3-small.jpg");
-            this.ImgList1.Images.SetKeyName(3, "person4-small.png");
+            this.imageList1.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList1.ImageStream")));
+            this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
+            this.imageList1.Images.SetKeyName(0, "person1-small.jpg");
+            this.imageList1.Images.SetKeyName(1, "person2-small.jpg");
+            this.imageList1.Images.SetKeyName(2, "person3-small.jpg");
+            this.imageList1.Images.SetKeyName(3, "person4-small.png");
             // 
-            // ImgList2
+            // imageList2
             // 
-            this.ImgList2.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("ImgList2.ImageStream")));
-            this.ImgList2.TransparentColor = System.Drawing.Color.Transparent;
-            this.ImgList2.Images.SetKeyName(0, "person1-large.jpg");
-            this.ImgList2.Images.SetKeyName(1, "person2-large.jpg");
-            this.ImgList2.Images.SetKeyName(2, "person3-large.jpg");
-            this.ImgList2.Images.SetKeyName(3, "person4-large.png");
+            this.imageList2.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList2.ImageStream")));
+            this.imageList2.TransparentColor = System.Drawing.Color.Transparent;
+            this.imageList2.Images.SetKeyName(0, "person1-large.jpg");
+            this.imageList2.Images.SetKeyName(1, "person2-large.jpg");
+            this.imageList2.Images.SetKeyName(2, "person3-large.jpg");
+            this.imageList2.Images.SetKeyName(3, "person4-large.png");
             // 
             // statusStrip1
             // 
@@ -362,42 +362,42 @@ namespace StudentRegistrationForm
             this.toolStripStatusLabel2.Name = "toolStripStatusLabel2";
             this.toolStripStatusLabel2.Size = new System.Drawing.Size(0, 16);
             // 
-            // IconRadioBtn2
+            // radioButton5
             // 
-            this.IconRadioBtn2.AutoSize = true;
-            this.IconRadioBtn2.Location = new System.Drawing.Point(129, 23);
-            this.IconRadioBtn2.Margin = new System.Windows.Forms.Padding(4);
-            this.IconRadioBtn2.Name = "IconRadioBtn2";
-            this.IconRadioBtn2.Size = new System.Drawing.Size(33, 21);
-            this.IconRadioBtn2.TabIndex = 1;
-            this.IconRadioBtn2.TabStop = true;
-            this.IconRadioBtn2.Text = " ";
-            this.IconRadioBtn2.UseVisualStyleBackColor = true;
+            this.radioButton5.AutoSize = true;
+            this.radioButton5.Location = new System.Drawing.Point(129, 23);
+            this.radioButton5.Margin = new System.Windows.Forms.Padding(4);
+            this.radioButton5.Name = "radioButton5";
+            this.radioButton5.Size = new System.Drawing.Size(33, 21);
+            this.radioButton5.TabIndex = 1;
+            this.radioButton5.TabStop = true;
+            this.radioButton5.Text = " ";
+            this.radioButton5.UseVisualStyleBackColor = true;
             // 
-            // MenuMns
+            // menuStrip1
             // 
-            this.MenuMns.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.MenuMns.ImageScalingSize = new System.Drawing.Size(20, 20);
-            this.MenuMns.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.FileTsr,
-            this.HelpTsr});
-            this.MenuMns.Location = new System.Drawing.Point(0, 27);
-            this.MenuMns.Name = "MenuMns";
-            this.MenuMns.Size = new System.Drawing.Size(1112, 28);
-            this.MenuMns.TabIndex = 7;
-            this.MenuMns.Text = "anaMenü";
+            this.menuStrip1.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.fileToolStripMenuItem,
+            this.helpToolStripMenuItem});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 27);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(1112, 28);
+            this.menuStrip1.TabIndex = 7;
+            this.menuStrip1.Text = "anaMenü";
             // 
-            // FileTsr
+            // fileToolStripMenuItem
             // 
-            this.FileTsr.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.fileToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.ClearSelectionMnsItem,
             this.ClearListMnsItem,
             this.ExitMnsItem});
-            this.FileTsr.Name = "FileTsr";
-            this.FileTsr.ShortcutKeyDisplayString = "D";
-            this.FileTsr.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.D)));
-            this.FileTsr.Size = new System.Drawing.Size(46, 24);
-            this.FileTsr.Text = "&File";
+            this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
+            this.fileToolStripMenuItem.ShortcutKeyDisplayString = "D";
+            this.fileToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.D)));
+            this.fileToolStripMenuItem.Size = new System.Drawing.Size(46, 24);
+            this.fileToolStripMenuItem.Text = "&File";
             // 
             // ClearSelectionMnsItem
             // 
@@ -427,234 +427,234 @@ namespace StudentRegistrationForm
             this.ExitMnsItem.Text = "Exit";
             this.ExitMnsItem.Click += new System.EventHandler(this.ExitMnsItem_Click);
             // 
-            // HelpTsr
+            // helpToolStripMenuItem
             // 
-            this.HelpTsr.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.helpToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.AboutMnsItem});
-            this.HelpTsr.Name = "HelpTsr";
-            this.HelpTsr.Size = new System.Drawing.Size(55, 24);
-            this.HelpTsr.Text = "&Help";
+            this.helpToolStripMenuItem.Name = "helpToolStripMenuItem";
+            this.helpToolStripMenuItem.Size = new System.Drawing.Size(55, 24);
+            this.helpToolStripMenuItem.Text = "&Help";
             // 
             // AboutMnsItem
             // 
             this.AboutMnsItem.Name = "AboutMnsItem";
             this.AboutMnsItem.ShortcutKeyDisplayString = "Ctrl+A";
             this.AboutMnsItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.A)));
-            this.AboutMnsItem.Size = new System.Drawing.Size(185, 26);
+            this.AboutMnsItem.Size = new System.Drawing.Size(224, 26);
             this.AboutMnsItem.Text = "&About";
             this.AboutMnsItem.Click += new System.EventHandler(this.AboutMnsItem_Click);
             // 
-            // ToolboxTsr
+            // toolStrip1
             // 
-            this.ToolboxTsr.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.ToolboxTsr.ImageScalingSize = new System.Drawing.Size(20, 20);
-            this.ToolboxTsr.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.ClearTsr,
-            this.ClearAllTsr,
-            this.InfoTsr});
-            this.ToolboxTsr.Location = new System.Drawing.Point(0, 0);
-            this.ToolboxTsr.Name = "ToolboxTsr";
-            this.ToolboxTsr.Size = new System.Drawing.Size(1112, 27);
-            this.ToolboxTsr.TabIndex = 8;
-            this.ToolboxTsr.Text = "araçKutusu";
+            this.toolStrip1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.toolStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
+            this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripButton1,
+            this.toolStripButton2,
+            this.toolStripButton3});
+            this.toolStrip1.Location = new System.Drawing.Point(0, 0);
+            this.toolStrip1.Name = "toolStrip1";
+            this.toolStrip1.Size = new System.Drawing.Size(1112, 27);
+            this.toolStrip1.TabIndex = 8;
+            this.toolStrip1.Text = "araçKutusu";
             // 
-            // ClearTsr
+            // toolStripButton1
             // 
-            this.ClearTsr.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.ClearTsr.Image = ((System.Drawing.Image)(resources.GetObject("ClearTsr.Image")));
-            this.ClearTsr.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.ClearTsr.Name = "ClearTsr";
-            this.ClearTsr.Size = new System.Drawing.Size(29, 24);
-            this.ClearTsr.Text = "SeçilenÖğrenciBilgileriTemizle";
-            this.ClearTsr.Click += new System.EventHandler(this.ClearListMnsItem_Click);
+            this.toolStripButton1.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton1.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton1.Image")));
+            this.toolStripButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButton1.Name = "toolStripButton1";
+            this.toolStripButton1.Size = new System.Drawing.Size(29, 24);
+            this.toolStripButton1.Text = "SeçilenÖğrenciBilgileriTemizle";
+            this.toolStripButton1.Click += new System.EventHandler(this.ClearListMnsItem_Click);
             // 
-            // ClearAllTsr
+            // toolStripButton2
             // 
-            this.ClearAllTsr.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.ClearAllTsr.Image = ((System.Drawing.Image)(resources.GetObject("ClearAllTsr.Image")));
-            this.ClearAllTsr.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.ClearAllTsr.Name = "ClearAllTsr";
-            this.ClearAllTsr.Size = new System.Drawing.Size(29, 24);
-            this.ClearAllTsr.Text = "ListesiTemizle";
-            this.ClearAllTsr.Click += new System.EventHandler(this.ClearSelectionMnsItem_Click);
+            this.toolStripButton2.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton2.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton2.Image")));
+            this.toolStripButton2.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButton2.Name = "toolStripButton2";
+            this.toolStripButton2.Size = new System.Drawing.Size(29, 24);
+            this.toolStripButton2.Text = "ListesiTemizle";
+            this.toolStripButton2.Click += new System.EventHandler(this.ClearSelectionMnsItem_Click);
             // 
-            // InfoTsr
+            // toolStripButton3
             // 
-            this.InfoTsr.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.InfoTsr.Image = ((System.Drawing.Image)(resources.GetObject("InfoTsr.Image")));
-            this.InfoTsr.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.InfoTsr.Name = "InfoTsr";
-            this.InfoTsr.Size = new System.Drawing.Size(29, 24);
-            this.InfoTsr.Text = "BilgiEdin";
-            this.InfoTsr.Click += new System.EventHandler(this.AboutMnsItem_Click);
+            this.toolStripButton3.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton3.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton3.Image")));
+            this.toolStripButton3.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButton3.Name = "toolStripButton3";
+            this.toolStripButton3.Size = new System.Drawing.Size(29, 24);
+            this.toolStripButton3.Text = "BilgiEdin";
+            this.toolStripButton3.Click += new System.EventHandler(this.AboutMnsItem_Click);
             // 
-            // StundentInfoGrp
+            // groupBox1
             // 
-            this.StundentInfoGrp.Controls.Add(this.TownLst);
-            this.StundentInfoGrp.Controls.Add(this.HobbyGrp);
-            this.StundentInfoGrp.Controls.Add(this.IconGrp);
-            this.StundentInfoGrp.Controls.Add(this.GenderGrp);
-            this.StundentInfoGrp.Controls.Add(this.TownLbl);
-            this.StundentInfoGrp.Controls.Add(this.CityCmb);
-            this.StundentInfoGrp.Controls.Add(this.CityLbl);
-            this.StundentInfoGrp.Controls.Add(this.StudentNameTxt);
-            this.StundentInfoGrp.Controls.Add(this.StudentNameLbl);
-            this.StundentInfoGrp.Location = new System.Drawing.Point(15, 79);
-            this.StundentInfoGrp.Margin = new System.Windows.Forms.Padding(4);
-            this.StundentInfoGrp.Name = "StundentInfoGrp";
-            this.StundentInfoGrp.Padding = new System.Windows.Forms.Padding(4);
-            this.StundentInfoGrp.Size = new System.Drawing.Size(381, 414);
-            this.StundentInfoGrp.TabIndex = 9;
-            this.StundentInfoGrp.TabStop = false;
-            this.StundentInfoGrp.Text = "Student Info";
+            this.groupBox1.Controls.Add(this.listBox1);
+            this.groupBox1.Controls.Add(this.groupBox5);
+            this.groupBox1.Controls.Add(this.groupBox4);
+            this.groupBox1.Controls.Add(this.groupBox3);
+            this.groupBox1.Controls.Add(this.label3);
+            this.groupBox1.Controls.Add(this.comboBox2);
+            this.groupBox1.Controls.Add(this.label2);
+            this.groupBox1.Controls.Add(this.textBox1);
+            this.groupBox1.Controls.Add(this.label1);
+            this.groupBox1.Location = new System.Drawing.Point(15, 79);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4);
+            this.groupBox1.Size = new System.Drawing.Size(381, 414);
+            this.groupBox1.TabIndex = 9;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "Student Info";
             // 
-            // TownLst
+            // listBox1
             // 
-            this.TownLst.FormattingEnabled = true;
-            this.TownLst.ItemHeight = 16;
-            this.TownLst.Location = new System.Drawing.Point(140, 111);
-            this.TownLst.Margin = new System.Windows.Forms.Padding(4);
-            this.TownLst.Name = "TownLst";
-            this.TownLst.Size = new System.Drawing.Size(216, 68);
-            this.TownLst.TabIndex = 9;
+            this.listBox1.FormattingEnabled = true;
+            this.listBox1.ItemHeight = 16;
+            this.listBox1.Location = new System.Drawing.Point(140, 111);
+            this.listBox1.Margin = new System.Windows.Forms.Padding(4);
+            this.listBox1.Name = "listBox1";
+            this.listBox1.Size = new System.Drawing.Size(216, 68);
+            this.listBox1.TabIndex = 9;
             // 
-            // HobbyGrp
+            // groupBox5
             // 
-            this.HobbyGrp.Controls.Add(this.SportChk);
-            this.HobbyGrp.Controls.Add(this.MusicChk);
-            this.HobbyGrp.Controls.Add(this.FilmChk);
-            this.HobbyGrp.Location = new System.Drawing.Point(19, 287);
-            this.HobbyGrp.Margin = new System.Windows.Forms.Padding(4);
-            this.HobbyGrp.Name = "HobbyGrp";
-            this.HobbyGrp.Padding = new System.Windows.Forms.Padding(4);
-            this.HobbyGrp.Size = new System.Drawing.Size(339, 119);
-            this.HobbyGrp.TabIndex = 8;
-            this.HobbyGrp.TabStop = false;
-            this.HobbyGrp.Text = "Hobby";
+            this.groupBox5.Controls.Add(this.checkBox3);
+            this.groupBox5.Controls.Add(this.checkBox2);
+            this.groupBox5.Controls.Add(this.checkBox1);
+            this.groupBox5.Location = new System.Drawing.Point(19, 287);
+            this.groupBox5.Margin = new System.Windows.Forms.Padding(4);
+            this.groupBox5.Name = "groupBox5";
+            this.groupBox5.Padding = new System.Windows.Forms.Padding(4);
+            this.groupBox5.Size = new System.Drawing.Size(339, 119);
+            this.groupBox5.TabIndex = 8;
+            this.groupBox5.TabStop = false;
+            this.groupBox5.Text = "Hobby";
             // 
-            // SportChk
+            // checkBox3
             // 
-            this.SportChk.AutoSize = true;
-            this.SportChk.Location = new System.Drawing.Point(8, 92);
-            this.SportChk.Margin = new System.Windows.Forms.Padding(4);
-            this.SportChk.Name = "SportChk";
-            this.SportChk.Size = new System.Drawing.Size(109, 21);
-            this.SportChk.TabIndex = 2;
-            this.SportChk.Text = "Make Sports";
-            this.SportChk.UseVisualStyleBackColor = true;
+            this.checkBox3.AutoSize = true;
+            this.checkBox3.Location = new System.Drawing.Point(8, 92);
+            this.checkBox3.Margin = new System.Windows.Forms.Padding(4);
+            this.checkBox3.Name = "checkBox3";
+            this.checkBox3.Size = new System.Drawing.Size(109, 21);
+            this.checkBox3.TabIndex = 2;
+            this.checkBox3.Text = "Make Sports";
+            this.checkBox3.UseVisualStyleBackColor = true;
             // 
-            // MusicChk
+            // checkBox2
             // 
-            this.MusicChk.AutoSize = true;
-            this.MusicChk.Location = new System.Drawing.Point(8, 64);
-            this.MusicChk.Margin = new System.Windows.Forms.Padding(4);
-            this.MusicChk.Name = "MusicChk";
-            this.MusicChk.Size = new System.Drawing.Size(108, 21);
-            this.MusicChk.TabIndex = 1;
-            this.MusicChk.Text = "Listen Music";
-            this.MusicChk.UseVisualStyleBackColor = true;
+            this.checkBox2.AutoSize = true;
+            this.checkBox2.Location = new System.Drawing.Point(8, 64);
+            this.checkBox2.Margin = new System.Windows.Forms.Padding(4);
+            this.checkBox2.Name = "checkBox2";
+            this.checkBox2.Size = new System.Drawing.Size(108, 21);
+            this.checkBox2.TabIndex = 1;
+            this.checkBox2.Text = "Listen Music";
+            this.checkBox2.UseVisualStyleBackColor = true;
             // 
-            // FilmChk
+            // checkBox1
             // 
-            this.FilmChk.AutoSize = true;
-            this.FilmChk.Location = new System.Drawing.Point(8, 36);
-            this.FilmChk.Margin = new System.Windows.Forms.Padding(4);
-            this.FilmChk.Name = "FilmChk";
-            this.FilmChk.Size = new System.Drawing.Size(99, 21);
-            this.FilmChk.TabIndex = 0;
-            this.FilmChk.Text = "Watch Film";
-            this.FilmChk.UseVisualStyleBackColor = true;
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Location = new System.Drawing.Point(8, 36);
+            this.checkBox1.Margin = new System.Windows.Forms.Padding(4);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(99, 21);
+            this.checkBox1.TabIndex = 0;
+            this.checkBox1.Text = "Watch Film";
+            this.checkBox1.UseVisualStyleBackColor = true;
             // 
-            // IconGrp
+            // groupBox4
             // 
-            this.IconGrp.Controls.Add(this.IconPic3);
-            this.IconGrp.Controls.Add(this.IconPic4);
-            this.IconGrp.Controls.Add(this.IconPic2);
-            this.IconGrp.Controls.Add(this.IconPic1);
-            this.IconGrp.Controls.Add(this.IconRadioBtn4);
-            this.IconGrp.Controls.Add(this.IconRadioBtn3);
-            this.IconGrp.Controls.Add(this.IconRadioBtn2);
-            this.IconGrp.Controls.Add(this.IconRadioBtn1);
-            this.IconGrp.Location = new System.Drawing.Point(153, 187);
-            this.IconGrp.Margin = new System.Windows.Forms.Padding(4);
-            this.IconGrp.Name = "IconGrp";
-            this.IconGrp.Padding = new System.Windows.Forms.Padding(4);
-            this.IconGrp.Size = new System.Drawing.Size(204, 92);
-            this.IconGrp.TabIndex = 7;
-            this.IconGrp.TabStop = false;
-            this.IconGrp.Text = "Selection Icon :";
+            this.groupBox4.Controls.Add(this.pictureBox2);
+            this.groupBox4.Controls.Add(this.pictureBox4);
+            this.groupBox4.Controls.Add(this.pictureBox3);
+            this.groupBox4.Controls.Add(this.pictureBox1);
+            this.groupBox4.Controls.Add(this.radioButton6);
+            this.groupBox4.Controls.Add(this.radioButton4);
+            this.groupBox4.Controls.Add(this.radioButton5);
+            this.groupBox4.Controls.Add(this.radioButton3);
+            this.groupBox4.Location = new System.Drawing.Point(153, 187);
+            this.groupBox4.Margin = new System.Windows.Forms.Padding(4);
+            this.groupBox4.Name = "groupBox4";
+            this.groupBox4.Padding = new System.Windows.Forms.Padding(4);
+            this.groupBox4.Size = new System.Drawing.Size(204, 92);
+            this.groupBox4.TabIndex = 7;
+            this.groupBox4.TabStop = false;
+            this.groupBox4.Text = "Selection Icon :";
             // 
-            // IconRadioBtn1
+            // radioButton3
             // 
-            this.IconRadioBtn1.AutoSize = true;
-            this.IconRadioBtn1.Checked = true;
-            this.IconRadioBtn1.Location = new System.Drawing.Point(8, 23);
-            this.IconRadioBtn1.Margin = new System.Windows.Forms.Padding(4);
-            this.IconRadioBtn1.Name = "IconRadioBtn1";
-            this.IconRadioBtn1.Size = new System.Drawing.Size(17, 16);
-            this.IconRadioBtn1.TabIndex = 0;
-            this.IconRadioBtn1.TabStop = true;
-            this.IconRadioBtn1.UseVisualStyleBackColor = true;
+            this.radioButton3.AutoSize = true;
+            this.radioButton3.Checked = true;
+            this.radioButton3.Location = new System.Drawing.Point(8, 23);
+            this.radioButton3.Margin = new System.Windows.Forms.Padding(4);
+            this.radioButton3.Name = "radioButton3";
+            this.radioButton3.Size = new System.Drawing.Size(17, 16);
+            this.radioButton3.TabIndex = 0;
+            this.radioButton3.TabStop = true;
+            this.radioButton3.UseVisualStyleBackColor = true;
             // 
-            // GenderGrp
+            // groupBox3
             // 
-            this.GenderGrp.Controls.Add(this.FemaleRadioBtn);
-            this.GenderGrp.Controls.Add(this.MaleRadioBtn);
-            this.GenderGrp.Location = new System.Drawing.Point(19, 187);
-            this.GenderGrp.Margin = new System.Windows.Forms.Padding(4);
-            this.GenderGrp.Name = "GenderGrp";
-            this.GenderGrp.Padding = new System.Windows.Forms.Padding(4);
-            this.GenderGrp.Size = new System.Drawing.Size(113, 92);
-            this.GenderGrp.TabIndex = 6;
-            this.GenderGrp.TabStop = false;
-            this.GenderGrp.Text = "Gender";
+            this.groupBox3.Controls.Add(this.radioButton2);
+            this.groupBox3.Controls.Add(this.radioButton1);
+            this.groupBox3.Location = new System.Drawing.Point(19, 187);
+            this.groupBox3.Margin = new System.Windows.Forms.Padding(4);
+            this.groupBox3.Name = "groupBox3";
+            this.groupBox3.Padding = new System.Windows.Forms.Padding(4);
+            this.groupBox3.Size = new System.Drawing.Size(113, 92);
+            this.groupBox3.TabIndex = 6;
+            this.groupBox3.TabStop = false;
+            this.groupBox3.Text = "Gender";
             // 
-            // FemaleRadioBtn
+            // radioButton2
             // 
-            this.FemaleRadioBtn.AutoSize = true;
-            this.FemaleRadioBtn.Location = new System.Drawing.Point(8, 52);
-            this.FemaleRadioBtn.Margin = new System.Windows.Forms.Padding(4);
-            this.FemaleRadioBtn.Name = "FemaleRadioBtn";
-            this.FemaleRadioBtn.Size = new System.Drawing.Size(75, 21);
-            this.FemaleRadioBtn.TabIndex = 1;
-            this.FemaleRadioBtn.TabStop = true;
-            this.FemaleRadioBtn.Text = "Female";
-            this.FemaleRadioBtn.UseVisualStyleBackColor = true;
+            this.radioButton2.AutoSize = true;
+            this.radioButton2.Location = new System.Drawing.Point(8, 52);
+            this.radioButton2.Margin = new System.Windows.Forms.Padding(4);
+            this.radioButton2.Name = "radioButton2";
+            this.radioButton2.Size = new System.Drawing.Size(75, 21);
+            this.radioButton2.TabIndex = 1;
+            this.radioButton2.TabStop = true;
+            this.radioButton2.Text = "Female";
+            this.radioButton2.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1112, 554);
-            this.Controls.Add(this.StudentListGrp);
-            this.Controls.Add(this.ListTypeCmb);
-            this.Controls.Add(this.AddListBtn);
+            this.Controls.Add(this.groupBox2);
+            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.statusStrip1);
-            this.Controls.Add(this.MenuMns);
-            this.Controls.Add(this.ToolboxTsr);
-            this.Controls.Add(this.StundentInfoGrp);
+            this.Controls.Add(this.menuStrip1);
+            this.Controls.Add(this.toolStrip1);
+            this.Controls.Add(this.groupBox1);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.IconPic3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.IconPic4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.IconPic2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.IconPic1)).EndInit();
-            this.StudentListGrp.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.groupBox2.ResumeLayout(false);
             this.statusStrip1.ResumeLayout(false);
             this.statusStrip1.PerformLayout();
-            this.MenuMns.ResumeLayout(false);
-            this.MenuMns.PerformLayout();
-            this.ToolboxTsr.ResumeLayout(false);
-            this.ToolboxTsr.PerformLayout();
-            this.StundentInfoGrp.ResumeLayout(false);
-            this.StundentInfoGrp.PerformLayout();
-            this.HobbyGrp.ResumeLayout(false);
-            this.HobbyGrp.PerformLayout();
-            this.IconGrp.ResumeLayout(false);
-            this.IconGrp.PerformLayout();
-            this.GenderGrp.ResumeLayout(false);
-            this.GenderGrp.PerformLayout();
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
+            this.toolStrip1.ResumeLayout(false);
+            this.toolStrip1.PerformLayout();
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
+            this.groupBox5.ResumeLayout(false);
+            this.groupBox5.PerformLayout();
+            this.groupBox4.ResumeLayout(false);
+            this.groupBox4.PerformLayout();
+            this.groupBox3.ResumeLayout(false);
+            this.groupBox3.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -662,19 +662,19 @@ namespace StudentRegistrationForm
 
         #endregion
 
-        private System.Windows.Forms.RadioButton MaleRadioBtn;
-        private System.Windows.Forms.ComboBox CityCmb;
-        private System.Windows.Forms.PictureBox IconPic3;
-        private System.Windows.Forms.PictureBox IconPic4;
-        private System.Windows.Forms.PictureBox IconPic2;
-        private System.Windows.Forms.PictureBox IconPic1;
-        private System.Windows.Forms.RadioButton IconRadioBtn4;
-        private System.Windows.Forms.RadioButton IconRadioBtn3;
-        private System.Windows.Forms.Label CityLbl;
-        private System.Windows.Forms.TextBox StudentNameTxt;
-        private System.Windows.Forms.Label StudentNameLbl;
-        private System.Windows.Forms.GroupBox StudentListGrp;
-        private System.Windows.Forms.ListView StudentsLvw;
+        private System.Windows.Forms.RadioButton radioButton1;
+        private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.RadioButton radioButton6;
+        private System.Windows.Forms.RadioButton radioButton4;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.ListView listView1;
         private System.Windows.Forms.ColumnHeader columnHeader1;
         private System.Windows.Forms.ColumnHeader columnHeader2;
         private System.Windows.Forms.ColumnHeader columnHeader3;
@@ -682,36 +682,36 @@ namespace StudentRegistrationForm
         private System.Windows.Forms.ColumnHeader columnHeader5;
         private System.Windows.Forms.ColumnHeader columnHeader6;
         private System.Windows.Forms.ColumnHeader columnHeader7;
-        private System.Windows.Forms.Label TownLbl;
-        private System.Windows.Forms.ComboBox ListTypeCmb;
-        private System.Windows.Forms.Button AddListBtn;
-        private System.Windows.Forms.ImageList ImgList1;
-        private System.Windows.Forms.ImageList ImgList2;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.ImageList imageList1;
+        private System.Windows.Forms.ImageList imageList2;
         private System.Windows.Forms.StatusStrip statusStrip1;
         private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel1;
         private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel2;
-        private System.Windows.Forms.RadioButton IconRadioBtn2;
-        private System.Windows.Forms.MenuStrip MenuMns;
-        private System.Windows.Forms.ToolStripMenuItem FileTsr;
+        private System.Windows.Forms.RadioButton radioButton5;
+        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem fileToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem ClearSelectionMnsItem;
         private System.Windows.Forms.ToolStripMenuItem ClearListMnsItem;
         private System.Windows.Forms.ToolStripMenuItem ExitMnsItem;
-        private System.Windows.Forms.ToolStripMenuItem HelpTsr;
+        private System.Windows.Forms.ToolStripMenuItem helpToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem AboutMnsItem;
-        private System.Windows.Forms.ToolStrip ToolboxTsr;
-        private System.Windows.Forms.ToolStripButton ClearTsr;
-        private System.Windows.Forms.ToolStripButton ClearAllTsr;
-        private System.Windows.Forms.ToolStripButton InfoTsr;
-        private System.Windows.Forms.GroupBox StundentInfoGrp;
-        private System.Windows.Forms.ListBox TownLst;
-        private System.Windows.Forms.GroupBox HobbyGrp;
-        private System.Windows.Forms.CheckBox SportChk;
-        private System.Windows.Forms.CheckBox MusicChk;
-        private System.Windows.Forms.CheckBox FilmChk;
-        private System.Windows.Forms.GroupBox IconGrp;
-        private System.Windows.Forms.RadioButton IconRadioBtn1;
-        private System.Windows.Forms.GroupBox GenderGrp;
-        private System.Windows.Forms.RadioButton FemaleRadioBtn;
+        private System.Windows.Forms.ToolStrip toolStrip1;
+        private System.Windows.Forms.ToolStripButton toolStripButton1;
+        private System.Windows.Forms.ToolStripButton toolStripButton2;
+        private System.Windows.Forms.ToolStripButton toolStripButton3;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.ListBox listBox1;
+        private System.Windows.Forms.GroupBox groupBox5;
+        private System.Windows.Forms.CheckBox checkBox3;
+        private System.Windows.Forms.CheckBox checkBox2;
+        private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.GroupBox groupBox4;
+        private System.Windows.Forms.RadioButton radioButton3;
+        private System.Windows.Forms.GroupBox groupBox3;
+        private System.Windows.Forms.RadioButton radioButton2;
     }
 }
 

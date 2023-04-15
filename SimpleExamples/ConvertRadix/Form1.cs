@@ -19,14 +19,7 @@ namespace ConvertRadix
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            Nud_ValueChanged(sender, e);
-        }
-
-        private void Nud_ValueChanged(object sender, EventArgs e)
-        {
-            int x = (int)Nud1.Value;
-            int n = (int)Nud2.Value;
-            Lbl1.Text = ConvRadix(x, n);
+            numericUpDown_ValueChanged(sender, e);
         }
 
         string ConvRadix(int x, int n)
@@ -36,11 +29,10 @@ namespace ConvertRadix
             if (n < 2 || n > 16)
                 return "Radix Out of Range";
 
-            int cont;
             string str = null;
             while (true)
             {
-                cont = x % n;
+                int cont = x % n;
                 if (cont < 10) 
                     str = (char)(48 + cont) + str;
                 else 
@@ -50,6 +42,13 @@ namespace ConvertRadix
                     break;
             }
             return str;
+        }
+
+        private void numericUpDown_ValueChanged(object sender, EventArgs e)
+        {
+            int x = (int)numericUpDown1.Value;
+            int n = (int)numericUpDown2.Value;
+            label4.Text = ConvRadix(x, n);
         }
     }
 }

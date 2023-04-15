@@ -24,22 +24,22 @@ namespace ScrollingText
         {
             s = "Esen EYRIBAS             ";
             n = s.Length;
-            Lbl.Text = s;
-            Lbl.BackColor = Color.Yellow;
-            Lbl.ForeColor = Color.Blue;
-            Tmr.Interval = 250;
-            Tmr.Enabled = true;
+            label1.Text = s;
+            label1.BackColor = Color.Yellow;
+            label1.ForeColor = Color.Blue;
+            timer1.Interval = 250;
+            timer1.Enabled = true;
         }
 
-        private void Tmr_Tick(object sender, EventArgs e)
+        private void label1_Click(object sender, EventArgs e)
+        {
+            timer1.Enabled = !timer1.Enabled;
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
         {
             s = s.Substring(1, n - 1) + s[0];
-            Lbl.Text = s;
-        }
-
-        private void Lbl_Click(object sender, EventArgs e)
-        {
-            Tmr.Enabled = !Tmr.Enabled;
+            label1.Text = s;
         }
     }
 }

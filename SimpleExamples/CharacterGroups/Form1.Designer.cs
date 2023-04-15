@@ -29,49 +29,49 @@ namespace CharacterGroups
         /// </summary>
         private void InitializeComponent()
         {
-            this.Lbl = new System.Windows.Forms.Label();
-            this.Cmb = new System.Windows.Forms.ComboBox();
-            this.Lst = new System.Windows.Forms.ListBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.comboBox = new System.Windows.Forms.ComboBox();
+            this.listBox = new System.Windows.Forms.ListBox();
             this.SuspendLayout();
             // 
-            // Lbl
+            // label1
             // 
-            this.Lbl.AutoSize = true;
-            this.Lbl.Location = new System.Drawing.Point(31, 30);
-            this.Lbl.Name = "Lbl";
-            this.Lbl.Size = new System.Drawing.Size(159, 20);
-            this.Lbl.TabIndex = 8;
-            this.Lbl.Text = "Character Group";
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(31, 30);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(159, 20);
+            this.label1.TabIndex = 8;
+            this.label1.Text = "Character Group";
             // 
-            // Cmb
+            // comboBox
             // 
-            this.Cmb.FormattingEnabled = true;
-            this.Cmb.Location = new System.Drawing.Point(157, 27);
-            this.Cmb.Name = "Cmb";
-            this.Cmb.Size = new System.Drawing.Size(184, 26);
-            this.Cmb.TabIndex = 7;
-            this.Cmb.SelectedIndexChanged += new System.EventHandler(this.Cmb_SelectedIndexChanged);
-            this.Cmb.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Cmb_KeyPress);
+            this.comboBox.FormattingEnabled = true;
+            this.comboBox.Location = new System.Drawing.Point(196, 27);
+            this.comboBox.Name = "comboBox";
+            this.comboBox.Size = new System.Drawing.Size(184, 26);
+            this.comboBox.TabIndex = 7;
+            this.comboBox.SelectedIndexChanged += new System.EventHandler(this.comboBox_SelectedIndexChanged);
+            this.comboBox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.comboBox_KeyPress);
             // 
-            // Lst
+            // listBox
             // 
-            this.Lst.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.Lst.ForeColor = System.Drawing.Color.Navy;
-            this.Lst.FormattingEnabled = true;
-            this.Lst.ItemHeight = 18;
-            this.Lst.Location = new System.Drawing.Point(31, 57);
-            this.Lst.Name = "Lst";
-            this.Lst.Size = new System.Drawing.Size(771, 508);
-            this.Lst.TabIndex = 6;
+            this.listBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.listBox.ForeColor = System.Drawing.Color.Navy;
+            this.listBox.FormattingEnabled = true;
+            this.listBox.ItemHeight = 18;
+            this.listBox.Location = new System.Drawing.Point(31, 57);
+            this.listBox.Name = "listBox";
+            this.listBox.Size = new System.Drawing.Size(771, 508);
+            this.listBox.TabIndex = 6;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(832, 592);
-            this.Controls.Add(this.Lbl);
-            this.Controls.Add(this.Cmb);
-            this.Controls.Add(this.Lst);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.comboBox);
+            this.Controls.Add(this.listBox);
             this.Font = new System.Drawing.Font("Courier New", 9.75F, System.Drawing.FontStyle.Bold);
             this.ForeColor = System.Drawing.Color.Sienna;
             this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
@@ -86,9 +86,9 @@ namespace CharacterGroups
 
         #endregion
 
-        private System.Windows.Forms.Label Lbl;
-        private System.Windows.Forms.ComboBox Cmb;
-        private System.Windows.Forms.ListBox Lst;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.ComboBox comboBox;
+        private System.Windows.Forms.ListBox listBox;
     }
 }
 

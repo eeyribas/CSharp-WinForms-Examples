@@ -29,51 +29,51 @@ namespace OpeningFormWithEncryptedForm
         /// </summary>
         private void InitializeComponent()
         {
-            this.Lbl = new System.Windows.Forms.Label();
-            this.Btn2 = new System.Windows.Forms.Button();
-            this.Txt = new System.Windows.Forms.TextBox();
-            this.Btn1 = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.button2 = new System.Windows.Forms.Button();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // Lbl
+            // label1
             // 
-            this.Lbl.AutoSize = true;
-            this.Lbl.ForeColor = System.Drawing.Color.Brown;
-            this.Lbl.Location = new System.Drawing.Point(30, 59);
-            this.Lbl.Name = "Lbl";
-            this.Lbl.Size = new System.Drawing.Size(109, 20);
-            this.Lbl.TabIndex = 7;
-            this.Lbl.Text = "Password :";
+            this.label1.AutoSize = true;
+            this.label1.ForeColor = System.Drawing.Color.Brown;
+            this.label1.Location = new System.Drawing.Point(30, 59);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(109, 20);
+            this.label1.TabIndex = 7;
+            this.label1.Text = "Password :";
             // 
-            // Btn2
+            // button2
             // 
-            this.Btn2.Location = new System.Drawing.Point(219, 115);
-            this.Btn2.Name = "Btn2";
-            this.Btn2.Size = new System.Drawing.Size(116, 38);
-            this.Btn2.TabIndex = 6;
-            this.Btn2.Text = "Cancel";
-            this.Btn2.UseVisualStyleBackColor = true;
-            this.Btn2.Click += new System.EventHandler(this.Btn2_Click);
+            this.button2.Location = new System.Drawing.Point(219, 115);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(116, 38);
+            this.button2.TabIndex = 6;
+            this.button2.Text = "Cancel";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
-            // Txt
+            // textBox1
             // 
-            this.Txt.ForeColor = System.Drawing.Color.SaddleBrown;
-            this.Txt.Location = new System.Drawing.Point(145, 56);
-            this.Txt.MaxLength = 16;
-            this.Txt.Name = "Txt";
-            this.Txt.PasswordChar = '*';
-            this.Txt.Size = new System.Drawing.Size(173, 26);
-            this.Txt.TabIndex = 4;
+            this.textBox1.ForeColor = System.Drawing.Color.SaddleBrown;
+            this.textBox1.Location = new System.Drawing.Point(145, 56);
+            this.textBox1.MaxLength = 16;
+            this.textBox1.Name = "textBox1";
+            this.textBox1.PasswordChar = '*';
+            this.textBox1.Size = new System.Drawing.Size(173, 26);
+            this.textBox1.TabIndex = 4;
             // 
-            // Btn1
+            // button1
             // 
-            this.Btn1.Location = new System.Drawing.Point(64, 115);
-            this.Btn1.Name = "Btn1";
-            this.Btn1.Size = new System.Drawing.Size(116, 38);
-            this.Btn1.TabIndex = 5;
-            this.Btn1.Text = "Ok";
-            this.Btn1.UseVisualStyleBackColor = true;
-            this.Btn1.Click += new System.EventHandler(this.Btn1_Click);
+            this.button1.Location = new System.Drawing.Point(64, 115);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(116, 38);
+            this.button1.TabIndex = 5;
+            this.button1.Text = "Ok";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Form2
             // 
@@ -81,10 +81,10 @@ namespace OpeningFormWithEncryptedForm
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Aquamarine;
             this.ClientSize = new System.Drawing.Size(399, 208);
-            this.Controls.Add(this.Lbl);
-            this.Controls.Add(this.Btn2);
-            this.Controls.Add(this.Txt);
-            this.Controls.Add(this.Btn1);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.button1);
             this.Font = new System.Drawing.Font("Courier New", 9.75F, System.Drawing.FontStyle.Bold);
             this.ForeColor = System.Drawing.Color.Green;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
@@ -100,9 +100,9 @@ namespace OpeningFormWithEncryptedForm
 
         #endregion
 
-        private System.Windows.Forms.Label Lbl;
-        private System.Windows.Forms.Button Btn2;
-        private System.Windows.Forms.TextBox Txt;
-        private System.Windows.Forms.Button Btn1;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Button button1;
     }
 }

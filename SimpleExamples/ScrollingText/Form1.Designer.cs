@@ -30,31 +30,31 @@ namespace ScrollingText
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            this.Lbl = new System.Windows.Forms.Label();
-            this.Tmr = new System.Windows.Forms.Timer(this.components);
+            this.label1 = new System.Windows.Forms.Label();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.SuspendLayout();
             // 
-            // Lbl
+            // label1
             // 
-            this.Lbl.AutoSize = true;
-            this.Lbl.Font = new System.Drawing.Font("Courier New", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.Lbl.Location = new System.Drawing.Point(22, 33);
-            this.Lbl.Name = "Lbl";
-            this.Lbl.Size = new System.Drawing.Size(245, 67);
-            this.Lbl.TabIndex = 1;
-            this.Lbl.Text = "label1";
-            this.Lbl.Click += new System.EventHandler(this.Lbl_Click);
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Courier New", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label1.Location = new System.Drawing.Point(22, 33);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(245, 67);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "label1";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
-            // Tmr
+            // timer1
             // 
-            this.Tmr.Tick += new System.EventHandler(this.Tmr_Tick);
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(850, 132);
-            this.Controls.Add(this.Lbl);
+            this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Courier New", 9.75F, System.Drawing.FontStyle.Bold);
             this.ForeColor = System.Drawing.Color.Peru;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
@@ -70,8 +70,8 @@ namespace ScrollingText
 
         #endregion
 
-        private System.Windows.Forms.Label Lbl;
-        private System.Windows.Forms.Timer Tmr;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Timer timer1;
     }
 }
 

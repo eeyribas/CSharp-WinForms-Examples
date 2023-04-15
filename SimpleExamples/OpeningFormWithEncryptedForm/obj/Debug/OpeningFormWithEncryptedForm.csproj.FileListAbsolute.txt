@@ -8,3 +8,13 @@ D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\OpeningFormWithEncr
 D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\OpeningFormWithEncryptedForm\obj\Debug\OpeningFormWithEncryptedForm.csproj.CoreCompileInputs.cache
 D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\OpeningFormWithEncryptedForm\obj\Debug\OpeningFormWithEncryptedForm.exe
 D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\OpeningFormWithEncryptedForm\obj\Debug\OpeningFormWithEncryptedForm.pdb
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\OpeningFormWithEncryptedForm\bin\Debug\OpeningFormWithEncryptedForm.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\OpeningFormWithEncryptedForm\bin\Debug\OpeningFormWithEncryptedForm.pdb
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\OpeningFormWithEncryptedForm\obj\Debug\OpeningFormWithEncryptedForm.csproj.AssemblyReference.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\OpeningFormWithEncryptedForm\obj\Debug\OpeningFormWithEncryptedForm.Form1.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\OpeningFormWithEncryptedForm\obj\Debug\OpeningFormWithEncryptedForm.Form2.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\OpeningFormWithEncryptedForm\obj\Debug\OpeningFormWithEncryptedForm.Properties.Resources.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\OpeningFormWithEncryptedForm\obj\Debug\OpeningFormWithEncryptedForm.csproj.GenerateResource.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\OpeningFormWithEncryptedForm\obj\Debug\OpeningFormWithEncryptedForm.csproj.CoreCompileInputs.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\OpeningFormWithEncryptedForm\obj\Debug\OpeningFormWithEncryptedForm.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\OpeningFormWithEncryptedForm\obj\Debug\OpeningFormWithEncryptedForm.pdb

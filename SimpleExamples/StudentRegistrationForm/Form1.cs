@@ -21,8 +21,8 @@ namespace StudentRegistrationForm
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            StudentsLvw.LargeImageList = ImgList1;
-            StudentsLvw.SmallImageList = ImgList2;
+            listView1.LargeImageList = imageList1;
+            listView1.SmallImageList = imageList2;
         }
 
         private void ClearListMnsItem_Click(object sender, EventArgs e)
@@ -35,10 +35,10 @@ namespace StudentRegistrationForm
 
                 if (dialogResult == DialogResult.Yes && count != 0)
                 {
-                    while (StudentsLvw.Items.Count > 0)
+                    while (listView1.Items.Count > 0)
                     {
                         count--;
-                        StudentsLvw.Items.RemoveAt(StudentsLvw.Items[count].Index);
+                        listView1.Items.RemoveAt(listView1.Items[count].Index);
                     }
                 }
             }
@@ -48,29 +48,16 @@ namespace StudentRegistrationForm
             }
         }
 
-        private void AddListBtn_Click(object sender, EventArgs e)
-        {
-            StudentsLvw.Items.Add(StudentNameTxt.Text, SelectionIcon());
-            StudentsLvw.Items[count].SubItems.Add(CityCmb.Text);
-            StudentsLvw.Items[count].SubItems.Add(TownLst.Text);
-            StudentsLvw.Items[count].SubItems.Add(SelectionGender());
-            StudentsLvw.Items[count].SubItems.Add(SelectionHobbys("Watch Film"));
-            StudentsLvw.Items[count].SubItems.Add(SelectionHobbys("List Music"));
-            StudentsLvw.Items[count].SubItems.Add(SelectionHobbys("Make Sports"));
-            count++;
-            Clear();
-        }
-
         private void ClearSelectionMnsItem_Click(object sender, EventArgs e)
         {
-            if (StudentsLvw.Items.Count > 0 && StudentsLvw.SelectedIndices.Count > 0)
+            if (listView1.Items.Count > 0 && listView1.SelectedIndices.Count > 0)
             {
                 DialogResult dialogResult;
 
                 dialogResult = MessageBox.Show("Are you sure you want to delete the selected one?", "Delete Selected", MessageBoxButtons.YesNo, MessageBoxIcon.Information);
                 if (dialogResult == DialogResult.Yes)
                 {
-                    StudentsLvw.Items.RemoveAt(StudentsLvw.SelectedItems[0].Index); 
+                    listView1.Items.RemoveAt(listView1.SelectedItems[0].Index); 
                     count--;
                 }
 
@@ -83,7 +70,7 @@ namespace StudentRegistrationForm
 
         public String SelectionGender()
         {
-            if (MaleRadioBtn.Checked == true) return "Male";
+            if (radioButton1.Checked == true) return "Male";
             else return "Female";
         }
 
@@ -93,21 +80,21 @@ namespace StudentRegistrationForm
             {
                 case "Watch Film":
                     {
-                        if (FilmChk.Checked == true) return "Available";
+                        if (checkBox1.Checked == true) return "Available";
                         else return "Empty";
 
                         break;
                     }
                 case "Listen Music":
                     {
-                        if (MusicChk.Checked == true) return "Available";
+                        if (checkBox2.Checked == true) return "Available";
                         else return "Empty";
 
                         break;
                     }
                 case "Make Sports":
                     {
-                        if (SportChk.Checked == true) return "Available";
+                        if (checkBox3.Checked == true) return "Available";
                         else return "Empty";
 
                         break;
@@ -118,116 +105,31 @@ namespace StudentRegistrationForm
             }
         }
 
-        private void CityCmb_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            TownLst.Items.Clear();
-            if (CityCmb.SelectedIndex == 0 || CityCmb.Text == "Kütahya")
-            {
-                TownLst.Items.Add("Altıntaş");
-                TownLst.Items.Add("Aslanapa");
-                TownLst.Items.Add("Çavdarhisar");
-                TownLst.Items.Add("Domaniç");
-                TownLst.Items.Add("Dumlupınar");
-                TownLst.Items.Add("Emet");
-                TownLst.Items.Add("Gediz");
-                TownLst.Items.Add("Hisarcık");
-                TownLst.Items.Add("Pazarlar");
-                TownLst.Items.Add("Simav");
-                TownLst.Items.Add("Şaphane");
-                TownLst.Items.Add("Tavşanlı");
-            }
-            else if (CityCmb.SelectedIndex == 1 || CityCmb.Text == "Bilecik")
-            {
-                TownLst.Items.Add("Bozüyük");
-                TownLst.Items.Add("Gölpazarı");
-                TownLst.Items.Add("İnhisar");
-                TownLst.Items.Add("Osmaneli");
-                TownLst.Items.Add("Pazaryeri");
-                TownLst.Items.Add("Söğüt");
-                TownLst.Items.Add("Yenipazar");
-
-            }
-            else if (CityCmb.SelectedIndex == 2 || CityCmb.Text == "Sakarya")
-            {
-                TownLst.Items.Add("Adapazarı");
-                TownLst.Items.Add("Akyazı");
-                TownLst.Items.Add("Ferizli");
-                TownLst.Items.Add("Geyve");
-                TownLst.Items.Add("Hendek");
-                TownLst.Items.Add("Karapürçek");
-                TownLst.Items.Add("Karasu");
-                TownLst.Items.Add("Kaynarca");
-                TownLst.Items.Add("Kocaali");
-                TownLst.Items.Add("Pamukova");
-                TownLst.Items.Add("Sapanca");
-                TownLst.Items.Add("Söğütlü");
-                TownLst.Items.Add("Taraklı");
-            }
-            else if (CityCmb.SelectedIndex == 3 || CityCmb.Text == "Bursa")
-            {
-                TownLst.Items.Add("Nilüfer");
-                TownLst.Items.Add("Yıldırım");
-                TownLst.Items.Add("Osman Gazi");
-                TownLst.Items.Add("Büyük Orhan");
-                TownLst.Items.Add("Gemlik");
-                TownLst.Items.Add("Gürsu");
-                TownLst.Items.Add("Harmancık");
-                TownLst.Items.Add("İnegöl");
-                TownLst.Items.Add("İznik");
-                TownLst.Items.Add("Karacabey");
-                TownLst.Items.Add("Kales");
-                TownLst.Items.Add("Kestel");
-                TownLst.Items.Add("Mudanya");
-                TownLst.Items.Add("Mustafa Kemal Paşa");
-                TownLst.Items.Add("Orhaneli");
-                TownLst.Items.Add("Orhangazi");
-                TownLst.Items.Add("Yenişehir");
-            }
-            else
-            {
-                TownLst.Items.Add("Ayancık");
-                TownLst.Items.Add("Boyabat");
-                TownLst.Items.Add("Dikmen");
-                TownLst.Items.Add("Durağan");
-                TownLst.Items.Add("Erfelek");
-                TownLst.Items.Add("Gerze");
-                TownLst.Items.Add("Saraydüzü");
-                TownLst.Items.Add("Türkeli");
-            }
-        }
-
-        private void ListTypeCmb_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            View tur = new View();
-            tur = (View)ListTypeCmb.SelectedIndex;
-            StudentsLvw.View = tur;
-        }
-
         private int SelectionIcon()
         {
-            if (IconRadioBtn1.Checked) return 0;
-            else if (IconRadioBtn2.Checked) return 1;
-            else if (IconRadioBtn3.Checked) return 2;
+            if (radioButton3.Checked) return 0;
+            else if (radioButton5.Checked) return 1;
+            else if (radioButton4.Checked) return 2;
             else return 3;
         }
 
         private void AboutMnsItem_Click(object sender, EventArgs e)
         {
-            About about = new About();
-            about.Location = new Point(222, 333);
-            about.ShowDialog();
+            Form2 form2 = new Form2();
+            form2.Location = new Point(222, 333);
+            form2.ShowDialog();
         }
 
         private void Clear()
         {
-            StudentNameTxt.Text = "";
-            MaleRadioBtn.Checked = true;
-            IconRadioBtn1.Checked = true;
-            FilmChk.Checked = false;
-            MusicChk.Checked = false;
-            SportChk.Checked = false;
-            CityCmb.SelectedIndex = -1;
-            TownLst.Items.Clear();
+            textBox1.Text = "";
+            radioButton1.Checked = true;
+            radioButton3.Checked = true;
+            checkBox1.Checked = false;
+            checkBox2.Checked = false;
+            checkBox3.Checked = false;
+            comboBox2.SelectedIndex = -1;
+            listBox1.Items.Clear();
         }
 
         private void ExitMnsItem_Click(object sender, EventArgs e)
@@ -243,6 +145,104 @@ namespace StudentRegistrationForm
         private void AddListBtn_MouseLeave(object sender, EventArgs e)
         {
             toolStripStatusLabel2.Text = "";
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            listView1.Items.Add(textBox1.Text, SelectionIcon());
+            listView1.Items[count].SubItems.Add(comboBox2.Text);
+            listView1.Items[count].SubItems.Add(listBox1.Text);
+            listView1.Items[count].SubItems.Add(SelectionGender());
+            listView1.Items[count].SubItems.Add(SelectionHobbys("Watch Film"));
+            listView1.Items[count].SubItems.Add(SelectionHobbys("List Music"));
+            listView1.Items[count].SubItems.Add(SelectionHobbys("Make Sports"));
+            count++;
+            Clear();
+        }
+
+        private void comboBox2_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            listBox1.Items.Clear();
+            if (comboBox2.SelectedIndex == 0 || comboBox2.Text == "Kütahya")
+            {
+                listBox1.Items.Add("Altıntaş");
+                listBox1.Items.Add("Aslanapa");
+                listBox1.Items.Add("Çavdarhisar");
+                listBox1.Items.Add("Domaniç");
+                listBox1.Items.Add("Dumlupınar");
+                listBox1.Items.Add("Emet");
+                listBox1.Items.Add("Gediz");
+                listBox1.Items.Add("Hisarcık");
+                listBox1.Items.Add("Pazarlar");
+                listBox1.Items.Add("Simav");
+                listBox1.Items.Add("Şaphane");
+                listBox1.Items.Add("Tavşanlı");
+            }
+            else if (comboBox2.SelectedIndex == 1 || comboBox2.Text == "Bilecik")
+            {
+                listBox1.Items.Add("Bozüyük");
+                listBox1.Items.Add("Gölpazarı");
+                listBox1.Items.Add("İnhisar");
+                listBox1.Items.Add("Osmaneli");
+                listBox1.Items.Add("Pazaryeri");
+                listBox1.Items.Add("Söğüt");
+                listBox1.Items.Add("Yenipazar");
+
+            }
+            else if (comboBox2.SelectedIndex == 2 || comboBox2.Text == "Sakarya")
+            {
+                listBox1.Items.Add("Adapazarı");
+                listBox1.Items.Add("Akyazı");
+                listBox1.Items.Add("Ferizli");
+                listBox1.Items.Add("Geyve");
+                listBox1.Items.Add("Hendek");
+                listBox1.Items.Add("Karapürçek");
+                listBox1.Items.Add("Karasu");
+                listBox1.Items.Add("Kaynarca");
+                listBox1.Items.Add("Kocaali");
+                listBox1.Items.Add("Pamukova");
+                listBox1.Items.Add("Sapanca");
+                listBox1.Items.Add("Söğütlü");
+                listBox1.Items.Add("Taraklı");
+            }
+            else if (comboBox2.SelectedIndex == 3 || comboBox2.Text == "Bursa")
+            {
+                listBox1.Items.Add("Nilüfer");
+                listBox1.Items.Add("Yıldırım");
+                listBox1.Items.Add("Osman Gazi");
+                listBox1.Items.Add("Büyük Orhan");
+                listBox1.Items.Add("Gemlik");
+                listBox1.Items.Add("Gürsu");
+                listBox1.Items.Add("Harmancık");
+                listBox1.Items.Add("İnegöl");
+                listBox1.Items.Add("İznik");
+                listBox1.Items.Add("Karacabey");
+                listBox1.Items.Add("Kales");
+                listBox1.Items.Add("Kestel");
+                listBox1.Items.Add("Mudanya");
+                listBox1.Items.Add("Mustafa Kemal Paşa");
+                listBox1.Items.Add("Orhaneli");
+                listBox1.Items.Add("Orhangazi");
+                listBox1.Items.Add("Yenişehir");
+            }
+            else
+            {
+                listBox1.Items.Add("Ayancık");
+                listBox1.Items.Add("Boyabat");
+                listBox1.Items.Add("Dikmen");
+                listBox1.Items.Add("Durağan");
+                listBox1.Items.Add("Erfelek");
+                listBox1.Items.Add("Gerze");
+                listBox1.Items.Add("Saraydüzü");
+                listBox1.Items.Add("Türkeli");
+            }
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            View tur = new View();
+            tur = (View)comboBox1.SelectedIndex;
+            listView1.View = tur;
         }
     }
 }

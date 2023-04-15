@@ -19,20 +19,20 @@ namespace ShoppingList
             InitializeComponent();
         }
 
-        private void SearchBtn_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
-            if (AddTxt.Text.Trim() != "")
+            if (textBox1.Text.Trim() != "")
             {
-                if (shoppingList.Contains(AddTxt.Text))
+                if (shoppingList.Contains(textBox1.Text))
                 {
-                    SearchResultLbl.Text = "On the list : Yes";
+                    label2.Text = "On the list : Yes";
                 }
                 else
                 {
-                    SearchResultLbl.Text = "On the list : Not";
+                    label2.Text = "On the list : Not";
                 }
 
-                AddTxt.Focus();
+                textBox1.Focus();
             }
             else
             {
@@ -40,11 +40,57 @@ namespace ShoppingList
             }
         }
 
-        private void ExtractListBtn_Click(object sender, EventArgs e)
+        private void button2_Click(object sender, EventArgs e)
         {
-            if (ListLst.SelectedIndex > 0)
+            if ((sender as Button).Name == "AddListBtn")
             {
-                shoppingList.Remove(ListLst.Text);
+                if (TextboxControl())
+                {
+                    AddList(shoppingList);
+                    textBox1.Text = "";
+                    textBox1.Focus();
+                    TransferListBox(shoppingList);
+                }
+                else
+                {
+                    MessageBox.Show("Do Not Leave the Value to Add Blank!!!");
+                }
+            }
+            if ((sender as Button).Name == "SelectionWithAddButton")
+            {
+                if (TextboxControl())
+                {
+                    if (listBox1.SelectedIndex > -1)
+                    {
+                        if (radioButton1.Checked)
+                        {
+                            shoppingList.AddBefore(GetNode(listBox1.Text, shoppingList), textBox1.Text);
+                        }
+                        else
+                        {
+                            shoppingList.AddAfter(GetNode(listBox1.Text, shoppingList), textBox1.Text);
+                        }
+                        textBox1.Text = "";
+                        textBox1.Focus();
+                        TransferListBox(shoppingList);
+                    }
+                    else
+                    {
+                        MessageBox.Show("You have not selected a value from the list!!!");
+                    }
+                }
+                else
+                {
+                    MessageBox.Show("Do Not Leave the Value to Add Blank!!!");
+                }
+            }
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            if (listBox1.SelectedIndex > 0)
+            {
+                shoppingList.Remove(listBox1.Text);
                 TransferListBox(shoppingList);
             }
             else
@@ -53,23 +99,23 @@ namespace ShoppingList
             }
         }
 
-        private void TransferListBox(LinkedList<String> list)
-        {
-            ListLst.Items.Clear();
-            foreach (string değer in list)
-            {
-                ListLst.Items.Add(değer);
-            }
-
-            ListLbl.Text = "On the To Buy List : " + shoppingList.Count + "order is have";
-        }
-
-        private void ClearListBtn_Click(object sender, EventArgs e)
+        private void button5_Click(object sender, EventArgs e)
         {
             shoppingList.Clear();
             TransferListBox(shoppingList);
 
-            ListLbl.Text = "There are no orders on the Buy List";
+            label3.Text = "There are no orders on the Buy List";
+        }
+
+        private void TransferListBox(LinkedList<String> list)
+        {
+            listBox1.Items.Clear();
+            foreach (string değer in list)
+            {
+                listBox1.Items.Add(değer);
+            }
+
+            label3.Text = "On the To Buy List : " + shoppingList.Count + "order is have";
         }
 
         private void AddList(LinkedList<String> list)
@@ -77,11 +123,11 @@ namespace ShoppingList
 
             if (shoppingList.Count == 0)
             {
-                shoppingList.AddFirst(AddTxt.Text.Trim());
+                shoppingList.AddFirst(textBox1.Text.Trim());
             }
             else
             {
-                shoppingList.AddLast(AddTxt.Text.Trim());
+                shoppingList.AddLast(textBox1.Text.Trim());
             }
         }
 
@@ -95,59 +141,13 @@ namespace ShoppingList
 
         private Boolean TextboxControl()
         {
-            if (AddTxt.Text.Trim() == "")
+            if (textBox1.Text.Trim() == "")
             {
                 return false;
             }
             else
             {
                 return true;
-            }
-        }
-
-        private void SelectionWithAddBtn_Click(object sender, EventArgs e)
-        {
-            if ((sender as Button).Name == "AddListBtn")
-            {
-                if (TextboxControl())
-                {
-                    AddList(shoppingList);
-                    AddTxt.Text = "";
-                    AddTxt.Focus();
-                    TransferListBox(shoppingList);
-                }
-                else
-                {
-                    MessageBox.Show("Do Not Leave the Value to Add Blank!!!");
-                }
-            }
-            if ((sender as Button).Name == "SelectionWithAddButton")
-            {
-                if (TextboxControl())
-                {
-                    if (ListLst.SelectedIndex > -1)
-                    {
-                        if (FirstRadioBtn.Checked)
-                        {
-                            shoppingList.AddBefore(GetNode(ListLst.Text, shoppingList), AddTxt.Text);
-                        }
-                        else
-                        {
-                            shoppingList.AddAfter(GetNode(ListLst.Text, shoppingList), AddTxt.Text);
-                        }
-                        AddTxt.Text = "";
-                        AddTxt.Focus();
-                        TransferListBox(shoppingList);
-                    }
-                    else
-                    {
-                        MessageBox.Show("You have not selected a value from the list!!!");
-                    }
-                }
-                else
-                {
-                    MessageBox.Show("Do Not Leave the Value to Add Blank!!!");
-                }
             }
         }
     }

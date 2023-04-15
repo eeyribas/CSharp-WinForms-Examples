@@ -48,17 +48,18 @@ namespace JustifyTextLeftOrRight
             }
         }
 
-        private void LeftBtn_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
-            if(jusf) {
+            if (jusf)
+            {
                 jusf = false;
                 Refresh();
             }
         }
 
-        private void RightBtn_Click(object sender, EventArgs e)
+        private void button2_Click(object sender, EventArgs e)
         {
-            if(jusf) 
+            if (jusf)
                 return;
             jusf = true;
             Refresh();

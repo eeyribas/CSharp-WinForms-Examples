@@ -19,32 +19,33 @@ namespace AreaAndCircumferenceOfTheCircle
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            Lbl4.Text = Math.PI.ToString();
-            Txt.ResetText();
+            label2.Text = Math.PI.ToString();
+            textBox1.ResetText();
         }
 
-        private void Txt_TextChanged(object sender, EventArgs e)
-        {
-            Lbl1.ResetText();
-            Lbl2.ResetText();
-            Lbl3.ResetText();
-        }
-
-        private void Btn_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
             double r = 0;
-            if(!double.TryParse(Txt.Text, out r)) {
+            if (!double.TryParse(textBox1.Text, out r))
+            {
                 MessageBox.Show("Enter real number", "Info");
-                Txt.Focus();
-                Txt.SelectAll();
+                textBox1.Focus();
+                textBox1.SelectAll();
                 return;
             }
-            Lbl1.Text = r.ToString();
+            label5.Text = r.ToString();
             double field = Math.PI * r * r;
-            Lbl2.Text = field.ToString();
+            label7.Text = field.ToString();
             double circ = 2 * Math.PI * r;
-            Lbl3.Text = circ.ToString();
-            Txt.Focus();
+            label9.Text = circ.ToString();
+            textBox1.Focus();
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+            label5.ResetText();
+            label7.ResetText();
+            label9.ResetText();
         }
     }
 }

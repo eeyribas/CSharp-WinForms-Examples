@@ -21,21 +21,21 @@ namespace OpeningFormWithEncryptedForm
 
         private void Form2_Load(object sender, EventArgs e)
         {
-            AcceptButton = Btn1;
-            CancelButton = Btn2;
+            AcceptButton = button1;
+            CancelButton = button2;
         }
 
-        private void Btn1_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
             count++;
-            if (Txt.Text == "esen")
+            if (textBox1.Text == "esen")
             {
                 DialogResult = DialogResult.OK;
             }
             else
             {
-                Txt.ResetText();
-                Txt.Focus();
+                textBox1.ResetText();
+                textBox1.Focus();
                 Text = "Error Password";
                 if (count == 3)
                 {
@@ -45,7 +45,7 @@ namespace OpeningFormWithEncryptedForm
             }
         }
 
-        private void Btn2_Click(object sender, EventArgs e)
+        private void button2_Click(object sender, EventArgs e)
         {
             DialogResult = DialogResult.Cancel;
         }

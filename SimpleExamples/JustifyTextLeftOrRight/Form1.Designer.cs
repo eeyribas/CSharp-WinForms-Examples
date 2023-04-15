@@ -29,37 +29,37 @@ namespace JustifyTextLeftOrRight
         /// </summary>
         private void InitializeComponent()
         {
-            this.RightBtn = new System.Windows.Forms.Button();
-            this.LeftBtn = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // RightBtn
+            // button2
             // 
-            this.RightBtn.Location = new System.Drawing.Point(208, 24);
-            this.RightBtn.Name = "RightBtn";
-            this.RightBtn.Size = new System.Drawing.Size(147, 31);
-            this.RightBtn.TabIndex = 3;
-            this.RightBtn.Text = "Justify Right";
-            this.RightBtn.UseVisualStyleBackColor = true;
-            this.RightBtn.Click += new System.EventHandler(this.RightBtn_Click);
+            this.button2.Location = new System.Drawing.Point(208, 24);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(147, 31);
+            this.button2.TabIndex = 3;
+            this.button2.Text = "Justify Right";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
-            // LeftBtn
+            // button1
             // 
-            this.LeftBtn.Location = new System.Drawing.Point(31, 24);
-            this.LeftBtn.Name = "LeftBtn";
-            this.LeftBtn.Size = new System.Drawing.Size(147, 31);
-            this.LeftBtn.TabIndex = 2;
-            this.LeftBtn.Text = "Justify Left";
-            this.LeftBtn.UseVisualStyleBackColor = true;
-            this.LeftBtn.Click += new System.EventHandler(this.LeftBtn_Click);
+            this.button1.Location = new System.Drawing.Point(31, 24);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(147, 31);
+            this.button1.TabIndex = 2;
+            this.button1.Text = "Justify Left";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(432, 239);
-            this.Controls.Add(this.RightBtn);
-            this.Controls.Add(this.LeftBtn);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.button1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 7F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -72,8 +72,8 @@ namespace JustifyTextLeftOrRight
 
         #endregion
 
-        private System.Windows.Forms.Button RightBtn;
-        private System.Windows.Forms.Button LeftBtn;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button1;
     }
 }
 

@@ -29,182 +29,182 @@ namespace ShoppingList
         /// </summary>
         private void InitializeComponent()
         {
-            this.SearchBtn = new System.Windows.Forms.Button();
-            this.ListLbl = new System.Windows.Forms.Label();
-            this.AddListBtn = new System.Windows.Forms.Button();
-            this.ClearListBtn = new System.Windows.Forms.Button();
-            this.ExtractListBtn = new System.Windows.Forms.Button();
-            this.ListLst = new System.Windows.Forms.ListBox();
-            this.AddSearchLbl = new System.Windows.Forms.Label();
-            this.AddTxt = new System.Windows.Forms.TextBox();
-            this.LastRadioBtn = new System.Windows.Forms.RadioButton();
-            this.FirstRadioBtn = new System.Windows.Forms.RadioButton();
-            this.SelectionWithAddGrp = new System.Windows.Forms.GroupBox();
-            this.SelectionWithAddBtn = new System.Windows.Forms.Button();
-            this.SearchResultLbl = new System.Windows.Forms.Label();
-            this.SelectionWithAddGrp.SuspendLayout();
+            this.button1 = new System.Windows.Forms.Button();
+            this.label3 = new System.Windows.Forms.Label();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
+            this.listBox1 = new System.Windows.Forms.ListBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.radioButton2 = new System.Windows.Forms.RadioButton();
+            this.radioButton1 = new System.Windows.Forms.RadioButton();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.button3 = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
+            this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // SearchBtn
+            // button1
             // 
-            this.SearchBtn.Location = new System.Drawing.Point(209, 38);
-            this.SearchBtn.Margin = new System.Windows.Forms.Padding(4);
-            this.SearchBtn.Name = "SearchBtn";
-            this.SearchBtn.Size = new System.Drawing.Size(60, 28);
-            this.SearchBtn.TabIndex = 20;
-            this.SearchBtn.Text = "Search";
-            this.SearchBtn.UseVisualStyleBackColor = true;
-            this.SearchBtn.Click += new System.EventHandler(this.SearchBtn_Click);
+            this.button1.Location = new System.Drawing.Point(209, 38);
+            this.button1.Margin = new System.Windows.Forms.Padding(4);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(60, 28);
+            this.button1.TabIndex = 20;
+            this.button1.Text = "Search";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // ListLbl
+            // label3
             // 
-            this.ListLbl.AutoSize = true;
-            this.ListLbl.Location = new System.Drawing.Point(279, 18);
-            this.ListLbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.ListLbl.Name = "ListLbl";
-            this.ListLbl.Size = new System.Drawing.Size(30, 17);
-            this.ListLbl.TabIndex = 19;
-            this.ListLbl.Text = "List";
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(279, 18);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(30, 17);
+            this.label3.TabIndex = 19;
+            this.label3.Text = "List";
             // 
-            // AddListBtn
+            // button2
             // 
-            this.AddListBtn.Location = new System.Drawing.Point(15, 70);
-            this.AddListBtn.Margin = new System.Windows.Forms.Padding(4);
-            this.AddListBtn.Name = "AddListBtn";
-            this.AddListBtn.Size = new System.Drawing.Size(107, 28);
-            this.AddListBtn.TabIndex = 18;
-            this.AddListBtn.Text = "Add List";
-            this.AddListBtn.UseVisualStyleBackColor = true;
-            this.AddListBtn.Click += new System.EventHandler(this.SelectionWithAddBtn_Click);
+            this.button2.Location = new System.Drawing.Point(15, 70);
+            this.button2.Margin = new System.Windows.Forms.Padding(4);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(107, 28);
+            this.button2.TabIndex = 18;
+            this.button2.Text = "Add List";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
-            // ClearListBtn
+            // button5
             // 
-            this.ClearListBtn.Location = new System.Drawing.Point(453, 210);
-            this.ClearListBtn.Margin = new System.Windows.Forms.Padding(4);
-            this.ClearListBtn.Name = "ClearListBtn";
-            this.ClearListBtn.Size = new System.Drawing.Size(100, 42);
-            this.ClearListBtn.TabIndex = 17;
-            this.ClearListBtn.Text = "Clear List";
-            this.ClearListBtn.UseVisualStyleBackColor = true;
-            this.ClearListBtn.Click += new System.EventHandler(this.ClearListBtn_Click);
+            this.button5.Location = new System.Drawing.Point(453, 210);
+            this.button5.Margin = new System.Windows.Forms.Padding(4);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(100, 42);
+            this.button5.TabIndex = 17;
+            this.button5.Text = "Clear List";
+            this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
-            // ExtractListBtn
+            // button4
             // 
-            this.ExtractListBtn.Location = new System.Drawing.Point(283, 210);
-            this.ExtractListBtn.Margin = new System.Windows.Forms.Padding(4);
-            this.ExtractListBtn.Name = "ExtractListBtn";
-            this.ExtractListBtn.Size = new System.Drawing.Size(161, 42);
-            this.ExtractListBtn.TabIndex = 16;
-            this.ExtractListBtn.Text = "Extract List";
-            this.ExtractListBtn.UseVisualStyleBackColor = true;
-            this.ExtractListBtn.Click += new System.EventHandler(this.ExtractListBtn_Click);
+            this.button4.Location = new System.Drawing.Point(283, 210);
+            this.button4.Margin = new System.Windows.Forms.Padding(4);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(161, 42);
+            this.button4.TabIndex = 16;
+            this.button4.Text = "Extract List";
+            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
-            // ListLst
+            // listBox1
             // 
-            this.ListLst.FormattingEnabled = true;
-            this.ListLst.ItemHeight = 16;
-            this.ListLst.Location = new System.Drawing.Point(283, 38);
-            this.ListLst.Margin = new System.Windows.Forms.Padding(4);
-            this.ListLst.Name = "ListLst";
-            this.ListLst.Size = new System.Drawing.Size(263, 164);
-            this.ListLst.TabIndex = 15;
+            this.listBox1.FormattingEnabled = true;
+            this.listBox1.ItemHeight = 16;
+            this.listBox1.Location = new System.Drawing.Point(283, 38);
+            this.listBox1.Margin = new System.Windows.Forms.Padding(4);
+            this.listBox1.Name = "listBox1";
+            this.listBox1.Size = new System.Drawing.Size(263, 164);
+            this.listBox1.TabIndex = 15;
             // 
-            // AddSearchLbl
+            // label1
             // 
-            this.AddSearchLbl.AutoSize = true;
-            this.AddSearchLbl.Location = new System.Drawing.Point(46, 18);
-            this.AddSearchLbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.AddSearchLbl.Name = "AddSearchLbl";
-            this.AddSearchLbl.Size = new System.Drawing.Size(82, 17);
-            this.AddSearchLbl.TabIndex = 14;
-            this.AddSearchLbl.Text = "Add/Search";
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(46, 18);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(82, 17);
+            this.label1.TabIndex = 14;
+            this.label1.Text = "Add/Search";
             // 
-            // AddTxt
+            // textBox1
             // 
-            this.AddTxt.Location = new System.Drawing.Point(11, 38);
-            this.AddTxt.Margin = new System.Windows.Forms.Padding(4);
-            this.AddTxt.Name = "AddTxt";
-            this.AddTxt.Size = new System.Drawing.Size(188, 22);
-            this.AddTxt.TabIndex = 13;
+            this.textBox1.Location = new System.Drawing.Point(11, 38);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(4);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(188, 22);
+            this.textBox1.TabIndex = 13;
             // 
-            // LastRadioBtn
+            // radioButton2
             // 
-            this.LastRadioBtn.AutoSize = true;
-            this.LastRadioBtn.Checked = true;
-            this.LastRadioBtn.Location = new System.Drawing.Point(8, 58);
-            this.LastRadioBtn.Margin = new System.Windows.Forms.Padding(4);
-            this.LastRadioBtn.Name = "LastRadioBtn";
-            this.LastRadioBtn.Size = new System.Drawing.Size(56, 21);
-            this.LastRadioBtn.TabIndex = 10;
-            this.LastRadioBtn.TabStop = true;
-            this.LastRadioBtn.Text = "Last";
-            this.LastRadioBtn.UseVisualStyleBackColor = true;
+            this.radioButton2.AutoSize = true;
+            this.radioButton2.Checked = true;
+            this.radioButton2.Location = new System.Drawing.Point(8, 58);
+            this.radioButton2.Margin = new System.Windows.Forms.Padding(4);
+            this.radioButton2.Name = "radioButton2";
+            this.radioButton2.Size = new System.Drawing.Size(56, 21);
+            this.radioButton2.TabIndex = 10;
+            this.radioButton2.TabStop = true;
+            this.radioButton2.Text = "Last";
+            this.radioButton2.UseVisualStyleBackColor = true;
             // 
-            // FirstRadioBtn
+            // radioButton1
             // 
-            this.FirstRadioBtn.AutoSize = true;
-            this.FirstRadioBtn.Location = new System.Drawing.Point(8, 30);
-            this.FirstRadioBtn.Margin = new System.Windows.Forms.Padding(4);
-            this.FirstRadioBtn.Name = "FirstRadioBtn";
-            this.FirstRadioBtn.Size = new System.Drawing.Size(56, 21);
-            this.FirstRadioBtn.TabIndex = 9;
-            this.FirstRadioBtn.Text = "First";
-            this.FirstRadioBtn.UseVisualStyleBackColor = true;
+            this.radioButton1.AutoSize = true;
+            this.radioButton1.Location = new System.Drawing.Point(8, 30);
+            this.radioButton1.Margin = new System.Windows.Forms.Padding(4);
+            this.radioButton1.Name = "radioButton1";
+            this.radioButton1.Size = new System.Drawing.Size(56, 21);
+            this.radioButton1.TabIndex = 9;
+            this.radioButton1.Text = "First";
+            this.radioButton1.UseVisualStyleBackColor = true;
             // 
-            // SelectionWithAddGrp
+            // groupBox1
             // 
-            this.SelectionWithAddGrp.Controls.Add(this.SelectionWithAddBtn);
-            this.SelectionWithAddGrp.Controls.Add(this.LastRadioBtn);
-            this.SelectionWithAddGrp.Controls.Add(this.FirstRadioBtn);
-            this.SelectionWithAddGrp.Location = new System.Drawing.Point(11, 134);
-            this.SelectionWithAddGrp.Margin = new System.Windows.Forms.Padding(4);
-            this.SelectionWithAddGrp.Name = "SelectionWithAddGrp";
-            this.SelectionWithAddGrp.Padding = new System.Windows.Forms.Padding(4);
-            this.SelectionWithAddGrp.Size = new System.Drawing.Size(257, 96);
-            this.SelectionWithAddGrp.TabIndex = 21;
-            this.SelectionWithAddGrp.TabStop = false;
-            this.SelectionWithAddGrp.Text = "Selection With Add";
+            this.groupBox1.Controls.Add(this.button3);
+            this.groupBox1.Controls.Add(this.radioButton2);
+            this.groupBox1.Controls.Add(this.radioButton1);
+            this.groupBox1.Location = new System.Drawing.Point(11, 134);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4);
+            this.groupBox1.Size = new System.Drawing.Size(257, 96);
+            this.groupBox1.TabIndex = 21;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "Selection With Add";
             // 
-            // SelectionWithAddBtn
+            // button3
             // 
-            this.SelectionWithAddBtn.Location = new System.Drawing.Point(176, 30);
-            this.SelectionWithAddBtn.Margin = new System.Windows.Forms.Padding(4);
-            this.SelectionWithAddBtn.Name = "SelectionWithAddBtn";
-            this.SelectionWithAddBtn.Size = new System.Drawing.Size(60, 49);
-            this.SelectionWithAddBtn.TabIndex = 12;
-            this.SelectionWithAddBtn.Text = "Add";
-            this.SelectionWithAddBtn.UseVisualStyleBackColor = true;
-            this.SelectionWithAddBtn.Click += new System.EventHandler(this.SelectionWithAddBtn_Click);
+            this.button3.Location = new System.Drawing.Point(176, 30);
+            this.button3.Margin = new System.Windows.Forms.Padding(4);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(60, 49);
+            this.button3.TabIndex = 12;
+            this.button3.Text = "Add";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button2_Click);
             // 
-            // SearchResultLbl
+            // label2
             // 
-            this.SearchResultLbl.AutoSize = true;
-            this.SearchResultLbl.Location = new System.Drawing.Point(137, 76);
-            this.SearchResultLbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.SearchResultLbl.Name = "SearchResultLbl";
-            this.SearchResultLbl.Size = new System.Drawing.Size(105, 17);
-            this.SearchResultLbl.TabIndex = 22;
-            this.SearchResultLbl.Text = "Search Result :";
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(137, 76);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(105, 17);
+            this.label2.TabIndex = 22;
+            this.label2.Text = "Search Result :";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(557, 276);
-            this.Controls.Add(this.SearchBtn);
-            this.Controls.Add(this.ListLbl);
-            this.Controls.Add(this.AddListBtn);
-            this.Controls.Add(this.ClearListBtn);
-            this.Controls.Add(this.ExtractListBtn);
-            this.Controls.Add(this.ListLst);
-            this.Controls.Add(this.AddSearchLbl);
-            this.Controls.Add(this.AddTxt);
-            this.Controls.Add(this.SelectionWithAddGrp);
-            this.Controls.Add(this.SearchResultLbl);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.button5);
+            this.Controls.Add(this.button4);
+            this.Controls.Add(this.listBox1);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.groupBox1);
+            this.Controls.Add(this.label2);
             this.Name = "Form1";
             this.Text = "Create Shopping List";
-            this.SelectionWithAddGrp.ResumeLayout(false);
-            this.SelectionWithAddGrp.PerformLayout();
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -212,19 +212,19 @@ namespace ShoppingList
 
         #endregion
 
-        private System.Windows.Forms.Button SearchBtn;
-        private System.Windows.Forms.Label ListLbl;
-        private System.Windows.Forms.Button AddListBtn;
-        private System.Windows.Forms.Button ClearListBtn;
-        private System.Windows.Forms.Button ExtractListBtn;
-        private System.Windows.Forms.ListBox ListLst;
-        private System.Windows.Forms.Label AddSearchLbl;
-        private System.Windows.Forms.TextBox AddTxt;
-        private System.Windows.Forms.RadioButton LastRadioBtn;
-        private System.Windows.Forms.RadioButton FirstRadioBtn;
-        private System.Windows.Forms.GroupBox SelectionWithAddGrp;
-        private System.Windows.Forms.Button SelectionWithAddBtn;
-        private System.Windows.Forms.Label SearchResultLbl;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.ListBox listBox1;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.RadioButton radioButton2;
+        private System.Windows.Forms.RadioButton radioButton1;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Label label2;
     }
 }
 

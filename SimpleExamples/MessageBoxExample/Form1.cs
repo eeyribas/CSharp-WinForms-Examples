@@ -22,51 +22,23 @@ namespace MessageBoxExample
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            Rdo1.Text = "Ok";
-            Rdo2.Text = "OKCancel";
-            Rdo3.Text = "RetryCancel";
-            Rdo4.Text = "YesNo";
-            Rdo5.Text = "YesNoCancel";
-            Rdo6.Text = "AbortRetryIgnore";
-            Rdo7.Text = "Asterisk";
-            Rdo8.Text = "Error";
-            Rdo9.Text = "Exclamation";
-            Rdo10.Text = "Hand";
-            Rdo11.Text = "Information";
-            Rdo12.Text = "None";
-            Rdo13.Text = "Question";
-            Rdo14.Text = "OkStop";
-            Rdo15.Text = "Warning";
-            Rdo1.Checked = true;
-            Rdo7.Checked = true;
-        }
-
-        private void Btn_Click(object sender, EventArgs e)
-        {
-            DialogResult state = MessageBox.Show("Message Box", "Info", bType, iType);
-            switch(state) {
-                case DialogResult.OK:
-                    Lbl.Text = "OK";
-                    break;
-                case DialogResult.Cancel:
-                    Lbl.Text = "Cancel";
-                    break;
-                case DialogResult.Abort:
-                    Lbl.Text = "Abort";
-                    break;
-                case DialogResult.Retry:
-                    Lbl.Text = "Retry";
-                    break;
-                case DialogResult.Ignore:
-                    Lbl.Text = "Ignore";
-                    break;
-                case DialogResult.Yes:
-                    Lbl.Text = "Yes";
-                    break;
-                case DialogResult.No:
-                    Lbl.Text = "No";
-                    break;
-            }
+            radioButton1.Text = "Ok";
+            radioButton2.Text = "OKCancel";
+            radioButton3.Text = "RetryCancel";
+            radioButton4.Text = "YesNo";
+            radioButton5.Text = "YesNoCancel";
+            radioButton6.Text = "AbortRetryIgnore";
+            radioButton7.Text = "Asterisk";
+            radioButton8.Text = "Error";
+            radioButton9.Text = "Exclamation";
+            radioButton10.Text = "Hand";
+            radioButton11.Text = "Information";
+            radioButton12.Text = "None";
+            radioButton13.Text = "Question";
+            radioButton14.Text = "OkStop";
+            radioButton15.Text = "Warning";
+            radioButton1.Checked = true;
+            radioButton7.Checked = true;
         }
 
         void bType_CheckedChanged(object sender, EventArgs e)
@@ -124,6 +96,35 @@ namespace MessageBoxExample
                     break;
                 case "Rdo15":
                     iType = MessageBoxIcon.Warning;
+                    break;
+            }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            DialogResult state = MessageBox.Show("Message Box", "Info", bType, iType);
+            switch (state)
+            {
+                case DialogResult.OK:
+                    label1.Text = "OK";
+                    break;
+                case DialogResult.Cancel:
+                    label1.Text = "Cancel";
+                    break;
+                case DialogResult.Abort:
+                    label1.Text = "Abort";
+                    break;
+                case DialogResult.Retry:
+                    label1.Text = "Retry";
+                    break;
+                case DialogResult.Ignore:
+                    label1.Text = "Ignore";
+                    break;
+                case DialogResult.Yes:
+                    label1.Text = "Yes";
+                    break;
+                case DialogResult.No:
+                    label1.Text = "No";
                     break;
             }
         }

@@ -8,3 +8,12 @@ D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\DivideResult\obj\De
 D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\DivideResult\obj\Debug\DivideResult.csproj.CoreCompileInputs.cache
 D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\DivideResult\obj\Debug\DivideResult.exe
 D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\DivideResult\obj\Debug\DivideResult.pdb
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\DivideResult\obj\Debug\DivideResult.Form1.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\DivideResult\obj\Debug\DivideResult.Properties.Resources.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\DivideResult\obj\Debug\DivideResult.csproj.GenerateResource.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\DivideResult\obj\Debug\DivideResult.csproj.CoreCompileInputs.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\DivideResult\obj\Debug\DivideResult.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\DivideResult\obj\Debug\DivideResult.pdb
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\DivideResult\bin\Debug\DivideResult.exe.config
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\DivideResult\bin\Debug\DivideResult.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\DivideResult\bin\Debug\DivideResult.pdb

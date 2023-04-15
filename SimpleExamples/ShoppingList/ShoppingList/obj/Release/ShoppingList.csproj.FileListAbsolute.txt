@@ -7,3 +7,13 @@ D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples-----
 D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples-----------------------\ShoppingList\ShoppingList\obj\Release\ShoppingList.csproj.CoreCompileInputs.cache
 D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples-----------------------\ShoppingList\ShoppingList\obj\Release\ShoppingList.exe
 D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples-----------------------\ShoppingList\ShoppingList\obj\Release\ShoppingList.pdb
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\ShoppingList\ShoppingList\bin\Release\ShoppingList.exe.config
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\ShoppingList\ShoppingList\bin\Release\ShoppingList.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\ShoppingList\ShoppingList\bin\Release\ShoppingList.pdb
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\ShoppingList\ShoppingList\obj\Release\ShoppingList.csproj.AssemblyReference.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\ShoppingList\ShoppingList\obj\Release\ShoppingList.Form1.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\ShoppingList\ShoppingList\obj\Release\ShoppingList.Properties.Resources.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\ShoppingList\ShoppingList\obj\Release\ShoppingList.csproj.GenerateResource.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\ShoppingList\ShoppingList\obj\Release\ShoppingList.csproj.CoreCompileInputs.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\ShoppingList\ShoppingList\obj\Release\ShoppingList.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\ShoppingList\ShoppingList\obj\Release\ShoppingList.pdb

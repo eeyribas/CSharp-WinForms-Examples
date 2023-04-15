@@ -25,31 +25,31 @@ namespace ButtonCaptureGame
             else
                 number = (number) * 300;
 
-            Tmr1.Interval = (number);
+            timer1.Interval = (number);
             if (checkbox == false)
             {
                 this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             }
         }
 
-        private void Btn_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
-            Tmr1.Enabled = false;
+            timer1.Enabled = false;
             MessageBox.Show("Congratulations You Won the Game \nTotal Number of Mouse Clicks = " + number, "YOU WIN");
             Close();
             Dispose();
         }
 
-        private void Tmr1_Tick(object sender, EventArgs e)
+        private void timer1_Tick(object sender, EventArgs e)
         {
             Random numbers = new Random();
             int index = numbers.Next(1, x - 111);
             int index2 = numbers.Next(1, y - 40);
 
-            this.Btn.Location = new System.Drawing.Point(index, index2);
+            this.button1.Location = new System.Drawing.Point(index, index2);
         }
 
-        private void Tmr2_Tick(object sender, EventArgs e)
+        private void timer2_Tick(object sender, EventArgs e)
         {
             x = ClientSize.Width;
             y = ClientSize.Height;

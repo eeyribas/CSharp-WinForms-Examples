@@ -19,61 +19,63 @@ namespace CharacterGroups
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            Lst.Font = new Font("Courier New", 16, FontStyle.Bold);
-            Lst.MultiColumn = true;
-            Lst.ColumnWidth = 125;
-            Cmb.Items.Add("Tüm Karakterler");
-            Cmb.Items.Add("Control");
-            Cmb.Items.Add("Digit");
-            Cmb.Items.Add("Letter");
-            Cmb.Items.Add("Lower");
-            Cmb.Items.Add("Number");
-            Cmb.Items.Add("Symbol");
-            Cmb.Items.Add("Upper");
+            listBox.Font = new Font("Courier New", 16, FontStyle.Bold);
+            listBox.MultiColumn = true;
+            listBox.ColumnWidth = 125;
+            comboBox.Items.Add("Tüm Karakterler");
+            comboBox.Items.Add("Control");
+            comboBox.Items.Add("Digit");
+            comboBox.Items.Add("Letter");
+            comboBox.Items.Add("Lower");
+            comboBox.Items.Add("Number");
+            comboBox.Items.Add("Symbol");
+            comboBox.Items.Add("Upper");
         }
 
-        private void Cmb_KeyPress(object sender, KeyPressEventArgs e)
+        private void comboBox_KeyPress(object sender, KeyPressEventArgs e)
         {
             e.Handled = true;
         }
 
-        private void Cmb_SelectedIndexChanged(object sender, EventArgs e)
+        private void comboBox_SelectedIndexChanged(object sender, EventArgs e)
         {
-            Lst.Items.Clear();
-            for(int i = (int)Char.MinValue; i <= (int)Char.MaxValue; i++) {
+            listBox.Items.Clear();
+            for (int i = (int)Char.MinValue; i <= (int)Char.MaxValue; i++)
+            {
                 char c = (char)i;
                 string s = i.ToString().PadLeft(6, ' ') + "  " + c;
-                switch (Cmb.SelectedIndex) {
-                    case 0: 
-                        Lst.Items.Add(s); 
+                switch (comboBox.SelectedIndex)
+                {
+                    case 0:
+                        listBox.Items.Add(s);
                         break;
-                    case 1: 
-                        if (Char.IsControl(c)) 
-                            Lst.Items.Add(s); 
+                    case 1:
+                        if (Char.IsControl(c))
+                            listBox.Items.Add(s);
                         break;
-                    case 2: 
-                        if (Char.IsDigit(c)) 
-                            Lst.Items.Add(s); 
+                    case 2:
+                        if (Char.IsDigit(c))
+                            listBox.Items.Add(s);
                         break;
-                    case 3: 
-                        if (Char.IsLetter(c)) 
-                            Lst.Items.Add(s); 
+                    case 3:
+                        if (Char.IsLetter(c))
+                            listBox.Items.Add(s);
                         break;
-                    case 4: 
-                        if (Char.IsLower(c)) 
-                            Lst.Items.Add(s); 
+                    case 4:
+                        if (Char.IsLower(c))
+                            listBox.Items.Add(s);
                         break;
-                    case 5: 
-                        if (Char.IsNumber(c)) 
-                            Lst.Items.Add(s);
+                    case 5:
+                        if (Char.IsNumber(c))
+                            listBox.Items.Add(s);
                         break;
-                    case 6: 
-                        if (Char.IsSymbol(c)) 
-                            Lst.Items.Add(s); 
+                    case 6:
+                        if (Char.IsSymbol(c))
+                            listBox.Items.Add(s);
                         break;
-                    case 7: 
-                        if (Char.IsUpper(c)) 
-                            Lst.Items.Add(s); 
+                    case 7:
+                        if (Char.IsUpper(c))
+                            listBox.Items.Add(s);
                         break;
                 }
             }

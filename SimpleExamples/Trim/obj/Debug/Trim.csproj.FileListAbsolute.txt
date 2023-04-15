@@ -8,3 +8,13 @@ D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Trim\obj\Debug\Trim
 D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Trim\obj\Debug\Trim.csproj.CoreCompileInputs.cache
 D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Trim\obj\Debug\Trim.exe
 D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Trim\obj\Debug\Trim.pdb
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\Trim\bin\Debug\Trim.exe.config
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\Trim\bin\Debug\Trim.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\Trim\bin\Debug\Trim.pdb
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\Trim\obj\Debug\Trim.csproj.AssemblyReference.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\Trim\obj\Debug\Trim.Form1.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\Trim\obj\Debug\Trim.Properties.Resources.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\Trim\obj\Debug\Trim.csproj.GenerateResource.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\Trim\obj\Debug\Trim.csproj.CoreCompileInputs.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\Trim\obj\Debug\Trim.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\Trim\obj\Debug\Trim.pdb

@@ -19,30 +19,30 @@ namespace LoginForm
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            DeleteBtn_Click(sender, e);
+            button2_Click(sender, e);
         }
 
-        private void OkBtn_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
-            Lbl.Text = ContentTxt.Text;
-            ContentTxt.Focus();
+            label1.Text = textBox1.Text;
+            textBox1.Focus();
         }
 
-        private void DeleteBtn_Click(object sender, EventArgs e)
+        private void button2_Click(object sender, EventArgs e)
         {
-            ContentTxt.ResetText();
-            ContentTxt.Focus();
+            textBox1.ResetText();
+            textBox1.Focus();
         }
 
-        private void ContentTxt_TextChanged(object sender, EventArgs e)
-        {
-            Lbl.ResetText();
-        }
-
-        private void ContentTxt_KeyPress(object sender, KeyPressEventArgs e)
+        private void textBox1_KeyPress(object sender, KeyPressEventArgs e)
         {
             if (e.KeyChar == (char)Keys.Enter)
-                OkBtn_Click(sender, e);
+                button1_Click(sender, e);
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+            label1.ResetText();
         }
     }
 }

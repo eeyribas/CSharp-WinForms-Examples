@@ -8,3 +8,13 @@ D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\JustifyTextLeftOrRi
 D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\JustifyTextLeftOrRight\obj\Debug\JustifyTextLeftOrRight.csproj.CoreCompileInputs.cache
 D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\JustifyTextLeftOrRight\obj\Debug\JustifyTextLeftOrRight.exe
 D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\JustifyTextLeftOrRight\obj\Debug\JustifyTextLeftOrRight.pdb
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\JustifyTextLeftOrRight\bin\Debug\JustifyTextLeftOrRight.exe.config
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\JustifyTextLeftOrRight\bin\Debug\JustifyTextLeftOrRight.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\JustifyTextLeftOrRight\bin\Debug\JustifyTextLeftOrRight.pdb
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\JustifyTextLeftOrRight\obj\Debug\JustifyTextLeftOrRight.csproj.AssemblyReference.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\JustifyTextLeftOrRight\obj\Debug\JustifyTextLeftOrRight.Form1.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\JustifyTextLeftOrRight\obj\Debug\JustifyTextLeftOrRight.Properties.Resources.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\JustifyTextLeftOrRight\obj\Debug\JustifyTextLeftOrRight.csproj.GenerateResource.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\JustifyTextLeftOrRight\obj\Debug\JustifyTextLeftOrRight.csproj.CoreCompileInputs.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\JustifyTextLeftOrRight\obj\Debug\JustifyTextLeftOrRight.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\JustifyTextLeftOrRight\obj\Debug\JustifyTextLeftOrRight.pdb

@@ -19,9 +19,9 @@ namespace TransitionBetweenForms
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            Form2 frm = new Form2();
-            frm.ShowDialog();
-            frm.Dispose();
+            Form2 form2 = new Form2();
+            form2.ShowDialog();
+            form2.Dispose();
         }
     }
 }

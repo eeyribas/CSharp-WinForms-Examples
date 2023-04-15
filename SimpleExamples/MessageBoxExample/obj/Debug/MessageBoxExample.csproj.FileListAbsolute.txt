@@ -8,3 +8,13 @@ D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\MessageBoxExample\o
 D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\MessageBoxExample\obj\Debug\MessageBoxExample.csproj.CoreCompileInputs.cache
 D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\MessageBoxExample\obj\Debug\MessageBoxExample.exe
 D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\MessageBoxExample\obj\Debug\MessageBoxExample.pdb
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\MessageBoxExample\bin\Debug\MessageBoxExample.exe.config
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\MessageBoxExample\bin\Debug\MessageBoxExample.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\MessageBoxExample\bin\Debug\MessageBoxExample.pdb
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\MessageBoxExample\obj\Debug\MessageBoxExample.csproj.AssemblyReference.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\MessageBoxExample\obj\Debug\MessageBoxExample.Form1.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\MessageBoxExample\obj\Debug\MessageBoxExample.Properties.Resources.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\MessageBoxExample\obj\Debug\MessageBoxExample.csproj.GenerateResource.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\MessageBoxExample\obj\Debug\MessageBoxExample.csproj.CoreCompileInputs.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\MessageBoxExample\obj\Debug\MessageBoxExample.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\MessageBoxExample\obj\Debug\MessageBoxExample.pdb

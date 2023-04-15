@@ -19,11 +19,11 @@ namespace TransitionBetweenForms
 
         private void Form2_Load(object sender, EventArgs e)
         {
-            Tmr.Interval = 3000;
-            Tmr.Enabled = true;
+            timer1.Interval = 3000;
+            timer1.Enabled = true;
         }
 
-        private void Tmr_Tick(object sender, EventArgs e)
+        private void timer1_Tick(object sender, EventArgs e)
         {
             Close();
         }

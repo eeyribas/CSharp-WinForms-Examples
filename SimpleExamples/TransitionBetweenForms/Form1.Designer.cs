@@ -29,20 +29,20 @@ namespace TransitionBetweenForms
         /// </summary>
         private void InitializeComponent()
         {
-            this.Lbl = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // Lbl
+            // label1
             // 
-            this.Lbl.AutoSize = true;
-            this.Lbl.BackColor = System.Drawing.Color.Yellow;
-            this.Lbl.Font = new System.Drawing.Font("Courier New", 72F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.Lbl.ForeColor = System.Drawing.Color.Blue;
-            this.Lbl.Location = new System.Drawing.Point(37, 175);
-            this.Lbl.Name = "Lbl";
-            this.Lbl.Size = new System.Drawing.Size(634, 137);
-            this.Lbl.TabIndex = 1;
-            this.Lbl.Text = "ANA FORM";
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Yellow;
+            this.label1.Font = new System.Drawing.Font("Courier New", 72F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label1.ForeColor = System.Drawing.Color.Blue;
+            this.label1.Location = new System.Drawing.Point(37, 175);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(634, 137);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "ANA FORM";
             // 
             // Form1
             // 
@@ -50,7 +50,7 @@ namespace TransitionBetweenForms
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Yellow;
             this.ClientSize = new System.Drawing.Size(708, 487);
-            this.Controls.Add(this.Lbl);
+            this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Courier New", 9.75F, System.Drawing.FontStyle.Bold);
             this.ForeColor = System.Drawing.Color.Green;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
@@ -66,7 +66,7 @@ namespace TransitionBetweenForms
 
         #endregion
 
-        private System.Windows.Forms.Label Lbl;
+        private System.Windows.Forms.Label label1;
     }
 }
 
