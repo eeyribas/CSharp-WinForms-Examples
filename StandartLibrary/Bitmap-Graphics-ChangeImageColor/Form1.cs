@@ -31,8 +31,8 @@ namespace Bitmap_Graphics_ChangeImageColor
             hsn = new Bitmap(M, N);
             i = (ClientSize.Width - M) / 2;
             j = (ClientSize.Height - N) / 2;
-            Tmr.Interval = 1000;
-            Tmr.Enabled = true;
+            timer1.Interval = 1000;
+            timer1.Enabled = true;
         }
 
         private void Form1_Shown(object sender, EventArgs e)
@@ -41,28 +41,31 @@ namespace Bitmap_Graphics_ChangeImageColor
             Text = "Mix = " + k.ToString();
         }
 
-        private void Tmr_Tick(object sender, EventArgs e)
+        private void timer1_Tick(object sender, EventArgs e)
         {
             k = (++k) % 6;
 
-            for(int m = 0; m < M; m++) {
-                for(int n = 0; n < N; n++) {
+            for (int m = 0; m < M; m++)
+            {
+                for (int n = 0; n < N; n++)
+                {
                     color = bmp.GetPixel(m, n);
-                    switch(k) {
-                        case 1: 
-                            color = Color.FromArgb(color.A, color.R, color.B, color.G); 
+                    switch (k)
+                    {
+                        case 1:
+                            color = Color.FromArgb(color.A, color.R, color.B, color.G);
                             break;
-                        case 2: 
-                            color = Color.FromArgb(color.A, color.G, color.R, color.B); 
+                        case 2:
+                            color = Color.FromArgb(color.A, color.G, color.R, color.B);
                             break;
-                        case 3: 
-                            color = Color.FromArgb(color.A, color.G, color.B, color.R); 
+                        case 3:
+                            color = Color.FromArgb(color.A, color.G, color.B, color.R);
                             break;
-                        case 4: 
-                            color = Color.FromArgb(color.A, color.B, color.R, color.G); 
+                        case 4:
+                            color = Color.FromArgb(color.A, color.B, color.R, color.G);
                             break;
-                        case 5: 
-                            color = Color.FromArgb(color.A, color.B, color.G, color.R); 
+                        case 5:
+                            color = Color.FromArgb(color.A, color.B, color.G, color.R);
                             break;
                     }
                     hsn.SetPixel(m, n, color);

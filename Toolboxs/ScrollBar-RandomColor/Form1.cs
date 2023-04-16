@@ -22,28 +22,28 @@ namespace ScrollBar_RandomColor
         private void Form1_Load(object sender, EventArgs e)
         {
             random = new Random();
-            Btn_Click(sender, e);
+            button1_Click(sender, e);
         }
 
-        private void Btn_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
-            Vsc1.Value = random.Next(256);
-            Vsc2.Value = random.Next(256);
-            Vsc3.Value = random.Next(256);
+            vScrollBar1.Value = random.Next(256);
+            vScrollBar2.Value = random.Next(256);
+            vScrollBar3.Value = random.Next(256);
         }
 
-        private void Vsc_ValueChanged(object sender, EventArgs e)
+        private void vScrollBar_ValueChanged(object sender, EventArgs e)
         {
-            int r = 255 - Vsc1.Value;
-            int g = 255 - Vsc2.Value;
-            int b = 255 - Vsc3.Value;
-            Lbl1.Text = r.ToString("D3");
-            Lbl2.Text = g.ToString("D3");
-            Lbl3.Text = b.ToString("D3");
-            Lbl4.Text = r.ToString("X2");
-            Lbl5.Text = g.ToString("X2");
-            Lbl6.Text = b.ToString("X2");
-            Pnl.BackColor = Color.FromArgb(r, g, b);
+            int r = 255 - vScrollBar1.Value;
+            int g = 255 - vScrollBar2.Value;
+            int b = 255 - vScrollBar3.Value;
+            label2.Text = r.ToString("D3");
+            label5.Text = g.ToString("D3");
+            label8.Text = b.ToString("D3");
+            label3.Text = r.ToString("X2");
+            label6.Text = g.ToString("X2");
+            label9.Text = b.ToString("X2");
+            panel1.BackColor = Color.FromArgb(r, g, b);
         }
     }
 }

@@ -22,7 +22,7 @@ namespace Form_CreateFormsAndTransitions
             Random random = new Random();
             Left = random.Next(200);
             Top = random.Next(200);
-            Lbl.Text = Form1.x.ToString();
+            label1.Text = Form1.x.ToString();
         }
     }
 }

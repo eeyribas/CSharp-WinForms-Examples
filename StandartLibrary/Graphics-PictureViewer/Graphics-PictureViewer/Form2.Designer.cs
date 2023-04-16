@@ -30,52 +30,52 @@ namespace Graphics_PictureViewer
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form2));
-            this.Lbl2 = new System.Windows.Forms.Label();
-            this.CloseBtn = new System.Windows.Forms.Button();
-            this.Lbl1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // Lbl2
+            // label2
             // 
-            this.Lbl2.AutoSize = true;
-            this.Lbl2.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.Lbl2.Location = new System.Drawing.Point(154, 293);
-            this.Lbl2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.Lbl2.Name = "Lbl2";
-            this.Lbl2.Size = new System.Drawing.Size(289, 25);
-            this.Lbl2.TabIndex = 5;
-            this.Lbl2.Text = "This button closes the new form.";
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label2.Location = new System.Drawing.Point(154, 293);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(289, 25);
+            this.label2.TabIndex = 5;
+            this.label2.Text = "This button closes the new form.";
             // 
-            // CloseBtn
+            // button1
             // 
-            this.CloseBtn.Location = new System.Drawing.Point(14, 292);
-            this.CloseBtn.Margin = new System.Windows.Forms.Padding(4);
-            this.CloseBtn.Name = "CloseBtn";
-            this.CloseBtn.Size = new System.Drawing.Size(132, 47);
-            this.CloseBtn.TabIndex = 4;
-            this.CloseBtn.Text = "Close The New Form";
-            this.CloseBtn.UseVisualStyleBackColor = true;
-            this.CloseBtn.Click += new System.EventHandler(this.CloseBtn_Click);
+            this.button1.Location = new System.Drawing.Point(14, 292);
+            this.button1.Margin = new System.Windows.Forms.Padding(4);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(132, 47);
+            this.button1.TabIndex = 4;
+            this.button1.Text = "Close The New Form";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // Lbl1
+            // label1
             // 
-            this.Lbl1.AutoSize = true;
-            this.Lbl1.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.Lbl1.Location = new System.Drawing.Point(13, 9);
-            this.Lbl1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.Lbl1.Name = "Lbl1";
-            this.Lbl1.Size = new System.Drawing.Size(618, 150);
-            this.Lbl1.TabIndex = 3;
-            this.Lbl1.Text = resources.GetString("Lbl1.Text");
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label1.Location = new System.Drawing.Point(13, 9);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(618, 150);
+            this.label1.TabIndex = 3;
+            this.label1.Text = resources.GetString("label1.Text");
             // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(638, 371);
-            this.Controls.Add(this.Lbl2);
-            this.Controls.Add(this.CloseBtn);
-            this.Controls.Add(this.Lbl1);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.label1);
             this.Name = "Form2";
             this.Text = "Form2";
             this.ResumeLayout(false);
@@ -85,8 +85,8 @@ namespace Graphics_PictureViewer
 
         #endregion
 
-        private System.Windows.Forms.Label Lbl2;
-        private System.Windows.Forms.Button CloseBtn;
-        private System.Windows.Forms.Label Lbl1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label label1;
     }
 }

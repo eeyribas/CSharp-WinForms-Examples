@@ -18,7 +18,7 @@ namespace Bitmap_ConvertBmpToJpg
             InitializeComponent();
         }
 
-        private void Btn_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
             Bitmap bmp = new Bitmap("papaya.bmp");
             bmp.Save("papaya.jpg", ImageFormat.Jpeg);

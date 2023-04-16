@@ -29,49 +29,49 @@ namespace Button_DeleteContent
         /// </summary>
         private void InitializeComponent()
         {
-            this.ContentText = new System.Windows.Forms.TextBox();
-            this.Lbl = new System.Windows.Forms.Label();
-            this.DeleteBtn = new System.Windows.Forms.Button();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // ContentText
+            // textBox1
             // 
-            this.ContentText.ForeColor = System.Drawing.Color.Sienna;
-            this.ContentText.Location = new System.Drawing.Point(60, 77);
-            this.ContentText.MaxLength = 20;
-            this.ContentText.Name = "ContentText";
-            this.ContentText.Size = new System.Drawing.Size(170, 22);
-            this.ContentText.TabIndex = 3;
-            this.ContentText.Text = "content";
-            this.ContentText.TextChanged += new System.EventHandler(this.ContentText_TextChanged);
+            this.textBox1.ForeColor = System.Drawing.Color.Sienna;
+            this.textBox1.Location = new System.Drawing.Point(60, 77);
+            this.textBox1.MaxLength = 20;
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(170, 22);
+            this.textBox1.TabIndex = 3;
+            this.textBox1.Text = "content";
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
-            // Lbl
+            // label1
             // 
-            this.Lbl.AutoSize = true;
-            this.Lbl.Location = new System.Drawing.Point(57, 47);
-            this.Lbl.Name = "Lbl";
-            this.Lbl.Size = new System.Drawing.Size(46, 17);
-            this.Lbl.TabIndex = 5;
-            this.Lbl.Text = "label1";
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(57, 47);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(46, 17);
+            this.label1.TabIndex = 5;
+            this.label1.Text = "label1";
             // 
-            // DeleteBtn
+            // button1
             // 
-            this.DeleteBtn.Location = new System.Drawing.Point(60, 114);
-            this.DeleteBtn.Name = "DeleteBtn";
-            this.DeleteBtn.Size = new System.Drawing.Size(122, 33);
-            this.DeleteBtn.TabIndex = 4;
-            this.DeleteBtn.Text = "Delete";
-            this.DeleteBtn.UseVisualStyleBackColor = true;
-            this.DeleteBtn.Click += new System.EventHandler(this.DeleteBtn_Click);
+            this.button1.Location = new System.Drawing.Point(60, 114);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(122, 33);
+            this.button1.TabIndex = 4;
+            this.button1.Text = "Delete";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(287, 195);
-            this.Controls.Add(this.ContentText);
-            this.Controls.Add(this.Lbl);
-            this.Controls.Add(this.DeleteBtn);
+            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.button1);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
@@ -85,9 +85,9 @@ namespace Button_DeleteContent
 
         #endregion
 
-        private System.Windows.Forms.TextBox ContentText;
-        private System.Windows.Forms.Label Lbl;
-        private System.Windows.Forms.Button DeleteBtn;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button button1;
     }
 }
 

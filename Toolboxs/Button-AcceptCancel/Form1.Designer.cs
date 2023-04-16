@@ -29,57 +29,57 @@ namespace Button_AcceptCancel
         /// </summary>
         private void InitializeComponent()
         {
-            this.PassTxt = new System.Windows.Forms.TextBox();
-            this.PassLbl = new System.Windows.Forms.Label();
-            this.CancelBtn = new System.Windows.Forms.Button();
-            this.OkBtn = new System.Windows.Forms.Button();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // PassTxt
+            // textBox1
             // 
-            this.PassTxt.Location = new System.Drawing.Point(90, 22);
-            this.PassTxt.Name = "PassTxt";
-            this.PassTxt.PasswordChar = '*';
-            this.PassTxt.Size = new System.Drawing.Size(120, 22);
-            this.PassTxt.TabIndex = 25;
-            this.PassTxt.Text = "Password";
+            this.textBox1.Location = new System.Drawing.Point(90, 22);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.PasswordChar = '*';
+            this.textBox1.Size = new System.Drawing.Size(120, 22);
+            this.textBox1.TabIndex = 25;
+            this.textBox1.Text = "Password";
             // 
-            // PassLbl
+            // label1
             // 
-            this.PassLbl.Location = new System.Drawing.Point(23, 22);
-            this.PassLbl.Name = "PassLbl";
-            this.PassLbl.Size = new System.Drawing.Size(58, 27);
-            this.PassLbl.TabIndex = 24;
-            this.PassLbl.Text = "Password :";
+            this.label1.Location = new System.Drawing.Point(23, 22);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(58, 27);
+            this.label1.TabIndex = 24;
+            this.label1.Text = "Password :";
             // 
-            // CancelBtn
+            // button2
             // 
-            this.CancelBtn.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.CancelBtn.Location = new System.Drawing.Point(119, 69);
-            this.CancelBtn.Name = "CancelBtn";
-            this.CancelBtn.Size = new System.Drawing.Size(90, 26);
-            this.CancelBtn.TabIndex = 23;
-            this.CancelBtn.Text = "İptal";
-            this.CancelBtn.Click += new System.EventHandler(this.CancelBtn_Click);
+            this.button2.DialogResult = System.Windows.Forms.DialogResult.Cancel;
+            this.button2.Location = new System.Drawing.Point(119, 69);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(90, 26);
+            this.button2.TabIndex = 23;
+            this.button2.Text = "İptal";
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
-            // OkBtn
+            // button1
             // 
-            this.OkBtn.Location = new System.Drawing.Point(23, 69);
-            this.OkBtn.Name = "OkBtn";
-            this.OkBtn.Size = new System.Drawing.Size(90, 26);
-            this.OkBtn.TabIndex = 22;
-            this.OkBtn.Text = "Tamam";
-            this.OkBtn.Click += new System.EventHandler(this.OkBtn_Click);
+            this.button1.Location = new System.Drawing.Point(23, 69);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(90, 26);
+            this.button1.TabIndex = 22;
+            this.button1.Text = "Tamam";
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(243, 129);
-            this.Controls.Add(this.PassTxt);
-            this.Controls.Add(this.PassLbl);
-            this.Controls.Add(this.CancelBtn);
-            this.Controls.Add(this.OkBtn);
+            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.button1);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -89,10 +89,10 @@ namespace Button_AcceptCancel
 
         #endregion
 
-        internal System.Windows.Forms.TextBox PassTxt;
-        internal System.Windows.Forms.Label PassLbl;
-        internal System.Windows.Forms.Button CancelBtn;
-        internal System.Windows.Forms.Button OkBtn;
+        internal System.Windows.Forms.TextBox textBox1;
+        internal System.Windows.Forms.Label label1;
+        internal System.Windows.Forms.Button button2;
+        internal System.Windows.Forms.Button button1;
     }
 }
 

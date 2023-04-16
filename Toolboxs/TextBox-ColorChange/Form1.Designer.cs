@@ -29,109 +29,109 @@ namespace TextBox_ColorChange
         /// </summary>
         private void InitializeComponent()
         {
-            this.Btn2 = new System.Windows.Forms.Button();
-            this.Btn1 = new System.Windows.Forms.Button();
-            this.Txt6 = new System.Windows.Forms.TextBox();
-            this.Txt5 = new System.Windows.Forms.TextBox();
-            this.Txt4 = new System.Windows.Forms.TextBox();
-            this.Txt3 = new System.Windows.Forms.TextBox();
-            this.Txt2 = new System.Windows.Forms.TextBox();
-            this.Txt1 = new System.Windows.Forms.TextBox();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
-            // Btn2
+            // button2
             // 
-            this.Btn2.Location = new System.Drawing.Point(279, 211);
-            this.Btn2.Name = "Btn2";
-            this.Btn2.Size = new System.Drawing.Size(168, 35);
-            this.Btn2.TabIndex = 15;
-            this.Btn2.Text = "Original";
-            this.Btn2.UseVisualStyleBackColor = true;
-            this.Btn2.Click += new System.EventHandler(this.Btn2_Click);
+            this.button2.Location = new System.Drawing.Point(279, 211);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(168, 35);
+            this.button2.TabIndex = 15;
+            this.button2.Text = "Original";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
-            // Btn1
+            // button1
             // 
-            this.Btn1.Location = new System.Drawing.Point(69, 211);
-            this.Btn1.Name = "Btn1";
-            this.Btn1.Size = new System.Drawing.Size(168, 35);
-            this.Btn1.TabIndex = 14;
-            this.Btn1.Text = "Random";
-            this.Btn1.UseVisualStyleBackColor = true;
-            this.Btn1.Click += new System.EventHandler(this.Btn1_Click);
+            this.button1.Location = new System.Drawing.Point(69, 211);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(168, 35);
+            this.button1.TabIndex = 14;
+            this.button1.Text = "Random";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // Txt6
+            // textBox6
             // 
-            this.Txt6.ForeColor = System.Drawing.Color.SeaGreen;
-            this.Txt6.Location = new System.Drawing.Point(279, 156);
-            this.Txt6.MaxLength = 20;
-            this.Txt6.Name = "Txt6";
-            this.Txt6.Size = new System.Drawing.Size(168, 26);
-            this.Txt6.TabIndex = 13;
-            this.Txt6.Text = "content";
+            this.textBox6.ForeColor = System.Drawing.Color.SeaGreen;
+            this.textBox6.Location = new System.Drawing.Point(279, 156);
+            this.textBox6.MaxLength = 20;
+            this.textBox6.Name = "textBox6";
+            this.textBox6.Size = new System.Drawing.Size(168, 26);
+            this.textBox6.TabIndex = 13;
+            this.textBox6.Text = "content";
             // 
-            // Txt5
+            // textBox5
             // 
-            this.Txt5.ForeColor = System.Drawing.Color.SeaGreen;
-            this.Txt5.Location = new System.Drawing.Point(69, 156);
-            this.Txt5.MaxLength = 20;
-            this.Txt5.Name = "Txt5";
-            this.Txt5.Size = new System.Drawing.Size(168, 26);
-            this.Txt5.TabIndex = 12;
-            this.Txt5.Text = "content";
+            this.textBox5.ForeColor = System.Drawing.Color.SeaGreen;
+            this.textBox5.Location = new System.Drawing.Point(69, 156);
+            this.textBox5.MaxLength = 20;
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(168, 26);
+            this.textBox5.TabIndex = 12;
+            this.textBox5.Text = "content";
             // 
-            // Txt4
+            // textBox4
             // 
-            this.Txt4.ForeColor = System.Drawing.Color.SeaGreen;
-            this.Txt4.Location = new System.Drawing.Point(279, 107);
-            this.Txt4.MaxLength = 20;
-            this.Txt4.Name = "Txt4";
-            this.Txt4.Size = new System.Drawing.Size(168, 26);
-            this.Txt4.TabIndex = 11;
-            this.Txt4.Text = "content";
+            this.textBox4.ForeColor = System.Drawing.Color.SeaGreen;
+            this.textBox4.Location = new System.Drawing.Point(279, 107);
+            this.textBox4.MaxLength = 20;
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(168, 26);
+            this.textBox4.TabIndex = 11;
+            this.textBox4.Text = "content";
             // 
-            // Txt3
+            // textBox3
             // 
-            this.Txt3.ForeColor = System.Drawing.Color.SeaGreen;
-            this.Txt3.Location = new System.Drawing.Point(69, 107);
-            this.Txt3.MaxLength = 20;
-            this.Txt3.Name = "Txt3";
-            this.Txt3.Size = new System.Drawing.Size(168, 26);
-            this.Txt3.TabIndex = 10;
-            this.Txt3.Text = "content";
+            this.textBox3.ForeColor = System.Drawing.Color.SeaGreen;
+            this.textBox3.Location = new System.Drawing.Point(69, 107);
+            this.textBox3.MaxLength = 20;
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(168, 26);
+            this.textBox3.TabIndex = 10;
+            this.textBox3.Text = "content";
             // 
-            // Txt2
+            // textBox2
             // 
-            this.Txt2.ForeColor = System.Drawing.Color.SeaGreen;
-            this.Txt2.Location = new System.Drawing.Point(279, 59);
-            this.Txt2.MaxLength = 20;
-            this.Txt2.Name = "Txt2";
-            this.Txt2.Size = new System.Drawing.Size(168, 26);
-            this.Txt2.TabIndex = 9;
-            this.Txt2.Text = "content";
+            this.textBox2.ForeColor = System.Drawing.Color.SeaGreen;
+            this.textBox2.Location = new System.Drawing.Point(279, 59);
+            this.textBox2.MaxLength = 20;
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(168, 26);
+            this.textBox2.TabIndex = 9;
+            this.textBox2.Text = "content";
             // 
-            // Txt1
+            // textBox1
             // 
-            this.Txt1.ForeColor = System.Drawing.Color.SeaGreen;
-            this.Txt1.Location = new System.Drawing.Point(69, 59);
-            this.Txt1.MaxLength = 20;
-            this.Txt1.Name = "Txt1";
-            this.Txt1.Size = new System.Drawing.Size(168, 26);
-            this.Txt1.TabIndex = 8;
-            this.Txt1.Text = "content";
+            this.textBox1.ForeColor = System.Drawing.Color.SeaGreen;
+            this.textBox1.Location = new System.Drawing.Point(69, 59);
+            this.textBox1.MaxLength = 20;
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(168, 26);
+            this.textBox1.TabIndex = 8;
+            this.textBox1.Text = "content";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(516, 304);
-            this.Controls.Add(this.Btn2);
-            this.Controls.Add(this.Btn1);
-            this.Controls.Add(this.Txt6);
-            this.Controls.Add(this.Txt5);
-            this.Controls.Add(this.Txt4);
-            this.Controls.Add(this.Txt3);
-            this.Controls.Add(this.Txt2);
-            this.Controls.Add(this.Txt1);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.textBox6);
+            this.Controls.Add(this.textBox5);
+            this.Controls.Add(this.textBox4);
+            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.textBox1);
             this.Font = new System.Drawing.Font("Courier New", 9.75F, System.Drawing.FontStyle.Bold);
             this.ForeColor = System.Drawing.Color.Brown;
             this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
@@ -145,14 +145,14 @@ namespace TextBox_ColorChange
 
         #endregion
 
-        private System.Windows.Forms.Button Btn2;
-        private System.Windows.Forms.Button Btn1;
-        private System.Windows.Forms.TextBox Txt6;
-        private System.Windows.Forms.TextBox Txt5;
-        private System.Windows.Forms.TextBox Txt4;
-        private System.Windows.Forms.TextBox Txt3;
-        private System.Windows.Forms.TextBox Txt2;
-        private System.Windows.Forms.TextBox Txt1;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox textBox1;
     }
 }
 

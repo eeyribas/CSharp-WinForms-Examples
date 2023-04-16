@@ -18,24 +18,24 @@ namespace Timer_ScrollingText
             InitializeComponent();
         }
 
-        private void StrtBtn_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
-            StrtBtn.Enabled = false;
-            StpBtn.Enabled = true;
-            Tmr.Start();
+            button1.Enabled = false;
+            button2.Enabled = true;
+            timer1.Start();
         }
 
-        private void StpBtn_Click(object sender, EventArgs e)
+        private void button2_Click(object sender, EventArgs e)
         {
-            StrtBtn.Enabled = true;
-            StpBtn.Enabled = false;
-            Tmr.Stop();
+            button1.Enabled = true;
+            button2.Enabled = false;
+            timer1.Stop();
         }
 
-        private void Tmr_Tick(object sender, EventArgs e)
+        private void timer1_Tick(object sender, EventArgs e)
         {
             lesson = lesson.Substring(1) + lesson.Substring(0, 1);
-            InfoLbl.Text = lesson;
+            label1.Text = lesson;
         }
     }
 }

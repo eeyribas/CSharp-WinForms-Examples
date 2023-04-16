@@ -23,15 +23,20 @@ namespace PictureSlide
 
         private void Btn_Click(object sender, EventArgs e)
         {
-            if (Fbd.ShowDialog() == DialogResult.OK)
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if (folderBrowserDialog1.ShowDialog() == DialogResult.OK)
             {
-                str = Directory.GetFiles(Fbd.SelectedPath, "*.jpg");
+                str = Directory.GetFiles(folderBrowserDialog1.SelectedPath, "*.jpg");
                 N = str.Length;
                 if (N > 0)
                 {
                     n = N - 1;
-                    Tmr.Interval = 100;
-                    Tmr.Enabled = true;
+                    timer1.Interval = 100;
+                    timer1.Enabled = true;
                 }
             }
         }
@@ -39,7 +44,7 @@ namespace PictureSlide
         private void Tmr_Tick(object sender, EventArgs e)
         {
             n = (++n) % N;
-            Pic.ImageLocation = str[n];        
+            pictureBox1.ImageLocation = str[n];        
             Text = str[n];
         }
     }

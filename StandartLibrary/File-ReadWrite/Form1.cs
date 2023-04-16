@@ -24,36 +24,36 @@ namespace File_ReadWrite
         private void Form1_Load(object sender, EventArgs e)
         {
             if (File.Exists(file))
-                Lbl.Text = "File exists.";
+                label1.Text = "File exists.";
             else 
-                Lbl.Text = "No file.";
+                label1.Text = "No file.";
         }
 
-        private void Btn1_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
-            Lbl.Text = "File exists.";
-            TextWriter f = File.AppendText(file);
-            f.WriteLine("CSharp Programming Language");
-            f.WriteLine("OK {0}", ++i);
-            f.Close();
+            label1.Text = "File exists.";
+            TextWriter textWriter = File.AppendText(file);
+            textWriter.WriteLine("CSharp Programming Language");
+            textWriter.WriteLine("OK {0}", ++i);
+            textWriter.Close();
         }
 
-        private void Btn2_Click(object sender, EventArgs e)
+        private void button2_Click(object sender, EventArgs e)
         {
-            if (!File.Exists(file)) 
+            if (!File.Exists(file))
                 return;
-            TextReader f = File.OpenText(file);
-            Txt.Text = f.ReadToEnd();
-            f.Close();
+            TextReader textReader = File.OpenText(file);
+            textBox1.Text = textReader.ReadToEnd();
+            textReader.Close();
         }
 
-        private void Btn3_Click(object sender, EventArgs e)
+        private void button3_Click(object sender, EventArgs e)
         {
             if (File.Exists(file))
             {
                 File.Delete(file);
-                Txt.Clear();
-                Lbl.Text = "No file.";
+                textBox1.Clear();
+                label1.Text = "No file.";
                 i = 0;
             }
         }

@@ -22,25 +22,27 @@ namespace ImageAlpha
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            bmp = new Bitmap(Pic.Image);
+            bmp = new Bitmap(pictureBox1.Image);
             M = bmp.Width;
             N = bmp.Height;
-            Hsc.Value = 100;
+            hScrollBar1.Value = 100;
         }
 
-        private void Hsc_ValueChanged(object sender, EventArgs e)
+        private void hScrollBar1_ValueChanged(object sender, EventArgs e)
         {
             Color c;
-            int k = Hsc.Value;
-            Lbl.Text = "Alpha = " + k.ToString();
-            for(int m = 0; m < M; m++) {
-                for(int n = 0; n < N; n++) {
+            int k = hScrollBar1.Value;
+            label1.Text = "Alpha = " + k.ToString();
+            for (int m = 0; m < M; m++)
+            {
+                for (int n = 0; n < N; n++)
+                {
                     c = bmp.GetPixel(m, n);
                     c = Color.FromArgb(k, c.R, c.G, c.B);
                     bmp.SetPixel(m, n, c);
                 }
             }
-            Pic.Image = bmp;
+            pictureBox1.Image = bmp;
         }
     }
 }

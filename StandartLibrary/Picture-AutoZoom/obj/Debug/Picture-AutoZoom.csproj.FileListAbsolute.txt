@@ -8,3 +8,13 @@ D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Picture-AutoZoom\ob
 D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Picture-AutoZoom\obj\Debug\Picture-AutoZoom.csproj.CoreCompileInputs.cache
 D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Picture-AutoZoom\obj\Debug\Picture-AutoZoom.exe
 D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Picture-AutoZoom\obj\Debug\Picture-AutoZoom.pdb
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\Picture-AutoZoom\bin\Debug\Picture-AutoZoom.exe.config
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\Picture-AutoZoom\bin\Debug\Picture-AutoZoom.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\Picture-AutoZoom\bin\Debug\Picture-AutoZoom.pdb
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\Picture-AutoZoom\obj\Debug\Picture-AutoZoom.csproj.AssemblyReference.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\Picture-AutoZoom\obj\Debug\Picture_AutoZoom.Form1.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\Picture-AutoZoom\obj\Debug\Picture_AutoZoom.Properties.Resources.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\Picture-AutoZoom\obj\Debug\Picture-AutoZoom.csproj.GenerateResource.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\Picture-AutoZoom\obj\Debug\Picture-AutoZoom.csproj.CoreCompileInputs.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\Picture-AutoZoom\obj\Debug\Picture-AutoZoom.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\Picture-AutoZoom\obj\Debug\Picture-AutoZoom.pdb

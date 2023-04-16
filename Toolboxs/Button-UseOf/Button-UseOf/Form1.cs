@@ -17,18 +17,18 @@ namespace Button_UseOf
             InitializeComponent();
         }
 
-        private void Btn1_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
-            Btn1.Enabled = false;
+            button1.Enabled = false;
         }
 
-        private void Btn2_Click(object sender, EventArgs e)
+        private void button2_Click(object sender, EventArgs e)
         {
-            if (!Btn1.Enabled)
-                Btn2.ForeColor = Color.Red;
+            if (!button1.Enabled)
+                button2.ForeColor = Color.Red;
             else
-                Btn2.ForeColor = Color.Black;
-            Btn1.Enabled = true;
+                button2.ForeColor = Color.Black;
+            button1.Enabled = true;
         }
     }
 }

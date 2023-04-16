@@ -30,12 +30,12 @@ namespace Bitmap_Graphics_ChangeImageColor
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            this.Tmr = new System.Windows.Forms.Timer(this.components);
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.SuspendLayout();
             // 
-            // Tmr
+            // timer1
             // 
-            this.Tmr.Tick += new System.EventHandler(this.Tmr_Tick);
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
             // Form1
             // 
@@ -57,7 +57,7 @@ namespace Bitmap_Graphics_ChangeImageColor
 
         #endregion
 
-        private System.Windows.Forms.Timer Tmr;
+        private System.Windows.Forms.Timer timer1;
     }
 }
 

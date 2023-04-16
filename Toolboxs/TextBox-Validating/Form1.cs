@@ -25,24 +25,30 @@ namespace TextBox_Validating
             StateCount();
         }
 
-        private void Txt1_Validating(object sender, CancelEventArgs e)
+        private void textBox1_Validating(object sender, CancelEventArgs e)
         {
             int inp;
-            if(int.TryParse(Txt1.Text, out inp)) {
+            if (int.TryParse(textBox1.Text, out inp))
+            {
                 count1 = 0;
-            } else {
+            }
+            else
+            {
                 count1++;
                 e.Cancel = true;
             }
             StateCount();
         }
 
-        private void Txt2_Validating(object sender, CancelEventArgs e)
+        private void textBox2_Validating(object sender, CancelEventArgs e)
         {
             double inp;
-            if(double.TryParse(Txt2.Text, out inp)) {
+            if (double.TryParse(textBox2.Text, out inp))
+            {
                 count2 = 0;
-            } else {
+            }
+            else
+            {
                 count2++;
                 e.Cancel = true;
             }

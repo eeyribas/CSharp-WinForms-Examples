@@ -21,48 +21,48 @@ namespace DateTime_Loop
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            Btn1.Text = "Count";
-            Btn2.Text = "Refresh";
-            Lbl1.Text = count.ToString();
-            Btn2_Click(sender, e);
+            button1.Text = "Count";
+            button2.Text = "Refresh";
+            label1.Text = count.ToString();
+            button2_Click(sender, e);
         }
 
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)
         {
-            if (Btn1.Text == "Stop")
+            if (button1.Text == "Stop")
             {
                 e.Cancel = true;
                 MessageBox.Show("Exit Loop First", "Info");
             }
         }
 
-        private void Btn1_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
-            Lbl1.Focus();
-            if (Btn1.Text == "Count") 
-                Btn1.Text = "Stop";
-            else 
-                Btn1.Text = "Count";
+            label1.Focus();
+            if (button1.Text == "Count")
+                button1.Text = "Stop";
+            else
+                button1.Text = "Count";
 
             t1 = DateTime.Now.Ticks;
             while (true)
             {
-                if (Btn1.Text == "Count") 
+                if (button1.Text == "Count")
                     return;
 
                 t2 = DateTime.Now.Ticks - t1;
                 if (t2 > 1000000)
                 {
                     t1 = DateTime.Now.Ticks;
-                    Lbl1.Text = (++count).ToString();
+                    label1.Text = (++count).ToString();
                     Application.DoEvents();
                 }
             }
         }
 
-        private void Btn2_Click(object sender, EventArgs e)
+        private void button2_Click(object sender, EventArgs e)
         {
-            Lbl2.Text = DateTime.Now.Ticks.ToString();
+            label2.Text = DateTime.Now.Ticks.ToString();
         }
     }
 }

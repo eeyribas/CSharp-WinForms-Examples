@@ -29,62 +29,62 @@ namespace ComboBox_SortingNumbers
         /// </summary>
         private void InitializeComponent()
         {
-            this.Cmb = new System.Windows.Forms.ComboBox();
-            this.Btn = new System.Windows.Forms.Button();
-            this.Lst2 = new System.Windows.Forms.ListBox();
-            this.Lst1 = new System.Windows.Forms.ListBox();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.listBox2 = new System.Windows.Forms.ListBox();
+            this.listBox1 = new System.Windows.Forms.ListBox();
             this.SuspendLayout();
             // 
-            // Cmb
+            // comboBox1
             // 
-            this.Cmb.FormattingEnabled = true;
-            this.Cmb.Items.AddRange(new object[] {
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
             "Small to large",
             "Large to small"});
-            this.Cmb.Location = new System.Drawing.Point(256, 47);
-            this.Cmb.Name = "Cmb";
-            this.Cmb.Size = new System.Drawing.Size(168, 26);
-            this.Cmb.TabIndex = 5;
-            this.Cmb.SelectedIndexChanged += new System.EventHandler(this.Cmb_SelectedIndexChanged);
-            this.Cmb.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Cmb_KeyPress);
+            this.comboBox1.Location = new System.Drawing.Point(256, 47);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(168, 26);
+            this.comboBox1.TabIndex = 5;
+            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
+            this.comboBox1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.comboBox1_KeyPress);
             // 
-            // Btn
+            // button1
             // 
-            this.Btn.Location = new System.Drawing.Point(49, 39);
-            this.Btn.Name = "Btn";
-            this.Btn.Size = new System.Drawing.Size(168, 39);
-            this.Btn.TabIndex = 4;
-            this.Btn.Text = "Random";
-            this.Btn.UseVisualStyleBackColor = true;
-            this.Btn.Click += new System.EventHandler(this.Btn_Click);
+            this.button1.Location = new System.Drawing.Point(49, 39);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(168, 39);
+            this.button1.TabIndex = 4;
+            this.button1.Text = "Random";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // Lst2
+            // listBox2
             // 
-            this.Lst2.FormattingEnabled = true;
-            this.Lst2.ItemHeight = 18;
-            this.Lst2.Location = new System.Drawing.Point(256, 84);
-            this.Lst2.Name = "Lst2";
-            this.Lst2.Size = new System.Drawing.Size(168, 472);
-            this.Lst2.TabIndex = 7;
+            this.listBox2.FormattingEnabled = true;
+            this.listBox2.ItemHeight = 18;
+            this.listBox2.Location = new System.Drawing.Point(256, 84);
+            this.listBox2.Name = "listBox2";
+            this.listBox2.Size = new System.Drawing.Size(168, 472);
+            this.listBox2.TabIndex = 7;
             // 
-            // Lst1
+            // listBox1
             // 
-            this.Lst1.FormattingEnabled = true;
-            this.Lst1.ItemHeight = 18;
-            this.Lst1.Location = new System.Drawing.Point(49, 84);
-            this.Lst1.Name = "Lst1";
-            this.Lst1.Size = new System.Drawing.Size(168, 472);
-            this.Lst1.TabIndex = 6;
+            this.listBox1.FormattingEnabled = true;
+            this.listBox1.ItemHeight = 18;
+            this.listBox1.Location = new System.Drawing.Point(49, 84);
+            this.listBox1.Name = "listBox1";
+            this.listBox1.Size = new System.Drawing.Size(168, 472);
+            this.listBox1.TabIndex = 6;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(472, 594);
-            this.Controls.Add(this.Cmb);
-            this.Controls.Add(this.Btn);
-            this.Controls.Add(this.Lst2);
-            this.Controls.Add(this.Lst1);
+            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.listBox2);
+            this.Controls.Add(this.listBox1);
             this.Font = new System.Drawing.Font("Courier New", 9.75F, System.Drawing.FontStyle.Bold);
             this.ForeColor = System.Drawing.Color.Tomato;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
@@ -99,10 +99,10 @@ namespace ComboBox_SortingNumbers
 
         #endregion
 
-        private System.Windows.Forms.ComboBox Cmb;
-        private System.Windows.Forms.Button Btn;
-        private System.Windows.Forms.ListBox Lst2;
-        private System.Windows.Forms.ListBox Lst1;
+        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.ListBox listBox2;
+        private System.Windows.Forms.ListBox listBox1;
     }
 }
 

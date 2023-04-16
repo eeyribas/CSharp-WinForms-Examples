@@ -21,35 +21,35 @@ namespace Queue_SequentialExample
             InitializeComponent();
         }
 
-        private void GiveOrderBtn_Click(object sender, EventArgs e)
-        {
-            try
-            {
-                count++;
-                queue.Enqueue(count); 
-                Lbl2.Text = queue.Count.ToString();
-            }
-            catch
-            {
-                MessageBox.Show("Error", "404", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-        }
-
-        private void CallBtn_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
             try
             {
                 if (queue.Count != 0)
                 {
                     queue.Dequeue();
-                    Lbl2.Text = queue.Count.ToString();
-                    CallLbl.Text = queue.Count.ToString();
-                    Lbl4.Text = queue.Peek().ToString();
+                    label3.Text = queue.Count.ToString();
+                    label1.Text = queue.Count.ToString();
+                    label5.Text = queue.Peek().ToString();
                 }
             }
             catch
             {
                 MessageBox.Show("Error", "303", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                count++;
+                queue.Enqueue(count);
+                label3.Text = queue.Count.ToString();
+            }
+            catch
+            {
+                MessageBox.Show("Error", "404", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
     }

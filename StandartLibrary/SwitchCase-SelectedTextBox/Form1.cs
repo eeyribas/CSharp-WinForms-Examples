@@ -17,52 +17,53 @@ namespace SwitchCase_SelectedTextBox
             InitializeComponent();
         }
 
-        void Txt_Enter(object sender, EventArgs e)
-        {
-            switch ((sender as Control).Name) {
-                case "Txt1": 
-                    Cmb.SelectedIndex = 0; 
-                    break;
-                case "Txt2": 
-                    Cmb.SelectedIndex = 1; 
-                    break;
-                case "Txt3": 
-                    Cmb.SelectedIndex = 2; 
-                    break;
-                case "Txt4": 
-                    Cmb.SelectedIndex = 3; 
-                    break;
-            }
-        }
-
         private void Cmb_SelectedIndexChanged(object sender, EventArgs e)
         {
-            switch(Cmb.SelectedIndex) {
+            switch(comboBox1.SelectedIndex) {
                 case 0: 
-                    Txt1.Focus(); 
-                    Txt1.SelectAll(); 
+                    textBox1.Focus(); 
+                    textBox1.SelectAll(); 
                     break;
                 case 1: 
-                    Txt2.Focus(); 
-                    Txt2.SelectAll(); 
+                    textBox2.Focus(); 
+                    textBox2.SelectAll(); 
                     break;
                 case 2:
-                    Txt3.Focus(); 
-                    Txt3.SelectAll(); 
+                    textBox3.Focus(); 
+                    textBox3.SelectAll(); 
                     break;
                 case 3: 
-                    Txt4.Focus(); 
-                    Txt4.SelectAll(); 
+                    textBox4.Focus(); 
+                    textBox4.SelectAll(); 
                     break;
             }
         }
 
-        private void Cmb_Enter(object sender, EventArgs e)
+        private void textBox_Enter(object sender, EventArgs e)
         {
-            Cmb.SelectedIndex = -1;
+            switch ((sender as Control).Name)
+            {
+                case "Txt1":
+                    comboBox1.SelectedIndex = 0;
+                    break;
+                case "Txt2":
+                    comboBox1.SelectedIndex = 1;
+                    break;
+                case "Txt3":
+                    comboBox1.SelectedIndex = 2;
+                    break;
+                case "Txt4":
+                    comboBox1.SelectedIndex = 3;
+                    break;
+            }
         }
 
-        private void Cmb_KeyPress(object sender, KeyPressEventArgs e)
+        private void comboBox1_Enter(object sender, EventArgs e)
+        {
+            comboBox1.SelectedIndex = -1;
+        }
+
+        private void comboBox1_KeyPress(object sender, KeyPressEventArgs e)
         {
             e.Handled = true;
         }

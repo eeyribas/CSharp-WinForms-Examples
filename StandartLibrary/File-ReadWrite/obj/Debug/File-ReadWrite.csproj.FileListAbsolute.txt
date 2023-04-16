@@ -8,3 +8,13 @@ D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\File-ReadWrite\obj\
 D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\File-ReadWrite\obj\Debug\File-ReadWrite.csproj.CoreCompileInputs.cache
 D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\File-ReadWrite\obj\Debug\File-ReadWrite.exe
 D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\File-ReadWrite\obj\Debug\File-ReadWrite.pdb
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\File-ReadWrite\bin\Debug\File-ReadWrite.exe.config
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\File-ReadWrite\bin\Debug\File-ReadWrite.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\File-ReadWrite\bin\Debug\File-ReadWrite.pdb
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\File-ReadWrite\obj\Debug\File-ReadWrite.csproj.AssemblyReference.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\File-ReadWrite\obj\Debug\File_ReadWrite.Form1.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\File-ReadWrite\obj\Debug\File_ReadWrite.Properties.Resources.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\File-ReadWrite\obj\Debug\File-ReadWrite.csproj.GenerateResource.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\File-ReadWrite\obj\Debug\File-ReadWrite.csproj.CoreCompileInputs.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\File-ReadWrite\obj\Debug\File-ReadWrite.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\File-ReadWrite\obj\Debug\File-ReadWrite.pdb

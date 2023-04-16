@@ -22,18 +22,7 @@ namespace Button_DeleteContent
         private void Form1_Load(object sender, EventArgs e)
         {
             KeyPreview = true;
-            DeleteBtn_Click(sender, e);
-        }
-
-        private void DeleteBtn_Click(object sender, EventArgs e)
-        {
-            ContentText.ResetText();
-            ContentText.Focus();
-        }
-
-        private void ContentText_TextChanged(object sender, EventArgs e)
-        {
-            Lbl.Text = ContentText.Text;
+            button1_Click(sender, e);
         }
 
         private void Form1_KeyPress(object sender, KeyPressEventArgs e)
@@ -51,6 +40,17 @@ namespace Button_DeleteContent
                 MessageBox.Show("Exit just by pressing\n the ESC key",
                     "Message Box");
             }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            textBox1.ResetText();
+            textBox1.Focus();
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+            label1.Text = textBox1.Text;
         }
     }
 }

@@ -7,3 +7,13 @@ D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\PictureGallery\obj\
 D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\PictureGallery\obj\Debug\Picture-Gallery.csproj.CoreCompileInputs.cache
 D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\PictureGallery\obj\Debug\PictureGallery.exe
 D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\PictureGallery\obj\Debug\PictureGallery.pdb
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\Picture-Gallery\bin\Debug\PictureGallery.exe.config
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\Picture-Gallery\bin\Debug\PictureGallery.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\Picture-Gallery\bin\Debug\PictureGallery.pdb
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\Picture-Gallery\obj\Debug\Picture-Gallery.csproj.AssemblyReference.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\Picture-Gallery\obj\Debug\PictureGallery.Form1.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\Picture-Gallery\obj\Debug\PictureGallery.Properties.Resources.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\Picture-Gallery\obj\Debug\Picture-Gallery.csproj.GenerateResource.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\Picture-Gallery\obj\Debug\Picture-Gallery.csproj.CoreCompileInputs.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\Picture-Gallery\obj\Debug\PictureGallery.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\Picture-Gallery\obj\Debug\PictureGallery.pdb

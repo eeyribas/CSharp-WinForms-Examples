@@ -8,3 +8,13 @@ D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Timer-SetText\Timer
 D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Timer-SetText\Timer-SetText\obj\Release\Timer-SetText.csproj.CoreCompileInputs.cache
 D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Timer-SetText\Timer-SetText\obj\Release\Timer-SetText.exe
 D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Timer-SetText\Timer-SetText\obj\Release\Timer-SetText.pdb
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\Timer-SetText\Timer-SetText\bin\Release\Timer-SetText.exe.config
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\Timer-SetText\Timer-SetText\bin\Release\Timer-SetText.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\Timer-SetText\Timer-SetText\bin\Release\Timer-SetText.pdb
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\Timer-SetText\Timer-SetText\obj\Release\Timer-SetText.csproj.AssemblyReference.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\Timer-SetText\Timer-SetText\obj\Release\Timer_SetText.Form1.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\Timer-SetText\Timer-SetText\obj\Release\Timer_SetText.Properties.Resources.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\Timer-SetText\Timer-SetText\obj\Release\Timer-SetText.csproj.GenerateResource.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\Timer-SetText\Timer-SetText\obj\Release\Timer-SetText.csproj.CoreCompileInputs.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\Timer-SetText\Timer-SetText\obj\Release\Timer-SetText.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\Timer-SetText\Timer-SetText\obj\Release\Timer-SetText.pdb

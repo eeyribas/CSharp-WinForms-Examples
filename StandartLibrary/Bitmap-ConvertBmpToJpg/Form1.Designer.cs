@@ -29,55 +29,55 @@ namespace Bitmap_ConvertBmpToJpg
         /// </summary>
         private void InitializeComponent()
         {
-            this.Lbl2 = new System.Windows.Forms.Label();
-            this.Lbl1 = new System.Windows.Forms.Label();
-            this.Btn = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // Lbl2
+            // label2
             // 
-            this.Lbl2.AutoSize = true;
-            this.Lbl2.Location = new System.Drawing.Point(75, 145);
-            this.Lbl2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.Lbl2.Name = "Lbl2";
-            this.Lbl2.Size = new System.Drawing.Size(366, 31);
-            this.Lbl2.TabIndex = 5;
-            this.Lbl2.Text = "Convert and Close Form";
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(75, 145);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(366, 31);
+            this.label2.TabIndex = 5;
+            this.label2.Text = "Convert and Close Form";
             // 
-            // Lbl1
+            // label1
             // 
-            this.Lbl1.AutoSize = true;
-            this.Lbl1.Location = new System.Drawing.Point(24, 80);
-            this.Lbl1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.Lbl1.Name = "Lbl1";
-            this.Lbl1.Size = new System.Drawing.Size(462, 31);
-            this.Lbl1.TabIndex = 4;
-            this.Lbl1.Text = "papaya.bmp  --->  papaya.jpg";
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(24, 80);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(462, 31);
+            this.label1.TabIndex = 4;
+            this.label1.Text = "papaya.bmp  --->  papaya.jpg";
             // 
-            // Btn
+            // button1
             // 
-            this.Btn.ForeColor = System.Drawing.Color.Green;
-            this.Btn.Location = new System.Drawing.Point(102, 209);
-            this.Btn.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.Btn.Name = "Btn";
-            this.Btn.Size = new System.Drawing.Size(271, 47);
-            this.Btn.TabIndex = 3;
-            this.Btn.Text = "Convert";
-            this.Btn.UseVisualStyleBackColor = true;
-            this.Btn.Click += new System.EventHandler(this.Btn_Click);
+            this.button1.ForeColor = System.Drawing.Color.Green;
+            this.button1.Location = new System.Drawing.Point(102, 209);
+            this.button1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(271, 47);
+            this.button1.TabIndex = 3;
+            this.button1.Text = "Convert";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(16F, 30F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(527, 336);
-            this.Controls.Add(this.Lbl2);
-            this.Controls.Add(this.Lbl1);
-            this.Controls.Add(this.Btn);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.button1);
             this.Font = new System.Drawing.Font("Courier New", 15.75F, System.Drawing.FontStyle.Bold);
             this.ForeColor = System.Drawing.Color.MediumVioletRed;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
-            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.Margin = new System.Windows.Forms.Padding(6);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
@@ -88,9 +88,9 @@ namespace Bitmap_ConvertBmpToJpg
 
         #endregion
 
-        private System.Windows.Forms.Label Lbl2;
-        private System.Windows.Forms.Label Lbl1;
-        private System.Windows.Forms.Button Btn;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button button1;
     }
 }
 

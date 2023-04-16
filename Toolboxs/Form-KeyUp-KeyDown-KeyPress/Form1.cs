@@ -19,14 +19,14 @@ namespace Form_KeyUp_KeyDown_KeyPress
 
         private void Form1_KeyPress(object sender, KeyPressEventArgs e)
         {
-            Lbl1.Text = "KeyPress"
+            label1.Text = "KeyPress"
                         + "\nKeyChar : " + e.KeyChar
                         + "\nHandled : " + e.Handled;
         }
 
         private void Form1_KeyDown(object sender, KeyEventArgs e)
         {
-            Lbl2.Text = "KeyDown"
+            label2.Text = "KeyDown"
                         + "\nAlt : " + e.Alt
                         + "\nControl : " + e.Control
                         + "\nShift : " + e.Shift
@@ -40,8 +40,8 @@ namespace Form_KeyUp_KeyDown_KeyPress
 
         private void Form1_KeyUp(object sender, KeyEventArgs e)
         {
-            Lbl1.ResetText();
-            Lbl2.ResetText();
+            label1.ResetText();
+            label2.ResetText();
         }
     }
 }

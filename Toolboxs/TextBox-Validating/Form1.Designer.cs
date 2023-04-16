@@ -29,55 +29,55 @@ namespace TextBox_Validating
         /// </summary>
         private void InitializeComponent()
         {
-            this.Lbl2 = new System.Windows.Forms.Label();
-            this.Lbl1 = new System.Windows.Forms.Label();
-            this.Txt2 = new System.Windows.Forms.TextBox();
-            this.Txt1 = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
-            // Lbl2
+            // label2
             // 
-            this.Lbl2.AutoSize = true;
-            this.Lbl2.Location = new System.Drawing.Point(286, 118);
-            this.Lbl2.Name = "Lbl2";
-            this.Lbl2.Size = new System.Drawing.Size(119, 20);
-            this.Lbl2.TabIndex = 7;
-            this.Lbl2.Text = "Real Number";
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(286, 118);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(119, 20);
+            this.label2.TabIndex = 7;
+            this.label2.Text = "Real Number";
             // 
-            // Lbl1
+            // label1
             // 
-            this.Lbl1.AutoSize = true;
-            this.Lbl1.Location = new System.Drawing.Point(286, 52);
-            this.Lbl1.Name = "Lbl1";
-            this.Lbl1.Size = new System.Drawing.Size(79, 20);
-            this.Lbl1.TabIndex = 6;
-            this.Lbl1.Text = "Integer";
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(286, 52);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(79, 20);
+            this.label1.TabIndex = 6;
+            this.label1.Text = "Integer";
             // 
-            // Txt2
+            // textBox2
             // 
-            this.Txt2.Location = new System.Drawing.Point(58, 115);
-            this.Txt2.Name = "Txt2";
-            this.Txt2.Size = new System.Drawing.Size(222, 26);
-            this.Txt2.TabIndex = 5;
-            this.Txt2.Validating += new System.ComponentModel.CancelEventHandler(this.Txt2_Validating);
+            this.textBox2.Location = new System.Drawing.Point(58, 115);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(222, 26);
+            this.textBox2.TabIndex = 5;
+            this.textBox2.Validating += new System.ComponentModel.CancelEventHandler(this.textBox2_Validating);
             // 
-            // Txt1
+            // textBox1
             // 
-            this.Txt1.Location = new System.Drawing.Point(58, 49);
-            this.Txt1.Name = "Txt1";
-            this.Txt1.Size = new System.Drawing.Size(222, 26);
-            this.Txt1.TabIndex = 4;
-            this.Txt1.Validating += new System.ComponentModel.CancelEventHandler(this.Txt1_Validating);
+            this.textBox1.Location = new System.Drawing.Point(58, 49);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(222, 26);
+            this.textBox1.TabIndex = 4;
+            this.textBox1.Validating += new System.ComponentModel.CancelEventHandler(this.textBox1_Validating);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(442, 191);
-            this.Controls.Add(this.Lbl2);
-            this.Controls.Add(this.Lbl1);
-            this.Controls.Add(this.Txt2);
-            this.Controls.Add(this.Txt1);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.textBox1);
             this.Font = new System.Drawing.Font("Courier New", 9.75F, System.Drawing.FontStyle.Bold);
             this.ForeColor = System.Drawing.Color.Peru;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
@@ -93,10 +93,10 @@ namespace TextBox_Validating
 
         #endregion
 
-        private System.Windows.Forms.Label Lbl2;
-        private System.Windows.Forms.Label Lbl1;
-        private System.Windows.Forms.TextBox Txt2;
-        private System.Windows.Forms.TextBox Txt1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox textBox1;
     }
 }
 

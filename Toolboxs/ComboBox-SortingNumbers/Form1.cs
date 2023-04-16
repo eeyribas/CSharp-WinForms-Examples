@@ -24,42 +24,42 @@ namespace ComboBox_SortingNumbers
         private void Form1_Load(object sender, EventArgs e)
         {
             random = new Random();
-            Btn_Click(sender, e);
+            button1_Click(sender, e);
         }
 
-        private void Btn_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
             n = random.Next(15, 31);
             a = new double[n];
             Text = "Array size = " + n.ToString();
-            Lst1.Items.Clear();
+            listBox1.Items.Clear();
             for (int i = 0; i < n; i++)
             {
                 a[i] = Math.Round(1e3 * random.NextDouble(), 6);
-                Lst1.Items.Add(a[i].ToString());
+                listBox1.Items.Add(a[i].ToString());
             }
-            Cmb_SelectedIndexChanged(sender, e);
+            comboBox1_SelectedIndexChanged(sender, e);
         }
 
-        private void Cmb_SelectedIndexChanged(object sender, EventArgs e)
+        private void comboBox1_KeyPress(object sender, KeyPressEventArgs e)
         {
-            if (Cmb.SelectedIndex < 0) 
+            e.Handled = true;
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (comboBox1.SelectedIndex < 0)
                 return;
 
             b = new double[n];
             Array.Copy(a, b, n);
             Array.Sort(b);
-            if (Cmb.SelectedIndex > 0) 
+            if (comboBox1.SelectedIndex > 0)
                 Array.Reverse(b);
 
-            Lst2.Items.Clear();
+            listBox2.Items.Clear();
             for (int i = 0; i < n; i++)
-                Lst2.Items.Add(b[i].ToString());
-        }
-
-        private void Cmb_KeyPress(object sender, KeyPressEventArgs e)
-        {
-            e.Handled = true;
+                listBox2.Items.Add(b[i].ToString());
         }
     }
 }

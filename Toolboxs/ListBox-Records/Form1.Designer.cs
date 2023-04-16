@@ -29,102 +29,102 @@ namespace ListBox_Records
         /// </summary>
         private void InitializeComponent()
         {
-            this.Btn4 = new System.Windows.Forms.Button();
-            this.Txt4 = new System.Windows.Forms.TextBox();
-            this.Txt3 = new System.Windows.Forms.TextBox();
-            this.Txt2 = new System.Windows.Forms.TextBox();
-            this.Lbl4 = new System.Windows.Forms.Label();
-            this.Lbl3 = new System.Windows.Forms.Label();
-            this.Lbl2 = new System.Windows.Forms.Label();
-            this.Lbl1 = new System.Windows.Forms.Label();
-            this.Lst = new System.Windows.Forms.ListBox();
-            this.Btn3 = new System.Windows.Forms.Button();
-            this.Btn2 = new System.Windows.Forms.Button();
-            this.Btn1 = new System.Windows.Forms.Button();
-            this.Txt1 = new System.Windows.Forms.TextBox();
+            this.button4 = new System.Windows.Forms.Button();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.listBox1 = new System.Windows.Forms.ListBox();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
-            // Btn4
+            // button4
             // 
-            this.Btn4.ForeColor = System.Drawing.Color.Indigo;
-            this.Btn4.Location = new System.Drawing.Point(44, 295);
-            this.Btn4.Name = "Btn4";
-            this.Btn4.Size = new System.Drawing.Size(128, 28);
-            this.Btn4.TabIndex = 32;
-            this.Btn4.Text = "Find";
-            this.Btn4.UseVisualStyleBackColor = true;
-            this.Btn4.Click += new System.EventHandler(this.Btn4_Click);
+            this.button4.ForeColor = System.Drawing.Color.Indigo;
+            this.button4.Location = new System.Drawing.Point(44, 295);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(128, 28);
+            this.button4.TabIndex = 32;
+            this.button4.Text = "Find";
+            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
-            // Txt4
+            // textBox4
             // 
-            this.Txt4.ForeColor = System.Drawing.Color.DarkGreen;
-            this.Txt4.Location = new System.Drawing.Point(44, 331);
-            this.Txt4.Name = "Txt4";
-            this.Txt4.Size = new System.Drawing.Size(200, 26);
-            this.Txt4.TabIndex = 34;
-            this.Txt4.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Txt24_KeyPress);
+            this.textBox4.ForeColor = System.Drawing.Color.DarkGreen;
+            this.textBox4.Location = new System.Drawing.Point(44, 331);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(200, 26);
+            this.textBox4.TabIndex = 34;
+            this.textBox4.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox4_KeyPress);
             // 
-            // Txt3
+            // textBox3
             // 
-            this.Txt3.ForeColor = System.Drawing.Color.DarkGreen;
-            this.Txt3.Location = new System.Drawing.Point(185, 298);
-            this.Txt3.MaxLength = 6;
-            this.Txt3.Name = "Txt3";
-            this.Txt3.Size = new System.Drawing.Size(59, 26);
-            this.Txt3.TabIndex = 33;
-            this.Txt3.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Txt3_KeyPress);
+            this.textBox3.ForeColor = System.Drawing.Color.DarkGreen;
+            this.textBox3.Location = new System.Drawing.Point(185, 298);
+            this.textBox3.MaxLength = 6;
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(59, 26);
+            this.textBox3.TabIndex = 33;
+            this.textBox3.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox3_KeyPress);
             // 
-            // Txt2
+            // textBox2
             // 
-            this.Txt2.ForeColor = System.Drawing.Color.DarkGreen;
-            this.Txt2.Location = new System.Drawing.Point(274, 49);
-            this.Txt2.Name = "Txt2";
-            this.Txt2.Size = new System.Drawing.Size(200, 26);
-            this.Txt2.TabIndex = 37;
-            this.Txt2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Txt24_KeyPress);
+            this.textBox2.ForeColor = System.Drawing.Color.DarkGreen;
+            this.textBox2.Location = new System.Drawing.Point(274, 49);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(200, 26);
+            this.textBox2.TabIndex = 37;
+            this.textBox2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox2_KeyPress);
             // 
-            // Lbl4
+            // label3
             // 
-            this.Lbl4.AutoSize = true;
-            this.Lbl4.Location = new System.Drawing.Point(282, 30);
-            this.Lbl4.Name = "Lbl4";
-            this.Lbl4.Size = new System.Drawing.Size(119, 20);
-            this.Lbl4.TabIndex = 35;
-            this.Lbl4.Text = "Selection =";
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(282, 30);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(119, 20);
+            this.label3.TabIndex = 35;
+            this.label3.Text = "Selection =";
             // 
-            // Lbl3
+            // label1
             // 
-            this.Lbl3.AutoSize = true;
-            this.Lbl3.Location = new System.Drawing.Point(45, 30);
-            this.Lbl3.Name = "Lbl3";
-            this.Lbl3.Size = new System.Drawing.Size(59, 20);
-            this.Lbl3.TabIndex = 27;
-            this.Lbl3.Text = "Sum =";
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(45, 30);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(59, 20);
+            this.label1.TabIndex = 27;
+            this.label1.Text = "Sum =";
             // 
-            // Lbl2
+            // label2
             // 
-            this.Lbl2.AutoSize = true;
-            this.Lbl2.Location = new System.Drawing.Point(110, 30);
-            this.Lbl2.Name = "Lbl2";
-            this.Lbl2.Size = new System.Drawing.Size(19, 20);
-            this.Lbl2.TabIndex = 28;
-            this.Lbl2.Text = "-";
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(110, 30);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(19, 20);
+            this.label2.TabIndex = 28;
+            this.label2.Text = "-";
             // 
-            // Lbl1
+            // label4
             // 
-            this.Lbl1.AutoSize = true;
-            this.Lbl1.Location = new System.Drawing.Point(407, 30);
-            this.Lbl1.Name = "Lbl1";
-            this.Lbl1.Size = new System.Drawing.Size(19, 20);
-            this.Lbl1.TabIndex = 36;
-            this.Lbl1.Text = "-";
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(407, 30);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(19, 20);
+            this.label4.TabIndex = 36;
+            this.label4.Text = "-";
             // 
-            // Lst
+            // listBox1
             // 
-            this.Lst.ForeColor = System.Drawing.Color.DarkGreen;
-            this.Lst.FormattingEnabled = true;
-            this.Lst.ItemHeight = 18;
-            this.Lst.Items.AddRange(new object[] {
+            this.listBox1.ForeColor = System.Drawing.Color.DarkGreen;
+            this.listBox1.FormattingEnabled = true;
+            this.listBox1.ItemHeight = 18;
+            this.listBox1.Items.AddRange(new object[] {
             "Hasan",
             "Ahmet",
             "Serdar",
@@ -133,73 +133,73 @@ namespace ListBox_Records
             "Ümit",
             "Nejat",
             "Kamil"});
-            this.Lst.Location = new System.Drawing.Point(274, 77);
-            this.Lst.Name = "Lst";
-            this.Lst.Size = new System.Drawing.Size(200, 274);
-            this.Lst.TabIndex = 38;
-            this.Lst.SelectedIndexChanged += new System.EventHandler(this.Lst_SelectedIndexChanged);
+            this.listBox1.Location = new System.Drawing.Point(274, 77);
+            this.listBox1.Name = "listBox1";
+            this.listBox1.Size = new System.Drawing.Size(200, 274);
+            this.listBox1.TabIndex = 38;
+            this.listBox1.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
             // 
-            // Btn3
+            // button3
             // 
-            this.Btn3.ForeColor = System.Drawing.Color.Indigo;
-            this.Btn3.Location = new System.Drawing.Point(44, 211);
-            this.Btn3.Name = "Btn3";
-            this.Btn3.Size = new System.Drawing.Size(200, 32);
-            this.Btn3.TabIndex = 31;
-            this.Btn3.Text = "Delete Selection";
-            this.Btn3.UseVisualStyleBackColor = true;
-            this.Btn3.Click += new System.EventHandler(this.Btn3_Click);
+            this.button3.ForeColor = System.Drawing.Color.Indigo;
+            this.button3.Location = new System.Drawing.Point(44, 211);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(200, 32);
+            this.button3.TabIndex = 31;
+            this.button3.Text = "Delete Selection";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
-            // Btn2
+            // button2
             // 
-            this.Btn2.ForeColor = System.Drawing.Color.Indigo;
-            this.Btn2.Location = new System.Drawing.Point(44, 154);
-            this.Btn2.Name = "Btn2";
-            this.Btn2.Size = new System.Drawing.Size(200, 32);
-            this.Btn2.TabIndex = 30;
-            this.Btn2.Text = "Delete All";
-            this.Btn2.UseVisualStyleBackColor = true;
-            this.Btn2.Click += new System.EventHandler(this.Btn2_Click);
+            this.button2.ForeColor = System.Drawing.Color.Indigo;
+            this.button2.Location = new System.Drawing.Point(44, 154);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(200, 32);
+            this.button2.TabIndex = 30;
+            this.button2.Text = "Delete All";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
-            // Btn1
+            // button1
             // 
-            this.Btn1.ForeColor = System.Drawing.Color.Indigo;
-            this.Btn1.Location = new System.Drawing.Point(44, 77);
-            this.Btn1.Name = "Btn1";
-            this.Btn1.Size = new System.Drawing.Size(200, 32);
-            this.Btn1.TabIndex = 29;
-            this.Btn1.Text = "Add";
-            this.Btn1.UseVisualStyleBackColor = true;
-            this.Btn1.Click += new System.EventHandler(this.Btn1_Click);
+            this.button1.ForeColor = System.Drawing.Color.Indigo;
+            this.button1.Location = new System.Drawing.Point(44, 77);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(200, 32);
+            this.button1.TabIndex = 29;
+            this.button1.Text = "Add";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // Txt1
+            // textBox1
             // 
-            this.Txt1.ForeColor = System.Drawing.Color.DarkGreen;
-            this.Txt1.Location = new System.Drawing.Point(44, 49);
-            this.Txt1.MaxLength = 24;
-            this.Txt1.Name = "Txt1";
-            this.Txt1.Size = new System.Drawing.Size(200, 26);
-            this.Txt1.TabIndex = 26;
-            this.Txt1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Txt1_KeyPress);
+            this.textBox1.ForeColor = System.Drawing.Color.DarkGreen;
+            this.textBox1.Location = new System.Drawing.Point(44, 49);
+            this.textBox1.MaxLength = 24;
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(200, 26);
+            this.textBox1.TabIndex = 26;
+            this.textBox1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox1_KeyPress);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(518, 386);
-            this.Controls.Add(this.Btn4);
-            this.Controls.Add(this.Txt4);
-            this.Controls.Add(this.Txt3);
-            this.Controls.Add(this.Txt2);
-            this.Controls.Add(this.Lbl4);
-            this.Controls.Add(this.Lbl3);
-            this.Controls.Add(this.Lbl2);
-            this.Controls.Add(this.Lbl1);
-            this.Controls.Add(this.Lst);
-            this.Controls.Add(this.Btn3);
-            this.Controls.Add(this.Btn2);
-            this.Controls.Add(this.Btn1);
-            this.Controls.Add(this.Txt1);
+            this.Controls.Add(this.button4);
+            this.Controls.Add(this.textBox4);
+            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.listBox1);
+            this.Controls.Add(this.button3);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.textBox1);
             this.Font = new System.Drawing.Font("Courier New", 9.75F, System.Drawing.FontStyle.Bold);
             this.ForeColor = System.Drawing.Color.Sienna;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
@@ -215,19 +215,19 @@ namespace ListBox_Records
 
         #endregion
 
-        private System.Windows.Forms.Button Btn4;
-        private System.Windows.Forms.TextBox Txt4;
-        private System.Windows.Forms.TextBox Txt3;
-        private System.Windows.Forms.TextBox Txt2;
-        private System.Windows.Forms.Label Lbl4;
-        private System.Windows.Forms.Label Lbl3;
-        private System.Windows.Forms.Label Lbl2;
-        private System.Windows.Forms.Label Lbl1;
-        private System.Windows.Forms.ListBox Lst;
-        private System.Windows.Forms.Button Btn3;
-        private System.Windows.Forms.Button Btn2;
-        private System.Windows.Forms.Button Btn1;
-        private System.Windows.Forms.TextBox Txt1;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.ListBox listBox1;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.TextBox textBox1;
     }
 }
 

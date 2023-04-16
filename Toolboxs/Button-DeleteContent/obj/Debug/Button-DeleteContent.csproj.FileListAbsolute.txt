@@ -8,3 +8,13 @@ D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Button-DeleteConten
 D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Button-DeleteContent\obj\Debug\Button-DeleteContent.csproj.CoreCompileInputs.cache
 D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Button-DeleteContent\obj\Debug\Button-DeleteContent.exe
 D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Button-DeleteContent\obj\Debug\Button-DeleteContent.pdb
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\Button-DeleteContent\bin\Debug\Button-DeleteContent.exe.config
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\Button-DeleteContent\bin\Debug\Button-DeleteContent.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\Button-DeleteContent\bin\Debug\Button-DeleteContent.pdb
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\Button-DeleteContent\obj\Debug\Button-DeleteContent.csproj.AssemblyReference.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\Button-DeleteContent\obj\Debug\Button_DeleteContent.Form1.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\Button-DeleteContent\obj\Debug\Button_DeleteContent.Properties.Resources.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\Button-DeleteContent\obj\Debug\Button-DeleteContent.csproj.GenerateResource.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\Button-DeleteContent\obj\Debug\Button-DeleteContent.csproj.CoreCompileInputs.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\Button-DeleteContent\obj\Debug\Button-DeleteContent.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\Button-DeleteContent\obj\Debug\Button-DeleteContent.pdb

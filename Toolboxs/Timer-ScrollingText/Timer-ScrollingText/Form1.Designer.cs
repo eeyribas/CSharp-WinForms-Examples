@@ -31,70 +31,70 @@ namespace Timer_ScrollingText
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            this.ScrollingTextLbl = new System.Windows.Forms.Label();
-            this.StpBtn = new System.Windows.Forms.Button();
-            this.StrtBtn = new System.Windows.Forms.Button();
-            this.InfoLbl = new System.Windows.Forms.Label();
-            this.Tmr = new System.Windows.Forms.Timer(this.components);
+            this.label2 = new System.Windows.Forms.Label();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.SuspendLayout();
             // 
-            // ScrollingTextLbl
+            // label2
             // 
-            this.ScrollingTextLbl.AutoSize = true;
-            this.ScrollingTextLbl.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.ScrollingTextLbl.Location = new System.Drawing.Point(216, 297);
-            this.ScrollingTextLbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.ScrollingTextLbl.Name = "ScrollingTextLbl";
-            this.ScrollingTextLbl.Size = new System.Drawing.Size(130, 25);
-            this.ScrollingTextLbl.TabIndex = 7;
-            this.ScrollingTextLbl.Text = "Scrolling Text";
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label2.Location = new System.Drawing.Point(216, 297);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(130, 25);
+            this.label2.TabIndex = 7;
+            this.label2.Text = "Scrolling Text";
             // 
-            // StpBtn
+            // button2
             // 
-            this.StpBtn.Location = new System.Drawing.Point(235, 377);
-            this.StpBtn.Margin = new System.Windows.Forms.Padding(4);
-            this.StpBtn.Name = "StpBtn";
-            this.StpBtn.Size = new System.Drawing.Size(100, 28);
-            this.StpBtn.TabIndex = 6;
-            this.StpBtn.Text = "Stop";
-            this.StpBtn.UseVisualStyleBackColor = true;
-            this.StpBtn.Click += new System.EventHandler(this.StpBtn_Click);
+            this.button2.Location = new System.Drawing.Point(235, 377);
+            this.button2.Margin = new System.Windows.Forms.Padding(4);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(100, 28);
+            this.button2.TabIndex = 6;
+            this.button2.Text = "Stop";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
-            // StrtBtn
+            // button1
             // 
-            this.StrtBtn.Location = new System.Drawing.Point(236, 341);
-            this.StrtBtn.Margin = new System.Windows.Forms.Padding(4);
-            this.StrtBtn.Name = "StrtBtn";
-            this.StrtBtn.Size = new System.Drawing.Size(100, 28);
-            this.StrtBtn.TabIndex = 5;
-            this.StrtBtn.Text = "Start";
-            this.StrtBtn.UseVisualStyleBackColor = true;
-            this.StrtBtn.Click += new System.EventHandler(this.StrtBtn_Click);
+            this.button1.Location = new System.Drawing.Point(236, 341);
+            this.button1.Margin = new System.Windows.Forms.Padding(4);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(100, 28);
+            this.button1.TabIndex = 5;
+            this.button1.Text = "Start";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // InfoLbl
+            // label1
             // 
-            this.InfoLbl.AutoSize = true;
-            this.InfoLbl.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.InfoLbl.Location = new System.Drawing.Point(13, 9);
-            this.InfoLbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.InfoLbl.Name = "InfoLbl";
-            this.InfoLbl.Size = new System.Drawing.Size(620, 200);
-            this.InfoLbl.TabIndex = 4;
-            this.InfoLbl.Text = resources.GetString("InfoLbl.Text");
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label1.Location = new System.Drawing.Point(13, 9);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(620, 200);
+            this.label1.TabIndex = 4;
+            this.label1.Text = resources.GetString("label1.Text");
             // 
-            // Tmr
+            // timer1
             // 
-            this.Tmr.Tick += new System.EventHandler(this.Tmr_Tick);
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(657, 418);
-            this.Controls.Add(this.ScrollingTextLbl);
-            this.Controls.Add(this.StpBtn);
-            this.Controls.Add(this.StrtBtn);
-            this.Controls.Add(this.InfoLbl);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.label1);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -104,11 +104,11 @@ namespace Timer_ScrollingText
 
         #endregion
 
-        private System.Windows.Forms.Label ScrollingTextLbl;
-        private System.Windows.Forms.Button StpBtn;
-        private System.Windows.Forms.Button StrtBtn;
-        private System.Windows.Forms.Label InfoLbl;
-        private System.Windows.Forms.Timer Tmr;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Timer timer1;
     }
 }
 

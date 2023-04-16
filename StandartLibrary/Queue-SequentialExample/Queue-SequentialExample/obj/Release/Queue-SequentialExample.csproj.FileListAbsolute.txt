@@ -18,3 +18,13 @@ D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Queue-SequentialExa
 D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Queue-SequentialExample\Queue-SequentialExample\obj\Release\Queue-SequentialExample.csproj.CoreCompileInputs.cache
 D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Queue-SequentialExample\Queue-SequentialExample\obj\Release\Queue-SequentialExample.exe
 D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Queue-SequentialExample\Queue-SequentialExample\obj\Release\Queue-SequentialExample.pdb
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\Queue-SequentialExample\Queue-SequentialExample\bin\Release\Queue-SequentialExample.exe.config
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\Queue-SequentialExample\Queue-SequentialExample\bin\Release\Queue-SequentialExample.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\Queue-SequentialExample\Queue-SequentialExample\bin\Release\Queue-SequentialExample.pdb
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\Queue-SequentialExample\Queue-SequentialExample\obj\Release\Queue-SequentialExample.csproj.AssemblyReference.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\Queue-SequentialExample\Queue-SequentialExample\obj\Release\Queue_SequentialExample.Form1.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\Queue-SequentialExample\Queue-SequentialExample\obj\Release\Queue_SequentialExample.Properties.Resources.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\Queue-SequentialExample\Queue-SequentialExample\obj\Release\Queue-SequentialExample.csproj.GenerateResource.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\Queue-SequentialExample\Queue-SequentialExample\obj\Release\Queue-SequentialExample.csproj.CoreCompileInputs.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\Queue-SequentialExample\Queue-SequentialExample\obj\Release\Queue-SequentialExample.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\Queue-SequentialExample\Queue-SequentialExample\obj\Release\Queue-SequentialExample.pdb

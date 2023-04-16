@@ -29,61 +29,61 @@ namespace TextBox_ChangeColor
         /// </summary>
         private void InitializeComponent()
         {
-            this.Txt2 = new System.Windows.Forms.TextBox();
-            this.Lbl2 = new System.Windows.Forms.Label();
-            this.Lbl1 = new System.Windows.Forms.Label();
-            this.Txt1 = new System.Windows.Forms.TextBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
-            // Txt2
+            // textBox2
             // 
-            this.Txt2.ForeColor = System.Drawing.Color.SeaGreen;
-            this.Txt2.Location = new System.Drawing.Point(75, 112);
-            this.Txt2.MaxLength = 25;
-            this.Txt2.Name = "Txt2";
-            this.Txt2.Size = new System.Drawing.Size(208, 22);
-            this.Txt2.TabIndex = 5;
-            this.Txt2.Text = "content-2";
-            this.Txt2.TextChanged += new System.EventHandler(this.Txt_Changed);
+            this.textBox2.ForeColor = System.Drawing.Color.SeaGreen;
+            this.textBox2.Location = new System.Drawing.Point(75, 112);
+            this.textBox2.MaxLength = 25;
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(208, 22);
+            this.textBox2.TabIndex = 5;
+            this.textBox2.Text = "content-2";
+            this.textBox2.TextChanged += new System.EventHandler(this.textBox_Changed);
             // 
-            // Lbl2
+            // label2
             // 
-            this.Lbl2.AutoSize = true;
-            this.Lbl2.Location = new System.Drawing.Point(289, 115);
-            this.Lbl2.Name = "Lbl2";
-            this.Lbl2.Size = new System.Drawing.Size(46, 17);
-            this.Lbl2.TabIndex = 7;
-            this.Lbl2.Text = "label2";
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(289, 115);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(46, 17);
+            this.label2.TabIndex = 7;
+            this.label2.Text = "label2";
             // 
-            // Lbl1
+            // label1
             // 
-            this.Lbl1.AutoSize = true;
-            this.Lbl1.Location = new System.Drawing.Point(289, 57);
-            this.Lbl1.Name = "Lbl1";
-            this.Lbl1.Size = new System.Drawing.Size(46, 17);
-            this.Lbl1.TabIndex = 6;
-            this.Lbl1.Text = "label1";
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(289, 57);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(46, 17);
+            this.label1.TabIndex = 6;
+            this.label1.Text = "label1";
             // 
-            // Txt1
+            // textBox1
             // 
-            this.Txt1.ForeColor = System.Drawing.Color.SeaGreen;
-            this.Txt1.Location = new System.Drawing.Point(75, 54);
-            this.Txt1.MaxLength = 25;
-            this.Txt1.Name = "Txt1";
-            this.Txt1.Size = new System.Drawing.Size(208, 22);
-            this.Txt1.TabIndex = 4;
-            this.Txt1.Text = "content-1";
-            this.Txt1.TextChanged += new System.EventHandler(this.Txt_Changed);
+            this.textBox1.ForeColor = System.Drawing.Color.SeaGreen;
+            this.textBox1.Location = new System.Drawing.Point(75, 54);
+            this.textBox1.MaxLength = 25;
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(208, 22);
+            this.textBox1.TabIndex = 4;
+            this.textBox1.Text = "content-1";
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox_Changed);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(410, 188);
-            this.Controls.Add(this.Txt2);
-            this.Controls.Add(this.Lbl2);
-            this.Controls.Add(this.Lbl1);
-            this.Controls.Add(this.Txt1);
+            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.textBox1);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
@@ -95,10 +95,10 @@ namespace TextBox_ChangeColor
 
         #endregion
 
-        private System.Windows.Forms.TextBox Txt2;
-        private System.Windows.Forms.Label Lbl2;
-        private System.Windows.Forms.Label Lbl1;
-        private System.Windows.Forms.TextBox Txt1;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox textBox1;
     }
 }
 

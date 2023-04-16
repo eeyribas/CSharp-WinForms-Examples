@@ -17,9 +17,9 @@ namespace Timer_SetText
             InitializeComponent();
         }
 
-        private void Tmr_Tick(object sender, EventArgs e)
+        private void timer1_Tick(object sender, EventArgs e)
         {
-            DateLbl.Text = "Date: " + DateTime.Now.ToString();
+            label2.Text = "Date: " + DateTime.Now.ToString();
         }
     }
 }

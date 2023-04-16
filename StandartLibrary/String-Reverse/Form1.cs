@@ -19,26 +19,26 @@ namespace String_Reverse
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            Txt1.ResetText();
+            textBox1.ResetText();
         }
 
-        private void Txt1_TextChanged(object sender, EventArgs e)
+        private void textBox1_TextChanged(object sender, EventArgs e)
         {
-            Txt2.Text = Txt1.Text;
+            textBox2.Text = textBox1.Text;
             string s = null;
-            int n = Txt1.TextLength;
-            Lbl1.Text = n.ToString();
+            int n = textBox1.TextLength;
+            label2.Text = n.ToString();
             for (int i = 0; i < n; i++)
-                s += Txt1.Text[n - 1 - i];
-            Txt3.Text = s;
+                s += textBox1.Text[n - 1 - i];
+            textBox3.Text = s;
         }
 
-        private void Txt1_KeyPress(object sender, KeyPressEventArgs e)
+        private void textBox1_KeyPress(object sender, KeyPressEventArgs e)
         {
             Console.Beep(1000, 25);
         }
 
-        private void Txt23_KeyPress(object sender, KeyPressEventArgs e)
+        private void textBox23_KeyPress(object sender, KeyPressEventArgs e)
         {
             e.Handled = true;
             Console.Beep(250, 25);

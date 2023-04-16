@@ -8,3 +8,13 @@ D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\DateTime-ReadTime\o
 D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\DateTime-ReadTime\obj\Debug\DateTime-ReadTime.csproj.CoreCompileInputs.cache
 D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\DateTime-ReadTime\obj\Debug\DateTime-ReadTime.exe
 D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\DateTime-ReadTime\obj\Debug\DateTime-ReadTime.pdb
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\DateTime-ReadTime\bin\Debug\DateTime-ReadTime.exe.config
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\DateTime-ReadTime\bin\Debug\DateTime-ReadTime.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\DateTime-ReadTime\bin\Debug\DateTime-ReadTime.pdb
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\DateTime-ReadTime\obj\Debug\DateTime-ReadTime.csproj.AssemblyReference.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\DateTime-ReadTime\obj\Debug\DateTime_ReadTime.Form1.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\DateTime-ReadTime\obj\Debug\DateTime_ReadTime.Properties.Resources.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\DateTime-ReadTime\obj\Debug\DateTime-ReadTime.csproj.GenerateResource.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\DateTime-ReadTime\obj\Debug\DateTime-ReadTime.csproj.CoreCompileInputs.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\DateTime-ReadTime\obj\Debug\DateTime-ReadTime.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\DateTime-ReadTime\obj\Debug\DateTime-ReadTime.pdb

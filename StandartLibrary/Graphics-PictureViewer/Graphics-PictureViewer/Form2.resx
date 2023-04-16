@@ -117,7 +117,7 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="Lbl1.Text" xml:space="preserve">
+  <data name="label1.Text" xml:space="preserve">
     <value>This form only supports the creation of a new form from the main form.
 created to show. This form is the Show() method
 was created using Difference between ShowDialog() and Show()

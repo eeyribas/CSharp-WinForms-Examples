@@ -19,20 +19,24 @@ namespace TextBox_ColorChange
             InitializeComponent();
         }
 
-        private void Btn1_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
-            foreach(Control kont in Controls) {
-                if (kont.GetType().Name == "TextBox") {
+            foreach (Control kont in Controls)
+            {
+                if (kont.GetType().Name == "TextBox")
+                {
                     kont.BackColor = SelectionColor();
                     kont.ForeColor = SelectionColor();
                 }
             }
         }
 
-        private void Btn2_Click(object sender, EventArgs e)
+        private void button2_Click(object sender, EventArgs e)
         {
-            foreach (Control kont in Controls) {
-                if (kont.GetType().Name == "TextBox") {
+            foreach (Control kont in Controls)
+            {
+                if (kont.GetType().Name == "TextBox")
+                {
                     kont.ResetBackColor();
                     kont.ResetForeColor();
                 }

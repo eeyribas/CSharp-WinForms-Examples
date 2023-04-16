@@ -29,61 +29,61 @@ namespace DateTime_Loop
         /// </summary>
         private void InitializeComponent()
         {
-            this.Btn2 = new System.Windows.Forms.Button();
-            this.Btn1 = new System.Windows.Forms.Button();
-            this.Lbl2 = new System.Windows.Forms.Label();
-            this.Lbl1 = new System.Windows.Forms.Label();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // Btn2
+            // button2
             // 
-            this.Btn2.ForeColor = System.Drawing.Color.DarkGreen;
-            this.Btn2.Location = new System.Drawing.Point(97, 100);
-            this.Btn2.Name = "Btn2";
-            this.Btn2.Size = new System.Drawing.Size(114, 45);
-            this.Btn2.TabIndex = 5;
-            this.Btn2.Text = "button2";
-            this.Btn2.UseVisualStyleBackColor = true;
-            this.Btn2.Click += new System.EventHandler(this.Btn2_Click);
+            this.button2.ForeColor = System.Drawing.Color.DarkGreen;
+            this.button2.Location = new System.Drawing.Point(97, 100);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(114, 45);
+            this.button2.TabIndex = 5;
+            this.button2.Text = "button2";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
-            // Btn1
+            // button1
             // 
-            this.Btn1.ForeColor = System.Drawing.Color.DarkGreen;
-            this.Btn1.Location = new System.Drawing.Point(97, 31);
-            this.Btn1.Name = "Btn1";
-            this.Btn1.Size = new System.Drawing.Size(114, 45);
-            this.Btn1.TabIndex = 4;
-            this.Btn1.Text = "button1";
-            this.Btn1.UseVisualStyleBackColor = true;
-            this.Btn1.Click += new System.EventHandler(this.Btn1_Click);
+            this.button1.ForeColor = System.Drawing.Color.DarkGreen;
+            this.button1.Location = new System.Drawing.Point(97, 31);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(114, 45);
+            this.button1.TabIndex = 4;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // Lbl2
+            // label2
             // 
-            this.Lbl2.AutoSize = true;
-            this.Lbl2.Location = new System.Drawing.Point(217, 114);
-            this.Lbl2.Name = "Lbl2";
-            this.Lbl2.Size = new System.Drawing.Size(69, 20);
-            this.Lbl2.TabIndex = 7;
-            this.Lbl2.Text = "label2";
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(217, 114);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(69, 20);
+            this.label2.TabIndex = 7;
+            this.label2.Text = "label2";
             // 
-            // Lbl1
+            // label1
             // 
-            this.Lbl1.AutoSize = true;
-            this.Lbl1.Location = new System.Drawing.Point(217, 45);
-            this.Lbl1.Name = "Lbl1";
-            this.Lbl1.Size = new System.Drawing.Size(69, 20);
-            this.Lbl1.TabIndex = 6;
-            this.Lbl1.Text = "label1";
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(217, 45);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(69, 20);
+            this.label1.TabIndex = 6;
+            this.label1.Text = "label1";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(382, 176);
-            this.Controls.Add(this.Btn2);
-            this.Controls.Add(this.Btn1);
-            this.Controls.Add(this.Lbl2);
-            this.Controls.Add(this.Lbl1);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Courier New", 9.75F, System.Drawing.FontStyle.Bold);
             this.ForeColor = System.Drawing.Color.Sienna;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
@@ -100,10 +100,10 @@ namespace DateTime_Loop
 
         #endregion
 
-        private System.Windows.Forms.Button Btn2;
-        private System.Windows.Forms.Button Btn1;
-        private System.Windows.Forms.Label Lbl2;
-        private System.Windows.Forms.Label Lbl1;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label1;
     }
 }
 

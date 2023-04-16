@@ -8,3 +8,13 @@ D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Bitmap-ConvertBmpTo
 D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Bitmap-ConvertBmpToJpg\obj\Debug\Bitmap-ConvertBmpToJpg.csproj.CoreCompileInputs.cache
 D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Bitmap-ConvertBmpToJpg\obj\Debug\Bitmap-ConvertBmpToJpg.exe
 D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Bitmap-ConvertBmpToJpg\obj\Debug\Bitmap-ConvertBmpToJpg.pdb
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\Bitmap-ConvertBmpToJpg\bin\Debug\Bitmap-ConvertBmpToJpg.exe.config
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\Bitmap-ConvertBmpToJpg\bin\Debug\Bitmap-ConvertBmpToJpg.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\Bitmap-ConvertBmpToJpg\bin\Debug\Bitmap-ConvertBmpToJpg.pdb
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\Bitmap-ConvertBmpToJpg\obj\Debug\Bitmap-ConvertBmpToJpg.csproj.AssemblyReference.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\Bitmap-ConvertBmpToJpg\obj\Debug\Bitmap_ConvertBmpToJpg.Form1.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\Bitmap-ConvertBmpToJpg\obj\Debug\Bitmap_ConvertBmpToJpg.Properties.Resources.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\Bitmap-ConvertBmpToJpg\obj\Debug\Bitmap-ConvertBmpToJpg.csproj.GenerateResource.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\Bitmap-ConvertBmpToJpg\obj\Debug\Bitmap-ConvertBmpToJpg.csproj.CoreCompileInputs.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\Bitmap-ConvertBmpToJpg\obj\Debug\Bitmap-ConvertBmpToJpg.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\Bitmap-ConvertBmpToJpg\obj\Debug\Bitmap-ConvertBmpToJpg.pdb

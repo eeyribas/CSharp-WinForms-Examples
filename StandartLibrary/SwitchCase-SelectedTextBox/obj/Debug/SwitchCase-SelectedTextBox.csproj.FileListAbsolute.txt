@@ -8,3 +8,13 @@ D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SwitchCase-Selected
 D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SwitchCase-SelectedTextBox\obj\Debug\SwitchCase-SelectedTextBox.csproj.CoreCompileInputs.cache
 D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SwitchCase-SelectedTextBox\obj\Debug\SwitchCase-SelectedTextBox.exe
 D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SwitchCase-SelectedTextBox\obj\Debug\SwitchCase-SelectedTextBox.pdb
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\SwitchCase-SelectedTextBox\bin\Debug\SwitchCase-SelectedTextBox.exe.config
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\SwitchCase-SelectedTextBox\bin\Debug\SwitchCase-SelectedTextBox.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\SwitchCase-SelectedTextBox\bin\Debug\SwitchCase-SelectedTextBox.pdb
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\SwitchCase-SelectedTextBox\obj\Debug\SwitchCase-SelectedTextBox.csproj.AssemblyReference.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\SwitchCase-SelectedTextBox\obj\Debug\SwitchCase_SelectedTextBox.Form1.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\SwitchCase-SelectedTextBox\obj\Debug\SwitchCase_SelectedTextBox.Properties.Resources.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\SwitchCase-SelectedTextBox\obj\Debug\SwitchCase-SelectedTextBox.csproj.GenerateResource.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\SwitchCase-SelectedTextBox\obj\Debug\SwitchCase-SelectedTextBox.csproj.CoreCompileInputs.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\SwitchCase-SelectedTextBox\obj\Debug\SwitchCase-SelectedTextBox.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\SwitchCase-SelectedTextBox\obj\Debug\SwitchCase-SelectedTextBox.pdb

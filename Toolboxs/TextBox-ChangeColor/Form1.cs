@@ -19,16 +19,16 @@ namespace TextBox_ChangeColor
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            Txt1.ResetText();
-            Txt2.ResetText();
+            textBox1.ResetText();
+            textBox2.ResetText();
         }
 
-        private void Txt_Changed(object sender, EventArgs e)
+        private void textBox_Changed(object sender, EventArgs e)
         {
-            Lbl1.Text = Txt1.TextLength.ToString();
-            Lbl2.Text = Txt2.TextLength.ToString();
-            Color color = (Txt1.Text == Txt2.Text) ? Color.Green : Color.Red;
-            for(int i = 0; i < Controls.Count; i++) 
+            label1.Text = textBox1.TextLength.ToString();
+            label2.Text = textBox2.TextLength.ToString();
+            Color color = (textBox1.Text == textBox2.Text) ? Color.Green : Color.Red;
+            for (int i = 0; i < Controls.Count; i++)
                 Controls[i].ForeColor = color;
         }
     }

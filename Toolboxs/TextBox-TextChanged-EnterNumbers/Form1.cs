@@ -19,26 +19,26 @@ namespace TextBox_TextChanged_EnterNumbers
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            ContentTxt.ResetText();
+            textBox1.ResetText();
         }
 
-        private void ContentTxt_TextChanged(object sender, EventArgs e)
+        private void textBox1_TextChanged(object sender, EventArgs e)
         {
             int i;
             double d;
             string s;
 
-            if (int.TryParse(ContentTxt.Text, out i)) 
+            if (int.TryParse(textBox1.Text, out i))
                 s = "Integer";
-            else 
+            else
                 s = "Not Integer";
-            Lbl1.Text = s + " ( " + i.ToString() + " ) ";
+            label1.Text = s + " ( " + i.ToString() + " ) ";
 
-            if (double.TryParse(ContentTxt.Text, out d)) 
+            if (double.TryParse(textBox1.Text, out d))
                 s = "Real Number";
-            else 
+            else
                 s = "Not Real Number";
-            Lbl2.Text = s + " ( " + d.ToString() + " ) ";
+            label2.Text = s + " ( " + d.ToString() + " ) ";
         }
     }
 }

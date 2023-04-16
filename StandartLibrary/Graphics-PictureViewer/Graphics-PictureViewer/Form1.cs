@@ -17,52 +17,52 @@ namespace Graphics_PictureViewer
             InitializeComponent();
         }
 
-        private void AddBtn_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
-            if (ofdResimGetir.ShowDialog() == DialogResult.OK)
+            if (openFileDialog1.ShowDialog() == DialogResult.OK)
             {
-                Pic.Image = Image.FromFile(ofdResimGetir.FileName);
+                pictureBox1.Image = Image.FromFile(openFileDialog1.FileName);
             }
         }
 
-        private void ExitBtn_Click(object sender, EventArgs e)
+        private void button2_Click(object sender, EventArgs e)
         {
             this.Close();
         }
 
-        private void DrawCornerBtn_Click(object sender, EventArgs e)
+        private void button3_Click(object sender, EventArgs e)
         {
             Graphics graphics = this.CreateGraphics();
-            graphics.Clear(SystemColors.Control); 
-            graphics.DrawRectangle(Pens.Blue, Pic.Left - 1, Pic.Top - 1, Pic.Width + 1, Pic.Height + 1);
-            graphics.Dispose(); 
+            graphics.Clear(SystemColors.Control);
+            graphics.DrawRectangle(Pens.Blue, pictureBox1.Left - 1, pictureBox1.Top - 1, pictureBox1.Width + 1, pictureBox1.Height + 1);
+            graphics.Dispose();
         }
 
-        private void ZoomInBtn_Click(object sender, EventArgs e)
-        {
-            this.Width = this.Width + 10;
-            this.Height = this.Height + 10;
-        }
-
-        private void ZoomOutBtn_Click(object sender, EventArgs e)
-        {
-            this.Width = this.Width - 10;
-            this.Height = this.Height - 10;
-        }
-
-        private void NewFormBtn_Click(object sender, EventArgs e)
+        private void button4_Click(object sender, EventArgs e)
         {
             Form2 form = new Form2();
             form.Show();
         }
 
-        private void Pic_MouseLeave(object sender, EventArgs e)
+        private void button5_Click(object sender, EventArgs e)
+        {
+            this.Width = this.Width + 10;
+            this.Height = this.Height + 10;
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            this.Width = this.Width - 10;
+            this.Height = this.Height - 10;
+        }
+
+        private void pictureBox1_MouseLeave(object sender, EventArgs e)
         {
             lblX.Text = "";
             lblY.Text = "";
         }
 
-        private void Pic_MouseMove(object sender, MouseEventArgs e)
+        private void pictureBox1_MouseMove(object sender, MouseEventArgs e)
         {
             lblX.Text = "X: " + e.X.ToString();
             lblY.Text = "Y: " + e.Y.ToString();

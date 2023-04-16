@@ -21,15 +21,15 @@ namespace Graphics_ScreenCapture
             InitializeComponent();
         }
 
-        private void CaptureBtn_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
-            if (ScreenshotSaveFileDlg.ShowDialog() == DialogResult.OK)
+            if (saveFileDialog1.ShowDialog() == DialogResult.OK)
             {
                 this.Hide();
                 bmpScreenshot = new Bitmap(Screen.PrimaryScreen.Bounds.Width, Screen.PrimaryScreen.Bounds.Height, PixelFormat.Format32bppArgb);
                 gfxScreenshot = Graphics.FromImage(bmpScreenshot);
                 gfxScreenshot.CopyFromScreen(Screen.PrimaryScreen.Bounds.X, Screen.PrimaryScreen.Bounds.Y, 0, 0, Screen.PrimaryScreen.Bounds.Size, CopyPixelOperation.SourceCopy);
-                bmpScreenshot.Save(ScreenshotSaveFileDlg.FileName, ImageFormat.Png);
+                bmpScreenshot.Save(saveFileDialog1.FileName, ImageFormat.Png);
                 this.Show();
             }
         }

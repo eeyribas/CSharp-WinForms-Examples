@@ -17,15 +17,15 @@ namespace Button_AcceptCancel
             InitializeComponent();
         }
 
-        private void OkBtn_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
-            if (PassTxt.Text == "1234")
+            if (textBox1.Text == "1234")
                 MessageBox.Show("Password = True");
             else
                 MessageBox.Show("Password = False");
         }
 
-        private void CancelBtn_Click(object sender, EventArgs e)
+        private void button2_Click(object sender, EventArgs e)
         {
             Close();
         }

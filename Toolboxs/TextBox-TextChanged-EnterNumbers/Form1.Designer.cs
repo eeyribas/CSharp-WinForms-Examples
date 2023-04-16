@@ -29,47 +29,47 @@ namespace TextBox_TextChanged_EnterNumbers
         /// </summary>
         private void InitializeComponent()
         {
-            this.Lbl2 = new System.Windows.Forms.Label();
-            this.Lbl1 = new System.Windows.Forms.Label();
-            this.ContentTxt = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
-            // Lbl2
+            // label2
             // 
-            this.Lbl2.AutoSize = true;
-            this.Lbl2.Location = new System.Drawing.Point(42, 76);
-            this.Lbl2.Name = "Lbl2";
-            this.Lbl2.Size = new System.Drawing.Size(46, 17);
-            this.Lbl2.TabIndex = 5;
-            this.Lbl2.Text = "label2";
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(42, 76);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(46, 17);
+            this.label2.TabIndex = 5;
+            this.label2.Text = "label2";
             // 
-            // Lbl1
+            // label1
             // 
-            this.Lbl1.AutoSize = true;
-            this.Lbl1.Location = new System.Drawing.Point(42, 42);
-            this.Lbl1.Name = "Lbl1";
-            this.Lbl1.Size = new System.Drawing.Size(46, 17);
-            this.Lbl1.TabIndex = 4;
-            this.Lbl1.Text = "label1";
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(42, 42);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(46, 17);
+            this.label1.TabIndex = 4;
+            this.label1.Text = "label1";
             // 
-            // ContentTxt
+            // textBox1
             // 
-            this.ContentTxt.ForeColor = System.Drawing.Color.SeaGreen;
-            this.ContentTxt.Location = new System.Drawing.Point(42, 110);
-            this.ContentTxt.Name = "ContentTxt";
-            this.ContentTxt.Size = new System.Drawing.Size(242, 22);
-            this.ContentTxt.TabIndex = 3;
-            this.ContentTxt.Text = "content";
-            this.ContentTxt.TextChanged += new System.EventHandler(this.ContentTxt_TextChanged);
+            this.textBox1.ForeColor = System.Drawing.Color.SeaGreen;
+            this.textBox1.Location = new System.Drawing.Point(42, 110);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(242, 22);
+            this.textBox1.TabIndex = 3;
+            this.textBox1.Text = "content";
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(369, 186);
-            this.Controls.Add(this.Lbl2);
-            this.Controls.Add(this.Lbl1);
-            this.Controls.Add(this.ContentTxt);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.textBox1);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -80,9 +80,9 @@ namespace TextBox_TextChanged_EnterNumbers
 
         #endregion
 
-        private System.Windows.Forms.Label Lbl2;
-        private System.Windows.Forms.Label Lbl1;
-        private System.Windows.Forms.TextBox ContentTxt;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox textBox1;
     }
 }
 

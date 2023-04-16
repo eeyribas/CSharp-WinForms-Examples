@@ -30,47 +30,47 @@ namespace PictureSlide
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            this.Pic = new System.Windows.Forms.PictureBox();
-            this.Btn = new System.Windows.Forms.Button();
-            this.Fbd = new System.Windows.Forms.FolderBrowserDialog();
-            this.Tmr = new System.Windows.Forms.Timer(this.components);
-            ((System.ComponentModel.ISupportInitialize)(this.Pic)).BeginInit();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.folderBrowserDialog1 = new System.Windows.Forms.FolderBrowserDialog();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
-            // Pic
+            // pictureBox1
             // 
-            this.Pic.Location = new System.Drawing.Point(12, 60);
-            this.Pic.Name = "Pic";
-            this.Pic.Size = new System.Drawing.Size(692, 440);
-            this.Pic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.Pic.TabIndex = 7;
-            this.Pic.TabStop = false;
+            this.pictureBox1.Location = new System.Drawing.Point(12, 60);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(692, 440);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 7;
+            this.pictureBox1.TabStop = false;
             // 
-            // Btn
+            // button1
             // 
-            this.Btn.Location = new System.Drawing.Point(271, 12);
-            this.Btn.Name = "Btn";
-            this.Btn.Size = new System.Drawing.Size(175, 42);
-            this.Btn.TabIndex = 6;
-            this.Btn.Text = "Selection File";
-            this.Btn.UseVisualStyleBackColor = true;
-            this.Btn.Click += new System.EventHandler(this.Btn_Click);
+            this.button1.Location = new System.Drawing.Point(271, 12);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(175, 42);
+            this.button1.TabIndex = 6;
+            this.button1.Text = "Selection File";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // Fbd
+            // folderBrowserDialog1
             // 
-            this.Fbd.SelectedPath = "D:\\";
+            this.folderBrowserDialog1.SelectedPath = "D:\\";
             // 
-            // Tmr
+            // timer1
             // 
-            this.Tmr.Tick += new System.EventHandler(this.Tmr_Tick);
+            this.timer1.Tick += new System.EventHandler(this.Tmr_Tick);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(716, 512);
-            this.Controls.Add(this.Pic);
-            this.Controls.Add(this.Btn);
+            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.button1);
             this.Font = new System.Drawing.Font("Courier New", 9.75F, System.Drawing.FontStyle.Bold);
             this.ForeColor = System.Drawing.Color.Sienna;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
@@ -78,17 +78,17 @@ namespace PictureSlide
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
-            ((System.ComponentModel.ISupportInitialize)(this.Pic)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.PictureBox Pic;
-        private System.Windows.Forms.Button Btn;
-        private System.Windows.Forms.FolderBrowserDialog Fbd;
-        private System.Windows.Forms.Timer Tmr;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.FolderBrowserDialog folderBrowserDialog1;
+        private System.Windows.Forms.Timer timer1;
     }
 }
 

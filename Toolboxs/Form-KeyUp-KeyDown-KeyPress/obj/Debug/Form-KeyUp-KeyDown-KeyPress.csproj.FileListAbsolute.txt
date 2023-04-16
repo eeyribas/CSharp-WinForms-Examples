@@ -8,3 +8,13 @@ D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Form-KeyUp-KeyDown-
 D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Form-KeyUp-KeyDown-KeyPress\obj\Debug\Form-KeyUp-KeyDown-KeyPress.csproj.CoreCompileInputs.cache
 D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Form-KeyUp-KeyDown-KeyPress\obj\Debug\Form-KeyUp-KeyDown-KeyPress.exe
 D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Form-KeyUp-KeyDown-KeyPress\obj\Debug\Form-KeyUp-KeyDown-KeyPress.pdb
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\Form-KeyUp-KeyDown-KeyPress\bin\Debug\Form-KeyUp-KeyDown-KeyPress.exe.config
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\Form-KeyUp-KeyDown-KeyPress\bin\Debug\Form-KeyUp-KeyDown-KeyPress.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\Form-KeyUp-KeyDown-KeyPress\bin\Debug\Form-KeyUp-KeyDown-KeyPress.pdb
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\Form-KeyUp-KeyDown-KeyPress\obj\Debug\Form-KeyUp-KeyDown-KeyPress.csproj.AssemblyReference.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\Form-KeyUp-KeyDown-KeyPress\obj\Debug\Form_KeyUp_KeyDown_KeyPress.Form1.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\Form-KeyUp-KeyDown-KeyPress\obj\Debug\Form_KeyUp_KeyDown_KeyPress.Properties.Resources.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\Form-KeyUp-KeyDown-KeyPress\obj\Debug\Form-KeyUp-KeyDown-KeyPress.csproj.GenerateResource.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\Form-KeyUp-KeyDown-KeyPress\obj\Debug\Form-KeyUp-KeyDown-KeyPress.csproj.CoreCompileInputs.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\Form-KeyUp-KeyDown-KeyPress\obj\Debug\Form-KeyUp-KeyDown-KeyPress.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\Form-KeyUp-KeyDown-KeyPress\obj\Debug\Form-KeyUp-KeyDown-KeyPress.pdb

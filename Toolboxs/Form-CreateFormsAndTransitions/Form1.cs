@@ -20,7 +20,7 @@ namespace Form_CreateFormsAndTransitions
             InitializeComponent();
         }
 
-        private void Btn1_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
             if (frm == null || frm.IsDisposed)
             {
@@ -33,7 +33,7 @@ namespace Form_CreateFormsAndTransitions
             }
         }
 
-        private void Btn2_Click(object sender, EventArgs e)
+        private void button2_Click(object sender, EventArgs e)
         {
             x++;
             Form3 form = new Form3();

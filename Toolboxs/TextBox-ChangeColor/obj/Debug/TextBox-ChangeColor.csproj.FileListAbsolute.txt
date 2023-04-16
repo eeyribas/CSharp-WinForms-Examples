@@ -8,3 +8,13 @@ D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\TextBox-ChangeColor
 D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\TextBox-ChangeColor\obj\Debug\TextBox-ChangeColor.csproj.CoreCompileInputs.cache
 D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\TextBox-ChangeColor\obj\Debug\TextBox-ChangeColor.exe
 D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\TextBox-ChangeColor\obj\Debug\TextBox-ChangeColor.pdb
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\TextBox-ChangeColor\bin\Debug\TextBox-ChangeColor.exe.config
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\TextBox-ChangeColor\bin\Debug\TextBox-ChangeColor.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\TextBox-ChangeColor\bin\Debug\TextBox-ChangeColor.pdb
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\TextBox-ChangeColor\obj\Debug\TextBox-ChangeColor.csproj.AssemblyReference.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\TextBox-ChangeColor\obj\Debug\TextBox_ChangeColor.Form1.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\TextBox-ChangeColor\obj\Debug\TextBox_ChangeColor.Properties.Resources.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\TextBox-ChangeColor\obj\Debug\TextBox-ChangeColor.csproj.GenerateResource.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\TextBox-ChangeColor\obj\Debug\TextBox-ChangeColor.csproj.CoreCompileInputs.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\TextBox-ChangeColor\obj\Debug\TextBox-ChangeColor.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\TextBox-ChangeColor\obj\Debug\TextBox-ChangeColor.pdb

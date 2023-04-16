@@ -8,3 +8,13 @@ D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\TextBox-TextChanged
 D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\TextBox-TextChanged-EnterNumbers\obj\Debug\TextBox-TextChanged-EnterNumbers.csproj.CoreCompileInputs.cache
 D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\TextBox-TextChanged-EnterNumbers\obj\Debug\TextBox-TextChanged-EnterNumbers.exe
 D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\TextBox-TextChanged-EnterNumbers\obj\Debug\TextBox-TextChanged-EnterNumbers.pdb
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\TextBox-TextChanged-EnterNumbers\bin\Debug\TextBox-TextChanged-EnterNumbers.exe.config
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\TextBox-TextChanged-EnterNumbers\bin\Debug\TextBox-TextChanged-EnterNumbers.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\TextBox-TextChanged-EnterNumbers\bin\Debug\TextBox-TextChanged-EnterNumbers.pdb
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\TextBox-TextChanged-EnterNumbers\obj\Debug\TextBox-TextChanged-EnterNumbers.csproj.AssemblyReference.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\TextBox-TextChanged-EnterNumbers\obj\Debug\TextBox_TextChanged_EnterNumbers.Form1.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\TextBox-TextChanged-EnterNumbers\obj\Debug\TextBox_TextChanged_EnterNumbers.Properties.Resources.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\TextBox-TextChanged-EnterNumbers\obj\Debug\TextBox-TextChanged-EnterNumbers.csproj.GenerateResource.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\TextBox-TextChanged-EnterNumbers\obj\Debug\TextBox-TextChanged-EnterNumbers.csproj.CoreCompileInputs.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\TextBox-TextChanged-EnterNumbers\obj\Debug\TextBox-TextChanged-EnterNumbers.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\TextBox-TextChanged-EnterNumbers\obj\Debug\TextBox-TextChanged-EnterNumbers.pdb

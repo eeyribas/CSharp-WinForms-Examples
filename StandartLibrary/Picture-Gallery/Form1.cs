@@ -21,27 +21,27 @@ namespace PictureGallery
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            Btn_Click(sender, e);
+            Button_Click(sender, e);
         }
 
-        void Btn_Click(object sender, EventArgs e)
+        void Button_Click(object sender, EventArgs e)
         {
-            if (sender == Btn1) 
+            if (sender == button1) 
                 k = 0;
-            else if (sender == Btn2) 
+            else if (sender == button2) 
                 k = (k + 9) % 10;
-            else if (sender == Btn3) 
+            else if (sender == button3) 
                 k = (k + 1) % 10;
-            else if (sender == Btn4) 
+            else if (sender == button4) 
                 k = 9;
             string s = string.Format("Rsm{0}", k);
-            Lbl.Text = s + ".jpg";
-            Pic.Image = (Image)(Properties.Resources.ResourceManager.GetObject(s));
+            label1.Text = s + ".jpg";
+            pictureBox1.Image = (Image)(Properties.Resources.ResourceManager.GetObject(s));
         }
 
-        private void Pic_MouseMove(object sender, MouseEventArgs e)
+        private void pictureBox1_MouseMove(object sender, MouseEventArgs e)
         {
-            Color color = ((Bitmap)Pic.Image).GetPixel(e.X, e.Y);
+            Color color = ((Bitmap)pictureBox1.Image).GetPixel(e.X, e.Y);
             Text = "Alpha:" + color.A.ToString()
                  + " / Red:" + color.R.ToString()
                  + " / Green:" + color.G.ToString()
