@@ -1,0 +1,10 @@
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\ConvertDecimalToHexaDecimal\bin\Debug\ConvertDecimalToHexaDecimal.exe.config
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\ConvertDecimalToHexaDecimal\bin\Debug\ConvertDecimalToHexaDecimal.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\ConvertDecimalToHexaDecimal\bin\Debug\ConvertDecimalToHexaDecimal.pdb
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\ConvertDecimalToHexaDecimal\obj\Debug\ConvertDecimalToHexaDecimal.csproj.AssemblyReference.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\ConvertDecimalToHexaDecimal\obj\Debug\ConvertDecimalToHexaDecimal.Form1.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\ConvertDecimalToHexaDecimal\obj\Debug\ConvertDecimalToHexaDecimal.Properties.Resources.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\ConvertDecimalToHexaDecimal\obj\Debug\ConvertDecimalToHexaDecimal.csproj.GenerateResource.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\ConvertDecimalToHexaDecimal\obj\Debug\ConvertDecimalToHexaDecimal.csproj.CoreCompileInputs.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\ConvertDecimalToHexaDecimal\obj\Debug\ConvertDecimalToHexaDecimal.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\ConvertDecimalToHexaDecimal\obj\Debug\ConvertDecimalToHexaDecimal.pdb

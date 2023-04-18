@@ -1,0 +1,10 @@
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\Point-DrawStar\bin\Debug\Point-DrawStar.exe.config
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\Point-DrawStar\bin\Debug\Point-DrawStar.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\Point-DrawStar\bin\Debug\Point-DrawStar.pdb
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\Point-DrawStar\obj\Debug\Point-DrawStar.csproj.AssemblyReference.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\Point-DrawStar\obj\Debug\Point_DrawStar.Form1.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\Point-DrawStar\obj\Debug\Point_DrawStar.Properties.Resources.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\Point-DrawStar\obj\Debug\Point-DrawStar.csproj.GenerateResource.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\Point-DrawStar\obj\Debug\Point-DrawStar.csproj.CoreCompileInputs.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\Point-DrawStar\obj\Debug\Point-DrawStar.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\Point-DrawStar\obj\Debug\Point-DrawStar.pdb

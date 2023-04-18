@@ -1,0 +1,10 @@
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\DrawHouse\obj\Debug\DrawHouse.csproj.AssemblyReference.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\DrawHouse\obj\Debug\DrawHouse.Form1.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\DrawHouse\obj\Debug\DrawHouse.Properties.Resources.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\DrawHouse\obj\Debug\DrawHouse.csproj.GenerateResource.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\DrawHouse\obj\Debug\DrawHouse.csproj.CoreCompileInputs.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\DrawHouse\bin\Debug\DrawHouse.exe.config
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\DrawHouse\bin\Debug\DrawHouse.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\DrawHouse\bin\Debug\DrawHouse.pdb
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\DrawHouse\obj\Debug\DrawHouse.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\DrawHouse\obj\Debug\DrawHouse.pdb

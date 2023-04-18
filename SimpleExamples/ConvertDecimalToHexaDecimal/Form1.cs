@@ -1,0 +1,32 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace ConvertDecimalToHexaDecimal
+{
+    public partial class Form1 : Form
+    {
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            long s = long.Parse(textBox1.Text);
+            textBox2.Text = s.ToString("X16");
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            long s = long.Parse(textBox2.Text, System.Globalization.NumberStyles.HexNumber);
+            textBox1.Text = s.ToString();
+        }
+    }
+}

@@ -1,0 +1,10 @@
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\DrawGraphics\bin\Debug\DrawGraphics.exe.config
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\DrawGraphics\bin\Debug\DrawGraphics.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\DrawGraphics\bin\Debug\DrawGraphics.pdb
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\DrawGraphics\obj\Debug\DrawGraphics.csproj.AssemblyReference.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\DrawGraphics\obj\Debug\DrawGraphics.Form1.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\DrawGraphics\obj\Debug\DrawGraphics.Properties.Resources.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\DrawGraphics\obj\Debug\DrawGraphics.csproj.GenerateResource.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\DrawGraphics\obj\Debug\DrawGraphics.csproj.CoreCompileInputs.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\DrawGraphics\obj\Debug\DrawGraphics.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\DrawGraphics\obj\Debug\DrawGraphics.pdb

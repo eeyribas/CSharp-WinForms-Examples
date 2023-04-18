@@ -1,0 +1,11 @@
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\DİalogResult-ExitForm\bin\Debug\DİalogResult-ExitForm.exe.config
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\DİalogResult-ExitForm\bin\Debug\DİalogResult-ExitForm.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\DİalogResult-ExitForm\bin\Debug\DİalogResult-ExitForm.pdb
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\DİalogResult-ExitForm\obj\Debug\DİalogResult-ExitForm.csproj.AssemblyReference.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\DİalogResult-ExitForm\obj\Debug\DİalogResult_ExitForm.Form1.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\DİalogResult-ExitForm\obj\Debug\DİalogResult_ExitForm.Form2.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\DİalogResult-ExitForm\obj\Debug\DİalogResult_ExitForm.Properties.Resources.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\DİalogResult-ExitForm\obj\Debug\DİalogResult-ExitForm.csproj.GenerateResource.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\DİalogResult-ExitForm\obj\Debug\DİalogResult-ExitForm.csproj.CoreCompileInputs.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\DİalogResult-ExitForm\obj\Debug\DİalogResult-ExitForm.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\DİalogResult-ExitForm\obj\Debug\DİalogResult-ExitForm.pdb

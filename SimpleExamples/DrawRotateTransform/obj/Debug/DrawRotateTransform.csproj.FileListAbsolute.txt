@@ -1,0 +1,10 @@
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\DrawRotateTransform\bin\Debug\DrawRotateTransform.exe.config
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\DrawRotateTransform\bin\Debug\DrawRotateTransform.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\DrawRotateTransform\bin\Debug\DrawRotateTransform.pdb
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\DrawRotateTransform\obj\Debug\DrawRotateTransform.csproj.AssemblyReference.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\DrawRotateTransform\obj\Debug\DrawRotateTransform.Form1.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\DrawRotateTransform\obj\Debug\DrawRotateTransform.Properties.Resources.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\DrawRotateTransform\obj\Debug\DrawRotateTransform.csproj.GenerateResource.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\DrawRotateTransform\obj\Debug\DrawRotateTransform.csproj.CoreCompileInputs.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\DrawRotateTransform\obj\Debug\DrawRotateTransform.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\DrawRotateTransform\obj\Debug\DrawRotateTransform.pdb

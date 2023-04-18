@@ -1,0 +1,10 @@
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\DataGridView-CreateRowsAndColumns\bin\Debug\DataGridView-CreateRowsAndColumns.exe.config
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\DataGridView-CreateRowsAndColumns\bin\Debug\DataGridView-CreateRowsAndColumns.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\DataGridView-CreateRowsAndColumns\bin\Debug\DataGridView-CreateRowsAndColumns.pdb
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\DataGridView-CreateRowsAndColumns\obj\Debug\DataGridView-CreateRowsAndColumns.csproj.AssemblyReference.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\DataGridView-CreateRowsAndColumns\obj\Debug\DataGridView_CreateRowsAndColumns.Form1.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\DataGridView-CreateRowsAndColumns\obj\Debug\DataGridView_CreateRowsAndColumns.Properties.Resources.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\DataGridView-CreateRowsAndColumns\obj\Debug\DataGridView-CreateRowsAndColumns.csproj.GenerateResource.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\DataGridView-CreateRowsAndColumns\obj\Debug\DataGridView-CreateRowsAndColumns.csproj.CoreCompileInputs.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\DataGridView-CreateRowsAndColumns\obj\Debug\DataGridView-CreateRowsAndColumns.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\DataGridView-CreateRowsAndColumns\obj\Debug\DataGridView-CreateRowsAndColumns.pdb

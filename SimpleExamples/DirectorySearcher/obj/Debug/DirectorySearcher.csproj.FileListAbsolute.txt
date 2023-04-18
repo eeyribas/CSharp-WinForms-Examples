@@ -1,0 +1,10 @@
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\DirectorySearcher\bin\Debug\DirectorySearcher.exe.config
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\DirectorySearcher\bin\Debug\DirectorySearcher.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\DirectorySearcher\bin\Debug\DirectorySearcher.pdb
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\DirectorySearcher\obj\Debug\DirectorySearcher.csproj.AssemblyReference.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\DirectorySearcher\obj\Debug\DirectorySearcher.Form1.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\DirectorySearcher\obj\Debug\DirectorySearcher.Properties.Resources.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\DirectorySearcher\obj\Debug\DirectorySearcher.csproj.GenerateResource.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\DirectorySearcher\obj\Debug\DirectorySearcher.csproj.CoreCompileInputs.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\DirectorySearcher\obj\Debug\DirectorySearcher.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\DirectorySearcher\obj\Debug\DirectorySearcher.pdb

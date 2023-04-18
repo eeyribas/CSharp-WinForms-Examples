@@ -1,0 +1,10 @@
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\Graphics-Pen-DrawClock\bin\Debug\Graphics-Pen-DrawClock.exe.config
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\Graphics-Pen-DrawClock\bin\Debug\Graphics-Pen-DrawClock.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\Graphics-Pen-DrawClock\bin\Debug\Graphics-Pen-DrawClock.pdb
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\Graphics-Pen-DrawClock\obj\Debug\Graphics-Pen-DrawClock.csproj.AssemblyReference.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\Graphics-Pen-DrawClock\obj\Debug\Graphics_Pen_DrawClock.Form1.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\Graphics-Pen-DrawClock\obj\Debug\Graphics_Pen_DrawClock.Properties.Resources.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\Graphics-Pen-DrawClock\obj\Debug\Graphics-Pen-DrawClock.csproj.GenerateResource.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\Graphics-Pen-DrawClock\obj\Debug\Graphics-Pen-DrawClock.csproj.CoreCompileInputs.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\Graphics-Pen-DrawClock\obj\Debug\Graphics-Pen-DrawClock.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\Graphics-Pen-DrawClock\obj\Debug\Graphics-Pen-DrawClock.pdb
