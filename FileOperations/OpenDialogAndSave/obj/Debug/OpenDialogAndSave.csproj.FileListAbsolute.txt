@@ -1,0 +1,10 @@
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\FileOperations\OpenDialogAndSave\bin\Debug\OpenDialogAndSave.exe.config
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\FileOperations\OpenDialogAndSave\bin\Debug\OpenDialogAndSave.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\FileOperations\OpenDialogAndSave\bin\Debug\OpenDialogAndSave.pdb
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\FileOperations\OpenDialogAndSave\obj\Debug\OpenDialogAndSave.csproj.AssemblyReference.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\FileOperations\OpenDialogAndSave\obj\Debug\OpenDialogAndSave.Form1.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\FileOperations\OpenDialogAndSave\obj\Debug\OpenDialogAndSave.Properties.Resources.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\FileOperations\OpenDialogAndSave\obj\Debug\OpenDialogAndSave.csproj.GenerateResource.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\FileOperations\OpenDialogAndSave\obj\Debug\OpenDialogAndSave.csproj.CoreCompileInputs.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\FileOperations\OpenDialogAndSave\obj\Debug\OpenDialogAndSave.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\FileOperations\OpenDialogAndSave\obj\Debug\OpenDialogAndSave.pdb

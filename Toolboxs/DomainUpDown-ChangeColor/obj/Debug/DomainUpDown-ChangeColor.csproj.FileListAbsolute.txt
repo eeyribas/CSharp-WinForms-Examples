@@ -1,0 +1,10 @@
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\DomainUpDown-ChangeColor\bin\Debug\DomainUpDown-ChangeColor.exe.config
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\DomainUpDown-ChangeColor\bin\Debug\DomainUpDown-ChangeColor.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\DomainUpDown-ChangeColor\bin\Debug\DomainUpDown-ChangeColor.pdb
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\DomainUpDown-ChangeColor\obj\Debug\DomainUpDown-ChangeColor.csproj.AssemblyReference.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\DomainUpDown-ChangeColor\obj\Debug\DomainUpDown_ChangeColor.Form1.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\DomainUpDown-ChangeColor\obj\Debug\DomainUpDown_ChangeColor.Properties.Resources.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\DomainUpDown-ChangeColor\obj\Debug\DomainUpDown-ChangeColor.csproj.GenerateResource.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\DomainUpDown-ChangeColor\obj\Debug\DomainUpDown-ChangeColor.csproj.CoreCompileInputs.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\DomainUpDown-ChangeColor\obj\Debug\DomainUpDown-ChangeColor.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\DomainUpDown-ChangeColor\obj\Debug\DomainUpDown-ChangeColor.pdb

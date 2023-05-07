@@ -1,0 +1,10 @@
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\FileOperations\Filing-AddList\bin\Debug\Filing-AddList.exe.config
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\FileOperations\Filing-AddList\bin\Debug\Filing-AddList.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\FileOperations\Filing-AddList\bin\Debug\Filing-AddList.pdb
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\FileOperations\Filing-AddList\obj\Debug\Filing-AddList.csproj.AssemblyReference.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\FileOperations\Filing-AddList\obj\Debug\Filing_AddList.Form1.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\FileOperations\Filing-AddList\obj\Debug\Filing_AddList.Properties.Resources.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\FileOperations\Filing-AddList\obj\Debug\Filing-AddList.csproj.GenerateResource.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\FileOperations\Filing-AddList\obj\Debug\Filing-AddList.csproj.CoreCompileInputs.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\FileOperations\Filing-AddList\obj\Debug\Filing-AddList.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\FileOperations\Filing-AddList\obj\Debug\Filing-AddList.pdb

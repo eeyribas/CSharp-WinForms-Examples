@@ -1,0 +1,10 @@
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\Dialog-FormDesign\bin\Debug\Dialog-FormDesign.exe.config
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\Dialog-FormDesign\bin\Debug\Dialog-FormDesign.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\Dialog-FormDesign\bin\Debug\Dialog-FormDesign.pdb
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\Dialog-FormDesign\obj\Debug\Dialog-FormDesign.csproj.AssemblyReference.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\Dialog-FormDesign\obj\Debug\Dialog_FormDesign.Form1.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\Dialog-FormDesign\obj\Debug\Dialog_FormDesign.Properties.Resources.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\Dialog-FormDesign\obj\Debug\Dialog-FormDesign.csproj.GenerateResource.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\Dialog-FormDesign\obj\Debug\Dialog-FormDesign.csproj.CoreCompileInputs.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\Dialog-FormDesign\obj\Debug\Dialog-FormDesign.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\Dialog-FormDesign\obj\Debug\Dialog-FormDesign.pdb

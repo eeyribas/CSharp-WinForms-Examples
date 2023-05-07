@@ -1,0 +1,11 @@
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Arrays\ArrayList-AddRecord\bin\Debug\ArrayList-AddRecord.exe.config
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Arrays\ArrayList-AddRecord\bin\Debug\ArrayList-AddRecord.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Arrays\ArrayList-AddRecord\bin\Debug\ArrayList-AddRecord.pdb
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Arrays\ArrayList-AddRecord\obj\Debug\ArrayList-AddRecord.csproj.AssemblyReference.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Arrays\ArrayList-AddRecord\obj\Debug\ArrayList_AddRecord.Form1.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Arrays\ArrayList-AddRecord\obj\Debug\ArrayList_AddRecord.Form2.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Arrays\ArrayList-AddRecord\obj\Debug\ArrayList_AddRecord.Properties.Resources.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Arrays\ArrayList-AddRecord\obj\Debug\ArrayList-AddRecord.csproj.GenerateResource.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Arrays\ArrayList-AddRecord\obj\Debug\ArrayList-AddRecord.csproj.CoreCompileInputs.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Arrays\ArrayList-AddRecord\obj\Debug\ArrayList-AddRecord.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Arrays\ArrayList-AddRecord\obj\Debug\ArrayList-AddRecord.pdb
