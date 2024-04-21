@@ -1,0 +1,10 @@
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\SaveTheImageInDifferentFormats\bin\Debug\SaveTheImageInDifferentFormats.exe.config
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\SaveTheImageInDifferentFormats\bin\Debug\SaveTheImageInDifferentFormats.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\SaveTheImageInDifferentFormats\bin\Debug\SaveTheImageInDifferentFormats.pdb
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\SaveTheImageInDifferentFormats\obj\Debug\SaveTheImageInDifferentFormats.csproj.AssemblyReference.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\SaveTheImageInDifferentFormats\obj\Debug\SaveTheImageInDifferentFormats.Form1.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\SaveTheImageInDifferentFormats\obj\Debug\SaveTheImageInDifferentFormats.Properties.Resources.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\SaveTheImageInDifferentFormats\obj\Debug\SaveTheImageInDifferentFormats.csproj.GenerateResource.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\SaveTheImageInDifferentFormats\obj\Debug\SaveTheImageInDifferentFormats.csproj.CoreCompileInputs.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\SaveTheImageInDifferentFormats\obj\Debug\SaveTheImageInDifferentFormats.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\SaveTheImageInDifferentFormats\obj\Debug\SaveTheImageInDifferentFormats.pdb

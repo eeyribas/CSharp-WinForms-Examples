@@ -1,0 +1,10 @@
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Arrays\ImageList-SelectIcon\bin\Debug\ImageList-SelectIcon.exe.config
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Arrays\ImageList-SelectIcon\bin\Debug\ImageList-SelectIcon.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Arrays\ImageList-SelectIcon\bin\Debug\ImageList-SelectIcon.pdb
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Arrays\ImageList-SelectIcon\obj\Debug\ImageList-SelectIcon.csproj.AssemblyReference.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Arrays\ImageList-SelectIcon\obj\Debug\ImageList_SelectIcon.Form1.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Arrays\ImageList-SelectIcon\obj\Debug\ImageList_SelectIcon.Properties.Resources.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Arrays\ImageList-SelectIcon\obj\Debug\ImageList-SelectIcon.csproj.GenerateResource.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Arrays\ImageList-SelectIcon\obj\Debug\ImageList-SelectIcon.csproj.CoreCompileInputs.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Arrays\ImageList-SelectIcon\obj\Debug\ImageList-SelectIcon.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Arrays\ImageList-SelectIcon\obj\Debug\ImageList-SelectIcon.pdb

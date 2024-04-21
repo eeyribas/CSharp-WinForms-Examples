@@ -1,0 +1,10 @@
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\HelpProvider-SalaryCalculation\bin\Debug\HelpProvider-SalaryCalculation.exe.config
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\HelpProvider-SalaryCalculation\bin\Debug\HelpProvider-SalaryCalculation.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\HelpProvider-SalaryCalculation\bin\Debug\HelpProvider-SalaryCalculation.pdb
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\HelpProvider-SalaryCalculation\obj\Debug\HelpProvider-SalaryCalculation.csproj.AssemblyReference.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\HelpProvider-SalaryCalculation\obj\Debug\HelpProvider_SalaryCalculation.Form1.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\HelpProvider-SalaryCalculation\obj\Debug\HelpProvider_SalaryCalculation.Properties.Resources.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\HelpProvider-SalaryCalculation\obj\Debug\HelpProvider-SalaryCalculation.csproj.GenerateResource.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\HelpProvider-SalaryCalculation\obj\Debug\HelpProvider-SalaryCalculation.csproj.CoreCompileInputs.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\HelpProvider-SalaryCalculation\obj\Debug\HelpProvider-SalaryCalculation.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\HelpProvider-SalaryCalculation\obj\Debug\HelpProvider-SalaryCalculation.pdb
