@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32901.82
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SelectFromFonts", "SelectFromFonts.csproj", "{FEA51DFD-1D80-42E9-828A-93007A5D8895}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FEA51DFD-1D80-42E9-828A-93007A5D8895}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEA51DFD-1D80-42E9-828A-93007A5D8895}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEA51DFD-1D80-42E9-828A-93007A5D8895}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEA51DFD-1D80-42E9-828A-93007A5D8895}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4CFC88A3-5E2E-4153-BDCA-5A99E3018776}
+	EndGlobalSection
+EndGlobal

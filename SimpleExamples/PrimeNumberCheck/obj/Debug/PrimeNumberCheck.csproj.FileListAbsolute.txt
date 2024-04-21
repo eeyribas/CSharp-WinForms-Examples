@@ -1,0 +1,10 @@
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\PrimeNumberCheck\bin\Debug\PrimeNumberCheck.exe.config
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\PrimeNumberCheck\bin\Debug\PrimeNumberCheck.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\PrimeNumberCheck\bin\Debug\PrimeNumberCheck.pdb
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\PrimeNumberCheck\obj\Debug\PrimeNumberCheck.csproj.AssemblyReference.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\PrimeNumberCheck\obj\Debug\PrimeNumberCheck.Form1.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\PrimeNumberCheck\obj\Debug\PrimeNumberCheck.Properties.Resources.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\PrimeNumberCheck\obj\Debug\PrimeNumberCheck.csproj.GenerateResource.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\PrimeNumberCheck\obj\Debug\PrimeNumberCheck.csproj.CoreCompileInputs.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\PrimeNumberCheck\obj\Debug\PrimeNumberCheck.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\PrimeNumberCheck\obj\Debug\PrimeNumberCheck.pdb

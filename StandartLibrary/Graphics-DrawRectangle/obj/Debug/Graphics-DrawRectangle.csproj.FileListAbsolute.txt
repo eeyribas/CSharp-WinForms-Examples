@@ -1,0 +1,10 @@
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\Graphics-DrawRectangle\bin\Debug\Graphics-DrawRectangle.exe.config
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\Graphics-DrawRectangle\bin\Debug\Graphics-DrawRectangle.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\Graphics-DrawRectangle\bin\Debug\Graphics-DrawRectangle.pdb
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\Graphics-DrawRectangle\obj\Debug\Graphics-DrawRectangle.csproj.AssemblyReference.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\Graphics-DrawRectangle\obj\Debug\Graphics_DrawRectangle.Form1.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\Graphics-DrawRectangle\obj\Debug\Graphics_DrawRectangle.Properties.Resources.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\Graphics-DrawRectangle\obj\Debug\Graphics-DrawRectangle.csproj.GenerateResource.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\Graphics-DrawRectangle\obj\Debug\Graphics-DrawRectangle.csproj.CoreCompileInputs.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\Graphics-DrawRectangle\obj\Debug\Graphics-DrawRectangle.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\Graphics-DrawRectangle\obj\Debug\Graphics-DrawRectangle.pdb

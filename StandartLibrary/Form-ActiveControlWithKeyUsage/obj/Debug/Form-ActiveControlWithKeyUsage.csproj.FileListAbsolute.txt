@@ -1,0 +1,10 @@
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\Form-ActiveControlWithKeyUsage\bin\Debug\Form-ActiveControlWithKeyUsage.exe.config
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\Form-ActiveControlWithKeyUsage\bin\Debug\Form-ActiveControlWithKeyUsage.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\Form-ActiveControlWithKeyUsage\bin\Debug\Form-ActiveControlWithKeyUsage.pdb
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\Form-ActiveControlWithKeyUsage\obj\Debug\Form-ActiveControlWithKeyUsage.csproj.AssemblyReference.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\Form-ActiveControlWithKeyUsage\obj\Debug\Form_ActiveControlWithKeyUsage.Form1.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\Form-ActiveControlWithKeyUsage\obj\Debug\Form_ActiveControlWithKeyUsage.Properties.Resources.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\Form-ActiveControlWithKeyUsage\obj\Debug\Form-ActiveControlWithKeyUsage.csproj.GenerateResource.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\Form-ActiveControlWithKeyUsage\obj\Debug\Form-ActiveControlWithKeyUsage.csproj.CoreCompileInputs.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\Form-ActiveControlWithKeyUsage\obj\Debug\Form-ActiveControlWithKeyUsage.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\Form-ActiveControlWithKeyUsage\obj\Debug\Form-ActiveControlWithKeyUsage.pdb

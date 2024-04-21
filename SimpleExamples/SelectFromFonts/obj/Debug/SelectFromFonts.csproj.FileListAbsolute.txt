@@ -1,0 +1,10 @@
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\SelectFromFonts\bin\Debug\SelectFromFonts.exe.config
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\SelectFromFonts\bin\Debug\SelectFromFonts.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\SelectFromFonts\bin\Debug\SelectFromFonts.pdb
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\SelectFromFonts\obj\Debug\SelectFromFonts.csproj.AssemblyReference.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\SelectFromFonts\obj\Debug\SelectFromFonts.Form1.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\SelectFromFonts\obj\Debug\SelectFromFonts.Properties.Resources.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\SelectFromFonts\obj\Debug\SelectFromFonts.csproj.GenerateResource.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\SelectFromFonts\obj\Debug\SelectFromFonts.csproj.CoreCompileInputs.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\SelectFromFonts\obj\Debug\SelectFromFonts.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\SelectFromFonts\obj\Debug\SelectFromFonts.pdb

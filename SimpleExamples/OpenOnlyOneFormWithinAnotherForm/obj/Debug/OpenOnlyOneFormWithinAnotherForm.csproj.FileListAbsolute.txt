@@ -1,0 +1,11 @@
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\OpenOnlyOneFormWithinAnotherForm\bin\Debug\OpenOnlyOneFormWithinAnotherForm.exe.config
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\OpenOnlyOneFormWithinAnotherForm\bin\Debug\OpenOnlyOneFormWithinAnotherForm.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\OpenOnlyOneFormWithinAnotherForm\bin\Debug\OpenOnlyOneFormWithinAnotherForm.pdb
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\OpenOnlyOneFormWithinAnotherForm\obj\Debug\OpenOnlyOneFormWithinAnotherForm.csproj.AssemblyReference.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\OpenOnlyOneFormWithinAnotherForm\obj\Debug\OpenOnlyOneFormWithinAnotherForm.Form1.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\OpenOnlyOneFormWithinAnotherForm\obj\Debug\OpenOnlyOneFormWithinAnotherForm.Form2.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\OpenOnlyOneFormWithinAnotherForm\obj\Debug\OpenOnlyOneFormWithinAnotherForm.Properties.Resources.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\OpenOnlyOneFormWithinAnotherForm\obj\Debug\OpenOnlyOneFormWithinAnotherForm.csproj.GenerateResource.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\OpenOnlyOneFormWithinAnotherForm\obj\Debug\OpenOnlyOneFormWithinAnotherForm.csproj.CoreCompileInputs.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\OpenOnlyOneFormWithinAnotherForm\obj\Debug\OpenOnlyOneFormWithinAnotherForm.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\OpenOnlyOneFormWithinAnotherForm\obj\Debug\OpenOnlyOneFormWithinAnotherForm.pdb

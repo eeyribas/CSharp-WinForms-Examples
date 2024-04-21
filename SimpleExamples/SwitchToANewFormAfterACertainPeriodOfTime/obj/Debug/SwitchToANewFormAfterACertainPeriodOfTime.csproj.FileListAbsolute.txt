@@ -1,0 +1,11 @@
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\SwitchToANewFormAfterACertainPeriodOfTime\bin\Debug\SwitchToANewFormAfterACertainPeriodOfTime.exe.config
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\SwitchToANewFormAfterACertainPeriodOfTime\bin\Debug\SwitchToANewFormAfterACertainPeriodOfTime.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\SwitchToANewFormAfterACertainPeriodOfTime\bin\Debug\SwitchToANewFormAfterACertainPeriodOfTime.pdb
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\SwitchToANewFormAfterACertainPeriodOfTime\obj\Debug\SwitchToANewFormAfterACertainPeriodOfTime.csproj.AssemblyReference.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\SwitchToANewFormAfterACertainPeriodOfTime\obj\Debug\SwitchToANewFormAfterACertainPeriodOfTime.Form1.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\SwitchToANewFormAfterACertainPeriodOfTime\obj\Debug\SwitchToANewFormAfterACertainPeriodOfTime.Form2.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\SwitchToANewFormAfterACertainPeriodOfTime\obj\Debug\SwitchToANewFormAfterACertainPeriodOfTime.Properties.Resources.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\SwitchToANewFormAfterACertainPeriodOfTime\obj\Debug\SwitchToANewFormAfterACertainPeriodOfTime.csproj.GenerateResource.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\SwitchToANewFormAfterACertainPeriodOfTime\obj\Debug\SwitchToANewFormAfterACertainPeriodOfTime.csproj.CoreCompileInputs.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\SwitchToANewFormAfterACertainPeriodOfTime\obj\Debug\SwitchToANewFormAfterACertainPeriodOfTime.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\SwitchToANewFormAfterACertainPeriodOfTime\obj\Debug\SwitchToANewFormAfterACertainPeriodOfTime.pdb

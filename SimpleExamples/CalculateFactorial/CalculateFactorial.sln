@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32901.82
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculateFactorial", "CalculateFactorial.csproj", "{D19282A1-FE76-45BA-B2C6-7232C15619F1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D19282A1-FE76-45BA-B2C6-7232C15619F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D19282A1-FE76-45BA-B2C6-7232C15619F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D19282A1-FE76-45BA-B2C6-7232C15619F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D19282A1-FE76-45BA-B2C6-7232C15619F1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2194D9AD-358F-463C-BA4A-46BDB80D7FB3}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,10 @@
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\GroupBox-ShowingAndHiding\bin\Debug\GroupBox-ShowingAndHiding.exe.config
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\GroupBox-ShowingAndHiding\bin\Debug\GroupBox-ShowingAndHiding.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\GroupBox-ShowingAndHiding\bin\Debug\GroupBox-ShowingAndHiding.pdb
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\GroupBox-ShowingAndHiding\obj\Debug\GroupBox-ShowingAndHiding.csproj.AssemblyReference.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\GroupBox-ShowingAndHiding\obj\Debug\GroupBox_ShowingAndHiding.Form1.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\GroupBox-ShowingAndHiding\obj\Debug\GroupBox_ShowingAndHiding.Properties.Resources.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\GroupBox-ShowingAndHiding\obj\Debug\GroupBox-ShowingAndHiding.csproj.GenerateResource.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\GroupBox-ShowingAndHiding\obj\Debug\GroupBox-ShowingAndHiding.csproj.CoreCompileInputs.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\GroupBox-ShowingAndHiding\obj\Debug\GroupBox-ShowingAndHiding.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\GroupBox-ShowingAndHiding\obj\Debug\GroupBox-ShowingAndHiding.pdb

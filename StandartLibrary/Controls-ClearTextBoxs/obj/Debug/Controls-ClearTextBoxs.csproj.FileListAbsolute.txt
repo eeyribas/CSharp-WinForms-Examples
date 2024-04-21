@@ -1,0 +1,10 @@
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\Controls-ClearTextBoxs\bin\Debug\Controls-ClearTextBoxs.exe.config
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\Controls-ClearTextBoxs\bin\Debug\Controls-ClearTextBoxs.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\Controls-ClearTextBoxs\bin\Debug\Controls-ClearTextBoxs.pdb
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\Controls-ClearTextBoxs\obj\Debug\Controls-ClearTextBoxs.csproj.AssemblyReference.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\Controls-ClearTextBoxs\obj\Debug\Controls_ClearTextBoxs.Form1.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\Controls-ClearTextBoxs\obj\Debug\Controls_ClearTextBoxs.Properties.Resources.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\Controls-ClearTextBoxs\obj\Debug\Controls-ClearTextBoxs.csproj.GenerateResource.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\Controls-ClearTextBoxs\obj\Debug\Controls-ClearTextBoxs.csproj.CoreCompileInputs.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\Controls-ClearTextBoxs\obj\Debug\Controls-ClearTextBoxs.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\Controls-ClearTextBoxs\obj\Debug\Controls-ClearTextBoxs.pdb

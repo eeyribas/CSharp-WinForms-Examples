@@ -1,0 +1,10 @@
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\MonitorDiskDrives\bin\Debug\MonitorDiskDrives.exe.config
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\MonitorDiskDrives\bin\Debug\MonitorDiskDrives.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\MonitorDiskDrives\bin\Debug\MonitorDiskDrives.pdb
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\MonitorDiskDrives\obj\Debug\MonitorDiskDrives.csproj.AssemblyReference.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\MonitorDiskDrives\obj\Debug\MonitorDiskDrives.Form1.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\MonitorDiskDrives\obj\Debug\MonitorDiskDrives.Properties.Resources.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\MonitorDiskDrives\obj\Debug\MonitorDiskDrives.csproj.GenerateResource.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\MonitorDiskDrives\obj\Debug\MonitorDiskDrives.csproj.CoreCompileInputs.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\MonitorDiskDrives\obj\Debug\MonitorDiskDrives.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\MonitorDiskDrives\obj\Debug\MonitorDiskDrives.pdb
