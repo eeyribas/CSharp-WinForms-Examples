@@ -1,0 +1,10 @@
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\OpenFileDialog-RichTextBox-Filter\bin\Debug\OpenFileDialog-RichTextBox-Filter.exe.config
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\OpenFileDialog-RichTextBox-Filter\bin\Debug\OpenFileDialog-RichTextBox-Filter.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\OpenFileDialog-RichTextBox-Filter\bin\Debug\OpenFileDialog-RichTextBox-Filter.pdb
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\OpenFileDialog-RichTextBox-Filter\obj\Debug\OpenFileDialog-RichTextBox-Filter.csproj.AssemblyReference.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\OpenFileDialog-RichTextBox-Filter\obj\Debug\OpenFileDialog_RichTextBox_Filter.Form1.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\OpenFileDialog-RichTextBox-Filter\obj\Debug\OpenFileDialog_RichTextBox_Filter.Properties.Resources.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\OpenFileDialog-RichTextBox-Filter\obj\Debug\OpenFileDialog-RichTextBox-Filter.csproj.GenerateResource.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\OpenFileDialog-RichTextBox-Filter\obj\Debug\OpenFileDialog-RichTextBox-Filter.csproj.CoreCompileInputs.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\OpenFileDialog-RichTextBox-Filter\obj\Debug\OpenFileDialog-RichTextBox-Filter.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\OpenFileDialog-RichTextBox-Filter\obj\Debug\OpenFileDialog-RichTextBox-Filter.pdb

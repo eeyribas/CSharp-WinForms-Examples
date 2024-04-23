@@ -1,0 +1,10 @@
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\ConvertToBaseN\bin\Debug\ConvertToBaseN.exe.config
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\ConvertToBaseN\bin\Debug\ConvertToBaseN.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\ConvertToBaseN\bin\Debug\ConvertToBaseN.pdb
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\ConvertToBaseN\obj\Debug\ConvertToBaseN.csproj.AssemblyReference.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\ConvertToBaseN\obj\Debug\ConvertToBaseN.Form1.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\ConvertToBaseN\obj\Debug\ConvertToBaseN.Properties.Resources.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\ConvertToBaseN\obj\Debug\ConvertToBaseN.csproj.GenerateResource.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\ConvertToBaseN\obj\Debug\ConvertToBaseN.csproj.CoreCompileInputs.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\ConvertToBaseN\obj\Debug\ConvertToBaseN.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\ConvertToBaseN\obj\Debug\ConvertToBaseN.pdb
