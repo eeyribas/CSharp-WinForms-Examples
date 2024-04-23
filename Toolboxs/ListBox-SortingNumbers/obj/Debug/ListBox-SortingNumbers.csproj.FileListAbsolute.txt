@@ -1,0 +1,10 @@
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\ListBox-SortingNumbers\bin\Debug\ListBox-SortingNumbers.exe.config
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\ListBox-SortingNumbers\bin\Debug\ListBox-SortingNumbers.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\ListBox-SortingNumbers\bin\Debug\ListBox-SortingNumbers.pdb
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\ListBox-SortingNumbers\obj\Debug\ListBox-SortingNumbers.csproj.AssemblyReference.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\ListBox-SortingNumbers\obj\Debug\ListBox_SortingNumbers.Form1.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\ListBox-SortingNumbers\obj\Debug\ListBox_SortingNumbers.Properties.Resources.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\ListBox-SortingNumbers\obj\Debug\ListBox-SortingNumbers.csproj.GenerateResource.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\ListBox-SortingNumbers\obj\Debug\ListBox-SortingNumbers.csproj.CoreCompileInputs.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\ListBox-SortingNumbers\obj\Debug\ListBox-SortingNumbers.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\ListBox-SortingNumbers\obj\Debug\ListBox-SortingNumbers.pdb

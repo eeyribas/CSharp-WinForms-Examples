@@ -1,0 +1,10 @@
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\MainMenu-Align\bin\Debug\MainMenu-Align.exe.config
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\MainMenu-Align\bin\Debug\MainMenu-Align.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\MainMenu-Align\bin\Debug\MainMenu-Align.pdb
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\MainMenu-Align\obj\Debug\MainMenu-Align.csproj.AssemblyReference.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\MainMenu-Align\obj\Debug\MainMenu_Align.Form1.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\MainMenu-Align\obj\Debug\MainMenu_Align.Properties.Resources.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\MainMenu-Align\obj\Debug\MainMenu-Align.csproj.GenerateResource.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\MainMenu-Align\obj\Debug\MainMenu-Align.csproj.CoreCompileInputs.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\MainMenu-Align\obj\Debug\MainMenu-Align.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\MainMenu-Align\obj\Debug\MainMenu-Align.pdb

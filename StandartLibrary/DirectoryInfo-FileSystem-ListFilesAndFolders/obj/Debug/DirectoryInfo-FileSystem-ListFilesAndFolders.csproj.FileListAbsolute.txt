@@ -1,0 +1,10 @@
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\DirectoryInfo-FileSystem-ListFilesAndFolders\bin\Debug\DirectoryInfo-FileSystem-ListFilesAndFolders.exe.config
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\DirectoryInfo-FileSystem-ListFilesAndFolders\bin\Debug\DirectoryInfo-FileSystem-ListFilesAndFolders.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\DirectoryInfo-FileSystem-ListFilesAndFolders\bin\Debug\DirectoryInfo-FileSystem-ListFilesAndFolders.pdb
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\DirectoryInfo-FileSystem-ListFilesAndFolders\obj\Debug\DirectoryInfo-FileSystem-ListFilesAndFolders.csproj.AssemblyReference.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\DirectoryInfo-FileSystem-ListFilesAndFolders\obj\Debug\DirectoryInfo_FileSystem_ListFilesAndFolders.Form1.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\DirectoryInfo-FileSystem-ListFilesAndFolders\obj\Debug\DirectoryInfo_FileSystem_ListFilesAndFolders.Properties.Resources.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\DirectoryInfo-FileSystem-ListFilesAndFolders\obj\Debug\DirectoryInfo-FileSystem-ListFilesAndFolders.csproj.GenerateResource.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\DirectoryInfo-FileSystem-ListFilesAndFolders\obj\Debug\DirectoryInfo-FileSystem-ListFilesAndFolders.csproj.CoreCompileInputs.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\DirectoryInfo-FileSystem-ListFilesAndFolders\obj\Debug\DirectoryInfo-FileSystem-ListFilesAndFolders.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\DirectoryInfo-FileSystem-ListFilesAndFolders\obj\Debug\DirectoryInfo-FileSystem-ListFilesAndFolders.pdb

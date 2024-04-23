@@ -1,0 +1,10 @@
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\ListBox-MeasureItem\bin\Debug\ListBox-MeasureItem.exe.config
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\ListBox-MeasureItem\bin\Debug\ListBox-MeasureItem.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\ListBox-MeasureItem\bin\Debug\ListBox-MeasureItem.pdb
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\ListBox-MeasureItem\obj\Debug\ListBox-MeasureItem.csproj.AssemblyReference.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\ListBox-MeasureItem\obj\Debug\ListBox_MeasureItem.Form1.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\ListBox-MeasureItem\obj\Debug\ListBox_MeasureItem.Properties.Resources.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\ListBox-MeasureItem\obj\Debug\ListBox-MeasureItem.csproj.GenerateResource.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\ListBox-MeasureItem\obj\Debug\ListBox-MeasureItem.csproj.CoreCompileInputs.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\ListBox-MeasureItem\obj\Debug\ListBox-MeasureItem.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\ListBox-MeasureItem\obj\Debug\ListBox-MeasureItem.pdb

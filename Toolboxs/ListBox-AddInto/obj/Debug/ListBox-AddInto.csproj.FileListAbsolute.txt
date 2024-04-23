@@ -1,0 +1,10 @@
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\ListBox-AddInto\obj\Debug\ListBox-AddInto.csproj.AssemblyReference.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\ListBox-AddInto\obj\Debug\ListBox_AddInto.Form1.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\ListBox-AddInto\obj\Debug\ListBox_AddInto.Properties.Resources.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\ListBox-AddInto\obj\Debug\ListBox-AddInto.csproj.GenerateResource.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\ListBox-AddInto\obj\Debug\ListBox-AddInto.csproj.CoreCompileInputs.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\ListBox-AddInto\bin\Debug\ListBox-AddInto.exe.config
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\ListBox-AddInto\bin\Debug\ListBox-AddInto.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\ListBox-AddInto\bin\Debug\ListBox-AddInto.pdb
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\ListBox-AddInto\obj\Debug\ListBox-AddInto.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\ListBox-AddInto\obj\Debug\ListBox-AddInto.pdb

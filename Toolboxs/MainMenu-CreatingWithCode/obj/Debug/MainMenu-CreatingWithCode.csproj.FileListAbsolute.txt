@@ -1,0 +1,10 @@
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\MainMenu-CreatingWithCode\bin\Debug\MainMenu-CreatingWithCode.exe.config
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\MainMenu-CreatingWithCode\bin\Debug\MainMenu-CreatingWithCode.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\MainMenu-CreatingWithCode\bin\Debug\MainMenu-CreatingWithCode.pdb
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\MainMenu-CreatingWithCode\obj\Debug\MainMenu-CreatingWithCode.csproj.AssemblyReference.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\MainMenu-CreatingWithCode\obj\Debug\MainMenu_CreatingWithCode.Form1.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\MainMenu-CreatingWithCode\obj\Debug\MainMenu_CreatingWithCode.Properties.Resources.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\MainMenu-CreatingWithCode\obj\Debug\MainMenu-CreatingWithCode.csproj.GenerateResource.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\MainMenu-CreatingWithCode\obj\Debug\MainMenu-CreatingWithCode.csproj.CoreCompileInputs.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\MainMenu-CreatingWithCode\obj\Debug\MainMenu-CreatingWithCode.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\MainMenu-CreatingWithCode\obj\Debug\MainMenu-CreatingWithCode.pdb

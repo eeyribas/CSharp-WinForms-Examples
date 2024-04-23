@@ -1,0 +1,10 @@
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\ListView-ItemActivate\bin\Debug\ListView-ItemActivate.exe.config
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\ListView-ItemActivate\bin\Debug\ListView-ItemActivate.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\ListView-ItemActivate\bin\Debug\ListView-ItemActivate.pdb
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\ListView-ItemActivate\obj\Debug\ListView-ItemActivate.csproj.AssemblyReference.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\ListView-ItemActivate\obj\Debug\ListView_ItemActivate.Form1.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\ListView-ItemActivate\obj\Debug\ListView_ItemActivate.Properties.Resources.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\ListView-ItemActivate\obj\Debug\ListView-ItemActivate.csproj.GenerateResource.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\ListView-ItemActivate\obj\Debug\ListView-ItemActivate.csproj.CoreCompileInputs.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\ListView-ItemActivate\obj\Debug\ListView-ItemActivate.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\ListView-ItemActivate\obj\Debug\ListView-ItemActivate.pdb
