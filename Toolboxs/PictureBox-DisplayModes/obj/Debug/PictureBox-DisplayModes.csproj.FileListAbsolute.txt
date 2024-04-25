@@ -1,0 +1,10 @@
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\PictureBox-DisplayModes\bin\Debug\PictureBox-DisplayModes.exe.config
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\PictureBox-DisplayModes\bin\Debug\PictureBox-DisplayModes.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\PictureBox-DisplayModes\bin\Debug\PictureBox-DisplayModes.pdb
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\PictureBox-DisplayModes\obj\Debug\PictureBox-DisplayModes.csproj.AssemblyReference.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\PictureBox-DisplayModes\obj\Debug\PictureBox_DisplayModes.Form1.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\PictureBox-DisplayModes\obj\Debug\PictureBox_DisplayModes.Properties.Resources.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\PictureBox-DisplayModes\obj\Debug\PictureBox-DisplayModes.csproj.GenerateResource.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\PictureBox-DisplayModes\obj\Debug\PictureBox-DisplayModes.csproj.CoreCompileInputs.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\PictureBox-DisplayModes\obj\Debug\PictureBox-DisplayModes.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\PictureBox-DisplayModes\obj\Debug\PictureBox-DisplayModes.pdb

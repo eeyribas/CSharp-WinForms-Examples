@@ -1,0 +1,10 @@
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\DeleteTmpFile\bin\Debug\DeleteTmpFile.exe.config
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\DeleteTmpFile\bin\Debug\DeleteTmpFile.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\DeleteTmpFile\bin\Debug\DeleteTmpFile.pdb
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\DeleteTmpFile\obj\Debug\DeleteTmpFile.csproj.AssemblyReference.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\DeleteTmpFile\obj\Debug\DeleteTmpFile.Form1.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\DeleteTmpFile\obj\Debug\DeleteTmpFile.Properties.Resources.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\DeleteTmpFile\obj\Debug\DeleteTmpFile.csproj.GenerateResource.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\DeleteTmpFile\obj\Debug\DeleteTmpFile.csproj.CoreCompileInputs.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\DeleteTmpFile\obj\Debug\DeleteTmpFile.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\DeleteTmpFile\obj\Debug\DeleteTmpFile.pdb

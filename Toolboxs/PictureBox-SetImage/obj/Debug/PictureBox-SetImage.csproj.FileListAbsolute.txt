@@ -1,0 +1,10 @@
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\PictureBox-SetImage\bin\Debug\PictureBox-SetImage.exe.config
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\PictureBox-SetImage\bin\Debug\PictureBox-SetImage.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\PictureBox-SetImage\bin\Debug\PictureBox-SetImage.pdb
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\PictureBox-SetImage\obj\Debug\PictureBox-SetImage.csproj.AssemblyReference.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\PictureBox-SetImage\obj\Debug\PictureBox_SetImage.Form1.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\PictureBox-SetImage\obj\Debug\PictureBox_SetImage.Properties.Resources.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\PictureBox-SetImage\obj\Debug\PictureBox-SetImage.csproj.GenerateResource.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\PictureBox-SetImage\obj\Debug\PictureBox-SetImage.csproj.CoreCompileInputs.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\PictureBox-SetImage\obj\Debug\PictureBox-SetImage.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\PictureBox-SetImage\obj\Debug\PictureBox-SetImage.pdb

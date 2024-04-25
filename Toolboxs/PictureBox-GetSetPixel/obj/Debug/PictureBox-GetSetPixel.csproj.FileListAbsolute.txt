@@ -1,0 +1,10 @@
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\PictureBox-GetSetPixel\bin\Debug\PictureBox-GetSetPixel.exe.config
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\PictureBox-GetSetPixel\bin\Debug\PictureBox-GetSetPixel.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\PictureBox-GetSetPixel\bin\Debug\PictureBox-GetSetPixel.pdb
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\PictureBox-GetSetPixel\obj\Debug\PictureBox-GetSetPixel.csproj.AssemblyReference.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\PictureBox-GetSetPixel\obj\Debug\PictureBox_GetSetPixel.Form1.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\PictureBox-GetSetPixel\obj\Debug\PictureBox_GetSetPixel.Properties.Resources.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\PictureBox-GetSetPixel\obj\Debug\PictureBox-GetSetPixel.csproj.GenerateResource.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\PictureBox-GetSetPixel\obj\Debug\PictureBox-GetSetPixel.csproj.CoreCompileInputs.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\PictureBox-GetSetPixel\obj\Debug\PictureBox-GetSetPixel.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\PictureBox-GetSetPixel\obj\Debug\PictureBox-GetSetPixel.pdb
