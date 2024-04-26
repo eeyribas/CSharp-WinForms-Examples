@@ -1,0 +1,10 @@
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\TabControl-Usage\bin\Debug\TabControl-Usage.exe.config
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\TabControl-Usage\bin\Debug\TabControl-Usage.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\TabControl-Usage\bin\Debug\TabControl-Usage.pdb
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\TabControl-Usage\obj\Debug\TabControl-Usage.csproj.AssemblyReference.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\TabControl-Usage\obj\Debug\TabControl_Usage.Form1.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\TabControl-Usage\obj\Debug\TabControl_Usage.Properties.Resources.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\TabControl-Usage\obj\Debug\TabControl-Usage.csproj.GenerateResource.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\TabControl-Usage\obj\Debug\TabControl-Usage.csproj.CoreCompileInputs.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\TabControl-Usage\obj\Debug\TabControl-Usage.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\TabControl-Usage\obj\Debug\TabControl-Usage.pdb

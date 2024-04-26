@@ -1,0 +1,10 @@
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\EventHandler-SimpleCalculator\bin\Debug\EventHandler-SimpleCalculator.exe.config
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\EventHandler-SimpleCalculator\bin\Debug\EventHandler-SimpleCalculator.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\EventHandler-SimpleCalculator\bin\Debug\EventHandler-SimpleCalculator.pdb
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\EventHandler-SimpleCalculator\obj\Debug\EventHandler-SimpleCalculator.csproj.AssemblyReference.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\EventHandler-SimpleCalculator\obj\Debug\EventHandler_SimpleCalculator.Form1.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\EventHandler-SimpleCalculator\obj\Debug\EventHandler_SimpleCalculator.Properties.Resources.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\EventHandler-SimpleCalculator\obj\Debug\EventHandler-SimpleCalculator.csproj.GenerateResource.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\EventHandler-SimpleCalculator\obj\Debug\EventHandler-SimpleCalculator.csproj.CoreCompileInputs.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\EventHandler-SimpleCalculator\obj\Debug\EventHandler-SimpleCalculator.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\EventHandler-SimpleCalculator\obj\Debug\EventHandler-SimpleCalculator.pdb

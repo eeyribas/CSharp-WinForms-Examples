@@ -1,0 +1,10 @@
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\StatusBar-PCMemoryInformation\bin\Debug\StatusBar-PCMemoryInformation.exe.config
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\StatusBar-PCMemoryInformation\bin\Debug\StatusBar-PCMemoryInformation.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\StatusBar-PCMemoryInformation\bin\Debug\StatusBar-PCMemoryInformation.pdb
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\StatusBar-PCMemoryInformation\obj\Debug\StatusBar-PCMemoryInformation.csproj.AssemblyReference.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\StatusBar-PCMemoryInformation\obj\Debug\StatusBar_PCMemoryInformation.Form1.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\StatusBar-PCMemoryInformation\obj\Debug\StatusBar_PCMemoryInformation.Properties.Resources.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\StatusBar-PCMemoryInformation\obj\Debug\StatusBar-PCMemoryInformation.csproj.GenerateResource.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\StatusBar-PCMemoryInformation\obj\Debug\StatusBar-PCMemoryInformation.csproj.CoreCompileInputs.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\StatusBar-PCMemoryInformation\obj\Debug\StatusBar-PCMemoryInformation.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\StatusBar-PCMemoryInformation\obj\Debug\StatusBar-PCMemoryInformation.pdb

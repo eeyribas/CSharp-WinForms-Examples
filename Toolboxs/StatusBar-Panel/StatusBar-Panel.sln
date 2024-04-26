@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32901.82
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StatusBar-Panel", "StatusBar-Panel.csproj", "{929CD5DA-672A-4750-A69D-66B001A998DC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{929CD5DA-672A-4750-A69D-66B001A998DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{929CD5DA-672A-4750-A69D-66B001A998DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{929CD5DA-672A-4750-A69D-66B001A998DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{929CD5DA-672A-4750-A69D-66B001A998DC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {469A97EA-264A-4132-8925-BCCB492A4A97}
+	EndGlobalSection
+EndGlobal
