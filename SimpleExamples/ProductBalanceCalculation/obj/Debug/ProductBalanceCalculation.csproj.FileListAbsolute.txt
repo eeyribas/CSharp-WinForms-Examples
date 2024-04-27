@@ -1,0 +1,10 @@
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\ProductBalanceCalculation\bin\Debug\ProductBalanceCalculation.exe.config
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\ProductBalanceCalculation\bin\Debug\ProductBalanceCalculation.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\ProductBalanceCalculation\bin\Debug\ProductBalanceCalculation.pdb
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\ProductBalanceCalculation\obj\Debug\ProductBalanceCalculation.csproj.AssemblyReference.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\ProductBalanceCalculation\obj\Debug\ProductBalanceCalculation.Form1.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\ProductBalanceCalculation\obj\Debug\ProductBalanceCalculation.Properties.Resources.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\ProductBalanceCalculation\obj\Debug\ProductBalanceCalculation.csproj.GenerateResource.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\ProductBalanceCalculation\obj\Debug\ProductBalanceCalculation.csproj.CoreCompileInputs.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\ProductBalanceCalculation\obj\Debug\ProductBalanceCalculation.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\ProductBalanceCalculation\obj\Debug\ProductBalanceCalculation.pdb

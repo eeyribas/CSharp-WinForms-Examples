@@ -1,0 +1,10 @@
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\Timer-TextAnimation\bin\Debug\Timer-TextAnimation.exe.config
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\Timer-TextAnimation\bin\Debug\Timer-TextAnimation.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\Timer-TextAnimation\bin\Debug\Timer-TextAnimation.pdb
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\Timer-TextAnimation\obj\Debug\Timer-TextAnimation.csproj.AssemblyReference.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\Timer-TextAnimation\obj\Debug\Timer_TextAnimation.Form1.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\Timer-TextAnimation\obj\Debug\Timer_TextAnimation.Properties.Resources.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\Timer-TextAnimation\obj\Debug\Timer-TextAnimation.csproj.GenerateResource.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\Timer-TextAnimation\obj\Debug\Timer-TextAnimation.csproj.CoreCompileInputs.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\Timer-TextAnimation\obj\Debug\Timer-TextAnimation.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\Timer-TextAnimation\obj\Debug\Timer-TextAnimation.pdb

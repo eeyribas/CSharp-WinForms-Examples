@@ -1,0 +1,10 @@
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\GroupBox-Visible\bin\Debug\GroupBox-Visible.exe.config
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\GroupBox-Visible\bin\Debug\GroupBox-Visible.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\GroupBox-Visible\bin\Debug\GroupBox-Visible.pdb
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\GroupBox-Visible\obj\Debug\GroupBox-Visible.csproj.AssemblyReference.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\GroupBox-Visible\obj\Debug\GroupBox_Visible.Form1.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\GroupBox-Visible\obj\Debug\GroupBox_Visible.Properties.Resources.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\GroupBox-Visible\obj\Debug\GroupBox-Visible.csproj.GenerateResource.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\GroupBox-Visible\obj\Debug\GroupBox-Visible.csproj.CoreCompileInputs.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\GroupBox-Visible\obj\Debug\GroupBox-Visible.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\GroupBox-Visible\obj\Debug\GroupBox-Visible.pdb

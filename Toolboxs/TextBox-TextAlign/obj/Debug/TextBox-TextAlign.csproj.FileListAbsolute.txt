@@ -1,0 +1,10 @@
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\TextBox-TextAlign\bin\Debug\TextBox-TextAlign.exe.config
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\TextBox-TextAlign\bin\Debug\TextBox-TextAlign.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\TextBox-TextAlign\bin\Debug\TextBox-TextAlign.pdb
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\TextBox-TextAlign\obj\Debug\TextBox-TextAlign.csproj.AssemblyReference.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\TextBox-TextAlign\obj\Debug\TextBox_TextAlign.Form1.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\TextBox-TextAlign\obj\Debug\TextBox_TextAlign.Properties.Resources.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\TextBox-TextAlign\obj\Debug\TextBox-TextAlign.csproj.GenerateResource.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\TextBox-TextAlign\obj\Debug\TextBox-TextAlign.csproj.CoreCompileInputs.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\TextBox-TextAlign\obj\Debug\TextBox-TextAlign.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\TextBox-TextAlign\obj\Debug\TextBox-TextAlign.pdb

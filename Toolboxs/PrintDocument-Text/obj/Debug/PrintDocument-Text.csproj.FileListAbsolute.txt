@@ -1,0 +1,10 @@
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\PrintDocument-Text\bin\Debug\PrintDocument-Text.exe.config
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\PrintDocument-Text\bin\Debug\PrintDocument-Text.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\PrintDocument-Text\bin\Debug\PrintDocument-Text.pdb
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\PrintDocument-Text\obj\Debug\PrintDocument-Text.csproj.AssemblyReference.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\PrintDocument-Text\obj\Debug\PrintDocument_Text.Form1.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\PrintDocument-Text\obj\Debug\PrintDocument_Text.Properties.Resources.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\PrintDocument-Text\obj\Debug\PrintDocument-Text.csproj.GenerateResource.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\PrintDocument-Text\obj\Debug\PrintDocument-Text.csproj.CoreCompileInputs.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\PrintDocument-Text\obj\Debug\PrintDocument-Text.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\PrintDocument-Text\obj\Debug\PrintDocument-Text.pdb
