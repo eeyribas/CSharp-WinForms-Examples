@@ -1,0 +1,10 @@
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\WriteTheNumberAsText\bin\Debug\WriteTheNumberAsText.exe.config
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\WriteTheNumberAsText\bin\Debug\WriteTheNumberAsText.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\WriteTheNumberAsText\bin\Debug\WriteTheNumberAsText.pdb
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\WriteTheNumberAsText\obj\Debug\WriteTheNumberAsText.csproj.AssemblyReference.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\WriteTheNumberAsText\obj\Debug\WriteTheNumberAsText.Form1.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\WriteTheNumberAsText\obj\Debug\WriteTheNumberAsText.Properties.Resources.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\WriteTheNumberAsText\obj\Debug\WriteTheNumberAsText.csproj.GenerateResource.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\WriteTheNumberAsText\obj\Debug\WriteTheNumberAsText.csproj.CoreCompileInputs.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\WriteTheNumberAsText\obj\Debug\WriteTheNumberAsText.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\WriteTheNumberAsText\obj\Debug\WriteTheNumberAsText.pdb
