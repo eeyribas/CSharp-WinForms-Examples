@@ -53,7 +53,7 @@ namespace XORAdvancedEncrypt
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(120, 22);
             this.textBox3.TabIndex = 19;
-            this.textBox3.Text = "textBox3";
+            this.textBox3.Text = "-";
             // 
             // textBox2
             // 
@@ -61,7 +61,7 @@ namespace XORAdvancedEncrypt
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(120, 22);
             this.textBox2.TabIndex = 18;
-            this.textBox2.Text = "textBox2";
+            this.textBox2.Text = "-";
             // 
             // textBox1
             // 
@@ -69,13 +69,13 @@ namespace XORAdvancedEncrypt
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(120, 22);
             this.textBox1.TabIndex = 17;
-            this.textBox1.Text = "textBox1";
+            this.textBox1.Text = "-";
             // 
             // label3
             // 
             this.label3.Location = new System.Drawing.Point(12, 105);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(182, 26);
+            this.label3.Size = new System.Drawing.Size(176, 26);
             this.label3.TabIndex = 16;
             this.label3.Text = "Encoded/Decoded Text :";
             // 
@@ -83,7 +83,7 @@ namespace XORAdvancedEncrypt
             // 
             this.label2.Location = new System.Drawing.Point(12, 58);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(182, 27);
+            this.label2.Size = new System.Drawing.Size(176, 27);
             this.label2.TabIndex = 15;
             this.label2.Text = "Password :(0-255)";
             // 
@@ -91,7 +91,7 @@ namespace XORAdvancedEncrypt
             // 
             this.label1.Location = new System.Drawing.Point(12, 12);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(182, 27);
+            this.label1.Size = new System.Drawing.Size(176, 27);
             this.label1.TabIndex = 14;
             this.label1.Text = "Text :";
             // 

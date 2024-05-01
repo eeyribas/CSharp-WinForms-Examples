@@ -32,7 +32,7 @@ namespace MatrixAdditionAndMultiplication
         {
             GetMatrix(textBox1.Text, a);
             GetMatrix(textBox2.Text, b);
-            label3.Text = "A+B Matrix";
+            label3.Text = "A + B Matrix";
             textBox3.Text = "";
 
             for (int i = 0; i <= 2; i++)
@@ -50,7 +50,7 @@ namespace MatrixAdditionAndMultiplication
         {
             GetMatrix(textBox1.Text, a);
             GetMatrix(textBox2.Text, b);
-            label3.Text = "AxB Matrix";
+            label3.Text = "A x B Matrix";
             textBox3.Text = "";
 
             for (int i = 0; i <= 2; i++)
@@ -62,6 +62,7 @@ namespace MatrixAdditionAndMultiplication
                     {
                         x += a[i, k] * b[k, j];
                     }
+
                     c[i, j] = x;
                 }
             }
@@ -77,10 +78,10 @@ namespace MatrixAdditionAndMultiplication
         private bool GetMatrix(string str, int[,] array)
         {
             char[] splits = { ' ', '\r' };
-            string[] s = str.Split(splits);
-            if (s.GetUpperBound(0) < 8)
+            string[] tmp = str.Split(splits);
+            if (tmp.GetUpperBound(0) < 8)
             {
-                MessageBox.Show("Matris yanlış girilmiş");
+                MessageBox.Show("Matris wrong!");
                 return false;
             }
 
@@ -89,7 +90,7 @@ namespace MatrixAdditionAndMultiplication
             {
                 for (int j = 0; j <= 2; j++)
                 {
-                    array[i, j] = int.Parse(s[k]);
+                    array[i, j] = int.Parse(tmp[k]);
                     k++;
                 }
             }

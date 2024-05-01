@@ -39,7 +39,7 @@ namespace ConvertDecimalToHexaDecimal
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(180, 62);
+            this.button2.Location = new System.Drawing.Point(180, 76);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(150, 26);
             this.button2.TabIndex = 25;
@@ -48,7 +48,7 @@ namespace ConvertDecimalToHexaDecimal
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(12, 64);
+            this.button1.Location = new System.Drawing.Point(12, 78);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(150, 26);
             this.button1.TabIndex = 24;
@@ -61,7 +61,7 @@ namespace ConvertDecimalToHexaDecimal
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(150, 22);
             this.textBox2.TabIndex = 23;
-            this.textBox2.Text = "textBox2";
+            this.textBox2.Text = "-";
             // 
             // textBox1
             // 
@@ -69,7 +69,7 @@ namespace ConvertDecimalToHexaDecimal
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(150, 22);
             this.textBox1.TabIndex = 22;
-            this.textBox1.Text = "textBox1";
+            this.textBox1.Text = "-";
             // 
             // label2
             // 
@@ -91,7 +91,7 @@ namespace ConvertDecimalToHexaDecimal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(345, 116);
+            this.ClientSize = new System.Drawing.Size(345, 122);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.textBox2);

@@ -28,6 +28,7 @@ namespace OpeningFormWithEncryptedForm
         private void button1_Click(object sender, EventArgs e)
         {
             count++;
+
             if (textBox1.Text == "esen")
             {
                 DialogResult = DialogResult.OK;

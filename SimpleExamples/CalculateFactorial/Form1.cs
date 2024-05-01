@@ -21,6 +21,7 @@ namespace CalculateFactorial
         {
             int number = int.Parse(textBox1.Text);
             decimal factorial = 1;
+
             for (int i = 1; i <= number; i++)
             {
                 try
@@ -34,6 +35,7 @@ namespace CalculateFactorial
                     break;
                 }
             }
+
             MessageBox.Show(number.ToString() + "!=" + factorial.ToString());
         }
     }

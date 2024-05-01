@@ -27,16 +27,6 @@ namespace ModernCalculator
             textBox1.Text = "";
         }
 
-        private void Number(object sender, System.EventArgs e)
-        {
-            if (resulted)
-                textBox1.Text = (sender as Button).Text;
-            else
-                textBox1.Text += (sender as Button).Text;
-
-            resulted = false;
-        }
-
         private void button11_Click(object sender, EventArgs e)
         {
             textBox1.Text = "";
@@ -96,6 +86,16 @@ namespace ModernCalculator
             resulted = true;
             textBox1.Text = result.ToString();
             number1 = number2;
+        }
+
+        private void Number(object sender, System.EventArgs e)
+        {
+            if (resulted)
+                textBox1.Text = (sender as Button).Text;
+            else
+                textBox1.Text += (sender as Button).Text;
+
+            resulted = false;
         }
 
         private void MemoryProcesses(object sender, System.EventArgs e)

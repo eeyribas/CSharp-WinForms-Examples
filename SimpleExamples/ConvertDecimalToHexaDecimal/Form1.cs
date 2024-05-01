@@ -19,14 +19,14 @@ namespace ConvertDecimalToHexaDecimal
 
         private void button1_Click(object sender, EventArgs e)
         {
-            long s = long.Parse(textBox1.Text);
-            textBox2.Text = s.ToString("X16");
+            long value = long.Parse(textBox1.Text);
+            textBox2.Text = value.ToString("X16");
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            long s = long.Parse(textBox2.Text, System.Globalization.NumberStyles.HexNumber);
-            textBox1.Text = s.ToString();
+            long value = long.Parse(textBox2.Text, System.Globalization.NumberStyles.HexNumber);
+            textBox1.Text = value.ToString();
         }
     }
 }

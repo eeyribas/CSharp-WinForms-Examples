@@ -45,7 +45,7 @@ namespace ExportProductPricesToExcel
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(125, 26);
             this.label2.TabIndex = 12;
-            this.label2.Text = "label2";
+            this.label2.Text = "-";
             // 
             // button2
             // 
@@ -67,7 +67,7 @@ namespace ExportProductPricesToExcel
             // 
             // label1
             // 
-            this.label1.Location = new System.Drawing.Point(213, 234);
+            this.label1.Location = new System.Drawing.Point(217, 234);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(96, 26);
             this.label1.TabIndex = 11;

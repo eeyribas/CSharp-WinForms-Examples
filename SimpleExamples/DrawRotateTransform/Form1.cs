@@ -12,7 +12,7 @@ namespace DrawRotateTransform
 {
     public partial class Form1 : Form
     {
-        int degree = 0;
+        private int degree = 0;
 
         public Form1()
         {
@@ -44,10 +44,10 @@ namespace DrawRotateTransform
         {
             Random random = new Random();
             degree += 10 % 360;
+
             Color color1 = Color.FromArgb(random.Next(255), random.Next(255), random.Next(255));
             Color color2 = Color.FromArgb(random.Next(255), random.Next(255), random.Next(255));
             Graphics graphics = this.CreateGraphics();
-
             Font font = new Font("Tahoma", 20, FontStyle.Bold);
             StringFormat stringFormat = new StringFormat();
             stringFormat.Alignment = StringAlignment.Center;

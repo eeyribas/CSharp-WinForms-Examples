@@ -43,7 +43,7 @@ namespace DirectorySearcher
             }          
         }
 
-        void Search(string path)
+        private void Search(string path)
         {
             string[] files = Directory.GetFiles(path, textBox1.Text);
             listBox1.Items.AddRange(files);

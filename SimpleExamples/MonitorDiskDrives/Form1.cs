@@ -36,16 +36,11 @@ namespace MonitorDiskDrives
                 catch
                 {
                 }
-                fileSystemWatchers[i].Filter = "*.*";
-                fileSystemWatchers[i].NotifyFilter = NotifyFilters.Attributes |
-                                                     NotifyFilters.CreationTime |
-                                                     NotifyFilters.DirectoryName |
-                                                     NotifyFilters.FileName |
-                                                     NotifyFilters.LastAccess |
-                                                     NotifyFilters.LastWrite |
-                                                     NotifyFilters.Security |
-                                                     NotifyFilters.Size;
 
+                fileSystemWatchers[i].Filter = "*.*";
+                fileSystemWatchers[i].NotifyFilter = NotifyFilters.Attributes | NotifyFilters.CreationTime | NotifyFilters.DirectoryName |
+                                                     NotifyFilters.FileName | NotifyFilters.LastAccess | NotifyFilters.LastWrite |
+                                                     NotifyFilters.Security | NotifyFilters.Size;
                 fileSystemWatchers[i].IncludeSubdirectories = true;
                 fileSystemWatchers[i].Changed += new FileSystemEventHandler(Change);
                 fileSystemWatchers[i].Created += new FileSystemEventHandler(New);
@@ -72,38 +67,34 @@ namespace MonitorDiskDrives
 
         private void Change(object sender, FileSystemEventArgs e)
         {
-            ListViewItem elemant;
-            elemant = listView1.Items.Add((sender as FileSystemWatcher).Path);
-            elemant.SubItems.Add("Change");
-            elemant.SubItems.Add(e.FullPath);
-            elemant.SubItems.Add(e.ChangeType.ToString());
+            ListViewItem listViewItem = listView1.Items.Add((sender as FileSystemWatcher).Path);
+            listViewItem.SubItems.Add("Change");
+            listViewItem.SubItems.Add(e.FullPath);
+            listViewItem.SubItems.Add(e.ChangeType.ToString());
         }
 
         private void New(object sender, FileSystemEventArgs e)
         {
-            ListViewItem elemant;
-            elemant = listView1.Items.Add((sender as FileSystemWatcher).Path);
-            elemant.SubItems.Add("New");
-            elemant.SubItems.Add(e.FullPath);
-            elemant.SubItems.Add(e.ChangeType.ToString());
+            ListViewItem listViewItem = listView1.Items.Add((sender as FileSystemWatcher).Path);
+            listViewItem.SubItems.Add("New");
+            listViewItem.SubItems.Add(e.FullPath);
+            listViewItem.SubItems.Add(e.ChangeType.ToString());
         }
 
         private void Delete(object sender, FileSystemEventArgs e)
         {
-            ListViewItem elemant;
-            elemant = listView1.Items.Add((sender as FileSystemWatcher).Path);
-            elemant.SubItems.Add("Delete");
-            elemant.SubItems.Add(e.FullPath);
-            elemant.SubItems.Add(e.ChangeType.ToString());
+            ListViewItem listViewItem = listView1.Items.Add((sender as FileSystemWatcher).Path);
+            listViewItem.SubItems.Add("Delete");
+            listViewItem.SubItems.Add(e.FullPath);
+            listViewItem.SubItems.Add(e.ChangeType.ToString());
         }
 
         private void ChangeName(object sender, RenamedEventArgs e)
         {
-            ListViewItem elemant;
-            elemant = listView1.Items.Add((sender as FileSystemWatcher).Path);
-            elemant.SubItems.Add("Change Name");
-            elemant.SubItems.Add(e.FullPath);
-            elemant.SubItems.Add(e.OldFullPath);
+            ListViewItem listViewItem = listView1.Items.Add((sender as FileSystemWatcher).Path);
+            listViewItem.SubItems.Add("Change Name");
+            listViewItem.SubItems.Add(e.FullPath);
+            listViewItem.SubItems.Add(e.OldFullPath);
         }
     }
 }

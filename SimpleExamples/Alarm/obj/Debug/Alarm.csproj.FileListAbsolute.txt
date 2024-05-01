@@ -8,3 +8,13 @@ D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Alarm\obj\Debug\Ala
 D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Alarm\obj\Debug\Alarm.csproj.CoreCompileInputs.cache
 D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Alarm\obj\Debug\Alarm.exe
 D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Alarm\obj\Debug\Alarm.pdb
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\Alarm\bin\Debug\Alarm.exe.config
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\Alarm\bin\Debug\Alarm.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\Alarm\bin\Debug\Alarm.pdb
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\Alarm\obj\Debug\Alarm.csproj.AssemblyReference.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\Alarm\obj\Debug\Alarm.Form1.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\Alarm\obj\Debug\Alarm.Properties.Resources.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\Alarm\obj\Debug\Alarm.csproj.GenerateResource.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\Alarm\obj\Debug\Alarm.csproj.CoreCompileInputs.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\Alarm\obj\Debug\Alarm.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\Alarm\obj\Debug\Alarm.pdb

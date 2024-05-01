@@ -45,7 +45,7 @@ namespace SelectedText
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(211, 22);
             this.textBox2.TabIndex = 21;
-            this.textBox2.Text = "textBox2";
+            this.textBox2.Text = "-";
             // 
             // label1
             // 
@@ -107,7 +107,7 @@ namespace SelectedText
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(345, 213);
             this.textBox1.TabIndex = 14;
-            this.textBox1.Text = "textBox1";
+            this.textBox1.Text = "-";
             // 
             // Form1
             // 

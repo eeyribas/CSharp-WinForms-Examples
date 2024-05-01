@@ -39,9 +39,9 @@ namespace DeleteTmpFile
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(12, 37);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(46, 17);
+            this.label2.Size = new System.Drawing.Size(13, 17);
             this.label2.TabIndex = 8;
-            this.label2.Text = "label2";
+            this.label2.Text = "-";
             // 
             // label1
             // 

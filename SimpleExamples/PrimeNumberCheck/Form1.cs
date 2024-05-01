@@ -37,7 +37,7 @@ namespace PrimeNumberCheck
                 MessageBox.Show(number.ToString() + " = Not Prime");
         }
 
-        bool Check(long x)
+        private bool Check(long x)
         {
             bool state = false;
 
@@ -58,6 +58,7 @@ namespace PrimeNumberCheck
                     }
                 }
             }
+
             return !state;
         }
     }

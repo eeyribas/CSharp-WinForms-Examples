@@ -12,7 +12,7 @@ namespace ChangeColorWithButton
 {
     public partial class Form1 : Form
     {
-        int i, j;
+        private int i, j;
 
         public Form1()
         {
@@ -21,10 +21,13 @@ namespace ChangeColorWithButton
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            int k, n = Controls.Count;
-            Text = "Nesne Sayısı = " + n.ToString();
-            for (k = 0; k < n; k++) {
-                if (Controls[k] is TextBox) {
+            int n = Controls.Count;
+            Text = "Object Count = " + n.ToString();
+
+            for (int k = 0; k < n; k++) 
+            {
+                if (Controls[k] is TextBox) 
+                {
                     Controls[k].BackColor = Color.Pink;
                     Controls[k].ForeColor = Color.Blue;
                 }

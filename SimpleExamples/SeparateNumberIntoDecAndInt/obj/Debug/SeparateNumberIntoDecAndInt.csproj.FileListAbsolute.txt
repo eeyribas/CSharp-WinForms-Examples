@@ -1,0 +1,10 @@
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\SeparateNumberIntoDecAndInt\bin\Debug\SeparateNumberIntoDecAndInt.exe.config
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\SeparateNumberIntoDecAndInt\bin\Debug\SeparateNumberIntoDecAndInt.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\SeparateNumberIntoDecAndInt\bin\Debug\SeparateNumberIntoDecAndInt.pdb
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\SeparateNumberIntoDecAndInt\obj\Debug\SeparateNumberIntoDecAndInt.csproj.AssemblyReference.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\SeparateNumberIntoDecAndInt\obj\Debug\SeparateNumberIntoDecAndInt.Form1.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\SeparateNumberIntoDecAndInt\obj\Debug\SeparateNumberIntoDecAndInt.Properties.Resources.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\SeparateNumberIntoDecAndInt\obj\Debug\SeparateNumberIntoDecAndInt.csproj.GenerateResource.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\SeparateNumberIntoDecAndInt\obj\Debug\SeparateNumberIntoDecAndInt.csproj.CoreCompileInputs.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\SeparateNumberIntoDecAndInt\obj\Debug\SeparateNumberIntoDecAndInt.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\SeparateNumberIntoDecAndInt\obj\Debug\SeparateNumberIntoDecAndInt.pdb

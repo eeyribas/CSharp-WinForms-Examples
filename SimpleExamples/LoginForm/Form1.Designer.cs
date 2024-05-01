@@ -37,7 +37,7 @@ namespace LoginForm
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(212, 115);
+            this.button2.Location = new System.Drawing.Point(209, 115);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(105, 33);
             this.button2.TabIndex = 6;
@@ -48,27 +48,27 @@ namespace LoginForm
             // textBox1
             // 
             this.textBox1.ForeColor = System.Drawing.Color.Sienna;
-            this.textBox1.Location = new System.Drawing.Point(68, 72);
+            this.textBox1.Location = new System.Drawing.Point(65, 29);
             this.textBox1.MaxLength = 30;
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(249, 22);
             this.textBox1.TabIndex = 4;
-            this.textBox1.Text = "content";
+            this.textBox1.Text = "-";
             this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             this.textBox1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox1_KeyPress);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(68, 38);
+            this.label1.Location = new System.Drawing.Point(62, 75);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(46, 17);
+            this.label1.Size = new System.Drawing.Size(13, 17);
             this.label1.TabIndex = 7;
-            this.label1.Text = "label1";
+            this.label1.Text = "-";
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(68, 115);
+            this.button1.Location = new System.Drawing.Point(65, 115);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(105, 33);
             this.button1.TabIndex = 5;

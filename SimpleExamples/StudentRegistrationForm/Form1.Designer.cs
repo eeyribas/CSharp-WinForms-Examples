@@ -61,12 +61,12 @@ namespace StudentRegistrationForm
             this.toolStripStatusLabel2 = new System.Windows.Forms.ToolStripStatusLabel();
             this.radioButton5 = new System.Windows.Forms.RadioButton();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.ClearSelectionMnsItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.ClearListMnsItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.ExitMnsItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.AboutMnsItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem4 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem5 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem6 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
             this.toolStripButton1 = new System.Windows.Forms.ToolStripButton();
             this.toolStripButton2 = new System.Windows.Forms.ToolStripButton();
@@ -318,8 +318,8 @@ namespace StudentRegistrationForm
             this.button1.Text = "Add Info In List >>";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
-            this.button1.MouseLeave += new System.EventHandler(this.AddListBtn_MouseLeave);
-            this.button1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.AddListBtn_MouseMove);
+            this.button1.MouseLeave += new System.EventHandler(this.button1_MouseLeave);
+            this.button1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.button1_MouseMove);
             // 
             // imageList1
             // 
@@ -379,70 +379,70 @@ namespace StudentRegistrationForm
             this.menuStrip1.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.fileToolStripMenuItem,
-            this.helpToolStripMenuItem});
+            this.toolStripMenuItem1,
+            this.toolStripMenuItem5});
             this.menuStrip1.Location = new System.Drawing.Point(0, 27);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(1112, 28);
             this.menuStrip1.TabIndex = 7;
             this.menuStrip1.Text = "anaMenü";
             // 
-            // fileToolStripMenuItem
+            // toolStripMenuItem1
             // 
-            this.fileToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.ClearSelectionMnsItem,
-            this.ClearListMnsItem,
-            this.ExitMnsItem});
-            this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
-            this.fileToolStripMenuItem.ShortcutKeyDisplayString = "D";
-            this.fileToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.D)));
-            this.fileToolStripMenuItem.Size = new System.Drawing.Size(46, 24);
-            this.fileToolStripMenuItem.Text = "&File";
+            this.toolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripMenuItem2,
+            this.toolStripMenuItem3,
+            this.toolStripMenuItem4});
+            this.toolStripMenuItem1.Name = "toolStripMenuItem1";
+            this.toolStripMenuItem1.ShortcutKeyDisplayString = "D";
+            this.toolStripMenuItem1.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.D)));
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(46, 24);
+            this.toolStripMenuItem1.Text = "&File";
             // 
-            // ClearSelectionMnsItem
+            // toolStripMenuItem2
             // 
-            this.ClearSelectionMnsItem.Name = "ClearSelectionMnsItem";
-            this.ClearSelectionMnsItem.ShortcutKeyDisplayString = "CTRL+I";
-            this.ClearSelectionMnsItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.I)));
-            this.ClearSelectionMnsItem.Size = new System.Drawing.Size(332, 26);
-            this.ClearSelectionMnsItem.Tag = "S";
-            this.ClearSelectionMnsItem.Text = "&Clear Selection Student Info";
-            this.ClearSelectionMnsItem.Click += new System.EventHandler(this.ClearSelectionMnsItem_Click);
+            this.toolStripMenuItem2.Name = "toolStripMenuItem2";
+            this.toolStripMenuItem2.ShortcutKeyDisplayString = "CTRL+I";
+            this.toolStripMenuItem2.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.I)));
+            this.toolStripMenuItem2.Size = new System.Drawing.Size(332, 26);
+            this.toolStripMenuItem2.Tag = "S";
+            this.toolStripMenuItem2.Text = "&Clear Selection Student Info";
+            this.toolStripMenuItem2.Click += new System.EventHandler(this.toolStripMenuItem2_Click);
             // 
-            // ClearListMnsItem
+            // toolStripMenuItem3
             // 
-            this.ClearListMnsItem.Name = "ClearListMnsItem";
-            this.ClearListMnsItem.ShortcutKeyDisplayString = "CTRL+L";
-            this.ClearListMnsItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.L)));
-            this.ClearListMnsItem.Size = new System.Drawing.Size(332, 26);
-            this.ClearListMnsItem.Text = "Clear List";
-            this.ClearListMnsItem.Click += new System.EventHandler(this.ClearListMnsItem_Click);
+            this.toolStripMenuItem3.Name = "toolStripMenuItem3";
+            this.toolStripMenuItem3.ShortcutKeyDisplayString = "CTRL+L";
+            this.toolStripMenuItem3.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.L)));
+            this.toolStripMenuItem3.Size = new System.Drawing.Size(332, 26);
+            this.toolStripMenuItem3.Text = "Clear List";
+            this.toolStripMenuItem3.Click += new System.EventHandler(this.toolStripMenuItem3_Click);
             // 
-            // ExitMnsItem
+            // toolStripMenuItem4
             // 
-            this.ExitMnsItem.Name = "ExitMnsItem";
-            this.ExitMnsItem.ShortcutKeyDisplayString = "CTRL+Q";
-            this.ExitMnsItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Q)));
-            this.ExitMnsItem.Size = new System.Drawing.Size(332, 26);
-            this.ExitMnsItem.Text = "Exit";
-            this.ExitMnsItem.Click += new System.EventHandler(this.ExitMnsItem_Click);
+            this.toolStripMenuItem4.Name = "toolStripMenuItem4";
+            this.toolStripMenuItem4.ShortcutKeyDisplayString = "CTRL+Q";
+            this.toolStripMenuItem4.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Q)));
+            this.toolStripMenuItem4.Size = new System.Drawing.Size(332, 26);
+            this.toolStripMenuItem4.Text = "Exit";
+            this.toolStripMenuItem4.Click += new System.EventHandler(this.toolStripMenuItem4_Click);
             // 
-            // helpToolStripMenuItem
+            // toolStripMenuItem5
             // 
-            this.helpToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.AboutMnsItem});
-            this.helpToolStripMenuItem.Name = "helpToolStripMenuItem";
-            this.helpToolStripMenuItem.Size = new System.Drawing.Size(55, 24);
-            this.helpToolStripMenuItem.Text = "&Help";
+            this.toolStripMenuItem5.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripMenuItem6});
+            this.toolStripMenuItem5.Name = "toolStripMenuItem5";
+            this.toolStripMenuItem5.Size = new System.Drawing.Size(55, 24);
+            this.toolStripMenuItem5.Text = "&Help";
             // 
-            // AboutMnsItem
+            // toolStripMenuItem6
             // 
-            this.AboutMnsItem.Name = "AboutMnsItem";
-            this.AboutMnsItem.ShortcutKeyDisplayString = "Ctrl+A";
-            this.AboutMnsItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.A)));
-            this.AboutMnsItem.Size = new System.Drawing.Size(224, 26);
-            this.AboutMnsItem.Text = "&About";
-            this.AboutMnsItem.Click += new System.EventHandler(this.AboutMnsItem_Click);
+            this.toolStripMenuItem6.Name = "toolStripMenuItem6";
+            this.toolStripMenuItem6.ShortcutKeyDisplayString = "Ctrl+A";
+            this.toolStripMenuItem6.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.A)));
+            this.toolStripMenuItem6.Size = new System.Drawing.Size(185, 26);
+            this.toolStripMenuItem6.Text = "&About";
+            this.toolStripMenuItem6.Click += new System.EventHandler(this.toolStripMenuItem6_Click);
             // 
             // toolStrip1
             // 
@@ -466,7 +466,7 @@ namespace StudentRegistrationForm
             this.toolStripButton1.Name = "toolStripButton1";
             this.toolStripButton1.Size = new System.Drawing.Size(29, 24);
             this.toolStripButton1.Text = "SeçilenÖğrenciBilgileriTemizle";
-            this.toolStripButton1.Click += new System.EventHandler(this.ClearListMnsItem_Click);
+            this.toolStripButton1.Click += new System.EventHandler(this.toolStripMenuItem3_Click);
             // 
             // toolStripButton2
             // 
@@ -476,7 +476,7 @@ namespace StudentRegistrationForm
             this.toolStripButton2.Name = "toolStripButton2";
             this.toolStripButton2.Size = new System.Drawing.Size(29, 24);
             this.toolStripButton2.Text = "ListesiTemizle";
-            this.toolStripButton2.Click += new System.EventHandler(this.ClearSelectionMnsItem_Click);
+            this.toolStripButton2.Click += new System.EventHandler(this.toolStripMenuItem2_Click);
             // 
             // toolStripButton3
             // 
@@ -486,7 +486,7 @@ namespace StudentRegistrationForm
             this.toolStripButton3.Name = "toolStripButton3";
             this.toolStripButton3.Size = new System.Drawing.Size(29, 24);
             this.toolStripButton3.Text = "BilgiEdin";
-            this.toolStripButton3.Click += new System.EventHandler(this.AboutMnsItem_Click);
+            this.toolStripButton3.Click += new System.EventHandler(this.toolStripMenuItem6_Click);
             // 
             // groupBox1
             // 
@@ -692,12 +692,12 @@ namespace StudentRegistrationForm
         private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel2;
         private System.Windows.Forms.RadioButton radioButton5;
         private System.Windows.Forms.MenuStrip menuStrip1;
-        private System.Windows.Forms.ToolStripMenuItem fileToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem ClearSelectionMnsItem;
-        private System.Windows.Forms.ToolStripMenuItem ClearListMnsItem;
-        private System.Windows.Forms.ToolStripMenuItem ExitMnsItem;
-        private System.Windows.Forms.ToolStripMenuItem helpToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem AboutMnsItem;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem2;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem3;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem4;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem5;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem6;
         private System.Windows.Forms.ToolStrip toolStrip1;
         private System.Windows.Forms.ToolStripButton toolStripButton1;
         private System.Windows.Forms.ToolStripButton toolStripButton2;

@@ -130,7 +130,7 @@ namespace WordApp
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(249, 22);
             this.textBox2.TabIndex = 25;
-            this.textBox2.Text = "textBox2";
+            this.textBox2.Text = "-";
             // 
             // label2
             // 
@@ -156,7 +156,7 @@ namespace WordApp
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(249, 22);
             this.textBox1.TabIndex = 24;
-            this.textBox1.Text = "textBox1";
+            this.textBox1.Text = "-";
             // 
             // Form2
             // 

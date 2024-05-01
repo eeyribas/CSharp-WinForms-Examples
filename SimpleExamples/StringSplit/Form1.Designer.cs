@@ -88,7 +88,7 @@ namespace StringSplit
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(231, 22);
             this.textBox2.TabIndex = 14;
-            this.textBox2.Text = "textBox2";
+            this.textBox2.Text = "-";
             // 
             // label2
             // 
@@ -113,7 +113,7 @@ namespace StringSplit
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(231, 22);
             this.textBox1.TabIndex = 11;
-            this.textBox1.Text = "textBox1";
+            this.textBox1.Text = "-";
             // 
             // label1
             // 

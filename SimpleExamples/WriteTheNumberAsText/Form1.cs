@@ -42,7 +42,6 @@ namespace WriteTheNumberAsText
             string[] thousands = { "quadrillion", "trillion", "billion", "million", "thousand", "" };
             int[] digitArray = new int[3];
             string result = "";
-            string tmpResult = "";
 
             number = number.PadLeft(maxDigitNumber, '0');
             for (int i = 0; i <= maxDigitNumber / 3 - 1; i++)
@@ -51,6 +50,7 @@ namespace WriteTheNumberAsText
                 digitArray[1] = int.Parse(number.Substring((i * 3) + 1, 1));
                 digitArray[2] = int.Parse(number.Substring((i * 3) + 2, 1));
 
+                string tmpResult = "";
                 if (digitArray[0] == 0)
                     tmpResult = "";
                 else if (digitArray[0] == 1)

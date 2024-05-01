@@ -53,7 +53,7 @@ namespace ConvertToBaseN
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(120, 27);
             this.label4.TabIndex = 19;
-            this.label4.Text = "label4";
+            this.label4.Text = "-";
             // 
             // label3
             // 
@@ -69,11 +69,11 @@ namespace ConvertToBaseN
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(120, 22);
             this.textBox2.TabIndex = 17;
-            this.textBox2.Text = "textBox2";
+            this.textBox2.Text = "-";
             // 
             // label2
             // 
-            this.label2.Location = new System.Drawing.Point(12, 46);
+            this.label2.Location = new System.Drawing.Point(12, 49);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(120, 27);
             this.label2.TabIndex = 16;
@@ -85,11 +85,11 @@ namespace ConvertToBaseN
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(120, 22);
             this.textBox1.TabIndex = 15;
-            this.textBox1.Text = "textBox1";
+            this.textBox1.Text = "-";
             // 
             // label1
             // 
-            this.label1.Location = new System.Drawing.Point(12, 9);
+            this.label1.Location = new System.Drawing.Point(12, 12);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(124, 28);
             this.label1.TabIndex = 14;

@@ -12,9 +12,6 @@ namespace FormScale
 {
     public partial class Form1 : Form
     {
-        private int originalX = 800;
-        private int originalY = 600;
-
         public Form1()
         {
             InitializeComponent();
@@ -24,8 +21,12 @@ namespace FormScale
         {
             Rectangle resolution = new Rectangle();
             resolution = Screen.GetBounds(resolution);
+
+            int originalX = 800;
+            int originalY = 600;
             float ratioX = (float)resolution.Width / originalX;
             float ratioY = (float)resolution.Height / originalY;
+
             this.Left = 0;
             this.Top = 0;
             this.Scale(ratioX, ratioY);

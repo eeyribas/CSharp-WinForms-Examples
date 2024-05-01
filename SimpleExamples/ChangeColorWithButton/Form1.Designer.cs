@@ -57,7 +57,7 @@ namespace ChangeColorWithButton
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(133, 22);
             this.textBox6.TabIndex = 14;
-            this.textBox6.Text = "text";
+            this.textBox6.Text = "-";
             this.textBox6.Enter += new System.EventHandler(this.textBox_Enter);
             this.textBox6.Leave += new System.EventHandler(this.textBox_Leave);
             // 
@@ -68,7 +68,7 @@ namespace ChangeColorWithButton
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(133, 22);
             this.textBox5.TabIndex = 13;
-            this.textBox5.Text = "text";
+            this.textBox5.Text = "-";
             this.textBox5.Enter += new System.EventHandler(this.textBox_Enter);
             this.textBox5.Leave += new System.EventHandler(this.textBox_Leave);
             // 
@@ -79,7 +79,7 @@ namespace ChangeColorWithButton
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(133, 22);
             this.textBox4.TabIndex = 12;
-            this.textBox4.Text = "text";
+            this.textBox4.Text = "-";
             this.textBox4.Enter += new System.EventHandler(this.textBox_Enter);
             this.textBox4.Leave += new System.EventHandler(this.textBox_Leave);
             // 
@@ -90,7 +90,7 @@ namespace ChangeColorWithButton
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(133, 22);
             this.textBox3.TabIndex = 11;
-            this.textBox3.Text = "text";
+            this.textBox3.Text = "-";
             this.textBox3.Enter += new System.EventHandler(this.textBox_Enter);
             this.textBox3.Leave += new System.EventHandler(this.textBox_Leave);
             // 
@@ -101,14 +101,14 @@ namespace ChangeColorWithButton
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(133, 22);
             this.textBox2.TabIndex = 10;
-            this.textBox2.Text = "text";
+            this.textBox2.Text = "-";
             this.textBox2.Enter += new System.EventHandler(this.textBox_Enter);
             this.textBox2.Leave += new System.EventHandler(this.textBox_Leave);
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(265, 43);
+            this.label2.Location = new System.Drawing.Point(314, 43);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(30, 17);
             this.label2.TabIndex = 17;
@@ -117,7 +117,7 @@ namespace ChangeColorWithButton
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(82, 43);
+            this.label1.Location = new System.Drawing.Point(121, 43);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(30, 17);
             this.label1.TabIndex = 16;
@@ -130,7 +130,7 @@ namespace ChangeColorWithButton
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(133, 22);
             this.textBox1.TabIndex = 9;
-            this.textBox1.Text = "text";
+            this.textBox1.Text = "-";
             this.textBox1.Enter += new System.EventHandler(this.textBox_Enter);
             this.textBox1.Leave += new System.EventHandler(this.textBox_Leave);
             // 

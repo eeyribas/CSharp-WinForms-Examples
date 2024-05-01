@@ -20,7 +20,7 @@ namespace XORAdvancedEncrypt
         private void button1_Click(object sender, EventArgs e)
         {
             string passwordText = "";
-            char c;
+            char ch;
             string text= textBox1.Text;
             string password = textBox2.Text;
 
@@ -29,13 +29,15 @@ namespace XORAdvancedEncrypt
                 passwordText = "";
                 for (int i = 0; i <= text.Length - 1; i++)
                 {
-                    c = (char)(text[i] ^ password[j]);
-                    if (c == '0')
-                        c = password[j];
-                    passwordText += (char)c;
+                    ch = (char)(text[i] ^ password[j]);
+                    if (ch == '0')
+                        ch = password[j];
+                    passwordText += (char)ch;
                 }
+
                 text = passwordText;
             }
+
             textBox3.Text = passwordText;
         }
     }

@@ -31,7 +31,7 @@ namespace GalatasarayFootballClubCalendar
         {
             this.numericUpDown2 = new System.Windows.Forms.NumericUpDown();
             this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
-            this.Label2 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
@@ -55,13 +55,13 @@ namespace GalatasarayFootballClubCalendar
             this.numericUpDown1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.numericUpDown1.ValueChanged += new System.EventHandler(this.numericUpDown1_ValueChanged);
             // 
-            // Label2
+            // label2
             // 
-            this.Label2.Location = new System.Drawing.Point(172, 11);
-            this.Label2.Name = "Label2";
-            this.Label2.Size = new System.Drawing.Size(48, 19);
-            this.Label2.TabIndex = 12;
-            this.Label2.Text = "Year :";
+            this.label2.Location = new System.Drawing.Point(172, 11);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(48, 19);
+            this.label2.TabIndex = 12;
+            this.label2.Text = "Year :";
             // 
             // label1
             // 
@@ -78,7 +78,7 @@ namespace GalatasarayFootballClubCalendar
             this.ClientSize = new System.Drawing.Size(1009, 634);
             this.Controls.Add(this.numericUpDown2);
             this.Controls.Add(this.numericUpDown1);
-            this.Controls.Add(this.Label2);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "Form1";
             this.Text = "Form1";
@@ -94,7 +94,7 @@ namespace GalatasarayFootballClubCalendar
 
         internal System.Windows.Forms.NumericUpDown numericUpDown2;
         internal System.Windows.Forms.NumericUpDown numericUpDown1;
-        internal System.Windows.Forms.Label Label2;
+        internal System.Windows.Forms.Label label2;
         internal System.Windows.Forms.Label label1;
     }
 }

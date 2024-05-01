@@ -13,8 +13,7 @@ namespace DrawOnTheImage
 {
     public partial class Form1 : Form
     {
-        bool selection;
-        string[] images = new string[500];
+        private bool selection;
 
         public Form1()
         {
@@ -28,9 +27,13 @@ namespace DrawOnTheImage
 
         private void Form1_Paint(object sender, PaintEventArgs e)
         {
+            string[] images = new string[500];
+
             if (selection == false)
-                e.Graphics.DrawString("Double-click the form to select an image",
-                new Font("Tahoma", 16, FontStyle.Regular), new SolidBrush(Color.Black), 0, 0);
+            {
+                e.Graphics.DrawString("Double-click the form to select an image", new Font("Tahoma", 16, FontStyle.Regular), 
+                                      new SolidBrush(Color.Black), 0, 0);
+            }
             else
             {
                 e.Graphics.Clear(this.BackColor);
@@ -56,13 +59,14 @@ namespace DrawOnTheImage
                         images[k] = fileInfos[i].FullName;
                         try
                         {
-                            e.Graphics.DrawImage(Image.FromFile(fileInfos[i].FullName),new Rectangle(column * 50, row * 50, 45, 45));
+                            e.Graphics.DrawImage(Image.FromFile(fileInfos[i].FullName), new Rectangle(column * 50, row * 50, 45, 45));
                         }
                         catch
                         {
                             e.Graphics.DrawString("ERROR", new Font("Tahoma", 8, FontStyle.Regular),
                             new SolidBrush(Color.Red), column * 50, row * 50);
                         }
+
                         column += 1;
                         k += 1;
                     }

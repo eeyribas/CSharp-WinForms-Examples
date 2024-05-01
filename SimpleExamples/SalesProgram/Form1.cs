@@ -36,40 +36,45 @@ namespace SalesProgram
             listView1.HideSelection = false;
 
             TextReader textReader = File.OpenText("listview.txt");
-            string x = textReader.ReadLine();
-            int count = int.Parse(x);
+            string readLine = textReader.ReadLine();
+            int count = int.Parse(readLine);
             for (int i = 0; i <= count - 1; i++)
             {
-                x = textReader.ReadLine();
-                listView1.Items.Add(x);
-                x = textReader.ReadLine();
-                listView1.Items[i].ImageIndex = int.Parse(x);
+                readLine = textReader.ReadLine();
+                listView1.Items.Add(readLine);
+                readLine = textReader.ReadLine();
+                listView1.Items[i].ImageIndex = int.Parse(readLine);
+
                 for (int j = 1; j <= listView1.Columns.Count - 1; j++)
                 {
-                    x = textReader.ReadLine();
-                    listView1.Items[i].SubItems.Add(x);
+                    readLine = textReader.ReadLine();
+                    listView1.Items[i].SubItems.Add(readLine);
                 }
             }
+
             textReader.Close();
         }
 
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)
         {
             TextWriter textWriter = File.CreateText("listview.txt");
-            string x = listView1.Items.Count.ToString();
-            textWriter.WriteLine(x);
+            string readLine = listView1.Items.Count.ToString();
+            textWriter.WriteLine(readLine);
+
             for (int i = 0; i <= listView1.Items.Count - 1; i++)
             {
-                x = listView1.Items[i].Text;
-                textWriter.WriteLine(x);
-                x = listView1.Items[i].ImageIndex.ToString();
-                textWriter.WriteLine(x);
+                readLine = listView1.Items[i].Text;
+                textWriter.WriteLine(readLine);
+                readLine = listView1.Items[i].ImageIndex.ToString();
+                textWriter.WriteLine(readLine);
+
                 for (int j = 1; j <= listView1.Columns.Count - 1; j++)
                 {
-                    x = listView1.Items[i].SubItems[j].Text;
-                    textWriter.WriteLine(x);
+                    readLine = listView1.Items[i].SubItems[j].Text;
+                    textWriter.WriteLine(readLine);
                 }
             }
+
             textWriter.Close();
         }
 

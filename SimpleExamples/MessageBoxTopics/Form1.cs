@@ -19,13 +19,13 @@ namespace MessageBoxTopics
 
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)
         {
-            DialogResult dialogResult = MessageBox.Show("The program will close.", "Exit",
-                                        MessageBoxButtons.OKCancel, MessageBoxIcon.Information);
+            DialogResult dialogResult = MessageBox.Show("The program will close.", "Exit", MessageBoxButtons.OKCancel, 
+                                                        MessageBoxIcon.Information);
+            
             if (dialogResult == DialogResult.Cancel)
                 e.Cancel = true;
             else
-                MessageBox.Show("Goodbye!", "The program has ended.", 
-                MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("Goodbye!", "The program has ended.", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -47,13 +47,13 @@ namespace MessageBoxTopics
         {
             if (listBox1.SelectedIndex < 0)
             {
-                MessageBox.Show("Select the item you want to delete.", "You didn't select anything.",
-                MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("Select the item you want to delete.", "You didn't select anything.", MessageBoxButtons.OK, 
+                                MessageBoxIcon.Information);
             }
             else
             {
                 DialogResult dialogResult = MessageBox.Show("Are you sure you want to delete this item?", "Delete Item",
-                 MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+                                                            MessageBoxButtons.YesNo, MessageBoxIcon.Question);
                 if (dialogResult == DialogResult.Yes)
                     listBox1.Items.Remove(listBox1.SelectedItem);
             }
@@ -62,12 +62,13 @@ namespace MessageBoxTopics
         private void button3_Click(object sender, EventArgs e)
         {
             DialogResult dialogResult = MessageBox.Show("This operation will take a long time. Do you want to continue?", "A very long operation.",
-                                        MessageBoxButtons.YesNo, MessageBoxIcon.Information);
+                                                        MessageBoxButtons.YesNo, MessageBoxIcon.Information);
             if (dialogResult == DialogResult.Yes)
             {
                 long sum = 0;
                 for (int i = 1; i <= 1000000000; i++)
                     sum += i;
+
                 MessageBox.Show("Result: " + sum.ToString(), "Sum", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
         }

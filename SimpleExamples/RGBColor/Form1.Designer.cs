@@ -93,7 +93,7 @@ namespace RGBColor
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(221, 22);
             this.textBox1.TabIndex = 14;
-            this.textBox1.Text = "textBox1";
+            this.textBox1.Text = "-";
             // 
             // Form1
             // 

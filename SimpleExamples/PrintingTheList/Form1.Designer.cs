@@ -73,9 +73,9 @@ namespace PrintingTheList
             // 
             // label4
             // 
-            this.label4.Location = new System.Drawing.Point(12, 194);
+            this.label4.Location = new System.Drawing.Point(33, 197);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(96, 26);
+            this.label4.Size = new System.Drawing.Size(69, 26);
             this.label4.TabIndex = 45;
             this.label4.Text = "Report :";
             // 
@@ -137,7 +137,7 @@ namespace PrintingTheList
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(120, 22);
             this.textBox3.TabIndex = 37;
-            this.textBox3.Text = "textBox3";
+            this.textBox3.Text = "-";
             // 
             // textBox2
             // 
@@ -145,12 +145,12 @@ namespace PrintingTheList
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(120, 22);
             this.textBox2.TabIndex = 36;
-            this.textBox2.Text = "textBox2";
+            this.textBox2.Text = "-";
             this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // label3
             // 
-            this.label3.Location = new System.Drawing.Point(319, 9);
+            this.label3.Location = new System.Drawing.Point(307, 9);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(58, 27);
             this.label3.TabIndex = 35;
@@ -158,7 +158,7 @@ namespace PrintingTheList
             // 
             // label2
             // 
-            this.label2.Location = new System.Drawing.Point(175, 9);
+            this.label2.Location = new System.Drawing.Point(172, 9);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(120, 27);
             this.label2.TabIndex = 34;
@@ -166,7 +166,7 @@ namespace PrintingTheList
             // 
             // label1
             // 
-            this.label1.Location = new System.Drawing.Point(12, 9);
+            this.label1.Location = new System.Drawing.Point(9, 9);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(120, 27);
             this.label1.TabIndex = 33;
@@ -178,7 +178,7 @@ namespace PrintingTheList
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(154, 22);
             this.textBox1.TabIndex = 32;
-            this.textBox1.Text = "textBox1";
+            this.textBox1.Text = "-";
             // 
             // printPreviewDialog1
             // 

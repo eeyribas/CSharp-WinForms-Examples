@@ -39,7 +39,7 @@ namespace OpeningFormWithEncryptedForm
             // 
             this.label1.AutoSize = true;
             this.label1.ForeColor = System.Drawing.Color.Brown;
-            this.label1.Location = new System.Drawing.Point(30, 59);
+            this.label1.Location = new System.Drawing.Point(36, 47);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(109, 20);
             this.label1.TabIndex = 7;
@@ -58,7 +58,7 @@ namespace OpeningFormWithEncryptedForm
             // textBox1
             // 
             this.textBox1.ForeColor = System.Drawing.Color.SaddleBrown;
-            this.textBox1.Location = new System.Drawing.Point(145, 56);
+            this.textBox1.Location = new System.Drawing.Point(179, 44);
             this.textBox1.MaxLength = 16;
             this.textBox1.Name = "textBox1";
             this.textBox1.PasswordChar = '*';

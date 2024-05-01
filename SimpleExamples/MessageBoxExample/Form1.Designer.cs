@@ -60,7 +60,7 @@ namespace MessageBoxExample
             this.groupBox1.Controls.Add(this.radioButton3);
             this.groupBox1.Controls.Add(this.radioButton2);
             this.groupBox1.Controls.Add(this.radioButton1);
-            this.groupBox1.Location = new System.Drawing.Point(55, 56);
+            this.groupBox1.Location = new System.Drawing.Point(55, 29);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(211, 297);
             this.groupBox1.TabIndex = 10;
@@ -77,7 +77,7 @@ namespace MessageBoxExample
             this.radioButton6.TabStop = true;
             this.radioButton6.Text = "radioButton6";
             this.radioButton6.UseVisualStyleBackColor = true;
-            this.radioButton6.CheckedChanged += new System.EventHandler(this.bType_CheckedChanged);
+            this.radioButton6.CheckedChanged += new System.EventHandler(this.messageBoxButtons_CheckedChanged);
             // 
             // radioButton5
             // 
@@ -89,7 +89,7 @@ namespace MessageBoxExample
             this.radioButton5.TabStop = true;
             this.radioButton5.Text = "radioButton5";
             this.radioButton5.UseVisualStyleBackColor = true;
-            this.radioButton5.CheckedChanged += new System.EventHandler(this.bType_CheckedChanged);
+            this.radioButton5.CheckedChanged += new System.EventHandler(this.messageBoxButtons_CheckedChanged);
             // 
             // radioButton4
             // 
@@ -101,7 +101,7 @@ namespace MessageBoxExample
             this.radioButton4.TabStop = true;
             this.radioButton4.Text = "radioButton4";
             this.radioButton4.UseVisualStyleBackColor = true;
-            this.radioButton4.CheckedChanged += new System.EventHandler(this.bType_CheckedChanged);
+            this.radioButton4.CheckedChanged += new System.EventHandler(this.messageBoxButtons_CheckedChanged);
             // 
             // radioButton3
             // 
@@ -113,7 +113,7 @@ namespace MessageBoxExample
             this.radioButton3.TabStop = true;
             this.radioButton3.Text = "radioButton3";
             this.radioButton3.UseVisualStyleBackColor = true;
-            this.radioButton3.CheckedChanged += new System.EventHandler(this.bType_CheckedChanged);
+            this.radioButton3.CheckedChanged += new System.EventHandler(this.messageBoxButtons_CheckedChanged);
             // 
             // radioButton2
             // 
@@ -125,7 +125,7 @@ namespace MessageBoxExample
             this.radioButton2.TabStop = true;
             this.radioButton2.Text = "radioButton2";
             this.radioButton2.UseVisualStyleBackColor = true;
-            this.radioButton2.CheckedChanged += new System.EventHandler(this.bType_CheckedChanged);
+            this.radioButton2.CheckedChanged += new System.EventHandler(this.messageBoxButtons_CheckedChanged);
             // 
             // radioButton1
             // 
@@ -137,7 +137,7 @@ namespace MessageBoxExample
             this.radioButton1.TabStop = true;
             this.radioButton1.Text = "radioButton1";
             this.radioButton1.UseVisualStyleBackColor = true;
-            this.radioButton1.CheckedChanged += new System.EventHandler(this.bType_CheckedChanged);
+            this.radioButton1.CheckedChanged += new System.EventHandler(this.messageBoxButtons_CheckedChanged);
             // 
             // radioButton15
             // 
@@ -149,7 +149,7 @@ namespace MessageBoxExample
             this.radioButton15.TabStop = true;
             this.radioButton15.Text = "radioButton15";
             this.radioButton15.UseVisualStyleBackColor = true;
-            this.radioButton15.CheckedChanged += new System.EventHandler(this.iType_CheckedChanged);
+            this.radioButton15.CheckedChanged += new System.EventHandler(this.messageBoxIcon_CheckedChanged);
             // 
             // radioButton14
             // 
@@ -161,7 +161,7 @@ namespace MessageBoxExample
             this.radioButton14.TabStop = true;
             this.radioButton14.Text = "radioButton14";
             this.radioButton14.UseVisualStyleBackColor = true;
-            this.radioButton14.CheckedChanged += new System.EventHandler(this.iType_CheckedChanged);
+            this.radioButton14.CheckedChanged += new System.EventHandler(this.messageBoxIcon_CheckedChanged);
             // 
             // radioButton13
             // 
@@ -173,7 +173,7 @@ namespace MessageBoxExample
             this.radioButton13.TabStop = true;
             this.radioButton13.Text = "radioButton13";
             this.radioButton13.UseVisualStyleBackColor = true;
-            this.radioButton13.CheckedChanged += new System.EventHandler(this.iType_CheckedChanged);
+            this.radioButton13.CheckedChanged += new System.EventHandler(this.messageBoxIcon_CheckedChanged);
             // 
             // radioButton7
             // 
@@ -185,7 +185,7 @@ namespace MessageBoxExample
             this.radioButton7.TabStop = true;
             this.radioButton7.Text = "radioButton7";
             this.radioButton7.UseVisualStyleBackColor = true;
-            this.radioButton7.CheckedChanged += new System.EventHandler(this.iType_CheckedChanged);
+            this.radioButton7.CheckedChanged += new System.EventHandler(this.messageBoxIcon_CheckedChanged);
             // 
             // radioButton8
             // 
@@ -197,7 +197,7 @@ namespace MessageBoxExample
             this.radioButton8.TabStop = true;
             this.radioButton8.Text = "radioButton8";
             this.radioButton8.UseVisualStyleBackColor = true;
-            this.radioButton8.CheckedChanged += new System.EventHandler(this.iType_CheckedChanged);
+            this.radioButton8.CheckedChanged += new System.EventHandler(this.messageBoxIcon_CheckedChanged);
             // 
             // radioButton9
             // 
@@ -209,7 +209,7 @@ namespace MessageBoxExample
             this.radioButton9.TabStop = true;
             this.radioButton9.Text = "radioButton9";
             this.radioButton9.UseVisualStyleBackColor = true;
-            this.radioButton9.CheckedChanged += new System.EventHandler(this.iType_CheckedChanged);
+            this.radioButton9.CheckedChanged += new System.EventHandler(this.messageBoxIcon_CheckedChanged);
             // 
             // radioButton10
             // 
@@ -221,7 +221,7 @@ namespace MessageBoxExample
             this.radioButton10.TabStop = true;
             this.radioButton10.Text = "radioButton10";
             this.radioButton10.UseVisualStyleBackColor = true;
-            this.radioButton10.CheckedChanged += new System.EventHandler(this.iType_CheckedChanged);
+            this.radioButton10.CheckedChanged += new System.EventHandler(this.messageBoxIcon_CheckedChanged);
             // 
             // radioButton11
             // 
@@ -233,11 +233,11 @@ namespace MessageBoxExample
             this.radioButton11.TabStop = true;
             this.radioButton11.Text = "radioButton11";
             this.radioButton11.UseVisualStyleBackColor = true;
-            this.radioButton11.CheckedChanged += new System.EventHandler(this.iType_CheckedChanged);
+            this.radioButton11.CheckedChanged += new System.EventHandler(this.messageBoxIcon_CheckedChanged);
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(55, 391);
+            this.button1.Location = new System.Drawing.Point(55, 403);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(211, 59);
             this.button1.TabIndex = 8;
@@ -273,24 +273,24 @@ namespace MessageBoxExample
             this.radioButton12.TabStop = true;
             this.radioButton12.Text = "radioButton12";
             this.radioButton12.UseVisualStyleBackColor = true;
-            this.radioButton12.CheckedChanged += new System.EventHandler(this.iType_CheckedChanged);
+            this.radioButton12.CheckedChanged += new System.EventHandler(this.messageBoxIcon_CheckedChanged);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Courier New", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label1.ForeColor = System.Drawing.Color.Green;
-            this.label1.Location = new System.Drawing.Point(49, 478);
+            this.label1.Location = new System.Drawing.Point(48, 510);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(137, 37);
+            this.label1.Size = new System.Drawing.Size(37, 37);
             this.label1.TabIndex = 9;
-            this.label1.Text = "label1";
+            this.label1.Text = "-";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(583, 544);
+            this.ClientSize = new System.Drawing.Size(583, 581);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.groupBox2);

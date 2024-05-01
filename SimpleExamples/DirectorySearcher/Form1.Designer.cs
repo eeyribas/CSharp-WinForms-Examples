@@ -44,7 +44,7 @@ namespace DirectorySearcher
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(375, 27);
             this.label3.TabIndex = 20;
-            this.label3.Text = "label3";
+            this.label3.Text = "-";
             // 
             // listBox1
             // 
@@ -69,13 +69,13 @@ namespace DirectorySearcher
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(120, 22);
             this.textBox2.TabIndex = 17;
-            this.textBox2.Text = "textBox2";
+            this.textBox2.Text = "-";
             // 
             // label2
             // 
             this.label2.Location = new System.Drawing.Point(12, 39);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(172, 26);
+            this.label2.Size = new System.Drawing.Size(120, 26);
             this.label2.TabIndex = 16;
             this.label2.Text = "Start the search:";
             // 
@@ -85,7 +85,7 @@ namespace DirectorySearcher
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(120, 22);
             this.textBox1.TabIndex = 15;
-            this.textBox1.Text = "textBox1";
+            this.textBox1.Text = "-";
             // 
             // label1
             // 

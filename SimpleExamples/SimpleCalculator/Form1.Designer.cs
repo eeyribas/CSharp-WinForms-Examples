@@ -77,11 +77,11 @@ namespace SimpleCalculator
             // 
             // label2
             // 
-            this.label2.Location = new System.Drawing.Point(131, 54);
+            this.label2.Location = new System.Drawing.Point(128, 53);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(120, 26);
             this.label2.TabIndex = 19;
-            this.label2.Text = "Label2";
+            this.label2.Text = "-";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label1
@@ -91,7 +91,7 @@ namespace SimpleCalculator
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(77, 27);
             this.label1.TabIndex = 18;
-            this.label1.Text = "Label1";
+            this.label1.Text = "-";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // textBox2
@@ -100,7 +100,7 @@ namespace SimpleCalculator
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(120, 22);
             this.textBox2.TabIndex = 17;
-            this.textBox2.Text = "textBox2";
+            this.textBox2.Text = "-";
             // 
             // textBox1
             // 
@@ -108,7 +108,7 @@ namespace SimpleCalculator
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(120, 22);
             this.textBox1.TabIndex = 16;
-            this.textBox1.Text = "textBox1";
+            this.textBox1.Text = "-";
             // 
             // Form1
             // 

@@ -8,3 +8,13 @@ D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\FindMouseCoordinaat
 D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\FindMouseCoordinaats\obj\Debug\FindMouseCoordinaats.csproj.CoreCompileInputs.cache
 D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\FindMouseCoordinaats\obj\Debug\FindMouseCoordinaats.exe
 D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\FindMouseCoordinaats\obj\Debug\FindMouseCoordinaats.pdb
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\FindMouseCoordinaats\bin\Debug\FindMouseCoordinaats.exe.config
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\FindMouseCoordinaats\bin\Debug\FindMouseCoordinaats.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\FindMouseCoordinaats\bin\Debug\FindMouseCoordinaats.pdb
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\FindMouseCoordinaats\obj\Debug\FindMouseCoordinaats.csproj.AssemblyReference.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\FindMouseCoordinaats\obj\Debug\FindMouseCoordinaats.Form1.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\FindMouseCoordinaats\obj\Debug\FindMouseCoordinaats.Properties.Resources.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\FindMouseCoordinaats\obj\Debug\FindMouseCoordinaats.csproj.GenerateResource.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\FindMouseCoordinaats\obj\Debug\FindMouseCoordinaats.csproj.CoreCompileInputs.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\FindMouseCoordinaats\obj\Debug\FindMouseCoordinaats.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\FindMouseCoordinaats\obj\Debug\FindMouseCoordinaats.pdb

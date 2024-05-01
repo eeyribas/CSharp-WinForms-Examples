@@ -41,7 +41,7 @@ namespace FindingGregorianAndHijriDates
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(173, 27);
             this.label4.TabIndex = 7;
-            this.label4.Text = "label4";
+            this.label4.Text = "-";
             // 
             // label3
             // 
@@ -49,7 +49,7 @@ namespace FindingGregorianAndHijriDates
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(183, 27);
             this.label3.TabIndex = 6;
-            this.label3.Text = "label3";
+            this.label3.Text = "-";
             // 
             // label2
             // 

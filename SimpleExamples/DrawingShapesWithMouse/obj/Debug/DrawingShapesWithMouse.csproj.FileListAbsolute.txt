@@ -7,3 +7,4 @@ D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\Draw
 D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\DrawingShapesWithMouse\obj\Debug\DrawingShapesWithMouse.csproj.CoreCompileInputs.cache
 D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\DrawingShapesWithMouse\obj\Debug\DrawingShapesWithMouse.exe
 D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\DrawingShapesWithMouse\obj\Debug\DrawingShapesWithMouse.pdb
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\DrawingShapesWithMouse\obj\Debug\DrawingShapesWithMouse.csproj.AssemblyReference.cache

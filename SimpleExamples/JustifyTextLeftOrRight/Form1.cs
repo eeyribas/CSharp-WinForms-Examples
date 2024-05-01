@@ -12,14 +12,12 @@ namespace JustifyTextLeftOrRight
 {
     public partial class Form1 : Form
     {
-        Graphics graphics;
-        SolidBrush solidBrush;
-        Font font;
-        string str;
-        bool jusf;
-        int count;
-        int[,] x = { { 6567, 583, 582, 653, 992, 15375 },
-                     { 89253, 48, 381, 9, 7632, 677562 } };
+        private Graphics graphics;
+        private SolidBrush solidBrush;
+        private Font font;
+        private bool jusf;
+        private int count;
+        private int[,] x = { { 6567, 583, 582, 653, 992, 15375 }, { 89253, 48, 381, 9, 7632, 677562 } };
 
         public Form1()
         {
@@ -38,9 +36,11 @@ namespace JustifyTextLeftOrRight
             Text = (++count).ToString();
             graphics.Clear(Color.Yellow);
 
+            string str;
             for(int i = 0; i < 2; i++) {
                 for(int j = 0; j < 6; j++) {
                     str = x[i, j].ToString();
+
                     if(jusf)
                         str = str.PadLeft(16, ' ');
                     graphics.DrawString(str, font, solidBrush, 40 + 200 * i, 100 + 20 * j);
@@ -62,6 +62,7 @@ namespace JustifyTextLeftOrRight
             if (jusf)
                 return;
             jusf = true;
+
             Refresh();
         }
     }

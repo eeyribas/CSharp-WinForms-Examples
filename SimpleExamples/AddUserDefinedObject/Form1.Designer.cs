@@ -66,7 +66,7 @@ namespace AddUserDefinedObject
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(106, 22);
             this.textBox2.TabIndex = 58;
-            this.textBox2.Text = "textBox2";
+            this.textBox2.Text = "-";
             // 
             // label7
             // 
@@ -74,7 +74,7 @@ namespace AddUserDefinedObject
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(95, 27);
             this.label7.TabIndex = 57;
-            this.label7.Text = "label7";
+            this.label7.Text = "-";
             // 
             // label6
             // 
@@ -91,7 +91,7 @@ namespace AddUserDefinedObject
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(120, 27);
             this.label5.TabIndex = 55;
-            this.label5.Text = "label5";
+            this.label5.Text = "-";
             // 
             // label4
             // 
@@ -160,7 +160,7 @@ namespace AddUserDefinedObject
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(146, 24);
             this.comboBox2.TabIndex = 6;
-            this.comboBox2.Text = "comboBox2";
+            this.comboBox2.Text = "-";
             // 
             // label3
             // 
@@ -176,7 +176,7 @@ namespace AddUserDefinedObject
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(144, 24);
             this.comboBox1.TabIndex = 4;
-            this.comboBox1.Text = "comboBox1";
+            this.comboBox1.Text = "-";
             // 
             // label2
             // 
@@ -200,7 +200,7 @@ namespace AddUserDefinedObject
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(135, 22);
             this.textBox1.TabIndex = 1;
-            this.textBox1.Text = "textBox1";
+            this.textBox1.Text = "-";
             // 
             // button5
             // 

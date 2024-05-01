@@ -29,24 +29,24 @@ namespace OverloadFunction
             MessageBox.Show(Subtraction("Istanbul", "a"));
         }
 
-        int Sum(int x, int y)
+        private int Sum(int x, int y)
         {
             MessageBox.Show("The one with 2 parameters is working.");
             return x + y;
         }
 
-        int Sum(int x, int y, int z)
+        private int Sum(int x, int y, int z)
         {
             MessageBox.Show("The one with 3 parameters is working.");
             return x + y + z;
         }
 
-        int Subtraction(int x, int y)
+        private int Subtraction(int x, int y)
         {
             return x - y;
         }
 
-        string Subtraction(string x, string y)
+        private string Subtraction(string x, string y)
         {
             return x.Replace(y, "");
         }

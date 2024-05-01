@@ -1,0 +1,10 @@
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\ChangeBackgrndColorOfTextBoxes\bin\Debug\ChangeBackgrndColorOfTextBoxes.exe.config
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\ChangeBackgrndColorOfTextBoxes\bin\Debug\ChangeBackgrndColorOfTextBoxes.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\ChangeBackgrndColorOfTextBoxes\bin\Debug\ChangeBackgrndColorOfTextBoxes.pdb
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\ChangeBackgrndColorOfTextBoxes\obj\Debug\ChangeBackgrndColorOfTextBoxes.csproj.AssemblyReference.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\ChangeBackgrndColorOfTextBoxes\obj\Debug\ChangeBackgrndColorOfTextBoxes.Form1.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\ChangeBackgrndColorOfTextBoxes\obj\Debug\ChangeBackgrndColorOfTextBoxes.Properties.Resources.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\ChangeBackgrndColorOfTextBoxes\obj\Debug\ChangeBackgrndColorOfTextBoxes.csproj.GenerateResource.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\ChangeBackgrndColorOfTextBoxes\obj\Debug\ChangeBackgrndColorOfTextBoxes.csproj.CoreCompileInputs.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\ChangeBackgrndColorOfTextBoxes\obj\Debug\ChangeBackgrndColorOfTextBoxes.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\ChangeBackgrndColorOfTextBoxes\obj\Debug\ChangeBackgrndColorOfTextBoxes.pdb

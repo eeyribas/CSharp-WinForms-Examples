@@ -17,7 +17,7 @@ namespace TennisGame
         private int xa, ya;
         private bool demo = false;
         private int[] box;
-        int imageNo = 0;
+        private int imageNo = 0;
 
         public Form1()
         {
@@ -91,6 +91,7 @@ namespace TennisGame
                     e.Graphics.FillRectangle(solidBrush, x, y, 60, 20);
                 }
             }
+
             boxCount = ks;
             label2.Text = boxCount.ToString();
         }
@@ -214,7 +215,7 @@ namespace TennisGame
             this.label3.Text = "Level " + level;
             this.Width = 60 * columnCount + 8;
 
-            Random random = new Random((int)(System.DateTime.Now.Ticks % System.Int32.MaxValue));
+            Random random = new Random((int)(DateTime.Now.Ticks % Int32.MaxValue));
             this.BackColor = Color.FromArgb(random.Next(255), random.Next(255), random.Next(255));
             this.button1.Width -= 10;
 
@@ -232,7 +233,7 @@ namespace TennisGame
             this.label4.Top = (this.ClientSize.Height - this.label4.Height) / 2;
             this.label4.Visible = true;
             Application.DoEvents();
-            System.Threading.Thread.Sleep(2000);
+            Thread.Sleep(2000);
             this.label4.Visible = false;
         }
     }

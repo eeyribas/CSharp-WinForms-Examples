@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading;
@@ -24,8 +25,8 @@ namespace GalatasarayFootballClubCalendar
             numericUpDown1.Maximum = 12;
             numericUpDown2.Minimum = 1;
             numericUpDown2.Maximum = 9999;
-            numericUpDown1.Value = System.DateTime.Now.Month;
-            numericUpDown2.Value = System.DateTime.Now.Year;
+            numericUpDown1.Value = DateTime.Now.Month;
+            numericUpDown2.Value = DateTime.Now.Year;
         }
 
         private void Form1_Paint(object sender, PaintEventArgs e)
@@ -43,7 +44,7 @@ namespace GalatasarayFootballClubCalendar
             Draw();
         }
 
-        void Draw()
+        private void Draw()
         {
             Font monthFont = new Font("Tahoma", 14, FontStyle.Bold);
             Font dayNameFont = new Font("Tahoma", 10, FontStyle.Bold);
@@ -86,7 +87,7 @@ namespace GalatasarayFootballClubCalendar
             if (start == 0)
                 start = 7;
 
-            int week = Thread.CurrentThread.CurrentCulture.Calendar.GetWeekOfYear(dateTime, System.Globalization.CalendarWeekRule.FirstDay, System.DayOfWeek.Monday);
+            int week = Thread.CurrentThread.CurrentCulture.Calendar.GetWeekOfYear(dateTime, CalendarWeekRule.FirstDay, DayOfWeek.Monday);
             int day = 0;
             for (int i = week; i <= week + 6; i++)
             {

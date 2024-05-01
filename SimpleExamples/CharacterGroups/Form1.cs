@@ -19,66 +19,69 @@ namespace CharacterGroups
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            listBox.Font = new Font("Courier New", 16, FontStyle.Bold);
-            listBox.MultiColumn = true;
-            listBox.ColumnWidth = 125;
-            comboBox.Items.Add("Tüm Karakterler");
-            comboBox.Items.Add("Control");
-            comboBox.Items.Add("Digit");
-            comboBox.Items.Add("Letter");
-            comboBox.Items.Add("Lower");
-            comboBox.Items.Add("Number");
-            comboBox.Items.Add("Symbol");
-            comboBox.Items.Add("Upper");
+            listBox1.Font = new Font("Courier New", 16, FontStyle.Bold);
+            listBox1.MultiColumn = true;
+            listBox1.ColumnWidth = 125;
+
+            comboBox1.Items.Add("All Characters");
+            comboBox1.Items.Add("Control");
+            comboBox1.Items.Add("Digit");
+            comboBox1.Items.Add("Letter");
+            comboBox1.Items.Add("Lower");
+            comboBox1.Items.Add("Number");
+            comboBox1.Items.Add("Symbol");
+            comboBox1.Items.Add("Upper");
         }
 
-        private void comboBox_KeyPress(object sender, KeyPressEventArgs e)
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
-            e.Handled = true;
-        }
+            listBox1.Items.Clear();
 
-        private void comboBox_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            listBox.Items.Clear();
             for (int i = (int)Char.MinValue; i <= (int)Char.MaxValue; i++)
             {
-                char c = (char)i;
-                string s = i.ToString().PadLeft(6, ' ') + "  " + c;
-                switch (comboBox.SelectedIndex)
+                char ch = (char)i;
+                string str = i.ToString().PadLeft(6, ' ') + "  " + ch;
+
+                switch (comboBox1.SelectedIndex)
                 {
                     case 0:
-                        listBox.Items.Add(s);
+                        listBox1.Items.Add(str);
                         break;
                     case 1:
-                        if (Char.IsControl(c))
-                            listBox.Items.Add(s);
+                        if (Char.IsControl(ch))
+                            listBox1.Items.Add(str);
                         break;
                     case 2:
-                        if (Char.IsDigit(c))
-                            listBox.Items.Add(s);
+                        if (Char.IsDigit(ch))
+                            listBox1.Items.Add(str);
                         break;
                     case 3:
-                        if (Char.IsLetter(c))
-                            listBox.Items.Add(s);
+                        if (Char.IsLetter(ch))
+                            listBox1.Items.Add(str);
                         break;
                     case 4:
-                        if (Char.IsLower(c))
-                            listBox.Items.Add(s);
+                        if (Char.IsLower(ch))
+                            listBox1.Items.Add(str);
                         break;
                     case 5:
-                        if (Char.IsNumber(c))
-                            listBox.Items.Add(s);
+                        if (Char.IsNumber(ch))
+                            listBox1.Items.Add(str);
                         break;
                     case 6:
-                        if (Char.IsSymbol(c))
-                            listBox.Items.Add(s);
+                        if (Char.IsSymbol(ch))
+                            listBox1.Items.Add(str);
                         break;
                     case 7:
-                        if (Char.IsUpper(c))
-                            listBox.Items.Add(s);
+                        if (Char.IsUpper(ch))
+                            listBox1.Items.Add(str);
                         break;
                 }
             }
+        }
+
+        private void comboBox1_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            e.Handled = true;
         }
     }
 }

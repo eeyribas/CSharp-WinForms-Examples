@@ -59,11 +59,11 @@ namespace TennisGame
             // 
             // label4
             // 
-            this.label4.Location = new System.Drawing.Point(672, 350);
+            this.label4.Location = new System.Drawing.Point(668, 341);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(120, 27);
             this.label4.TabIndex = 17;
-            this.label4.Text = "label4";
+            this.label4.Text = "-";
             // 
             // timer2
             // 
@@ -75,11 +75,11 @@ namespace TennisGame
             // 
             // label3
             // 
-            this.label3.Location = new System.Drawing.Point(509, 350);
+            this.label3.Location = new System.Drawing.Point(509, 341);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(120, 27);
             this.label3.TabIndex = 16;
-            this.label3.Text = "label3";
+            this.label3.Text = "-";
             // 
             // imageList2
             // 
@@ -117,7 +117,7 @@ namespace TennisGame
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(120, 26);
             this.label2.TabIndex = 15;
-            this.label2.Text = "label2";
+            this.label2.Text = "-";
             // 
             // label1
             // 
@@ -125,7 +125,7 @@ namespace TennisGame
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(120, 26);
             this.label1.TabIndex = 14;
-            this.label1.Text = "label1";
+            this.label1.Text = "-";
             // 
             // Form1
             // 

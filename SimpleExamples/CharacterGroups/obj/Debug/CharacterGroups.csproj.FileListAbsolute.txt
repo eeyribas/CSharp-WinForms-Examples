@@ -17,3 +17,4 @@ D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\Char
 D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\CharacterGroups\obj\Debug\CharacterGroups.csproj.CoreCompileInputs.cache
 D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\CharacterGroups\obj\Debug\CharacterGroups.exe
 D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\CharacterGroups\obj\Debug\CharacterGroups.pdb
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\CharacterGroups\obj\Debug\CharacterGroups.csproj.AssemblyReference.cache

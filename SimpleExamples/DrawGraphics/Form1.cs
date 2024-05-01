@@ -28,18 +28,16 @@ namespace DrawGraphics
             e.Graphics.DrawLine(new Pen(Color.Blue, 2), xMiddle, 0, xMiddle, yMax);
             e.Graphics.DrawLine(new Pen(Color.Blue, 2), 0, yMiddle, xMax, yMiddle);
 
-            float x, y;
-            float x1, y1;
-            for (x = -this.ClientSize.Width / 2; x <= this.ClientSize.Width / 2; x += 0.1F)
+            for (float x = -this.ClientSize.Width / 2; x <= this.ClientSize.Width / 2; x += 0.1F)
             {
-                y = calc(x);
-                x1 = x + xMiddle;
-                y1 = -y + yMiddle;
+                float y = Calculation(x);
+                float x1 = x + xMiddle;
+                float y1 = -y + yMiddle;
                 e.Graphics.DrawLine(new Pen(Color.Red, 1), x1, y1, x1, yMiddle);
             }
         }
 
-        private float calc(float x)
+        private float Calculation(float x)
         {
             return (float)(x * Math.Sin(5 * x * Math.PI / 180));
         }

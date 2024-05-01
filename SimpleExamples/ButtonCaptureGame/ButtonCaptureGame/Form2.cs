@@ -15,20 +15,21 @@ namespace ButtonCaptureGame
         int x, y;
         int number = 1;
 
-        public Form2(int number, int number2, bool checkbox)
+        public Form2(int number1, int number2, bool checkbox)
         {
             InitializeComponent();
-            number2 = (number2 + 1) * 100;
-            this.ClientSize = new System.Drawing.Size(number2, number2);
-            if (number == 0)
-                number = 100;
-            else
-                number = (number) * 300;
 
-            timer1.Interval = (number);
+            number2 = (number2 + 1) * 100;
+            this.ClientSize = new Size(number2, number2);
+            if (number1 == 0)
+                number1 = 100;
+            else
+                number1 = (number1) * 300;
+
+            timer1.Interval = (number1);
             if (checkbox == false)
             {
-                this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+                this.FormBorderStyle = FormBorderStyle.FixedDialog;
             }
         }
 
@@ -42,11 +43,11 @@ namespace ButtonCaptureGame
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-            Random numbers = new Random();
-            int index = numbers.Next(1, x - 111);
-            int index2 = numbers.Next(1, y - 40);
+            Random random = new Random();
+            int index1 = random.Next(1, x - 111);
+            int index2 = random.Next(1, y - 40);
 
-            this.button1.Location = new System.Drawing.Point(index, index2);
+            this.button1.Location = new Point(index1, index2);
         }
 
         private void timer2_Tick(object sender, EventArgs e)

@@ -41,7 +41,7 @@ namespace RTFCode
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(384, 110);
             this.textBox1.TabIndex = 8;
-            this.textBox1.Text = "TextBox1";
+            this.textBox1.Text = "-";
             // 
             // button1
             // 
@@ -58,7 +58,7 @@ namespace RTFCode
             this.richTextBox1.Name = "richTextBox1";
             this.richTextBox1.Size = new System.Drawing.Size(384, 139);
             this.richTextBox1.TabIndex = 6;
-            this.richTextBox1.Text = "RichTextBox1";
+            this.richTextBox1.Text = "-";
             // 
             // Form1
             // 

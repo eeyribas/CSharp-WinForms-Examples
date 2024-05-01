@@ -355,7 +355,7 @@ namespace WordApp
             this.richTextBox1.Name = "richTextBox1";
             this.richTextBox1.Size = new System.Drawing.Size(804, 311);
             this.richTextBox1.TabIndex = 1047;
-            this.richTextBox1.Text = "richTextBox1";
+            this.richTextBox1.Text = "-";
             this.richTextBox1.LinkClicked += new System.Windows.Forms.LinkClickedEventHandler(this.richTextBox1_LinkClicked);
             this.richTextBox1.SelectionChanged += new System.EventHandler(this.richTextBox1_SelectionChanged);
             this.richTextBox1.TextChanged += new System.EventHandler(this.richTextBox1_TextChanged);
@@ -366,7 +366,7 @@ namespace WordApp
             this.comboBox4.Name = "comboBox4";
             this.comboBox4.Size = new System.Drawing.Size(106, 24);
             this.comboBox4.TabIndex = 7;
-            this.comboBox4.Text = "comboBox4";
+            this.comboBox4.Text = "-";
             this.comboBox4.TextChanged += new System.EventHandler(this.comboBox4_TextChanged);
             // 
             // label4
@@ -384,7 +384,7 @@ namespace WordApp
             this.comboBox3.Name = "comboBox3";
             this.comboBox3.Size = new System.Drawing.Size(96, 24);
             this.comboBox3.TabIndex = 5;
-            this.comboBox3.Text = "comboBox3";
+            this.comboBox3.Text = "-";
             this.comboBox3.DrawItem += new System.Windows.Forms.DrawItemEventHandler(this.comboBox3_DrawItem);
             this.comboBox3.SelectedIndexChanged += new System.EventHandler(this.comboBox3_SelectedIndexChanged);
             // 
@@ -403,7 +403,7 @@ namespace WordApp
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(96, 24);
             this.comboBox2.TabIndex = 3;
-            this.comboBox2.Text = "comboBox2";
+            this.comboBox2.Text = "-";
             this.comboBox2.SelectedIndexChanged += new System.EventHandler(this.comboBox2_SelectedIndexChanged);
             // 
             // label2
@@ -421,7 +421,7 @@ namespace WordApp
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(145, 24);
             this.comboBox1.TabIndex = 1;
-            this.comboBox1.Text = "comboBox1";
+            this.comboBox1.Text = "-";
             this.comboBox1.DrawItem += new System.Windows.Forms.DrawItemEventHandler(this.comboBox1_DrawItem);
             this.comboBox1.MeasureItem += new System.Windows.Forms.MeasureItemEventHandler(this.comboBox1_MeasureItem);
             this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);

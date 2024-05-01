@@ -40,7 +40,7 @@ namespace XOREncryptText
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(150, 166);
+            this.button1.Location = new System.Drawing.Point(150, 158);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(164, 27);
             this.button1.TabIndex = 13;
@@ -53,7 +53,7 @@ namespace XOREncryptText
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(120, 22);
             this.textBox3.TabIndex = 12;
-            this.textBox3.Text = "textBox3";
+            this.textBox3.Text = "-";
             // 
             // textBox2
             // 
@@ -61,7 +61,7 @@ namespace XOREncryptText
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(120, 22);
             this.textBox2.TabIndex = 11;
-            this.textBox2.Text = "textBox2";
+            this.textBox2.Text = "-";
             // 
             // textBox1
             // 
@@ -69,13 +69,13 @@ namespace XOREncryptText
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(120, 22);
             this.textBox1.TabIndex = 10;
-            this.textBox1.Text = "textBox1";
+            this.textBox1.Text = "-";
             // 
             // label3
             // 
             this.label3.Location = new System.Drawing.Point(12, 105);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(182, 26);
+            this.label3.Size = new System.Drawing.Size(165, 26);
             this.label3.TabIndex = 9;
             this.label3.Text = "Encoded/Decoded Text :";
             // 
@@ -83,7 +83,7 @@ namespace XOREncryptText
             // 
             this.label2.Location = new System.Drawing.Point(12, 58);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(182, 27);
+            this.label2.Size = new System.Drawing.Size(165, 27);
             this.label2.TabIndex = 8;
             this.label2.Text = "Password :(0-255)";
             // 
@@ -91,7 +91,7 @@ namespace XOREncryptText
             // 
             this.label1.Location = new System.Drawing.Point(12, 12);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(182, 27);
+            this.label1.Size = new System.Drawing.Size(165, 27);
             this.label1.TabIndex = 7;
             this.label1.Text = "Text :";
             // 

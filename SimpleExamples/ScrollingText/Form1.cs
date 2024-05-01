@@ -12,8 +12,8 @@ namespace ScrollingText
 {
     public partial class Form1 : Form
     {
-        string s;
-        int n;
+        private string str;
+        private int strLen;
 
         public Form1()
         {
@@ -22,11 +22,11 @@ namespace ScrollingText
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            s = "Esen EYRIBAS             ";
-            n = s.Length;
-            label1.Text = s;
+            str = "Esen EYRIBAS             ";
+            strLen = str.Length;
+            label1.Text = str;
             label1.BackColor = Color.Yellow;
-            label1.ForeColor = Color.Blue;
+            label1.ForeColor = Color.Red;
             timer1.Interval = 250;
             timer1.Enabled = true;
         }
@@ -38,8 +38,8 @@ namespace ScrollingText
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-            s = s.Substring(1, n - 1) + s[0];
-            label1.Text = s;
+            str = str.Substring(1, strLen - 1) + str[0];
+            label1.Text = str;
         }
     }
 }

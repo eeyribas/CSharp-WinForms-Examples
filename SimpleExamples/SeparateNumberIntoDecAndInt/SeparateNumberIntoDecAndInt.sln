@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32901.82
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeparateNumberIntoDecAndInt", "SeparateNumberIntoDecAndInt.csproj", "{A10E0A5A-FBD8-4FFE-93A8-442BDB95860F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A10E0A5A-FBD8-4FFE-93A8-442BDB95860F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A10E0A5A-FBD8-4FFE-93A8-442BDB95860F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A10E0A5A-FBD8-4FFE-93A8-442BDB95860F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A10E0A5A-FBD8-4FFE-93A8-442BDB95860F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B3FEF8B1-ACBD-4DEC-9042-25C43F0BECD3}
+	EndGlobalSection
+EndGlobal

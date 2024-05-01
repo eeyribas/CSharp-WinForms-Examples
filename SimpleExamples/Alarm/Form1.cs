@@ -21,6 +21,7 @@ namespace Alarm
         {
             textBox1.Text = DateTime.Now.ToShortDateString();
             textBox2.Text = DateTime.Now.ToLongTimeString();
+
             timer2.Enabled = false;
             timer1.Enabled = false;
             timer2.Interval = 100;
@@ -39,8 +40,7 @@ namespace Alarm
 
         private void timer2_Tick(object sender, EventArgs e)
         {
-            Color color;
-            color = textBox3.BackColor;
+            Color color = textBox3.BackColor;
             textBox3.BackColor = textBox3.ForeColor;
             textBox3.ForeColor = color;
         }

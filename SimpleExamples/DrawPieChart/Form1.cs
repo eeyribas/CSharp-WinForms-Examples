@@ -13,9 +13,9 @@ namespace DrawPieChart
 {
     public partial class Form1 : Form
     {
-        string[] references = new string[20];
-        int[] values = new int[20];
-        int orderNo, sumValue;
+        private string[] references = new string[20];
+        private int[] values = new int[20];
+        private int orderNo, sumValue;
 
         public Form1()
         {
@@ -45,15 +45,14 @@ namespace DrawPieChart
             orderNo += 1;
 
             Graphics graphics = this.CreateGraphics();
-            int firstAgree = 0, secondAgree = 0;
-            Color color;
-            HatchBrush hatchBrush;
+            int firstAgree = 0;
             Random random = new Random();
+
             for (int i = 0; i <= orderNo - 1; i++)
             {
-                secondAgree = 360 * values[i] / sumValue;
-                color = Color.FromArgb(random.Next(255), random.Next(255), random.Next(255));
-                hatchBrush = new HatchBrush((HatchStyle)random.Next(50), color);
+                int secondAgree = 360 * values[i] / sumValue;
+                Color color = Color.FromArgb(random.Next(255), random.Next(255), random.Next(255));
+                HatchBrush hatchBrush = new HatchBrush((HatchStyle)random.Next(50), color);
                 graphics.FillPie(hatchBrush, 0, 80, 200, 200, firstAgree, secondAgree);
 
                 graphics.FillRectangle(hatchBrush, 210, 80 + i * 20, 18, 18);

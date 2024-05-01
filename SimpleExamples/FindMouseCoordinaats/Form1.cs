@@ -12,11 +12,11 @@ namespace FindMouseCoordinaats
 {
     public partial class Form1 : Form
     {
-        Graphics graphics;
-        Pen pen;
-        Random random;
-        bool draw;
-        int x, y, r, g, b;
+        private Graphics graphics;
+        private Pen pen;
+        private Random random;
+        private bool draw;
+        private int x, y, r, g, b;
 
         public Form1()
         {
@@ -47,13 +47,15 @@ namespace FindMouseCoordinaats
         private void Form1_MouseMove(object sender, MouseEventArgs e)
         {
             Text = String.Format("{0} : {1}", e.X, e.Y);
+
             if (draw) 
                 graphics.DrawLine(pen, x, y, e.X, e.Y);
+
             x = e.X;
             y = e.Y;
         }
 
-        void SelectionRandomColor()
+        private void SelectionRandomColor()
         {
             r = random.Next(256);
             g = random.Next(256);

@@ -38,6 +38,7 @@ namespace XOREncryptText
                 byte c = (byte)(text[i] ^ password);
                 encryptText += (char)(c);
             }
+
             textBox3.Text = encryptText;
         }
     }

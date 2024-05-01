@@ -8,3 +8,13 @@ D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\ConvertBinaryToDeci
 D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\ConvertBinaryToDecimal\obj\Debug\ConvertBinaryToDecimal.csproj.CoreCompileInputs.cache
 D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\ConvertBinaryToDecimal\obj\Debug\ConvertBinaryToDecimal.exe
 D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\ConvertBinaryToDecimal\obj\Debug\ConvertBinaryToDecimal.pdb
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\ConvertBinaryToDecimal\bin\Debug\ConvertBinaryToDecimal.exe.config
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\ConvertBinaryToDecimal\bin\Debug\ConvertBinaryToDecimal.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\ConvertBinaryToDecimal\bin\Debug\ConvertBinaryToDecimal.pdb
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\ConvertBinaryToDecimal\obj\Debug\ConvertBinaryToDecimal.csproj.AssemblyReference.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\ConvertBinaryToDecimal\obj\Debug\ConvertBinaryToDecimal.Form1.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\ConvertBinaryToDecimal\obj\Debug\ConvertBinaryToDecimal.Properties.Resources.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\ConvertBinaryToDecimal\obj\Debug\ConvertBinaryToDecimal.csproj.GenerateResource.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\ConvertBinaryToDecimal\obj\Debug\ConvertBinaryToDecimal.csproj.CoreCompileInputs.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\ConvertBinaryToDecimal\obj\Debug\ConvertBinaryToDecimal.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\ConvertBinaryToDecimal\obj\Debug\ConvertBinaryToDecimal.pdb

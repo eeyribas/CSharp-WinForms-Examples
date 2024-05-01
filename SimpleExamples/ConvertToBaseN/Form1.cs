@@ -23,7 +23,7 @@ namespace ConvertToBaseN
             {
                 long x = int.Parse(textBox1.Text);
                 int n = int.Parse(textBox2.Text);
-                label3.Text = n.ToString() + " base " + x.ToString() + "=";
+                label3.Text = n.ToString() + " base " + x.ToString() + " = ";
                 label4.Text = ConvertToBase(x, n);
             }
             catch
@@ -37,24 +37,23 @@ namespace ConvertToBaseN
             if (n < 2)
                 return "-1";
 
-            long b;
-            string s = "";
+            string str = "";
             while (x >= n)
             {
-                b = x % n;
+                long binary = x % n;
                 x /= n;
-                if (b > 9)
-                    s = (char)(55 + b) + s;
+                if (binary > 9)
+                    str += (char)(55 + binary);
                 else
-                    s = b + s;
+                    str += binary;
             }
 
             if (x > 9)
-                s = (char)(55 + x) + s;
+                str += (char)(55 + x);
             else
-                s = x + s;
+                str += x;
 
-            return s;
+            return str;
         }
     }
 }

@@ -50,7 +50,7 @@ namespace GetNextControl
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(230, 22);
             this.textBox4.TabIndex = 13;
-            this.textBox4.Text = "textBox4";
+            this.textBox4.Text = "-";
             // 
             // textBox3
             // 
@@ -58,7 +58,7 @@ namespace GetNextControl
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(230, 22);
             this.textBox3.TabIndex = 12;
-            this.textBox3.Text = "textBox3";
+            this.textBox3.Text = "-";
             // 
             // textBox2
             // 
@@ -66,7 +66,7 @@ namespace GetNextControl
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(230, 22);
             this.textBox2.TabIndex = 11;
-            this.textBox2.Text = "textBox2";
+            this.textBox2.Text = "-";
             // 
             // textBox1
             // 
@@ -74,7 +74,7 @@ namespace GetNextControl
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(230, 22);
             this.textBox1.TabIndex = 10;
-            this.textBox1.Text = "textBox1";
+            this.textBox1.Text = "-";
             this.textBox1.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBox1_KeyDown);
             // 
             // Form1

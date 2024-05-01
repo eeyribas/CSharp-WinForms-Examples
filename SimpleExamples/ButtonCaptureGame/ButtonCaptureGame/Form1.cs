@@ -12,7 +12,7 @@ namespace ButtonCaptureGame
 {
     public partial class Form1 : Form
     {
-        int value = 2;
+        int value1 = 2;
         int value2 = 2;
         bool value3 = true;
 
@@ -29,28 +29,30 @@ namespace ButtonCaptureGame
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Form2 newform = new Form2(value, value2, value3);
-            newform.Show();
+            Form2 form2 = new Form2(value1, value2, value3);
+            form2.Show();
         }
 
         private void trackBar1_Scroll(object sender, EventArgs e)
         {
-            value = trackBar1.Value;
-            if (value == 0)
+            value1 = trackBar1.Value;
+
+            if (value1 == 0)
                 label3.Text = "Very Hard 100 ms";
-            if (value == 1)
+            if (value1 == 1)
                 label3.Text = "Hard 300 ms";
-            if (value == 2)
+            if (value1 == 2)
                 label3.Text = "Medium 600 ms";
-            if (value == 3)
+            if (value1 == 3)
                 label3.Text = "Easy 900 ms";
-            if (value == 4)
+            if (value1 == 4)
                 label3.Text = "Very Easy 1200 ms";
         }
 
         private void trackBar2_Scroll(object sender, EventArgs e)
         {
             value2 = trackBar2.Value;
+
             if (value2 == 0)
                 label4.Text = "Very Small 200x200";
             if (value2 == 1)

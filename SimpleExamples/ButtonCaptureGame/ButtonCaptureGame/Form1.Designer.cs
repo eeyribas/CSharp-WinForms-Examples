@@ -67,9 +67,9 @@ namespace ButtonCaptureGame
             this.label4.Location = new System.Drawing.Point(341, 160);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(44, 24);
+            this.label4.Size = new System.Drawing.Size(16, 24);
             this.label4.TabIndex = 7;
-            this.label4.Text = "Lbl6";
+            this.label4.Text = "-";
             // 
             // trackBar2
             // 
@@ -111,9 +111,9 @@ namespace ButtonCaptureGame
             this.label3.Location = new System.Drawing.Point(341, 63);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(44, 24);
+            this.label3.Size = new System.Drawing.Size(16, 24);
             this.label3.TabIndex = 3;
-            this.label3.Text = "Lbl1";
+            this.label3.Text = "-";
             // 
             // trackBar1
             // 

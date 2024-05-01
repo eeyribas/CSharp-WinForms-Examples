@@ -19,10 +19,9 @@ namespace SelectFromFonts
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            FontFamily[] fonts = FontFamily.Families;
-
-            for(int i = 0; i <= fonts.Length - 1; i++)
-                listBox1.Items.Add(fonts[i].Name);
+            FontFamily[] fontFamily = FontFamily.Families;
+            for(int i = 0; i <= fontFamily.Length - 1; i++)
+                listBox1.Items.Add(fontFamily[i].Name);
         }
 
         private void listBox1_SelectedIndexChanged(object sender, EventArgs e)

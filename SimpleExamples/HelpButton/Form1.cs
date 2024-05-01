@@ -29,14 +29,14 @@ namespace HelpButton
             this.Close();
         }
 
-        private void textBox1_HelpRequested(object sender, HelpEventArgs hlpevent)
+        private void button1_HelpRequested(object sender, HelpEventArgs helpEventArgs)
         {
-            Help.ShowPopup(textBox1, "This box enter your first and last name", hlpevent.MousePos);
+            Help.ShowPopup(button1, "To exit the program, click this button", helpEventArgs.MousePos);
         }
 
-        private void button1_HelpRequested(object sender, HelpEventArgs hlpevent)
+        private void textBox1_HelpRequested(object sender, HelpEventArgs helpEventArgs)
         {
-            Help.ShowPopup(button1, "To exit the program, click this button", hlpevent.MousePos);
+            Help.ShowPopup(textBox1, "This box enter your first and last name", helpEventArgs.MousePos);
         }
     }
 }

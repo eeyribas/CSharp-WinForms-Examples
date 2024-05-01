@@ -77,7 +77,7 @@ namespace SalesProgram
             // 
             // label6
             // 
-            this.label6.Location = new System.Drawing.Point(227, 252);
+            this.label6.Location = new System.Drawing.Point(236, 252);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(86, 19);
             this.label6.TabIndex = 47;
@@ -121,7 +121,7 @@ namespace SalesProgram
             // 
             // comboBox2
             // 
-            this.comboBox2.Location = new System.Drawing.Point(463, 277);
+            this.comboBox2.Location = new System.Drawing.Point(463, 279);
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(145, 24);
             this.comboBox2.TabIndex = 46;
@@ -131,7 +131,7 @@ namespace SalesProgram
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(465, 252);
+            this.label5.Location = new System.Drawing.Point(460, 252);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(45, 17);
             this.label5.TabIndex = 45;
@@ -167,7 +167,7 @@ namespace SalesProgram
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(120, 22);
             this.textBox3.TabIndex = 40;
-            this.textBox3.Text = "textBox3";
+            this.textBox3.Text = "-";
             // 
             // textBox2
             // 
@@ -175,7 +175,7 @@ namespace SalesProgram
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(120, 22);
             this.textBox2.TabIndex = 39;
-            this.textBox2.Text = "textBox2";
+            this.textBox2.Text = "-";
             // 
             // comboBox1
             // 
@@ -183,7 +183,7 @@ namespace SalesProgram
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(173, 24);
             this.comboBox1.TabIndex = 38;
-            this.comboBox1.Text = "comboBox1";
+            this.comboBox1.Text = "-";
             // 
             // textBox1
             // 
@@ -191,12 +191,12 @@ namespace SalesProgram
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(163, 22);
             this.textBox1.TabIndex = 37;
-            this.textBox1.Text = "textBox1";
+            this.textBox1.Text = "-";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(492, 9);
+            this.label4.Location = new System.Drawing.Point(489, 9);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(51, 17);
             this.label4.TabIndex = 36;
@@ -205,7 +205,7 @@ namespace SalesProgram
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(367, 9);
+            this.label3.Location = new System.Drawing.Point(364, 9);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(64, 17);
             this.label3.TabIndex = 35;
@@ -250,7 +250,7 @@ namespace SalesProgram
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(12, 9);
+            this.label1.Location = new System.Drawing.Point(9, 9);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(153, 17);
             this.label1.TabIndex = 33;

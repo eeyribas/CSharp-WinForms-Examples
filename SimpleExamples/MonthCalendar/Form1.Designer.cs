@@ -59,7 +59,7 @@ namespace MonthCalendar
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(204, 9);
+            this.label2.Location = new System.Drawing.Point(200, 11);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(14, 17);
             this.label2.TabIndex = 12;
@@ -80,7 +80,7 @@ namespace MonthCalendar
             // 
             // label1
             // 
-            this.label1.Location = new System.Drawing.Point(12, 9);
+            this.label1.Location = new System.Drawing.Point(12, 11);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(120, 27);
             this.label1.TabIndex = 10;
@@ -90,7 +90,7 @@ namespace MonthCalendar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(391, 290);
+            this.ClientSize = new System.Drawing.Size(379, 290);
             this.Controls.Add(this.monthCalendar1);
             this.Controls.Add(this.numericUpDown2);
             this.Controls.Add(this.label2);

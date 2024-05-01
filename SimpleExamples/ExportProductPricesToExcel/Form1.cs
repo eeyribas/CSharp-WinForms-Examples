@@ -35,23 +35,19 @@ namespace ExportProductPricesToExcel
             dataGridView1.DataSource = dataTable;
         }
 
-        private void dataGridView1_CurrentCellChanged(object sender, EventArgs e)
-        {
-            Sum();
-        }
-
         private void button1_Click(object sender, EventArgs e)
         {
             saveFileDialog1.DefaultExt = "xml";
+
             if (saveFileDialog1.ShowDialog() == DialogResult.OK)
             {
                 DataTable dataTable = (DataTable)dataGridView1.DataSource;
                 DataSet dataSet = new DataSet();
-
                 dataSet.Tables.Add(dataTable);
                 dataSet.WriteXml(saveFileDialog1.FileName);
+
                 string xsd = saveFileDialog1.FileName.Substring(saveFileDialog1.FileName.LastIndexOf("."));
-                xsd = xsd + ".XSD";
+                xsd += ".XSD";
                 dataSet.WriteXmlSchema(xsd);
             }
         }
@@ -60,11 +56,12 @@ namespace ExportProductPricesToExcel
         {
             openFileDialog1.Filter = "XML Dosyaları|*.xml";
             openFileDialog1.FilterIndex = 0;
+
             if (openFileDialog1.ShowDialog() == DialogResult.OK)
             {
                 DataSet dataSet = new DataSet();
                 string xsd = openFileDialog1.FileName.Substring(openFileDialog1.FileName.LastIndexOf("."));
-                xsd = xsd + ".XSD";
+                xsd += ".XSD";
 
                 dataSet.ReadXmlSchema(xsd);
                 dataSet.ReadXml(openFileDialog1.FileName);
@@ -74,9 +71,15 @@ namespace ExportProductPricesToExcel
             }
         }
 
-        void Sum()
+        private void dataGridView1_CurrentCellChanged(object sender, EventArgs e)
+        {
+            Sum();
+        }
+
+        private void Sum()
         {
             DataTable dataTable = (DataTable)dataGridView1.DataSource;
+
             decimal sum = 0;
             for (int i = 0; i <= dataTable.Rows.Count - 1; i++)
             {

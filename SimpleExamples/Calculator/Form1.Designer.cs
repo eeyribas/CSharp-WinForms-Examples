@@ -46,7 +46,7 @@ namespace Calculator
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(441, 43);
+            this.label5.Location = new System.Drawing.Point(429, 43);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(69, 20);
             this.label5.TabIndex = 23;
@@ -55,7 +55,7 @@ namespace Calculator
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(269, 43);
+            this.label3.Location = new System.Drawing.Point(253, 43);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(89, 20);
             this.label3.TabIndex = 22;
@@ -64,7 +64,7 @@ namespace Calculator
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(105, 43);
+            this.label1.Location = new System.Drawing.Point(82, 43);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(89, 20);
             this.label1.TabIndex = 21;
@@ -97,7 +97,7 @@ namespace Calculator
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(144, 26);
             this.textBox3.TabIndex = 14;
-            this.textBox3.Text = "content";
+            this.textBox3.Text = "-";
             this.textBox3.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox3_KeyPress);
             // 
             // textBox2
@@ -108,7 +108,7 @@ namespace Calculator
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(136, 26);
             this.textBox2.TabIndex = 13;
-            this.textBox2.Text = "content";
+            this.textBox2.Text = "-";
             this.textBox2.TextChanged += new System.EventHandler(this.textBox_TextChanged);
             // 
             // textBox1
@@ -119,7 +119,7 @@ namespace Calculator
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(136, 26);
             this.textBox1.TabIndex = 12;
-            this.textBox1.Text = "content";
+            this.textBox1.Text = "-";
             this.textBox1.TextChanged += new System.EventHandler(this.textBox_TextChanged);
             // 
             // button4

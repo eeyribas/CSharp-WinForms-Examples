@@ -21,8 +21,10 @@ namespace CalculateLogarithm
         {
             int value = int.Parse(textBox1.Text);
             listBox1.Items.Clear();
+
             if (value <= 0)
                 return;
+
             for (int i = 1; i <= value; i++)
                 listBox1.Items.Add("Log(" + i.ToString() + ")=" + Math.Log10(i).ToString());
         }

@@ -81,6 +81,7 @@ namespace AdvancedCalculator
                         result = (decimal)Math.Exp((double)number1); 
                         break;
                 }
+
                 textBox3.Text = result.ToString();
             }
             catch (System.DivideByZeroException hata)
@@ -90,8 +91,7 @@ namespace AdvancedCalculator
             catch (System.OverflowException hata)
             {
                 if (number1 < 0)
-                    MessageBox.Show("You can't perform this operation with a negative number.\r\n" +
-                     hata.Message);
+                    MessageBox.Show("You can't perform this operation with a negative number.\r\n" + hata.Message);
                 else
                     MessageBox.Show("The numbers are too large.\r\n" + hata.Message);
             }

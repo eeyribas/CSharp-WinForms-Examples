@@ -44,7 +44,7 @@ namespace AutomaticPriceCalculation
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(120, 22);
             this.textBox2.TabIndex = 21;
-            this.textBox2.Text = "TextBox2";
+            this.textBox2.Text = "-";
             this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // textBox1
@@ -53,7 +53,7 @@ namespace AutomaticPriceCalculation
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(120, 22);
             this.textBox1.TabIndex = 20;
-            this.textBox1.Text = "TextBox1";
+            this.textBox1.Text = "-";
             this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // numericUpDown1

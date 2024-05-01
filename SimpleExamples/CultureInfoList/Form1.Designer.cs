@@ -43,7 +43,7 @@ namespace CultureInfoList
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(249, 26);
             this.label4.TabIndex = 15;
-            this.label4.Text = "--";
+            this.label4.Text = "-";
             // 
             // label3
             // 
@@ -59,7 +59,7 @@ namespace CultureInfoList
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(249, 27);
             this.label2.TabIndex = 13;
-            this.label2.Text = "--";
+            this.label2.Text = "-";
             // 
             // label1
             // 

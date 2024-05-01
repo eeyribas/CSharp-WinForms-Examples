@@ -12,8 +12,8 @@ namespace MessageBoxExample
 {
     public partial class Form1 : Form
     {
-        MessageBoxButtons bType;
-        MessageBoxIcon iType;
+        private MessageBoxButtons messageBoxButtons;
+        private MessageBoxIcon messageBoxIcon;
 
         public Form1()
         {
@@ -37,72 +37,14 @@ namespace MessageBoxExample
             radioButton13.Text = "Question";
             radioButton14.Text = "OkStop";
             radioButton15.Text = "Warning";
+
             radioButton1.Checked = true;
             radioButton7.Checked = true;
         }
 
-        void bType_CheckedChanged(object sender, EventArgs e)
-        {
-            switch ((sender as Control).Name)
-            {
-                case "Rdo1":
-                    bType = MessageBoxButtons.OK;
-                    break;
-                case "Rdo2":
-                    bType = MessageBoxButtons.OKCancel;
-                    break;
-                case "Rdo3":
-                    bType = MessageBoxButtons.RetryCancel;
-                    break;
-                case "Rdo4":
-                    bType = MessageBoxButtons.YesNo;
-                    break;
-                case "Rdo5":
-                    bType = MessageBoxButtons.YesNoCancel;
-                    break;
-                case "Rdo6":
-                    bType = MessageBoxButtons.AbortRetryIgnore;
-                    break;
-            }
-        }
-
-        void iType_CheckedChanged(object sender, EventArgs e)
-        {
-            switch ((sender as Control).Name)
-            {
-                case "Rdo7":
-                    iType = MessageBoxIcon.Asterisk;
-                    break;
-                case "Rdo8":
-                    iType = MessageBoxIcon.Error;
-                    break;
-                case "Rdo9":
-                    iType = MessageBoxIcon.Exclamation;
-                    break;
-                case "Rdo10":
-                    iType = MessageBoxIcon.Hand;
-                    break;
-                case "Rdo11":
-                    iType = MessageBoxIcon.Information;
-                    break;
-                case "Rdo12":
-                    iType = MessageBoxIcon.None;
-                    break;
-                case "Rdo13":
-                    iType = MessageBoxIcon.Question;
-                    break;
-                case "Rdo14":
-                    iType = MessageBoxIcon.Stop;
-                    break;
-                case "Rdo15":
-                    iType = MessageBoxIcon.Warning;
-                    break;
-            }
-        }
-
         private void button1_Click(object sender, EventArgs e)
         {
-            DialogResult state = MessageBox.Show("Message Box", "Info", bType, iType);
+            DialogResult state = MessageBox.Show("Message Box", "Info", messageBoxButtons, messageBoxIcon);
             switch (state)
             {
                 case DialogResult.OK:
@@ -125,6 +67,65 @@ namespace MessageBoxExample
                     break;
                 case DialogResult.No:
                     label1.Text = "No";
+                    break;
+            }
+        }
+
+        private void messageBoxButtons_CheckedChanged(object sender, EventArgs e)
+        {
+            switch ((sender as Control).Name)
+            {
+                case "Rdo1":
+                    messageBoxButtons = MessageBoxButtons.OK;
+                    break;
+                case "Rdo2":
+                    messageBoxButtons = MessageBoxButtons.OKCancel;
+                    break;
+                case "Rdo3":
+                    messageBoxButtons = MessageBoxButtons.RetryCancel;
+                    break;
+                case "Rdo4":
+                    messageBoxButtons = MessageBoxButtons.YesNo;
+                    break;
+                case "Rdo5":
+                    messageBoxButtons = MessageBoxButtons.YesNoCancel;
+                    break;
+                case "Rdo6":
+                    messageBoxButtons = MessageBoxButtons.AbortRetryIgnore;
+                    break;
+            }
+        }
+
+        private void messageBoxIcon_CheckedChanged(object sender, EventArgs e)
+        {
+            switch ((sender as Control).Name)
+            {
+                case "Rdo7":
+                    messageBoxIcon = MessageBoxIcon.Asterisk;
+                    break;
+                case "Rdo8":
+                    messageBoxIcon = MessageBoxIcon.Error;
+                    break;
+                case "Rdo9":
+                    messageBoxIcon = MessageBoxIcon.Exclamation;
+                    break;
+                case "Rdo10":
+                    messageBoxIcon = MessageBoxIcon.Hand;
+                    break;
+                case "Rdo11":
+                    messageBoxIcon = MessageBoxIcon.Information;
+                    break;
+                case "Rdo12":
+                    messageBoxIcon = MessageBoxIcon.None;
+                    break;
+                case "Rdo13":
+                    messageBoxIcon = MessageBoxIcon.Question;
+                    break;
+                case "Rdo14":
+                    messageBoxIcon = MessageBoxIcon.Stop;
+                    break;
+                case "Rdo15":
+                    messageBoxIcon = MessageBoxIcon.Warning;
                     break;
             }
         }

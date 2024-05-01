@@ -38,7 +38,7 @@ namespace DrawPieChart
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(286, 29);
+            this.button1.Location = new System.Drawing.Point(314, 29);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(144, 54);
             this.button1.TabIndex = 14;
@@ -51,7 +51,7 @@ namespace DrawPieChart
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(120, 22);
             this.textBox2.TabIndex = 13;
-            this.textBox2.Text = "textBox2";
+            this.textBox2.Text = "-";
             // 
             // textBox1
             // 
@@ -59,11 +59,11 @@ namespace DrawPieChart
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(120, 22);
             this.textBox1.TabIndex = 12;
-            this.textBox1.Text = "textBox1";
+            this.textBox1.Text = "-";
             // 
             // label2
             // 
-            this.label2.Location = new System.Drawing.Point(27, 57);
+            this.label2.Location = new System.Drawing.Point(27, 60);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(120, 27);
             this.label2.TabIndex = 11;
@@ -71,7 +71,7 @@ namespace DrawPieChart
             // 
             // label1
             // 
-            this.label1.Location = new System.Drawing.Point(27, 29);
+            this.label1.Location = new System.Drawing.Point(27, 32);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(120, 27);
             this.label1.TabIndex = 10;

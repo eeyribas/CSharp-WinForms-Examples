@@ -16,22 +16,23 @@ namespace AddUserDefinedObject
         struct Personel
         {
             public string name, job, department;
+
             public override string ToString()
             {
-                string s1, s2;
-                s1 = "Name=" + name;
-                s1 = s1.PadRight(30);
-                s2 = s1;
+                string str1, str2;
+                str1 = "Name=" + name;
+                str1 = str1.PadRight(30);
+                str2 = str1;
 
-                s1 = "Job=" + job;
-                s1 = s1.PadRight(20);
-                s2 += s1;
+                str1 = "Job=" + job;
+                str1 = str1.PadRight(20);
+                str2 += str1;
 
-                s1 = "Department=" + department;
-                s1 = s1.PadRight(20);
-                s2 += s1;
+                str1 = "Department=" + department;
+                str1 = str1.PadRight(20);
+                str2 += str1;
 
-                return s2;
+                return str2;
             }
         }
 
@@ -47,12 +48,14 @@ namespace AddUserDefinedObject
         {
             string[] jobs = { "Engineer", "Teacher", "Student", "Worker", "Accountant", "Programmer" };
             comboBox1.Items.AddRange(jobs);
-            string[] departments = {"Satış", "Education", "Marketing", "Accounting", "Advertising", "Production" };
+
+            string[] departments = {"Sales", "Education", "Marketing", "Accounting", "Advertising", "Production" };
             comboBox2.Items.AddRange(departments);
+
             listBox1.Font = new Font("Courier New", 8, FontStyle.Regular);
 
-            Personel personel;
             TextReader textReader = File.OpenText("pers.dat");
+            Personel personel;
             string row;
             while ((row = textReader.ReadLine()) != null)
             {
@@ -138,6 +141,7 @@ namespace AddUserDefinedObject
             personel.name = textBox1.Text;
             personel.job = comboBox1.Text;
             personel.department = comboBox2.Text;
+
             int index = listBox1.SelectedIndex;
             if (index < 0)
                 MessageBox.Show("Please select the item to be replaced first : ");

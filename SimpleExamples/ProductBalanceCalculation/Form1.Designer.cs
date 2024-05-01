@@ -50,7 +50,7 @@ namespace ProductBalanceCalculation
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(120, 22);
             this.textBox6.TabIndex = 47;
-            this.textBox6.Text = "TextBox6";
+            this.textBox6.Text = "-";
             // 
             // label6
             // 
@@ -66,7 +66,7 @@ namespace ProductBalanceCalculation
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(120, 22);
             this.textBox5.TabIndex = 45;
-            this.textBox5.Text = "TextBox5";
+            this.textBox5.Text = "-";
             // 
             // label5
             // 
@@ -90,7 +90,7 @@ namespace ProductBalanceCalculation
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(120, 22);
             this.textBox4.TabIndex = 42;
-            this.textBox4.Text = "TextBox4";
+            this.textBox4.Text = "-";
             // 
             // label3
             // 
@@ -106,13 +106,13 @@ namespace ProductBalanceCalculation
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(120, 22);
             this.textBox3.TabIndex = 40;
-            this.textBox3.Text = "TextBox3";
+            this.textBox3.Text = "-";
             // 
             // button1
             // 
             this.button1.Location = new System.Drawing.Point(136, 185);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(116, 26);
+            this.button1.Size = new System.Drawing.Size(120, 26);
             this.button1.TabIndex = 39;
             this.button1.Text = "Calc";
             this.button1.Click += new System.EventHandler(this.button1_Click);
@@ -123,7 +123,7 @@ namespace ProductBalanceCalculation
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(120, 22);
             this.textBox2.TabIndex = 38;
-            this.textBox2.Text = "TextBox2";
+            this.textBox2.Text = "-";
             // 
             // label2
             // 
@@ -139,7 +139,7 @@ namespace ProductBalanceCalculation
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(120, 22);
             this.textBox1.TabIndex = 36;
-            this.textBox1.Text = "TextBox1";
+            this.textBox1.Text = "-";
             // 
             // label1
             // 

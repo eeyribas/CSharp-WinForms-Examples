@@ -25,11 +25,9 @@ namespace MonthCalendar
             numericUpDown2.Maximum = 12;
             monthCalendar1.ShowWeekNumbers = true;
 
-            DateTime[] holidayDays = {new DateTime( 2000,1,1),
-                                      new DateTime(2000,4,23),
-                                      new DateTime(2000,5,19), 
-                                      new DateTime(2000,10,29) };
-            monthCalendar1.AnnuallyBoldedDates = holidayDays;
+            DateTime[] dateTimes = { new DateTime( 2000,1,1), new DateTime(2000,4,23),
+                                       new DateTime(2000,5,19), new DateTime(2000,10,29) };
+            monthCalendar1.AnnuallyBoldedDates = dateTimes;
             numericUpDown2.ValueChanged += new EventHandler(numericUpDown1_ValueChanged);
         }
 
@@ -37,6 +35,7 @@ namespace MonthCalendar
         {
             if (numericUpDown1.Value * numericUpDown2.Value == 0)
                 return;
+
             if (numericUpDown1.Value * numericUpDown2.Value > 12)
                 MessageBox.Show("The row-column multiplication cannot exceed 12.");
             else

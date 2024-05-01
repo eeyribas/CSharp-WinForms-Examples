@@ -12,7 +12,7 @@ namespace ShoppingList
 {
     public partial class Form1 : Form
     {
-        LinkedList<String> shoppingList = new LinkedList<String>();
+        private LinkedList<String> linkedList = new LinkedList<String>();
 
         public Form1()
         {
@@ -23,14 +23,10 @@ namespace ShoppingList
         {
             if (textBox1.Text.Trim() != "")
             {
-                if (shoppingList.Contains(textBox1.Text))
-                {
+                if (linkedList.Contains(textBox1.Text))
                     label2.Text = "On the list : Yes";
-                }
                 else
-                {
                     label2.Text = "On the list : Not";
-                }
 
                 textBox1.Focus();
             }
@@ -46,16 +42,17 @@ namespace ShoppingList
             {
                 if (TextboxControl())
                 {
-                    AddList(shoppingList);
+                    AddList(linkedList);
                     textBox1.Text = "";
                     textBox1.Focus();
-                    TransferListBox(shoppingList);
+                    TransferListBox(linkedList);
                 }
                 else
                 {
                     MessageBox.Show("Do Not Leave the Value to Add Blank!!!");
                 }
             }
+
             if ((sender as Button).Name == "SelectionWithAddButton")
             {
                 if (TextboxControl())
@@ -63,16 +60,13 @@ namespace ShoppingList
                     if (listBox1.SelectedIndex > -1)
                     {
                         if (radioButton1.Checked)
-                        {
-                            shoppingList.AddBefore(GetNode(listBox1.Text, shoppingList), textBox1.Text);
-                        }
+                            linkedList.AddBefore(GetNode(listBox1.Text, linkedList), textBox1.Text);
                         else
-                        {
-                            shoppingList.AddAfter(GetNode(listBox1.Text, shoppingList), textBox1.Text);
-                        }
+                            linkedList.AddAfter(GetNode(listBox1.Text, linkedList), textBox1.Text);
+
                         textBox1.Text = "";
                         textBox1.Focus();
-                        TransferListBox(shoppingList);
+                        TransferListBox(linkedList);
                     }
                     else
                     {
@@ -90,8 +84,8 @@ namespace ShoppingList
         {
             if (listBox1.SelectedIndex > 0)
             {
-                shoppingList.Remove(listBox1.Text);
-                TransferListBox(shoppingList);
+                linkedList.Remove(listBox1.Text);
+                TransferListBox(linkedList);
             }
             else
             {
@@ -101,40 +95,31 @@ namespace ShoppingList
 
         private void button5_Click(object sender, EventArgs e)
         {
-            shoppingList.Clear();
-            TransferListBox(shoppingList);
-
+            linkedList.Clear();
+            TransferListBox(linkedList);
             label3.Text = "There are no orders on the Buy List";
         }
 
         private void TransferListBox(LinkedList<String> list)
         {
             listBox1.Items.Clear();
-            foreach (string değer in list)
-            {
-                listBox1.Items.Add(değer);
-            }
+            foreach (string str in list)
+                listBox1.Items.Add(str);
 
-            label3.Text = "On the To Buy List : " + shoppingList.Count + "order is have";
+            label3.Text = "On the To Buy List : " + linkedList.Count + "order is have";
         }
 
         private void AddList(LinkedList<String> list)
         {
-
-            if (shoppingList.Count == 0)
-            {
-                shoppingList.AddFirst(textBox1.Text.Trim());
-            }
+            if (linkedList.Count == 0)
+                linkedList.AddFirst(textBox1.Text.Trim());
             else
-            {
-                shoppingList.AddLast(textBox1.Text.Trim());
-            }
+                linkedList.AddLast(textBox1.Text.Trim());
         }
 
         private LinkedListNode<string> GetNode(string value, LinkedList<string> list)
         {
-            LinkedListNode<string> node;
-            node = list.Find(value);
+            LinkedListNode<string> node = list.Find(value);
 
             return node;
         }
@@ -142,13 +127,9 @@ namespace ShoppingList
         private Boolean TextboxControl()
         {
             if (textBox1.Text.Trim() == "")
-            {
                 return false;
-            }
             else
-            {
                 return true;
-            }
         }
     }
 }

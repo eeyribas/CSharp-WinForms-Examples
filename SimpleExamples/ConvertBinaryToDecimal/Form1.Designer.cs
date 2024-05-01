@@ -37,7 +37,7 @@ namespace ConvertBinaryToDecimal
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(120, 80);
+            this.button2.Location = new System.Drawing.Point(120, 95);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(90, 26);
             this.button2.TabIndex = 11;
@@ -46,7 +46,7 @@ namespace ConvertBinaryToDecimal
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(24, 80);
+            this.button1.Location = new System.Drawing.Point(24, 95);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(90, 26);
             this.button1.TabIndex = 10;
@@ -59,7 +59,7 @@ namespace ConvertBinaryToDecimal
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(192, 22);
             this.textBox1.TabIndex = 9;
-            this.textBox1.Text = "textBox1";
+            this.textBox1.Text = "-";
             // 
             // label1
             // 
@@ -67,7 +67,7 @@ namespace ConvertBinaryToDecimal
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(192, 26);
             this.label1.TabIndex = 8;
-            this.label1.Text = "label1";
+            this.label1.Text = "-";
             // 
             // Form1
             // 

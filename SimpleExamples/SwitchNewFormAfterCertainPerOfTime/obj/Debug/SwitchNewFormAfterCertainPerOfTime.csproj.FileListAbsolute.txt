@@ -1,0 +1,11 @@
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\SwitchNewFormAfterCertainPerOfTime\bin\Debug\SwitchNewFormAfterCertainPerOfTime.exe.config
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\SwitchNewFormAfterCertainPerOfTime\bin\Debug\SwitchNewFormAfterCertainPerOfTime.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\SwitchNewFormAfterCertainPerOfTime\bin\Debug\SwitchNewFormAfterCertainPerOfTime.pdb
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\SwitchNewFormAfterCertainPerOfTime\obj\Debug\SwitchNewFormAfterCertainPerOfTime.csproj.AssemblyReference.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\SwitchNewFormAfterCertainPerOfTime\obj\Debug\SwitchNewFormAfterCertainPerOfTime.Form1.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\SwitchNewFormAfterCertainPerOfTime\obj\Debug\SwitchNewFormAfterCertainPerOfTime.Form2.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\SwitchNewFormAfterCertainPerOfTime\obj\Debug\SwitchNewFormAfterCertainPerOfTime.Properties.Resources.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\SwitchNewFormAfterCertainPerOfTime\obj\Debug\SwitchNewFormAfterCertainPerOfTime.csproj.GenerateResource.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\SwitchNewFormAfterCertainPerOfTime\obj\Debug\SwitchNewFormAfterCertainPerOfTime.csproj.CoreCompileInputs.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\SwitchNewFormAfterCertainPerOfTime\obj\Debug\SwitchNewFormAfterCertainPerOfTime.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\SwitchNewFormAfterCertainPerOfTime\obj\Debug\SwitchNewFormAfterCertainPerOfTime.pdb

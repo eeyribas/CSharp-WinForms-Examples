@@ -36,16 +36,16 @@ namespace PrimeNumberCheck
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(151, 63);
+            this.button1.Location = new System.Drawing.Point(148, 70);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(125, 27);
+            this.button1.Size = new System.Drawing.Size(120, 27);
             this.button1.TabIndex = 5;
             this.button1.Text = "Check";
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(151, 26);
+            this.textBox1.Location = new System.Drawing.Point(148, 26);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(120, 22);
             this.textBox1.TabIndex = 4;
@@ -53,9 +53,9 @@ namespace PrimeNumberCheck
             // 
             // label1
             // 
-            this.label1.Location = new System.Drawing.Point(27, 26);
+            this.label1.Location = new System.Drawing.Point(46, 29);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(120, 27);
+            this.label1.Size = new System.Drawing.Size(87, 27);
             this.label1.TabIndex = 3;
             this.label1.Text = "Number :";
             // 

@@ -17,3 +17,4 @@ D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\Divi
 D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\DivideResult\bin\Debug\DivideResult.exe.config
 D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\DivideResult\bin\Debug\DivideResult.exe
 D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\DivideResult\bin\Debug\DivideResult.pdb
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\DivideResult\obj\Debug\DivideResult.csproj.AssemblyReference.cache

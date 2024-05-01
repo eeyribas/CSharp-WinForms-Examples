@@ -24,21 +24,24 @@ namespace DivideResult
 
         private void button1_Click(object sender, EventArgs e)
         {
-            int a, b;
-            if (!int.TryParse(textBox1.Text, out a))
+            int value1, value2;
+
+            if (!int.TryParse(textBox1.Text, out value1))
             {
                 MessageBox.Show("Enter integer", "Info");
                 textBox1.Focus();
                 return;
             }
-            if (!int.TryParse(textBox2.Text, out b))
+
+            if (!int.TryParse(textBox2.Text, out value2))
             {
                 MessageBox.Show("Enter integer", "Info");
                 textBox2.Focus();
                 return;
             }
-            textBox3.Text = (a / b).ToString();
-            textBox4.Text = (a % b).ToString();
+
+            textBox3.Text = (value1 / value2).ToString();
+            textBox4.Text = (value1 % value2).ToString();
         }
 
         private void textBox12_TextChanged(object sender, EventArgs e)

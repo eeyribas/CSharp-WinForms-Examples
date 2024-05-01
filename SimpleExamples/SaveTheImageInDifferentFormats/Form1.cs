@@ -26,20 +26,10 @@ namespace SaveTheImageInDifferentFormats
             numericUpDown1.Value = 50;
         }
 
-        private ImageCodecInfo Find(string mimeType)
-        {
-            for (int i = 0; i <= ImageCodecInfo.GetImageEncoders().Length - 1; i++)
-            {
-                if (ImageCodecInfo.GetImageEncoders()[i].MimeType == mimeType)
-                    return ImageCodecInfo.GetImageEncoders()[i];
-            }
-
-            return null;
-        }
-
         private void button1_Click(object sender, EventArgs e)
         {
             openFileDialog1.Filter = "Image Directory|" + "*.bmp;*.jpg;*.gif;*.wmf;*.tif;*.png";
+
             if (openFileDialog1.ShowDialog() == DialogResult.OK)
             {
                 try
@@ -57,6 +47,7 @@ namespace SaveTheImageInDifferentFormats
         {
             saveFileDialog1.Filter = "Jpeg Directory|*.jpg;*.jpeg";
             saveFileDialog1.DefaultExt = "jpg";
+
             if (saveFileDialog1.ShowDialog() == DialogResult.OK)
             {
                 Image image = pictureBox1.Image;
@@ -143,6 +134,17 @@ namespace SaveTheImageInDifferentFormats
                     MessageBox.Show("The file could not be converted to this format.");
                 }
             }
+        }
+
+        private ImageCodecInfo Find(string mimeType)
+        {
+            for (int i = 0; i <= ImageCodecInfo.GetImageEncoders().Length - 1; i++)
+            {
+                if (ImageCodecInfo.GetImageEncoders()[i].MimeType == mimeType)
+                    return ImageCodecInfo.GetImageEncoders()[i];
+            }
+
+            return null;
         }
     }
 }

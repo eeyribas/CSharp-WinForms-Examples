@@ -22,7 +22,14 @@ namespace ConvertRadix
             numericUpDown_ValueChanged(sender, e);
         }
 
-        string ConvRadix(int x, int n)
+        private void numericUpDown_ValueChanged(object sender, EventArgs e)
+        {
+            int x = (int)numericUpDown1.Value;
+            int n = (int)numericUpDown2.Value;
+            label4.Text = ConvertRadix(x, n);
+        }
+
+        private string ConvertRadix(int x, int n)
         {
             if (x < 0 || x > 1e9)
                 return "Number Out of Range";
@@ -33,22 +40,17 @@ namespace ConvertRadix
             while (true)
             {
                 int cont = x % n;
-                if (cont < 10) 
+                if (cont < 10)
                     str = (char)(48 + cont) + str;
-                else 
+                else
                     str = (char)(55 + cont) + str;
-                x = x / n;
-                if (x == 0) 
+
+                x /= n;
+                if (x == 0)
                     break;
             }
-            return str;
-        }
 
-        private void numericUpDown_ValueChanged(object sender, EventArgs e)
-        {
-            int x = (int)numericUpDown1.Value;
-            int n = (int)numericUpDown2.Value;
-            label4.Text = ConvRadix(x, n);
+            return str;
         }
     }
 }

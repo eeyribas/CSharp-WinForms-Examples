@@ -54,6 +54,7 @@ namespace PrintingTheList
                 listBox1.Items.Add(i.ToString() + " " + names[random.Next(9)]);
                 int value = random.Next(100);
                 listBox2.Items.Add(value);
+
                 if (value >= 50)
                     listBox3.Items.Add("Pass");
                 else
@@ -72,20 +73,19 @@ namespace PrintingTheList
         private void printDocument1_PrintPage(object sender, PrintPageEventArgs e)
         {
             PageSettings pageSettings = printDocument1.DefaultPageSettings;
-            int pageHeight = pageSettings.PaperSize.Height - pageSettings.Margins.Top - pageSettings.Margins.Bottom;
             int pageWidth = pageSettings.PaperSize.Width - pageSettings.Margins.Left - pageSettings.Margins.Right;
             int x = pageSettings.Margins.Left + 2;
             int y = pageSettings.Margins.Top;
 
-            StringFormat middle = new StringFormat();
-            middle.Alignment = StringAlignment.Center;
+            StringFormat alignMiddle = new StringFormat();
+            alignMiddle.Alignment = StringAlignment.Center;
             StringFormat alignRight = new StringFormat();
             alignRight.Alignment = StringAlignment.Far;
 
             Font mainFont = new Font("Tahoma", 20, FontStyle.Regular);
             int rowHeight = (int)e.Graphics.MeasureString("x", mainFont).Height;
             e.Graphics.DrawString(textBox4.Text, mainFont, new SolidBrush(Color.Red),
-                                  pageSettings.PaperSize.Width / 2, y, middle);
+                                  pageSettings.PaperSize.Width / 2, y, alignMiddle);
             y += rowHeight;
             int tableInit = y;
             Font headerFont = new Font("Tahoma", 12, FontStyle.Bold);
@@ -111,7 +111,7 @@ namespace PrintingTheList
                 e.Graphics.DrawString(listBox3.Items[elementNo].ToString(), listFont, new SolidBrush(Color.Red),
                                       x + 2 * pageWidth / 3, y);
                 y += rowHeight + 2;
-                e.Graphics.DrawLine(new Pen(Color.Blue, 2), pageSettings.Margins.Left, y,
+                e.Graphics.DrawLine(new Pen(Color.Blue, 2), pageSettings.Margins.Left, y, 
                                     pageSettings.PaperSize.Width - pageSettings.Margins.Right, y);
                 elementNo += 1;
 

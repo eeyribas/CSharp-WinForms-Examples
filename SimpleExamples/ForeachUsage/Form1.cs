@@ -27,8 +27,8 @@ namespace ForeachUsage
         private void button2_Click(object sender, EventArgs e)
         {
             int sum = 0;
-            foreach (string i in listBox1.Items)
-                sum += int.Parse(i);
+            foreach (string item in listBox1.Items)
+                sum += int.Parse(item);
 
             MessageBox.Show(sum.ToString());
         }

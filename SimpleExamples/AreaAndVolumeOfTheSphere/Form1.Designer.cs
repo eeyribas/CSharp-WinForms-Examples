@@ -48,9 +48,9 @@ namespace AreaAndVolumeOfTheSphere
             this.label2.ForeColor = System.Drawing.Color.DarkGreen;
             this.label2.Location = new System.Drawing.Point(216, 44);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(69, 20);
+            this.label2.Size = new System.Drawing.Size(19, 20);
             this.label2.TabIndex = 13;
-            this.label2.Text = "label4";
+            this.label2.Text = "-";
             // 
             // label9
             // 
@@ -58,9 +58,9 @@ namespace AreaAndVolumeOfTheSphere
             this.label9.ForeColor = System.Drawing.Color.DarkGreen;
             this.label9.Location = new System.Drawing.Point(216, 189);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(69, 20);
+            this.label9.Size = new System.Drawing.Size(19, 20);
             this.label9.TabIndex = 16;
-            this.label9.Text = "label3";
+            this.label9.Text = "-";
             // 
             // label7
             // 
@@ -68,9 +68,9 @@ namespace AreaAndVolumeOfTheSphere
             this.label7.ForeColor = System.Drawing.Color.DarkGreen;
             this.label7.Location = new System.Drawing.Point(216, 155);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(69, 20);
+            this.label7.Size = new System.Drawing.Size(19, 20);
             this.label7.TabIndex = 15;
-            this.label7.Text = "label2";
+            this.label7.Text = "-";
             // 
             // label5
             // 
@@ -78,9 +78,9 @@ namespace AreaAndVolumeOfTheSphere
             this.label5.ForeColor = System.Drawing.Color.DarkGreen;
             this.label5.Location = new System.Drawing.Point(216, 118);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(69, 20);
+            this.label5.Size = new System.Drawing.Size(19, 20);
             this.label5.TabIndex = 14;
-            this.label5.Text = "label1";
+            this.label5.Text = "-";
             // 
             // button1
             // 
@@ -146,7 +146,7 @@ namespace AreaAndVolumeOfTheSphere
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(141, 26);
             this.textBox1.TabIndex = 11;
-            this.textBox1.Text = "content";
+            this.textBox1.Text = "-";
             this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // Form1

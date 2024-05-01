@@ -25,14 +25,30 @@ namespace StudentRegistrationForm
             listView1.SmallImageList = imageList2;
         }
 
-        private void ClearListMnsItem_Click(object sender, EventArgs e)
+        private void toolStripMenuItem2_Click(object sender, EventArgs e)
+        {
+            if (listView1.Items.Count > 0 && listView1.SelectedIndices.Count > 0)
+            {
+                DialogResult dialogResult = MessageBox.Show("Are you sure you want to delete the selected one?", "Delete Selected", MessageBoxButtons.YesNo, 
+                                                            MessageBoxIcon.Information);
+                if (dialogResult == DialogResult.Yes)
+                {
+                    listView1.Items.RemoveAt(listView1.SelectedItems[0].Index);
+                    count--;
+                }
+            }
+            else
+            {
+                MessageBox.Show("No record to be deleted!", "Carefull!", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+            }
+        }
+
+        private void toolStripMenuItem3_Click(object sender, EventArgs e)
         {
             if (count != 0)
             {
-                DialogResult dialogResult;
-
-                dialogResult = MessageBox.Show("Are you sure you want to clear the list?", "Clear", MessageBoxButtons.YesNo, MessageBoxIcon.Information);
-
+                DialogResult dialogResult = MessageBox.Show("Are you sure you want to clear the list?", "Clear", MessageBoxButtons.YesNo, 
+                                                            MessageBoxIcon.Information);
                 if (dialogResult == DialogResult.Yes && count != 0)
                 {
                     while (listView1.Items.Count > 0)
@@ -48,103 +64,16 @@ namespace StudentRegistrationForm
             }
         }
 
-        private void ClearSelectionMnsItem_Click(object sender, EventArgs e)
-        {
-            if (listView1.Items.Count > 0 && listView1.SelectedIndices.Count > 0)
-            {
-                DialogResult dialogResult;
-
-                dialogResult = MessageBox.Show("Are you sure you want to delete the selected one?", "Delete Selected", MessageBoxButtons.YesNo, MessageBoxIcon.Information);
-                if (dialogResult == DialogResult.Yes)
-                {
-                    listView1.Items.RemoveAt(listView1.SelectedItems[0].Index); 
-                    count--;
-                }
-
-            }
-            else
-            {
-                MessageBox.Show("No record to be deleted!", "Carefull!", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
-            }
-        }
-
-        public String SelectionGender()
-        {
-            if (radioButton1.Checked == true) return "Male";
-            else return "Female";
-        }
-
-        public String SelectionHobbys(String hobby)
-        {
-            switch (hobby)
-            {
-                case "Watch Film":
-                    {
-                        if (checkBox1.Checked == true) return "Available";
-                        else return "Empty";
-
-                        break;
-                    }
-                case "Listen Music":
-                    {
-                        if (checkBox2.Checked == true) return "Available";
-                        else return "Empty";
-
-                        break;
-                    }
-                case "Make Sports":
-                    {
-                        if (checkBox3.Checked == true) return "Available";
-                        else return "Empty";
-
-                        break;
-                    }
-
-                default: return "Empty";
-
-            }
-        }
-
-        private int SelectionIcon()
-        {
-            if (radioButton3.Checked) return 0;
-            else if (radioButton5.Checked) return 1;
-            else if (radioButton4.Checked) return 2;
-            else return 3;
-        }
-
-        private void AboutMnsItem_Click(object sender, EventArgs e)
-        {
-            Form2 form2 = new Form2();
-            form2.Location = new Point(222, 333);
-            form2.ShowDialog();
-        }
-
-        private void Clear()
-        {
-            textBox1.Text = "";
-            radioButton1.Checked = true;
-            radioButton3.Checked = true;
-            checkBox1.Checked = false;
-            checkBox2.Checked = false;
-            checkBox3.Checked = false;
-            comboBox2.SelectedIndex = -1;
-            listBox1.Items.Clear();
-        }
-
-        private void ExitMnsItem_Click(object sender, EventArgs e)
+        private void toolStripMenuItem4_Click(object sender, EventArgs e)
         {
             this.Close();
         }
 
-        private void AddListBtn_MouseMove(object sender, MouseEventArgs e)
+        private void toolStripMenuItem6_Click(object sender, EventArgs e)
         {
-            toolStripStatusLabel2.Text = "Please do not press the add button until you have entered all the information correctly.";
-        }
-
-        private void AddListBtn_MouseLeave(object sender, EventArgs e)
-        {
-            toolStripStatusLabel2.Text = "";
+            Form2 form2 = new Form2();
+            form2.Location = new Point(222, 333);
+            form2.ShowDialog();
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -156,13 +85,32 @@ namespace StudentRegistrationForm
             listView1.Items[count].SubItems.Add(SelectionHobbys("Watch Film"));
             listView1.Items[count].SubItems.Add(SelectionHobbys("List Music"));
             listView1.Items[count].SubItems.Add(SelectionHobbys("Make Sports"));
+
             count++;
             Clear();
+        }
+
+        private void button1_MouseLeave(object sender, EventArgs e)
+        {
+            toolStripStatusLabel2.Text = "";
+        }
+
+        private void button1_MouseMove(object sender, MouseEventArgs e)
+        {
+            toolStripStatusLabel2.Text = "Please do not press the add button until you have entered all the information correctly.";
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            View view = new View();
+            view = (View)comboBox1.SelectedIndex;
+            listView1.View = view;
         }
 
         private void comboBox2_SelectedIndexChanged(object sender, EventArgs e)
         {
             listBox1.Items.Clear();
+
             if (comboBox2.SelectedIndex == 0 || comboBox2.Text == "Kütahya")
             {
                 listBox1.Items.Add("Altıntaş");
@@ -238,11 +186,67 @@ namespace StudentRegistrationForm
             }
         }
 
-        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        public string SelectionGender()
         {
-            View tur = new View();
-            tur = (View)comboBox1.SelectedIndex;
-            listView1.View = tur;
+            if (radioButton1.Checked == true) 
+                return "Male";
+            else 
+                return "Female";
+        }
+
+        public string SelectionHobbys(string hobby)
+        {
+            switch (hobby)
+            {
+                case "Watch Film":
+                    if (checkBox1.Checked == true) 
+                        return "Available";
+                    else 
+                        return "Empty";
+                    break;
+                case "Listen Music":
+                    if (checkBox2.Checked == true) 
+                        return "Available";
+                    else 
+                        return "Empty";
+                    break;
+                case "Make Sports":
+                    if (checkBox3.Checked == true) 
+                        return "Available";
+                    else 
+                        return "Empty";
+                    break;
+                default: 
+                    return "Empty";
+            }
+        }
+
+        private int SelectionIcon()
+        {
+            if (radioButton3.Checked) 
+                return 0;
+            else if (radioButton5.Checked) 
+                return 1;
+            else if (radioButton4.Checked) 
+                return 2;
+            else 
+                return 3;
+        }
+
+        private void Clear()
+        {
+            textBox1.Text = "";
+
+            radioButton1.Checked = true;
+            radioButton3.Checked = true;
+
+            checkBox1.Checked = false;
+            checkBox2.Checked = false;
+            checkBox3.Checked = false;
+
+            comboBox2.SelectedIndex = -1;
+
+            listBox1.Items.Clear();
         }
     }
 }

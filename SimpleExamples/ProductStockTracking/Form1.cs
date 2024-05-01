@@ -39,34 +39,34 @@ namespace ProductStockTracking
 
         private void checkedListBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
-            int ind = checkedListBox1.SelectedIndex;
-            checkedListBox2.SelectedIndex = ind;
-            if (ind < 0)
+            int index = checkedListBox1.SelectedIndex;
+            checkedListBox2.SelectedIndex = index;
+            if (index < 0)
                 return;
 
-            checkedListBox2.SetItemChecked(ind, checkedListBox1.GetItemChecked(ind));
-            int b = listBox1.Items.IndexOf(checkedListBox1.Items[ind]);
-            if (b < 0)
+            checkedListBox2.SetItemChecked(index, checkedListBox1.GetItemChecked(index));
+            int indexOf = listBox1.Items.IndexOf(checkedListBox1.Items[index]);
+            if (indexOf < 0)
             {
-                if (checkedListBox1.GetItemChecked(ind) == true)
+                if (checkedListBox1.GetItemChecked(index) == true)
                 {
-                    listBox1.Items.Add(checkedListBox1.Items[ind]);
-                    listBox2.Items.Add(checkedListBox2.Items[ind]);
+                    listBox1.Items.Add(checkedListBox1.Items[index]);
+                    listBox2.Items.Add(checkedListBox2.Items[index]);
                 }
             }
             else
             {
-                if (checkedListBox1.GetItemChecked(ind) == false)
+                if (checkedListBox1.GetItemChecked(index) == false)
                 {
-                    listBox1.Items.RemoveAt(b);
-                    listBox2.Items.RemoveAt(b);
+                    listBox1.Items.RemoveAt(indexOf);
+                    listBox2.Items.RemoveAt(indexOf);
                 }
             }
 
-            int t = 0;
+            int sum = 0;
             for (int i = 0; i <= listBox2.Items.Count - 1; i++)
-                t = t + int.Parse(listBox2.Items[i].ToString());
-            label4.Text = t.ToString();
+                sum += int.Parse(listBox2.Items[i].ToString());
+            label4.Text = sum.ToString();
         }
 
         private void checkedListBox2_SelectedIndexChanged(object sender, EventArgs e)

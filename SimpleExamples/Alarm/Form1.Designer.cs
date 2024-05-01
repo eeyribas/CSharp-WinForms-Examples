@@ -49,7 +49,7 @@ namespace Alarm
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(86, 26);
             this.label3.TabIndex = 31;
-            this.label3.Text = "Alarm Text";
+            this.label3.Text = "Alarm Text :";
             // 
             // textBox3
             // 
@@ -57,7 +57,7 @@ namespace Alarm
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(120, 22);
             this.textBox3.TabIndex = 32;
-            this.textBox3.Text = "textBox3";
+            this.textBox3.Text = "-";
             // 
             // textBox2
             // 
@@ -65,7 +65,7 @@ namespace Alarm
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(120, 22);
             this.textBox2.TabIndex = 30;
-            this.textBox2.Text = "textBox2";
+            this.textBox2.Text = "-";
             // 
             // button2
             // 
@@ -101,7 +101,7 @@ namespace Alarm
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(120, 26);
             this.label2.TabIndex = 29;
-            this.label2.Text = "Alarm Hour";
+            this.label2.Text = "Alarm Hour :";
             // 
             // textBox1
             // 
@@ -109,7 +109,7 @@ namespace Alarm
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(120, 22);
             this.textBox1.TabIndex = 28;
-            this.textBox1.Text = "textBox1";
+            this.textBox1.Text = "-";
             // 
             // timer1
             // 
@@ -121,7 +121,7 @@ namespace Alarm
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(105, 19);
             this.label1.TabIndex = 27;
-            this.label1.Text = "Alarm Date";
+            this.label1.Text = "Alarm Date :";
             // 
             // Form1
             // 

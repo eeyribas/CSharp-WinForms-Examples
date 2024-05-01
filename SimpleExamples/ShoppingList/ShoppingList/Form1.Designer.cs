@@ -47,10 +47,10 @@ namespace ShoppingList
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(209, 38);
+            this.button1.Location = new System.Drawing.Point(207, 35);
             this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(60, 28);
+            this.button1.Size = new System.Drawing.Size(66, 28);
             this.button1.TabIndex = 20;
             this.button1.Text = "Search";
             this.button1.UseVisualStyleBackColor = true;
@@ -59,7 +59,7 @@ namespace ShoppingList
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(279, 18);
+            this.label3.Location = new System.Drawing.Point(280, 18);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(30, 17);

@@ -3,8 +3,10 @@ Contains C# Programming examples.
 IDE: Visual Studio 2019 
 
 C# programmings sections;
-- Toolboxs = 15 Examples
-- Standart Library = 16 Examples
-- Simple Examples = 18 Examples
+- Arrays = 3 Examples
+- File Operations = 4 Examples
+- Simple Examples = 84 Examples
+- Standart Library (STL) = x Examples
+- Toolboxs = x Examples
 
-There are 49 examples in total. It includes examples that I learned in lessons during my university years. Good repo for new C# Programming WinForms beginners.
+There are x examples in total. It includes examples that I learned in lessons during my university years. Good repo for new C# Programming WinForms beginners.

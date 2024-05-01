@@ -23,6 +23,7 @@ namespace CharacterCodes
             listBox1.Font = new Font("Courier New", 20, FontStyle.Regular);
             listBox1.MultiColumn = true;
             listBox1.ColumnWidth = 150;
+
             for (int i = 32; i <= 65535; i++)
                 listBox1.Items.Add(i.ToString() + "=" + (char)i);
         }

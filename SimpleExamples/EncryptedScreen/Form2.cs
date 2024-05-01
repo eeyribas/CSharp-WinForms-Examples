@@ -36,6 +36,7 @@ namespace EncryptedScreen
             {
                 textBox1.Text = "";
                 this.Text = "Error password";
+
                 if (count == 3)
                 {
                     this.DialogResult = DialogResult.Cancel;

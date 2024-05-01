@@ -1,0 +1,10 @@
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\DrawObjectsWithMouseAndSave\bin\Debug\DrawObjectsWithMouseAndSave.exe.config
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\DrawObjectsWithMouseAndSave\bin\Debug\DrawObjectsWithMouseAndSave.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\DrawObjectsWithMouseAndSave\bin\Debug\DrawObjectsWithMouseAndSave.pdb
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\DrawObjectsWithMouseAndSave\obj\Debug\DrawObjectsWithMouseAndSave.csproj.AssemblyReference.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\DrawObjectsWithMouseAndSave\obj\Debug\DrawObjectsWithMouseAndSave.Form1.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\DrawObjectsWithMouseAndSave\obj\Debug\DrawObjectsWithMouseAndSave.Properties.Resources.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\DrawObjectsWithMouseAndSave\obj\Debug\DrawObjectsWithMouseAndSave.csproj.GenerateResource.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\DrawObjectsWithMouseAndSave\obj\Debug\DrawObjectsWithMouseAndSave.csproj.CoreCompileInputs.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\DrawObjectsWithMouseAndSave\obj\Debug\DrawObjectsWithMouseAndSave.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\SimpleExamples\DrawObjectsWithMouseAndSave\obj\Debug\DrawObjectsWithMouseAndSave.pdb

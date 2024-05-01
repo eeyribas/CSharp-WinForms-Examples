@@ -41,11 +41,11 @@ namespace FontProperties
             // 
             // label1
             // 
-            this.label1.Location = new System.Drawing.Point(340, 134);
+            this.label1.Location = new System.Drawing.Point(340, 136);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(86, 27);
+            this.label1.Size = new System.Drawing.Size(59, 27);
             this.label1.TabIndex = 25;
-            this.label1.Text = "Font :Boyutu";
+            this.label1.Text = "Font :";
             // 
             // numericUpDown1
             // 
@@ -98,13 +98,13 @@ namespace FontProperties
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(460, 111);
             this.textBox1.TabIndex = 19;
-            this.textBox1.Text = "textBox1";
+            this.textBox1.Text = "-";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(521, 177);
+            this.ClientSize = new System.Drawing.Size(489, 177);
             this.Controls.Add(this.numericUpDown1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button4);

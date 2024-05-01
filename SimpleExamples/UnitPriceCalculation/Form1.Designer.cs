@@ -36,8 +36,8 @@ namespace UnitPriceCalculation
             this.button = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label5
@@ -46,7 +46,7 @@ namespace UnitPriceCalculation
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(120, 27);
             this.label5.TabIndex = 26;
-            this.label5.Text = "label5";
+            this.label5.Text = "-";
             this.label5.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
             // textBox3
@@ -55,7 +55,7 @@ namespace UnitPriceCalculation
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(120, 22);
             this.textBox3.TabIndex = 25;
-            this.textBox3.Text = "textBox3";
+            this.textBox3.Text = "-";
             this.textBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // textBox2
@@ -64,7 +64,7 @@ namespace UnitPriceCalculation
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(120, 22);
             this.textBox2.TabIndex = 24;
-            this.textBox2.Text = "textBox2";
+            this.textBox2.Text = "-";
             this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
@@ -74,11 +74,11 @@ namespace UnitPriceCalculation
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(120, 22);
             this.textBox1.TabIndex = 23;
-            this.textBox1.Text = "textBox1";
+            this.textBox1.Text = "-";
             // 
             // button
             // 
-            this.button.Location = new System.Drawing.Point(152, 134);
+            this.button.Location = new System.Drawing.Point(152, 145);
             this.button.Name = "button";
             this.button.Size = new System.Drawing.Size(125, 28);
             this.button.TabIndex = 22;
@@ -89,39 +89,39 @@ namespace UnitPriceCalculation
             // 
             this.label4.Location = new System.Drawing.Point(28, 106);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(120, 27);
+            this.label4.Size = new System.Drawing.Size(101, 27);
             this.label4.TabIndex = 21;
-            this.label4.Text = "Price";
+            this.label4.Text = "Price :";
             // 
             // label3
             // 
             this.label3.Location = new System.Drawing.Point(28, 82);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(120, 26);
+            this.label3.Size = new System.Drawing.Size(101, 26);
             this.label3.TabIndex = 20;
-            this.label3.Text = "Piece";
-            // 
-            // label2
-            // 
-            this.label2.Location = new System.Drawing.Point(28, 26);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(120, 27);
-            this.label2.TabIndex = 19;
-            this.label2.Text = "Product";
+            this.label3.Text = "Piece :";
             // 
             // label1
             // 
-            this.label1.Location = new System.Drawing.Point(28, 54);
+            this.label1.Location = new System.Drawing.Point(28, 26);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(120, 26);
-            this.label1.TabIndex = 18;
-            this.label1.Text = "Unit Price";
+            this.label1.Size = new System.Drawing.Size(101, 27);
+            this.label1.TabIndex = 19;
+            this.label1.Text = "Product :";
+            // 
+            // label2
+            // 
+            this.label2.Location = new System.Drawing.Point(28, 54);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(101, 26);
+            this.label2.TabIndex = 18;
+            this.label2.Text = "Unit Price :";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(345, 196);
+            this.ClientSize = new System.Drawing.Size(311, 205);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.textBox2);
@@ -129,8 +129,8 @@ namespace UnitPriceCalculation
             this.Controls.Add(this.button);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.Controls.Add(this.label2);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -147,8 +147,8 @@ namespace UnitPriceCalculation
         internal System.Windows.Forms.Button button;
         internal System.Windows.Forms.Label label4;
         internal System.Windows.Forms.Label label3;
-        internal System.Windows.Forms.Label label2;
         internal System.Windows.Forms.Label label1;
+        internal System.Windows.Forms.Label label2;
     }
 }
 

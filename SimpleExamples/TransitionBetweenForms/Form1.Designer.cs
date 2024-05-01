@@ -38,11 +38,11 @@ namespace TransitionBetweenForms
             this.label1.BackColor = System.Drawing.Color.Yellow;
             this.label1.Font = new System.Drawing.Font("Courier New", 72F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label1.ForeColor = System.Drawing.Color.Blue;
-            this.label1.Location = new System.Drawing.Point(37, 175);
+            this.label1.Location = new System.Drawing.Point(1, 161);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(634, 137);
+            this.label1.Size = new System.Drawing.Size(706, 137);
             this.label1.TabIndex = 1;
-            this.label1.Text = "ANA FORM";
+            this.label1.Text = "MAIN FORM";
             // 
             // Form1
             // 

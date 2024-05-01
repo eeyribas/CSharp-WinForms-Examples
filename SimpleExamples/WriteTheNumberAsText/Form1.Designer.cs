@@ -37,11 +37,11 @@ namespace WriteTheNumberAsText
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(30, 72);
+            this.label1.Location = new System.Drawing.Point(30, 80);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(46, 17);
+            this.label1.Size = new System.Drawing.Size(13, 17);
             this.label1.TabIndex = 5;
-            this.label1.Text = "label1";
+            this.label1.Text = "-";
             // 
             // button1
             // 
@@ -54,11 +54,11 @@ namespace WriteTheNumberAsText
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(30, 35);
+            this.textBox1.Location = new System.Drawing.Point(33, 37);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(240, 22);
             this.textBox1.TabIndex = 3;
-            this.textBox1.Text = "textBox1";
+            this.textBox1.Text = "-";
             // 
             // Form1
             // 

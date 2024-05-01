@@ -29,8 +29,7 @@ namespace RGBColor
 
         private void numericUpDown1_ValueChanged(object sender, EventArgs e)
         {
-            textBox1.BackColor = Color.FromArgb((int)numericUpDown1.Value, (int)numericUpDown2.Value,
-                                                (int)numericUpDown3.Value);
+            textBox1.BackColor = Color.FromArgb((int)numericUpDown1.Value, (int)numericUpDown2.Value, (int)numericUpDown3.Value);
             textBox1.Text = textBox1.BackColor.ToString();
         }
     }

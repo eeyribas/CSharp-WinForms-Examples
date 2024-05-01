@@ -227,7 +227,7 @@ namespace ModernCalculator
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(250, 22);
             this.textBox1.TabIndex = 65;
-            this.textBox1.Text = "TextBox1";
+            this.textBox1.Text = "-";
             this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // button0
