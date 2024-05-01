@@ -20,44 +20,50 @@ namespace FileStream_EncryptDecrypt
 
         private void button1_Click(object sender, EventArgs e)
         {
-            byte k, c;
-            long size;
             button1.Enabled = false;
             openFileDialog1.Title = "Selection File";
             saveFileDialog1.Title = "Create file.";
-            if(openFileDialog1.ShowDialog() == DialogResult.OK)
+            byte value;
+
+            if (openFileDialog1.ShowDialog() == DialogResult.OK)
             {
                 if(saveFileDialog1.ShowDialog() == DialogResult.OK)
                 {
                     label1.Text = "Original File : " + openFileDialog1.FileName;
+
                     FileStream fileStream = new FileStream(openFileDialog1.FileName, FileMode.Open);
                     BinaryReader binaryReader = new BinaryReader(fileStream);
                     label2.Text = "Creating File : " + saveFileDialog1.FileName;
+
                     FileStream fileStream2 = new FileStream(saveFileDialog1.FileName, FileMode.CreateNew);
                     BinaryWriter binaryWriter = new BinaryWriter(fileStream2);
-                    size = (new FileInfo(openFileDialog1.FileName)).Length;
+                    long size = (new FileInfo(openFileDialog1.FileName)).Length;
+
                     progressBar1.Maximum = (int)size / 100;
                     label3.Text = "File Size :" + size.ToString();
                     for (long i = 1; i <= size; i++)
                     {
-                        c = binaryReader.ReadByte();
+                        byte tmp = binaryReader.ReadByte();
                         if ((i % 3) == 0)
-                            k = (byte)~c;
+                            value = (byte)~tmp;
                         else
-                            k = c;
+                            value = tmp;
+
                         if ((i % 100) == 0)
                         {
                             progressBar1.Value = (int)i / 100;
                             Application.DoEvents();
                         }
-                        binaryWriter.Write(k);
+                        binaryWriter.Write(value);
                     }
+
                     binaryReader.Close();
                     binaryWriter.Close();
                     fileStream.Close();
                     fileStream2.Close();
                 }
-            }             
+            }
+            
             button1.Enabled = true;
         }
     }

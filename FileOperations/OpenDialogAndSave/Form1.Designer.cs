@@ -46,7 +46,7 @@ namespace OpenDialogAndSave
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(262, 233);
             this.textBox1.TabIndex = 6;
-            this.textBox1.Text = "textBox1";
+            this.textBox1.Text = "-";
             // 
             // saveFileDialog1
             // 

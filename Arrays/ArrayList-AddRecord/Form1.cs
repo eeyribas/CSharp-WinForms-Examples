@@ -39,6 +39,7 @@ namespace ArrayList_AddRecord
             record.city = textBox4.Text;
             record.job = textBox5.Text;
             arrayList.Add(record);
+
             label7.Text = arrayList.Count.ToString();
             label9.Text = arrayList.Capacity.ToString();
         }
