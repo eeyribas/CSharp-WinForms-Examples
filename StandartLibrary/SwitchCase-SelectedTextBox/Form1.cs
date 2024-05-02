@@ -17,24 +17,25 @@ namespace SwitchCase_SelectedTextBox
             InitializeComponent();
         }
 
-        private void Cmb_SelectedIndexChanged(object sender, EventArgs e)
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
-            switch(comboBox1.SelectedIndex) {
-                case 0: 
-                    textBox1.Focus(); 
-                    textBox1.SelectAll(); 
+            switch (comboBox1.SelectedIndex)
+            {
+                case 0:
+                    textBox1.Focus();
+                    textBox1.SelectAll();
                     break;
-                case 1: 
-                    textBox2.Focus(); 
-                    textBox2.SelectAll(); 
+                case 1:
+                    textBox2.Focus();
+                    textBox2.SelectAll();
                     break;
                 case 2:
-                    textBox3.Focus(); 
-                    textBox3.SelectAll(); 
+                    textBox3.Focus();
+                    textBox3.SelectAll();
                     break;
-                case 3: 
-                    textBox4.Focus(); 
-                    textBox4.SelectAll(); 
+                case 3:
+                    textBox4.Focus();
+                    textBox4.SelectAll();
                     break;
             }
         }
@@ -43,16 +44,16 @@ namespace SwitchCase_SelectedTextBox
         {
             switch ((sender as Control).Name)
             {
-                case "Txt1":
+                case "1.TextBox":
                     comboBox1.SelectedIndex = 0;
                     break;
-                case "Txt2":
+                case "2.TextBox":
                     comboBox1.SelectedIndex = 1;
                     break;
-                case "Txt3":
+                case "3.TextBox":
                     comboBox1.SelectedIndex = 2;
                     break;
-                case "Txt4":
+                case "4.TextBox":
                     comboBox1.SelectedIndex = 3;
                     break;
             }

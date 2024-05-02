@@ -21,7 +21,6 @@ namespace FrameDimension_ImageProperties
         private void button1_Click(object sender, EventArgs e)
         {
             openFileDialog1.Filter = "Image Directories|" + "*.bmp;*.jpg;*.gif;*.wmf;*.tif;*.png";
-
             if (openFileDialog1.ShowDialog() == DialogResult.OK)
             {
                 pictureBox1.Image = Image.FromFile(openFileDialog1.FileName);
@@ -32,7 +31,7 @@ namespace FrameDimension_ImageProperties
                 label8.Text = image.VerticalResolution.ToString();
 
                 Guid[] guid = image.FrameDimensionsList;
-                FrameDimension frameDimension = new System.Drawing.Imaging.FrameDimension(guid[0]);
+                FrameDimension frameDimension = new FrameDimension(guid[0]);
                 label10.Text = image.GetFrameCount(frameDimension).ToString();
             }
         }

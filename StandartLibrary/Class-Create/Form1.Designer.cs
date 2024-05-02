@@ -45,15 +45,15 @@ namespace Class_Create
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(106, 22);
             this.textBox3.TabIndex = 24;
-            this.textBox3.Text = "--";
+            this.textBox3.Text = "-";
             // 
             // label3
             // 
-            this.label3.Location = new System.Drawing.Point(12, 75);
+            this.label3.Location = new System.Drawing.Point(12, 78);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(120, 26);
+            this.label3.Size = new System.Drawing.Size(67, 26);
             this.label3.TabIndex = 23;
-            this.label3.Text = "Result";
+            this.label3.Text = "Result :";
             // 
             // textBox2
             // 
@@ -61,7 +61,7 @@ namespace Class_Create
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(106, 22);
             this.textBox2.TabIndex = 22;
-            this.textBox2.Text = "--";
+            this.textBox2.Text = "-";
             // 
             // label2
             // 
@@ -69,7 +69,7 @@ namespace Class_Create
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(67, 19);
             this.label2.TabIndex = 21;
-            this.label2.Text = "Pass";
+            this.label2.Text = "Pass :";
             // 
             // label1
             // 
@@ -77,7 +77,7 @@ namespace Class_Create
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(67, 19);
             this.label1.TabIndex = 20;
-            this.label1.Text = "Text";
+            this.label1.Text = "Text :";
             // 
             // textBox1
             // 
@@ -85,7 +85,7 @@ namespace Class_Create
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(106, 22);
             this.textBox1.TabIndex = 19;
-            this.textBox1.Text = "--";
+            this.textBox1.Text = "-";
             // 
             // button2
             // 

@@ -12,8 +12,9 @@ namespace DateTime_Loop
 {
     public partial class Form1 : Form
     {
-        long t1, t2;
-        int count;
+        private long t1, t2;
+        private int count;
+
         public Form1()
         {
             InitializeComponent();
@@ -39,12 +40,14 @@ namespace DateTime_Loop
         private void button1_Click(object sender, EventArgs e)
         {
             label1.Focus();
+
             if (button1.Text == "Count")
                 button1.Text = "Stop";
             else
                 button1.Text = "Count";
 
             t1 = DateTime.Now.Ticks;
+
             while (true)
             {
                 if (button1.Text == "Count")

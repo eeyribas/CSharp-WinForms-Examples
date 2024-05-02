@@ -6,7 +6,7 @@ C# programmings sections;
 - Arrays = 3 Examples
 - File Operations = 4 Examples
 - Simple Examples = 84 Examples
-- Standart Library (STL) = x Examples
+- Standart Library (STL) = 52 Examples
 - Toolboxs = x Examples
 
 There are x examples in total. It includes examples that I learned in lessons during my university years. Good repo for new C# Programming WinForms beginners.

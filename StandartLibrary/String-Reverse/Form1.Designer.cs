@@ -41,7 +41,7 @@ namespace String_Reverse
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(138, 67);
+            this.label2.Location = new System.Drawing.Point(138, 63);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(19, 20);
             this.label2.TabIndex = 21;
@@ -68,7 +68,7 @@ namespace String_Reverse
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(50, 67);
+            this.label1.Location = new System.Drawing.Point(43, 63);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(89, 20);
             this.label1.TabIndex = 18;
@@ -81,7 +81,7 @@ namespace String_Reverse
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(135, 26);
             this.textBox3.TabIndex = 17;
-            this.textBox3.Text = "content";
+            this.textBox3.Text = "-";
             this.textBox3.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox23_KeyPress);
             // 
             // textBox2
@@ -91,18 +91,18 @@ namespace String_Reverse
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(135, 26);
             this.textBox2.TabIndex = 16;
-            this.textBox2.Text = "content";
+            this.textBox2.Text = "-";
             this.textBox2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox23_KeyPress);
             // 
             // textBox1
             // 
             this.textBox1.ForeColor = System.Drawing.Color.OliveDrab;
-            this.textBox1.Location = new System.Drawing.Point(50, 86);
+            this.textBox1.Location = new System.Drawing.Point(47, 97);
             this.textBox1.MaxLength = 16;
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(135, 26);
             this.textBox1.TabIndex = 15;
-            this.textBox1.Text = "content";
+            this.textBox1.Text = "-";
             this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             this.textBox1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox1_KeyPress);
             // 

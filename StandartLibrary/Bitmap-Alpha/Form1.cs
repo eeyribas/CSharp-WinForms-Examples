@@ -12,8 +12,8 @@ namespace ImageAlpha
 {
     public partial class Form1 : Form
     {
-        Bitmap bmp;
-        int M, N;
+        private Bitmap bitmap;
+        private int M, N;
 
         public Form1()
         {
@@ -22,27 +22,30 @@ namespace ImageAlpha
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            bmp = new Bitmap(pictureBox1.Image);
-            M = bmp.Width;
-            N = bmp.Height;
+            bitmap = new Bitmap(pictureBox1.Image);
+            M = bitmap.Width;
+            N = bitmap.Height;
+
             hScrollBar1.Value = 100;
         }
 
         private void hScrollBar1_ValueChanged(object sender, EventArgs e)
         {
-            Color c;
-            int k = hScrollBar1.Value;
-            label1.Text = "Alpha = " + k.ToString();
+            Color color;
+            int len = hScrollBar1.Value;
+            label1.Text = "Alpha = " + len.ToString();
+
             for (int m = 0; m < M; m++)
             {
                 for (int n = 0; n < N; n++)
                 {
-                    c = bmp.GetPixel(m, n);
-                    c = Color.FromArgb(k, c.R, c.G, c.B);
-                    bmp.SetPixel(m, n, c);
+                    color = bitmap.GetPixel(m, n);
+                    color = Color.FromArgb(len, color.R, color.G, color.B);
+                    bitmap.SetPixel(m, n, color);
                 }
             }
-            pictureBox1.Image = bmp;
+
+            pictureBox1.Image = bitmap;
         }
     }
 }

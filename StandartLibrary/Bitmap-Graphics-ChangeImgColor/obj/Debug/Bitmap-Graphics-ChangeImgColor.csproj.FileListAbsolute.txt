@@ -1,0 +1,10 @@
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\Bitmap-Graphics-ChangeImgColor\bin\Debug\Bitmap-Graphics-ChangeImgColor.exe.config
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\Bitmap-Graphics-ChangeImgColor\bin\Debug\Bitmap-Graphics-ChangeImgColor.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\Bitmap-Graphics-ChangeImgColor\bin\Debug\Bitmap-Graphics-ChangeImgColor.pdb
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\Bitmap-Graphics-ChangeImgColor\obj\Debug\Bitmap-Graphics-ChangeImgColor.csproj.AssemblyReference.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\Bitmap-Graphics-ChangeImgColor\obj\Debug\Bitmap_Graphics_ChangeImgColor.Form1.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\Bitmap-Graphics-ChangeImgColor\obj\Debug\Bitmap_Graphics_ChangeImgColor.Properties.Resources.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\Bitmap-Graphics-ChangeImgColor\obj\Debug\Bitmap-Graphics-ChangeImgColor.csproj.GenerateResource.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\Bitmap-Graphics-ChangeImgColor\obj\Debug\Bitmap-Graphics-ChangeImgColor.csproj.CoreCompileInputs.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\Bitmap-Graphics-ChangeImgColor\obj\Debug\Bitmap-Graphics-ChangeImgColor.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\Bitmap-Graphics-ChangeImgColor\obj\Debug\Bitmap-Graphics-ChangeImgColor.pdb

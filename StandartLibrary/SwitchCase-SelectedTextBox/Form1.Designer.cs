@@ -49,7 +49,7 @@ namespace SwitchCase_SelectedTextBox
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(121, 26);
             this.comboBox1.TabIndex = 5;
-            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.Cmb_SelectedIndexChanged);
+            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             this.comboBox1.Enter += new System.EventHandler(this.comboBox1_Enter);
             this.comboBox1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.comboBox1_KeyPress);
             // 
@@ -76,7 +76,7 @@ namespace SwitchCase_SelectedTextBox
             // textBox2
             // 
             this.textBox2.ForeColor = System.Drawing.Color.SaddleBrown;
-            this.textBox2.Location = new System.Drawing.Point(48, 77);
+            this.textBox2.Location = new System.Drawing.Point(48, 76);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(100, 26);
             this.textBox2.TabIndex = 7;
@@ -86,7 +86,7 @@ namespace SwitchCase_SelectedTextBox
             // textBox1
             // 
             this.textBox1.ForeColor = System.Drawing.Color.SaddleBrown;
-            this.textBox1.Location = new System.Drawing.Point(48, 37);
+            this.textBox1.Location = new System.Drawing.Point(48, 35);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(100, 26);
             this.textBox1.TabIndex = 6;

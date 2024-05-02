@@ -12,8 +12,8 @@ namespace Picture_AutoZoom
 {
     public partial class Form1 : Form
     {
-        Bitmap bmp;
-        int x, y, M, N, L = 150;
+        private Bitmap bitmap;
+        private int x, y, M, N, L = 150;
 
         public Form1()
         {
@@ -22,16 +22,17 @@ namespace Picture_AutoZoom
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            bmp = new Bitmap(pictureBox1.Image);
-            M = bmp.Width;
-            N = bmp.Height;
+            bitmap = new Bitmap(pictureBox1.Image);
+            M = bitmap.Width;
+            N = bitmap.Height;
+
             timer1.Interval = 250;
         }
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-            Rectangle rec = new Rectangle(x, y, L, L);
-            pictureBox2.Image = bmp.Clone(rec, bmp.PixelFormat);
+            Rectangle rectangle = new Rectangle(x, y, L, L);
+            pictureBox2.Image = bitmap.Clone(rectangle, bitmap.PixelFormat);
         }
 
         private void pictureBox1_MouseEnter(object sender, EventArgs e)

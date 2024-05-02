@@ -27,11 +27,11 @@ namespace DateTime_ReadTime
         {
             int value = Environment.TickCount;
             string str = (value % 1000).ToString() + " microsecond";
-            value = value / 1000;
+            value /= 1000;
             str = (value % 60).ToString() + " second, " + str;
-            value = value / 60;
+            value /= 60;
             str = (value % 60).ToString() + " minute, " + str;
-            value = value / 60;
+            value /= 60;
             str = (value % 24).ToString() + " hour, " + str;
             str = (value / 24).ToString() + " day, " + str;
             label1.Text = str;
@@ -39,12 +39,12 @@ namespace DateTime_ReadTime
 
         private void button2_Click(object sender, EventArgs e)
         {
-            DateTime dt = DateTime.Now;
-            label2.Text = dt.ToString();
-            label3.Text = dt.ToShortDateString();
-            label4.Text = dt.ToLongTimeString();
-            label5.Text = dt.ToOADate().ToString();
-            label6.Text = dt.Ticks.ToString();
+            DateTime dateTime = DateTime.Now;
+            label2.Text = dateTime.ToString();
+            label3.Text = dateTime.ToShortDateString();
+            label4.Text = dateTime.ToLongTimeString();
+            label5.Text = dateTime.ToOADate().ToString();
+            label6.Text = dateTime.Ticks.ToString();
         }
     }
 }

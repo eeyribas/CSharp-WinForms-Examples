@@ -45,15 +45,15 @@ namespace Controls_RemoveAt
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(120, 22);
             this.textBox3.TabIndex = 29;
-            this.textBox3.Text = "TextBox3";
+            this.textBox3.Text = "-";
             // 
             // label3
             // 
-            this.label3.Location = new System.Drawing.Point(54, 65);
+            this.label3.Location = new System.Drawing.Point(54, 68);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(120, 26);
             this.label3.TabIndex = 28;
-            this.label3.Text = "Label3";
+            this.label3.Text = "Text :";
             // 
             // textBox2
             // 
@@ -61,23 +61,23 @@ namespace Controls_RemoveAt
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(120, 22);
             this.textBox2.TabIndex = 27;
-            this.textBox2.Text = "TextBox2";
+            this.textBox2.Text = "-";
             // 
             // label2
             // 
-            this.label2.Location = new System.Drawing.Point(54, 37);
+            this.label2.Location = new System.Drawing.Point(54, 40);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(120, 26);
             this.label2.TabIndex = 26;
-            this.label2.Text = "Label2";
+            this.label2.Text = "Text :";
             // 
             // label1
             // 
-            this.label1.Location = new System.Drawing.Point(54, 9);
+            this.label1.Location = new System.Drawing.Point(54, 12);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(120, 27);
             this.label1.TabIndex = 25;
-            this.label1.Text = "Label1";
+            this.label1.Text = "Text :";
             // 
             // textBox1
             // 
@@ -85,7 +85,7 @@ namespace Controls_RemoveAt
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(120, 22);
             this.textBox1.TabIndex = 24;
-            this.textBox1.Text = "TextBox1";
+            this.textBox1.Text = "-";
             // 
             // button2
             // 

@@ -7,3 +7,4 @@ D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\Bit
 D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\Bitmap-Alpha\obj\Debug\Bitmap-Alpha.csproj.CoreCompileInputs.cache
 D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\Bitmap-Alpha\obj\Debug\ImageAlpha.exe
 D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\Bitmap-Alpha\obj\Debug\ImageAlpha.pdb
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\Bitmap-Alpha\obj\Debug\Bitmap-Alpha.csproj.AssemblyReference.cache

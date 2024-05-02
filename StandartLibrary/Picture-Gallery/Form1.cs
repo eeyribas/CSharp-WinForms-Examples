@@ -12,7 +12,7 @@ namespace PictureGallery
 {
     public partial class Form1 : Form
     {
-        int k;
+        private int count;
 
         public Form1()
         {
@@ -26,28 +26,25 @@ namespace PictureGallery
 
         void Button_Click(object sender, EventArgs e)
         {
-            if (sender == button1) 
-                k = 0;
-            else if (sender == button2) 
-                k = (k + 9) % 10;
-            else if (sender == button3) 
-                k = (k + 1) % 10;
-            else if (sender == button4) 
-                k = 9;
-            string s = string.Format("Rsm{0}", k);
-            label1.Text = s + ".jpg";
-            pictureBox1.Image = (Image)(Properties.Resources.ResourceManager.GetObject(s));
+            if (sender == button1)
+                count = 0;
+            else if (sender == button2)
+                count = (count + 9) % 10;
+            else if (sender == button3)
+                count = (count + 1) % 10;
+            else if (sender == button4)
+                count = 9;
+
+            string str = string.Format("Rsm{0}", count);
+            label1.Text = str + ".jpg";
+            pictureBox1.Image = (Image)(Properties.Resources.ResourceManager.GetObject(str));
         }
 
         private void pictureBox1_MouseMove(object sender, MouseEventArgs e)
         {
             Color color = ((Bitmap)pictureBox1.Image).GetPixel(e.X, e.Y);
-            Text = "Alpha:" + color.A.ToString()
-                 + " / Red:" + color.R.ToString()
-                 + " / Green:" + color.G.ToString()
-                 + " / Blue:" + color.B.ToString()
-                 + " / X:" + e.X.ToString()
-                 + " / Y:" + e.Y.ToString();
+            Text = "Alpha:" + color.A.ToString() + " / Red:" + color.R.ToString() + " / Green:" + color.G.ToString()
+                 + " / Blue:" + color.B.ToString() + " / X:" + e.X.ToString() + " / Y:" + e.Y.ToString();
         }
     }
 }

@@ -58,21 +58,21 @@ namespace Class_Create
 
         private string SolvedEncrypt()
         {
-            string findResult;
-            char c;
             string result = text;
+
             for (int j = 0; j <= password.Length - 1; j++)
             {
-                findResult = "";
+                string findResult = "";
                 for (int i = 0; i <= result.Length - 1; i++)
                 {
-                    c = (char)(result[i] ^ password[j]);
-                    if (c == '0')
-                        c = password[j];
-                    findResult = findResult + (char)c;
+                    char ch = (char)(result[i] ^ password[j]);
+                    if (ch == '0')
+                        ch = password[j];
+                    findResult += (char)ch;
                 }
                 result = findResult;
             }
+
             return result;
         }
     }

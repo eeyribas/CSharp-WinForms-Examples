@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.Drawing.Drawing2D;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -43,24 +44,23 @@ namespace Graphics_DrawStick
             sumPercentile += percentile[orderNo];
             orderNo += 1;
 
-            Graphics graphics;
-            graphics = this.CreateGraphics();
+            Graphics graphics = this.CreateGraphics();
             graphics.Clear(this.BackColor);
 
             Random random = new Random();
             int height;
             Color color;
-            System.Drawing.Drawing2D.HatchBrush brush;
+            HatchBrush brush;
 
             for (int i = 0; i <= orderNo - 1; i++)
             {
                 height = 100 * percentile[i] / sumPercentile;
                 color = Color.FromArgb(random.Next(255), random.Next(255), random.Next(255));
-                brush = new System.Drawing.Drawing2D.HatchBrush((System.Drawing.Drawing2D.HatchStyle)random.Next(50), color);
+                brush = new HatchBrush((HatchStyle)random.Next(50), color);
                 
                 graphics.FillRectangle(brush, 0, 80 + i * 20, height, 18);
                 graphics.DrawString("% " + height.ToString(), new Font("Tahoma", 8, FontStyle.Regular), new SolidBrush(Color.Red),
-                height + 5, 80 + i * 20);
+                                    height + 5, 80 + i * 20);
 
                 graphics.FillRectangle(brush, 210, 80 + i * 20, 18, 18);
                 graphics.DrawString(names[i] + "=" + percentile[i], new Font("Tahoma", 8, FontStyle.Regular),

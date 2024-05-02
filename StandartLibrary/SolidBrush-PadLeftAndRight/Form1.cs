@@ -19,8 +19,7 @@ namespace SolidBrush_PadLeftAndRight
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Graphics graphics;
-            graphics = this.CreateGraphics();
+            Graphics graphics = this.CreateGraphics();
             graphics.Clear(Color.Blue);
 
             SolidBrush solidBrush = new SolidBrush(Color.Yellow);
@@ -38,8 +37,7 @@ namespace SolidBrush_PadLeftAndRight
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Graphics graphics;
-            graphics = this.CreateGraphics();
+            Graphics graphics = this.CreateGraphics();
             graphics.Clear(Color.Blue);
 
             SolidBrush solidBrush = new SolidBrush(Color.Yellow);

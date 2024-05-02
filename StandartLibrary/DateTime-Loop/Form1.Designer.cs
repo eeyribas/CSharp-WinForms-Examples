@@ -38,7 +38,7 @@ namespace DateTime_Loop
             // button2
             // 
             this.button2.ForeColor = System.Drawing.Color.DarkGreen;
-            this.button2.Location = new System.Drawing.Point(97, 100);
+            this.button2.Location = new System.Drawing.Point(61, 101);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(114, 45);
             this.button2.TabIndex = 5;
@@ -49,7 +49,7 @@ namespace DateTime_Loop
             // button1
             // 
             this.button1.ForeColor = System.Drawing.Color.DarkGreen;
-            this.button1.Location = new System.Drawing.Point(97, 31);
+            this.button1.Location = new System.Drawing.Point(61, 32);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(114, 45);
             this.button1.TabIndex = 4;
@@ -60,20 +60,20 @@ namespace DateTime_Loop
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(217, 114);
+            this.label2.Location = new System.Drawing.Point(225, 114);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(69, 20);
+            this.label2.Size = new System.Drawing.Size(19, 20);
             this.label2.TabIndex = 7;
-            this.label2.Text = "label2";
+            this.label2.Text = "-";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(217, 45);
+            this.label1.Location = new System.Drawing.Point(225, 45);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(69, 20);
+            this.label1.Size = new System.Drawing.Size(19, 20);
             this.label1.TabIndex = 6;
-            this.label1.Text = "label1";
+            this.label1.Text = "-";
             // 
             // Form1
             // 

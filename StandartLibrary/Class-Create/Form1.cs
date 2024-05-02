@@ -22,6 +22,7 @@ namespace Class_Create
             Password passw = new Password();
             passw.Text = textBox1.Text;
             passw.Passwd = textBox2.Text;
+
             textBox3.Text = passw.Encrypt();
         }
 
@@ -30,6 +31,7 @@ namespace Class_Create
             Password passw = new Password();
             passw.Text = textBox1.Text;
             passw.Passwd = textBox2.Text;
+
             textBox3.Text = passw.Solve();
         }
     }

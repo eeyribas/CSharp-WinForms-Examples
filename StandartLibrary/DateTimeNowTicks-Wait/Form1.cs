@@ -21,14 +21,17 @@ namespace DateTimeNowTicks_Wait
         {
             this.Text = "Hello";
             Wait(3);
+
             this.Text = "How are you?";
             Wait(5);
+
             this.Text = "What is your name?";
             Wait(4);
+
             this.Text = "Finish.";
         }
 
-        void Wait(long time)
+        private void Wait(long time)
         {
             long calc = DateTime.Now.Ticks + time * 10000000;
             while (DateTime.Now.Ticks < calc)

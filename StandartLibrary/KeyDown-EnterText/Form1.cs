@@ -29,7 +29,6 @@ namespace KeyDown_EnterText
 
         private void textBox1_KeyDown(object sender, KeyEventArgs e)
         {
-            // Directional keys
             if (e.Control)
             {
                 switch (e.KeyCode)
@@ -49,7 +48,6 @@ namespace KeyDown_EnterText
                 }
             }
 
-            // Alt key
             if (e.Alt)
             {
                 switch (e.KeyCode)
@@ -69,26 +67,22 @@ namespace KeyDown_EnterText
                 }
             }
 
-            // F5 key
             if (e.KeyCode == Keys.F5)
             {
-                // Alt-F5
                 if (e.Alt)
                     (sender as TextBox).Text = (sender as TextBox).Text.ToUpper();
-                //Ctrl-F5
                 if (e.Control)
                     (sender as TextBox).Text = (sender as TextBox).Text.ToLower();
             }
 
-            //Shift BackSpace
             if (e.Shift && (e.KeyCode == Keys.Back))
                 (sender as TextBox).Text = "";
 
-            //F10
             if (e.KeyCode == Keys.F10)
                 Close();
 
-            this.Text = "The numerical code of the key you pressed:" + e.KeyValue.ToString() + " Symbolic Name:" + e.KeyCode.ToString();
+            this.Text = "The numerical code of the key you pressed:" + e.KeyValue.ToString() + " Symbolic Name:" + 
+                        e.KeyCode.ToString();
         }
     }
 }

@@ -57,7 +57,7 @@ namespace Bitmap_ConvertBmpToJpg
             // button1
             // 
             this.button1.ForeColor = System.Drawing.Color.Green;
-            this.button1.Location = new System.Drawing.Point(102, 209);
+            this.button1.Location = new System.Drawing.Point(110, 229);
             this.button1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(271, 47);
@@ -70,7 +70,7 @@ namespace Bitmap_ConvertBmpToJpg
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(16F, 30F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(527, 336);
+            this.ClientSize = new System.Drawing.Size(527, 371);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button1);

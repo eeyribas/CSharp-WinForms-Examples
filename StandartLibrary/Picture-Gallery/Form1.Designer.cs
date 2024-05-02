@@ -41,11 +41,11 @@ namespace PictureGallery
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(428, 30);
+            this.label1.Location = new System.Drawing.Point(452, 30);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(69, 20);
+            this.label1.Size = new System.Drawing.Size(19, 20);
             this.label1.TabIndex = 17;
-            this.label1.Text = "label1";
+            this.label1.Text = "-";
             // 
             // pictureBox1
             // 
@@ -60,7 +60,7 @@ namespace PictureGallery
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(332, 24);
+            this.button4.Location = new System.Drawing.Point(351, 25);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(75, 28);
             this.button4.TabIndex = 15;
@@ -70,7 +70,7 @@ namespace PictureGallery
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(225, 24);
+            this.button3.Location = new System.Drawing.Point(235, 25);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(101, 28);
             this.button3.TabIndex = 14;
@@ -80,7 +80,7 @@ namespace PictureGallery
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(109, 24);
+            this.button2.Location = new System.Drawing.Point(119, 25);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(100, 28);
             this.button2.TabIndex = 13;
@@ -90,7 +90,7 @@ namespace PictureGallery
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(28, 24);
+            this.button1.Location = new System.Drawing.Point(28, 25);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 28);
             this.button1.TabIndex = 12;

@@ -12,7 +12,7 @@ namespace Array_AddShowOrderFindReverse
 {
     public partial class Form1 : Form
     {
-        public string[] name = new string[10];
+        public string[] names = new string[10];
         public int orderNo;
 
         public Form1()
@@ -22,23 +22,23 @@ namespace Array_AddShowOrderFindReverse
 
         private void button1_Click(object sender, EventArgs e)
         {
-            name[orderNo] = textBox1.Text;
+            names[orderNo] = textBox1.Text;
             orderNo += 1;
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Array.Sort(name);
+            Array.Sort(names);
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
             string find = textBox2.Text;
-            int loc = Array.IndexOf(name, find);
-            while (loc >= 0)
+            int location = Array.IndexOf(names, find);
+            while (location >= 0)
             {
-                MessageBox.Show(find + " person " + loc.ToString() + "th on the list");
-                loc = Array.IndexOf(name, find, loc + 1);
+                MessageBox.Show(find + " person " + location.ToString() + "th on the list");
+                location = Array.IndexOf(names, find, location + 1);
             }
         }
 
@@ -46,14 +46,17 @@ namespace Array_AddShowOrderFindReverse
         {
             Graphics graphics = this.CreateGraphics();
             graphics.Clear(this.BackColor);
-            for (int i = 0; i <= name.GetLength(0) - 1; i++)
-                graphics.DrawString(name[i], new Font("Tahoma", 8, FontStyle.Regular),
-                 new SolidBrush(Color.Red), 10, 30 + i * 10);
+
+            for (int i = 0; i <= names.GetLength(0) - 1; i++)
+            {
+                graphics.DrawString(names[i], new Font("Tahoma", 8, FontStyle.Regular), new SolidBrush(Color.Red), 10,
+                                    30 + i * 10);
+            }
         }
 
         private void button5_Click(object sender, EventArgs e)
         {
-            Array.Reverse(name);
+            Array.Reverse(names);
         }
     }
 }

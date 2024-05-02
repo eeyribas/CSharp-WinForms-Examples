@@ -20,9 +20,7 @@ namespace Graphics_PictureViewer
         private void button1_Click(object sender, EventArgs e)
         {
             if (openFileDialog1.ShowDialog() == DialogResult.OK)
-            {
                 pictureBox1.Image = Image.FromFile(openFileDialog1.FileName);
-            }
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -46,26 +44,26 @@ namespace Graphics_PictureViewer
 
         private void button5_Click(object sender, EventArgs e)
         {
-            this.Width = this.Width + 10;
-            this.Height = this.Height + 10;
+            this.Width += 10;
+            this.Height += 10;
         }
 
         private void button6_Click(object sender, EventArgs e)
         {
-            this.Width = this.Width - 10;
-            this.Height = this.Height - 10;
+            this.Width -= 10;
+            this.Height -= 10;
         }
 
         private void pictureBox1_MouseLeave(object sender, EventArgs e)
         {
-            lblX.Text = "";
-            lblY.Text = "";
+            label1.Text = "";
+            label2.Text = "";
         }
 
         private void pictureBox1_MouseMove(object sender, MouseEventArgs e)
         {
-            lblX.Text = "X: " + e.X.ToString();
-            lblY.Text = "Y: " + e.Y.ToString();
+            label1.Text = "X: " + e.X.ToString();
+            label2.Text = "Y: " + e.Y.ToString();
         }
     }
 }

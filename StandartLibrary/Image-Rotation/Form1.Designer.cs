@@ -54,11 +54,11 @@ namespace Image_Rotation
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(211, 24);
             this.comboBox1.TabIndex = 15;
-            this.comboBox1.Text = "ComboBox1";
+            this.comboBox1.Text = "-";
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(233, 12);
+            this.button1.Location = new System.Drawing.Point(233, 9);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(208, 28);
             this.button1.TabIndex = 14;

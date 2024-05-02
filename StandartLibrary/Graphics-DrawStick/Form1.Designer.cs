@@ -51,7 +51,7 @@ namespace Graphics_DrawStick
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(120, 22);
             this.textBox2.TabIndex = 18;
-            this.textBox2.Text = "--";
+            this.textBox2.Text = "-";
             // 
             // textBox1
             // 
@@ -59,23 +59,23 @@ namespace Graphics_DrawStick
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(120, 22);
             this.textBox1.TabIndex = 17;
-            this.textBox1.Text = "--";
+            this.textBox1.Text = "-";
             // 
             // label2
             // 
-            this.label2.Location = new System.Drawing.Point(12, 37);
+            this.label2.Location = new System.Drawing.Point(12, 40);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(120, 26);
             this.label2.TabIndex = 16;
-            this.label2.Text = "Percentile";
+            this.label2.Text = "Percentile :";
             // 
             // label1
             // 
-            this.label1.Location = new System.Drawing.Point(12, 9);
+            this.label1.Location = new System.Drawing.Point(12, 12);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(120, 27);
             this.label1.TabIndex = 15;
-            this.label1.Text = "Name";
+            this.label1.Text = "Name :";
             // 
             // Form1
             // 

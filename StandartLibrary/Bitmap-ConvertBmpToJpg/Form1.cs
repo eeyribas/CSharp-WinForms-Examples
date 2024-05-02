@@ -20,9 +20,10 @@ namespace Bitmap_ConvertBmpToJpg
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Bitmap bmp = new Bitmap("papaya.bmp");
-            bmp.Save("papaya.jpg", ImageFormat.Jpeg);
-            bmp.Dispose();
+            Bitmap bitmap = new Bitmap("papaya.bmp");
+            bitmap.Save("papaya.jpg", ImageFormat.Jpeg);
+            bitmap.Dispose();
+
             Close();
         }
     }

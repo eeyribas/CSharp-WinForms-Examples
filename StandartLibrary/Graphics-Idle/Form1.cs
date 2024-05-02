@@ -12,9 +12,9 @@ namespace Graphics_Idle
 {
     public partial class Form1 : Form
     {
-        Graphics graphics;
-        Random random;
-        int M, N, L, count;
+        private Graphics graphics;
+        private Random random;
+        private int M, N, L, count;
 
         public Form1()
         {
@@ -26,6 +26,7 @@ namespace Graphics_Idle
             L = 20;
             M = ClientSize.Width - L;
             N = ClientSize.Height - L;
+
             graphics = CreateGraphics();
             random = new Random();
             Application.Idle += new EventHandler(IdleEvent);
@@ -34,10 +35,10 @@ namespace Graphics_Idle
         void IdleEvent(object sender, EventArgs e)
         {
             Text = (++count).ToString();
-            Color renk = Color.FromArgb(random.Next(256), random.Next(256), random.Next(256));
-            Brush boya = new SolidBrush(renk);
-            Rectangle rect = new Rectangle(random.Next(M), random.Next(N), L, L);
-            graphics.FillEllipse(boya, rect);
+            Color color = Color.FromArgb(random.Next(256), random.Next(256), random.Next(256));
+            Brush brush = new SolidBrush(color);
+            Rectangle rectangle = new Rectangle(random.Next(M), random.Next(N), L, L);
+            graphics.FillEllipse(brush, rectangle);
         }
     }
 }

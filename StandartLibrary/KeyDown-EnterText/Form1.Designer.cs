@@ -37,9 +37,9 @@ namespace KeyDown_EnterText
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(41, 149);
+            this.button1.Location = new System.Drawing.Point(26, 149);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(90, 27);
+            this.button1.Size = new System.Drawing.Size(120, 27);
             this.button1.TabIndex = 7;
             this.button1.Text = "button1";
             // 
@@ -49,7 +49,7 @@ namespace KeyDown_EnterText
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(120, 22);
             this.textBox3.TabIndex = 6;
-            this.textBox3.Text = "textBox3";
+            this.textBox3.Text = "-";
             // 
             // textBox2
             // 
@@ -57,7 +57,7 @@ namespace KeyDown_EnterText
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(120, 22);
             this.textBox2.TabIndex = 5;
-            this.textBox2.Text = "textBox2";
+            this.textBox2.Text = "-";
             // 
             // textBox1
             // 
@@ -65,7 +65,7 @@ namespace KeyDown_EnterText
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(120, 22);
             this.textBox1.TabIndex = 4;
-            this.textBox1.Text = "textBox1";
+            this.textBox1.Text = "-";
             this.textBox1.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBox1_KeyDown);
             // 
             // Form1

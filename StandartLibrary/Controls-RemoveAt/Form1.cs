@@ -19,7 +19,7 @@ namespace Controls_RemoveAt
 
         private void button1_Click(object sender, EventArgs e)
         {
-            for(int i = 0; i < this.Controls.Count; i++)
+            for (int i = 0; i < this.Controls.Count; i++)
                 this.Controls.RemoveAt(0);
         }
 
@@ -28,7 +28,7 @@ namespace Controls_RemoveAt
             int i = 0;
             while (i < this.Controls.Count)
             {
-                if(this.Controls[i] is TextBox)
+                if (this.Controls[i] is TextBox)
                     this.Controls.RemoveAt(i);
                 else
                     i += 1;

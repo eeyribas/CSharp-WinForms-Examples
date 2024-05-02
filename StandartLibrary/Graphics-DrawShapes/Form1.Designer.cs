@@ -39,12 +39,12 @@ namespace Graphics_DrawShapes
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(145, 24);
             this.comboBox1.TabIndex = 5;
-            this.comboBox1.Text = "comboBox1";
+            this.comboBox1.Text = "-";
             this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // label1
             // 
-            this.label1.Location = new System.Drawing.Point(45, 23);
+            this.label1.Location = new System.Drawing.Point(40, 26);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(77, 26);
             this.label1.TabIndex = 4;

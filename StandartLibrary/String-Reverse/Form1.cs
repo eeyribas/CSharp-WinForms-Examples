@@ -25,12 +25,13 @@ namespace String_Reverse
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
             textBox2.Text = textBox1.Text;
-            string s = null;
-            int n = textBox1.TextLength;
-            label2.Text = n.ToString();
-            for (int i = 0; i < n; i++)
-                s += textBox1.Text[n - 1 - i];
-            textBox3.Text = s;
+            string str = null;
+            int len = textBox1.TextLength;
+            label2.Text = len.ToString();
+
+            for (int i = 0; i < len; i++)
+                str += textBox1.Text[len - 1 - i];
+            textBox3.Text = str;
         }
 
         private void textBox1_KeyPress(object sender, KeyPressEventArgs e)

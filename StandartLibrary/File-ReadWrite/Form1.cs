@@ -13,8 +13,8 @@ namespace File_ReadWrite
 {
     public partial class Form1 : Form
     {
-        string file = "file.txt";
-        int i;
+        private string file = "file.txt";
+        private int count;
 
         public Form1()
         {
@@ -32,9 +32,10 @@ namespace File_ReadWrite
         private void button1_Click(object sender, EventArgs e)
         {
             label1.Text = "File exists.";
+
             TextWriter textWriter = File.AppendText(file);
             textWriter.WriteLine("CSharp Programming Language");
-            textWriter.WriteLine("OK {0}", ++i);
+            textWriter.WriteLine("OK {0}", ++count);
             textWriter.Close();
         }
 
@@ -42,6 +43,7 @@ namespace File_ReadWrite
         {
             if (!File.Exists(file))
                 return;
+
             TextReader textReader = File.OpenText(file);
             textBox1.Text = textReader.ReadToEnd();
             textReader.Close();
@@ -54,7 +56,7 @@ namespace File_ReadWrite
                 File.Delete(file);
                 textBox1.Clear();
                 label1.Text = "No file.";
-                i = 0;
+                count = 0;
             }
         }
     }

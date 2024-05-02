@@ -46,15 +46,15 @@ namespace Char_CharacterGroups
             // 
             // comboBox1
             // 
-            this.comboBox1.Location = new System.Drawing.Point(203, 8);
+            this.comboBox1.Location = new System.Drawing.Point(159, 8);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(145, 24);
             this.comboBox1.TabIndex = 10;
-            this.comboBox1.Text = "comboBox1";
+            this.comboBox1.Text = "-";
             // 
             // label1
             // 
-            this.label1.Location = new System.Drawing.Point(12, 11);
+            this.label1.Location = new System.Drawing.Point(9, 11);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(144, 28);
             this.label1.TabIndex = 9;

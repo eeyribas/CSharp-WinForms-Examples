@@ -22,7 +22,7 @@ namespace ArrayList_AddRecordAndList
             }
         }
 
-        ArrayList arrayList = new ArrayList();
+        private ArrayList arrayList = new ArrayList();
 
         public Form1()
         {
@@ -38,6 +38,7 @@ namespace ArrayList_AddRecordAndList
             data.data4 = textBox4.Text;
             data.data5 = textBox5.Text;
             arrayList.Add(data);
+
             label7.Text = arrayList.Count.ToString();
             label9.Text = arrayList.Capacity.ToString();
         }

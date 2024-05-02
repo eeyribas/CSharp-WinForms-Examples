@@ -1,0 +1,10 @@
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\Graphics-Bitmap-DrawPaintMemory\bin\Debug\Graphics-Bitmap-DrawPaintMemory.exe.config
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\Graphics-Bitmap-DrawPaintMemory\bin\Debug\Graphics-Bitmap-DrawPaintMemory.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\Graphics-Bitmap-DrawPaintMemory\bin\Debug\Graphics-Bitmap-DrawPaintMemory.pdb
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\Graphics-Bitmap-DrawPaintMemory\obj\Debug\Graphics-Bitmap-DrawPaintMemory.csproj.AssemblyReference.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\Graphics-Bitmap-DrawPaintMemory\obj\Debug\Graphics_Bitmap_DrawPaintMemory.Form1.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\Graphics-Bitmap-DrawPaintMemory\obj\Debug\Graphics_Bitmap_DrawPaintMemory.Properties.Resources.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\Graphics-Bitmap-DrawPaintMemory\obj\Debug\Graphics-Bitmap-DrawPaintMemory.csproj.GenerateResource.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\Graphics-Bitmap-DrawPaintMemory\obj\Debug\Graphics-Bitmap-DrawPaintMemory.csproj.CoreCompileInputs.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\Graphics-Bitmap-DrawPaintMemory\obj\Debug\Graphics-Bitmap-DrawPaintMemory.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\StandartLibrary\Graphics-Bitmap-DrawPaintMemory\obj\Debug\Graphics-Bitmap-DrawPaintMemory.pdb

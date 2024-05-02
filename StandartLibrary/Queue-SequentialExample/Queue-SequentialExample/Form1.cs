@@ -13,8 +13,8 @@ namespace Queue_SequentialExample
 {
     public partial class Form1 : Form
     {
-        Queue queue = new Queue();
-        int count = 0;
+        private Queue queue = new Queue();
+        private int count = 0;
 
         public Form1()
         {

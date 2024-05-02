@@ -44,45 +44,45 @@ namespace DateTime_ReadTime
             this.label6.AutoSize = true;
             this.label6.Location = new System.Drawing.Point(185, 227);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(69, 20);
+            this.label6.Size = new System.Drawing.Size(19, 20);
             this.label6.TabIndex = 15;
-            this.label6.Text = "label6";
+            this.label6.Text = "-";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.Location = new System.Drawing.Point(185, 197);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(69, 20);
+            this.label5.Size = new System.Drawing.Size(19, 20);
             this.label5.TabIndex = 14;
-            this.label5.Text = "label5";
+            this.label5.Text = "-";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(185, 167);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(69, 20);
+            this.label4.Size = new System.Drawing.Size(19, 20);
             this.label4.TabIndex = 13;
-            this.label4.Text = "label4";
+            this.label4.Text = "-";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(185, 137);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(69, 20);
+            this.label3.Size = new System.Drawing.Size(19, 20);
             this.label3.TabIndex = 12;
-            this.label3.Text = "label3";
+            this.label3.Text = "-";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(185, 107);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(69, 20);
+            this.label2.Size = new System.Drawing.Size(19, 20);
             this.label2.TabIndex = 11;
-            this.label2.Text = "label2";
+            this.label2.Text = "-";
             // 
             // button2
             // 
@@ -98,7 +98,7 @@ namespace DateTime_ReadTime
             // button1
             // 
             this.button1.ForeColor = System.Drawing.Color.Maroon;
-            this.button1.Location = new System.Drawing.Point(29, 41);
+            this.button1.Location = new System.Drawing.Point(29, 51);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(382, 35);
             this.button1.TabIndex = 8;
@@ -109,11 +109,11 @@ namespace DateTime_ReadTime
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(26, 22);
+            this.label1.Location = new System.Drawing.Point(25, 18);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(69, 20);
+            this.label1.Size = new System.Drawing.Size(19, 20);
             this.label1.TabIndex = 10;
-            this.label1.Text = "label1";
+            this.label1.Text = "-";
             // 
             // Form1
             // 

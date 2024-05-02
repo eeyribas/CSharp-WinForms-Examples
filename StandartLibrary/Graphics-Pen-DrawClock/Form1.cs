@@ -40,14 +40,14 @@ namespace Graphics_Pen_DrawClock
         private void timer1_Tick(object sender, EventArgs e)
         {
             Graphics graphics = this.CreateGraphics();
-            float r;
 
+            float r;
             if (this.ClientSize.Width > this.ClientSize.Height)
                 r = this.ClientSize.Height / 2;
             else
                 r = this.ClientSize.Width / 2;
 
-            graphics.SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.AntiAlias;
+            graphics.SmoothingMode = SmoothingMode.AntiAlias;
             graphics.DrawEllipse(new Pen(Color.Red), 0, 0, 2 * r, 2 * r);
             graphics.DrawEllipse(new Pen(Color.Red), 8, 8, 2 * r - 16, 2 * r - 16);
             graphics.FillEllipse(new SolidBrush(this.BackColor), 9, 9, 2 * r - 18, 2 * r - 18);

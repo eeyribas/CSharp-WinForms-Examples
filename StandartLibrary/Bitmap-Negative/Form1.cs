@@ -12,9 +12,9 @@ namespace Bitmap_Negative
 {
     public partial class Form1 : Form
     {
-        Bitmap bmp, hsn;
-        Color c;
-        int M, N;
+        private Bitmap bitmap, hsnBitmap;
+        private Color color;
+        private int M, N;
 
         public Form1()
         {
@@ -23,15 +23,16 @@ namespace Bitmap_Negative
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            bmp = new Bitmap(pictureBox1.Image);
-            M = bmp.Width;
-            N = bmp.Height;
-            hsn = new Bitmap(M, N);
+            bitmap = new Bitmap(pictureBox1.Image);
+
+            M = bitmap.Width;
+            N = bitmap.Height;
+            hsnBitmap = new Bitmap(M, N);
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            pictureBox2.Image = bmp;
+            pictureBox2.Image = bitmap;
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -40,12 +41,13 @@ namespace Bitmap_Negative
             {
                 for (int n = 0; n < N; n++)
                 {
-                    c = bmp.GetPixel(m, n);
-                    c = Color.FromArgb(c.A, 255 - c.R, 255 - c.G, 255 - c.B);
-                    hsn.SetPixel(m, n, c);
+                    color = bitmap.GetPixel(m, n);
+                    color = Color.FromArgb(color.A, 255 - color.R, 255 - color.G, 255 - color.B);
+                    hsnBitmap.SetPixel(m, n, color);
                 }
             }
-            pictureBox2.Image = hsn;
+
+            pictureBox2.Image = hsnBitmap;
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -54,13 +56,14 @@ namespace Bitmap_Negative
             {
                 for (int n = 0; n < N; n++)
                 {
-                    c = bmp.GetPixel(m, n);
-                    int k = (byte)Math.Round(0.28 * c.R + 0.57 * c.G + 0.15 * c.B);
-                    c = Color.FromArgb(c.A, k, k, k);
-                    hsn.SetPixel(m, n, c);
+                    color = bitmap.GetPixel(m, n);
+                    int value = (byte)Math.Round(0.28 * color.R + 0.57 * color.G + 0.15 * color.B);
+                    color = Color.FromArgb(color.A, value, value, value);
+                    hsnBitmap.SetPixel(m, n, color);
                 }
             }
-            pictureBox2.Image = hsn;
+
+            pictureBox2.Image = hsnBitmap;
         }
 
         private void button4_Click(object sender, EventArgs e)
@@ -69,13 +72,14 @@ namespace Bitmap_Negative
             {
                 for (int n = 0; n < N; n++)
                 {
-                    c = bmp.GetPixel(m, n);
-                    int k = 255 - (byte)Math.Round(0.28 * c.R + 0.57 * c.G + 0.15 * c.B);
-                    c = Color.FromArgb(c.A, k, k, k);
-                    hsn.SetPixel(m, n, c);
+                    color = bitmap.GetPixel(m, n);
+                    int value = 255 - (byte)Math.Round(0.28 * color.R + 0.57 * color.G + 0.15 * color.B);
+                    color = Color.FromArgb(color.A, value, value, value);
+                    hsnBitmap.SetPixel(m, n, color);
                 }
             }
-            pictureBox2.Image = hsn;
+
+            pictureBox2.Image = hsnBitmap;
         }
     }
 }

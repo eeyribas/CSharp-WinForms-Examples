@@ -20,17 +20,12 @@ namespace Graphics_DrawRectangle
         private void button1_Click(object sender, EventArgs e)
         {
             Graphics graphics = this.CreateGraphics();
-
             Random random = new Random();
             int mx = random.Next(Width);
             int my = random.Next(Height / 2);
 
             for (int i = 1; i <= 10; i++)
-            {
-                graphics.DrawRectangle(new Pen(Color.Blue, i),
-                                       mx - i * 10, my - i * 10,
-                                       i * 20, i * 20);
-            }
+                graphics.DrawRectangle(new Pen(Color.Blue, i), mx - i * 10, my - i * 10, i * 20, i * 20);
             graphics.Dispose();
         }
     }

@@ -30,6 +30,7 @@ namespace Graphics_DrawShapes
         {
             Graphics graphics = this.CreateGraphics();
             graphics.Clear(this.BackColor);
+
             switch (comboBox1.Text)
             {
                 case "Rectangle":

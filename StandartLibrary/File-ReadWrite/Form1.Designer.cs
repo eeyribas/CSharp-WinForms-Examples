@@ -38,7 +38,7 @@ namespace File_ReadWrite
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(227, 51);
+            this.textBox1.Location = new System.Drawing.Point(227, 42);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(268, 351);
             this.textBox1.TabIndex = 5;
@@ -47,15 +47,15 @@ namespace File_ReadWrite
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(66, 300);
+            this.label1.Location = new System.Drawing.Point(67, 298);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(69, 20);
+            this.label1.Size = new System.Drawing.Size(19, 20);
             this.label1.TabIndex = 9;
-            this.label1.Text = "label1";
+            this.label1.Text = "-";
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(69, 225);
+            this.button3.Location = new System.Drawing.Point(41, 214);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(130, 36);
             this.button3.TabIndex = 8;
@@ -65,7 +65,7 @@ namespace File_ReadWrite
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(69, 157);
+            this.button2.Location = new System.Drawing.Point(41, 140);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(130, 36);
             this.button2.TabIndex = 7;
@@ -75,7 +75,7 @@ namespace File_ReadWrite
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(69, 94);
+            this.button1.Location = new System.Drawing.Point(41, 73);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(130, 36);
             this.button1.TabIndex = 6;

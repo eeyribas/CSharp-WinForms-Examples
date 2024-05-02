@@ -24,7 +24,7 @@ namespace Form_ActiveControlWithKeyUsage
 
         private void Form1_KeyDown(object sender, KeyEventArgs e)
         {
-            if((this.Tag != "1") && (e.Alt == true) && (e.KeyCode == Keys.CapsLock))
+            if ((this.Tag != "1") && (e.Alt == true) && (e.KeyCode == Keys.CapsLock))
             {
                 this.Tag = "1";
                 this.ActiveControl.Width *= 2;
@@ -35,7 +35,8 @@ namespace Form_ActiveControlWithKeyUsage
         private void Form1_KeyUp(object sender, KeyEventArgs e)
         {
             this.Tag = "0";
-            if((e.Alt == true) && (e.KeyCode == Keys.CapsLock))
+
+            if ((e.Alt == true) && (e.KeyCode == Keys.CapsLock))
             {
                 this.ActiveControl.Width /= 2;
                 this.ActiveControl.Height /= 2;

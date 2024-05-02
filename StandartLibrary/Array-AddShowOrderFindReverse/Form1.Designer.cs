@@ -41,15 +41,15 @@ namespace Array_AddShowOrderFindReverse
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(312, 57);
+            this.textBox2.Location = new System.Drawing.Point(261, 53);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(182, 22);
             this.textBox2.TabIndex = 23;
-            this.textBox2.Text = "textBox2";
+            this.textBox2.Text = "-";
             // 
             // button5
             // 
-            this.button5.Location = new System.Drawing.Point(504, 94);
+            this.button5.Location = new System.Drawing.Point(462, 88);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(90, 27);
             this.button5.TabIndex = 22;
@@ -58,7 +58,7 @@ namespace Array_AddShowOrderFindReverse
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(312, 94);
+            this.button4.Location = new System.Drawing.Point(261, 88);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(182, 27);
             this.button4.TabIndex = 21;
@@ -67,7 +67,7 @@ namespace Array_AddShowOrderFindReverse
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(504, 57);
+            this.button3.Location = new System.Drawing.Point(462, 53);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(90, 27);
             this.button3.TabIndex = 20;
@@ -76,7 +76,7 @@ namespace Array_AddShowOrderFindReverse
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(504, 20);
+            this.button2.Location = new System.Drawing.Point(462, 20);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(90, 27);
             this.button2.TabIndex = 19;
@@ -85,7 +85,7 @@ namespace Array_AddShowOrderFindReverse
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(312, 20);
+            this.button1.Location = new System.Drawing.Point(261, 20);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(182, 27);
             this.button1.TabIndex = 18;
@@ -94,25 +94,25 @@ namespace Array_AddShowOrderFindReverse
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(187, 20);
+            this.textBox1.Location = new System.Drawing.Point(122, 22);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(120, 22);
             this.textBox1.TabIndex = 17;
-            this.textBox1.Text = "textBox1";
+            this.textBox1.Text = "-";
             // 
             // label1
             // 
-            this.label1.Location = new System.Drawing.Point(61, 25);
+            this.label1.Location = new System.Drawing.Point(27, 25);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(120, 27);
+            this.label1.Size = new System.Drawing.Size(89, 27);
             this.label1.TabIndex = 16;
-            this.label1.Text = "Name Surname";
+            this.label1.Text = "Full Name :";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(627, 261);
+            this.ClientSize = new System.Drawing.Size(575, 137);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);

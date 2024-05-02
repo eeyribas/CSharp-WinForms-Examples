@@ -77,18 +77,18 @@ namespace FrameDimension_ImageProperties
             this.label8.AutoSize = true;
             this.label8.Location = new System.Drawing.Point(203, 93);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(51, 17);
+            this.label8.Size = new System.Drawing.Size(13, 17);
             this.label8.TabIndex = 49;
-            this.label8.Text = "Label8";
+            this.label8.Text = "-";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
             this.label6.Location = new System.Drawing.Point(203, 65);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(51, 17);
+            this.label6.Size = new System.Drawing.Size(13, 17);
             this.label6.TabIndex = 46;
-            this.label6.Text = "Label6";
+            this.label6.Text = "-";
             // 
             // label9
             // 
@@ -104,9 +104,9 @@ namespace FrameDimension_ImageProperties
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(203, 37);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(51, 17);
+            this.label4.Size = new System.Drawing.Size(13, 17);
             this.label4.TabIndex = 44;
-            this.label4.Text = "Label4";
+            this.label4.Text = "-";
             // 
             // label3
             // 
@@ -122,9 +122,9 @@ namespace FrameDimension_ImageProperties
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(203, 9);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(51, 17);
+            this.label2.Size = new System.Drawing.Size(13, 17);
             this.label2.TabIndex = 42;
-            this.label2.Text = "Label2";
+            this.label2.Text = "-";
             // 
             // label1
             // 
@@ -150,9 +150,9 @@ namespace FrameDimension_ImageProperties
             this.label10.AutoSize = true;
             this.label10.Location = new System.Drawing.Point(203, 120);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(59, 17);
+            this.label10.Size = new System.Drawing.Size(13, 17);
             this.label10.TabIndex = 50;
-            this.label10.Text = "Label10";
+            this.label10.Text = "-";
             // 
             // Form1
             // 

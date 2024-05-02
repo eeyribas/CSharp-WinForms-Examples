@@ -30,6 +30,7 @@ namespace Point_DrawStar
             point[7] = new Point(181, 209);
             point[8] = new Point(103, 266);
             point[9] = new Point(95, 182);
+
             e.Graphics.FillPolygon(new TextureBrush(pictureBox1.Image), point);
         }
     }

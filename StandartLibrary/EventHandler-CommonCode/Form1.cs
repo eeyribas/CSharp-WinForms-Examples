@@ -26,6 +26,7 @@ namespace EventHandler_CommonCode
         private void textBox2_TextChanged(object sender, EventArgs e)
         {
             long dayOfSalary, day, advancePayment;
+
             try
             {
                 dayOfSalary = long.Parse(textBox2.Text);

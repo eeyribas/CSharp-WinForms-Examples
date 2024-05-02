@@ -42,9 +42,9 @@ namespace Bitmap_Negative
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(36, 333);
+            this.button4.Location = new System.Drawing.Point(25, 337);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(156, 33);
+            this.button4.Size = new System.Drawing.Size(149, 33);
             this.button4.TabIndex = 24;
             this.button4.Text = "Neg Colorless";
             this.button4.UseVisualStyleBackColor = true;
@@ -53,7 +53,7 @@ namespace Bitmap_Negative
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(36, 36);
+            this.pictureBox1.Location = new System.Drawing.Point(25, 36);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(143, 103);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -62,9 +62,9 @@ namespace Bitmap_Negative
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(46, 278);
+            this.button3.Location = new System.Drawing.Point(25, 278);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(122, 33);
+            this.button3.Size = new System.Drawing.Size(149, 33);
             this.button3.TabIndex = 21;
             this.button3.Text = "Colorless";
             this.button3.UseVisualStyleBackColor = true;
@@ -72,9 +72,9 @@ namespace Bitmap_Negative
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(36, 218);
+            this.button2.Location = new System.Drawing.Point(22, 218);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(156, 35);
+            this.button2.Size = new System.Drawing.Size(152, 35);
             this.button2.TabIndex = 20;
             this.button2.Text = "Neg Colourful";
             this.button2.UseVisualStyleBackColor = true;
@@ -82,9 +82,9 @@ namespace Bitmap_Negative
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(46, 161);
+            this.button1.Location = new System.Drawing.Point(22, 160);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(122, 33);
+            this.button1.Size = new System.Drawing.Size(152, 33);
             this.button1.TabIndex = 19;
             this.button1.Text = "Colourful";
             this.button1.UseVisualStyleBackColor = true;
@@ -92,7 +92,7 @@ namespace Bitmap_Negative
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Location = new System.Drawing.Point(206, 45);
+            this.pictureBox2.Location = new System.Drawing.Point(208, 36);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(515, 334);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;

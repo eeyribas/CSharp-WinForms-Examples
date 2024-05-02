@@ -36,6 +36,7 @@ namespace Char_CharacterGroups
         private void button1_Click(object sender, EventArgs e)
         {
             listBox1.Font = new Font("Courier new", 10, FontStyle.Regular);
+
             listBox1.Items.Clear();
             listBox1.Items.Add("Karakter Kodu    Karakter");
             listBox1.Items.Add("-------------    --------");

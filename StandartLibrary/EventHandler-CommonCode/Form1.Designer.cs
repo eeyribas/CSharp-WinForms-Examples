@@ -54,7 +54,7 @@ namespace EventHandler_CommonCode
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(120, 26);
             this.label12.TabIndex = 63;
-            this.label12.Text = "Label12";
+            this.label12.Text = "-";
             this.label12.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // label11
@@ -71,7 +71,7 @@ namespace EventHandler_CommonCode
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(120, 27);
             this.label10.TabIndex = 61;
-            this.label10.Text = "Label10";
+            this.label10.Text = "-";
             this.label10.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // label9
@@ -88,7 +88,7 @@ namespace EventHandler_CommonCode
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(120, 26);
             this.label8.TabIndex = 59;
-            this.label8.Text = "Label8";
+            this.label8.Text = "-";
             this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // label7
@@ -105,7 +105,7 @@ namespace EventHandler_CommonCode
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(120, 22);
             this.textBox4.TabIndex = 57;
-            this.textBox4.Text = "TextBox4";
+            this.textBox4.Text = "-";
             this.textBox4.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // label6
@@ -122,7 +122,7 @@ namespace EventHandler_CommonCode
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(120, 27);
             this.label5.TabIndex = 55;
-            this.label5.Text = "Label5";
+            this.label5.Text = "-";
             this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // label4
@@ -139,7 +139,7 @@ namespace EventHandler_CommonCode
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(120, 22);
             this.textBox3.TabIndex = 53;
-            this.textBox3.Text = "TextBox3";
+            this.textBox3.Text = "-";
             this.textBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // label3
@@ -156,7 +156,7 @@ namespace EventHandler_CommonCode
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(120, 22);
             this.textBox2.TabIndex = 51;
-            this.textBox2.Text = "TextBox2";
+            this.textBox2.Text = "-";
             this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
@@ -174,7 +174,8 @@ namespace EventHandler_CommonCode
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(120, 22);
             this.textBox1.TabIndex = 49;
-            this.textBox1.Text = "TextBox1";
+            this.textBox1.Text = "-";
+            this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // label1
             // 
