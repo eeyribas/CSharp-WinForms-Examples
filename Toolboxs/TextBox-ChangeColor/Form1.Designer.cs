@@ -38,48 +38,48 @@ namespace TextBox_ChangeColor
             // textBox2
             // 
             this.textBox2.ForeColor = System.Drawing.Color.SeaGreen;
-            this.textBox2.Location = new System.Drawing.Point(75, 112);
+            this.textBox2.Location = new System.Drawing.Point(58, 101);
             this.textBox2.MaxLength = 25;
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(208, 22);
             this.textBox2.TabIndex = 5;
-            this.textBox2.Text = "content-2";
+            this.textBox2.Text = "-";
             this.textBox2.TextChanged += new System.EventHandler(this.textBox_Changed);
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(289, 115);
+            this.label2.Location = new System.Drawing.Point(289, 104);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(46, 17);
+            this.label2.Size = new System.Drawing.Size(13, 17);
             this.label2.TabIndex = 7;
-            this.label2.Text = "label2";
+            this.label2.Text = "-";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(289, 57);
+            this.label1.Location = new System.Drawing.Point(289, 46);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(46, 17);
+            this.label1.Size = new System.Drawing.Size(13, 17);
             this.label1.TabIndex = 6;
-            this.label1.Text = "label1";
+            this.label1.Text = "-";
             // 
             // textBox1
             // 
             this.textBox1.ForeColor = System.Drawing.Color.SeaGreen;
-            this.textBox1.Location = new System.Drawing.Point(75, 54);
+            this.textBox1.Location = new System.Drawing.Point(58, 43);
             this.textBox1.MaxLength = 25;
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(208, 22);
             this.textBox1.TabIndex = 4;
-            this.textBox1.Text = "content-1";
+            this.textBox1.Text = "-";
             this.textBox1.TextChanged += new System.EventHandler(this.textBox_Changed);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(410, 188);
+            this.ClientSize = new System.Drawing.Size(373, 188);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);

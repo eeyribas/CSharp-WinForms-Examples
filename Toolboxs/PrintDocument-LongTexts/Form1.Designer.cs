@@ -98,9 +98,9 @@ namespace PrintDocument_LongTexts
             // 
             this.label1.Location = new System.Drawing.Point(12, 11);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(120, 27);
+            this.label1.Size = new System.Drawing.Size(120, 25);
             this.label1.TabIndex = 15;
-            this.label1.Text = "Info";
+            this.label1.Text = "Info :";
             // 
             // button3
             // 
@@ -126,7 +126,7 @@ namespace PrintDocument_LongTexts
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(516, 284);
             this.textBox1.TabIndex = 14;
-            this.textBox1.Text = "textBox1";
+            this.textBox1.Text = "-";
             // 
             // Form1
             // 

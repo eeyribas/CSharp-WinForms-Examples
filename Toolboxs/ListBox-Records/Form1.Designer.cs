@@ -47,7 +47,7 @@ namespace ListBox_Records
             // button4
             // 
             this.button4.ForeColor = System.Drawing.Color.Indigo;
-            this.button4.Location = new System.Drawing.Point(44, 295);
+            this.button4.Location = new System.Drawing.Point(22, 312);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(128, 28);
             this.button4.TabIndex = 32;
@@ -58,7 +58,7 @@ namespace ListBox_Records
             // textBox4
             // 
             this.textBox4.ForeColor = System.Drawing.Color.DarkGreen;
-            this.textBox4.Location = new System.Drawing.Point(44, 331);
+            this.textBox4.Location = new System.Drawing.Point(22, 346);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(200, 26);
             this.textBox4.TabIndex = 34;
@@ -67,7 +67,7 @@ namespace ListBox_Records
             // textBox3
             // 
             this.textBox3.ForeColor = System.Drawing.Color.DarkGreen;
-            this.textBox3.Location = new System.Drawing.Point(185, 298);
+            this.textBox3.Location = new System.Drawing.Point(163, 314);
             this.textBox3.MaxLength = 6;
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(59, 26);
@@ -77,7 +77,7 @@ namespace ListBox_Records
             // textBox2
             // 
             this.textBox2.ForeColor = System.Drawing.Color.DarkGreen;
-            this.textBox2.Location = new System.Drawing.Point(274, 49);
+            this.textBox2.Location = new System.Drawing.Point(252, 56);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(200, 26);
             this.textBox2.TabIndex = 37;
@@ -86,7 +86,7 @@ namespace ListBox_Records
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(282, 30);
+            this.label3.Location = new System.Drawing.Point(265, 23);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(119, 20);
             this.label3.TabIndex = 35;
@@ -95,7 +95,7 @@ namespace ListBox_Records
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(45, 30);
+            this.label1.Location = new System.Drawing.Point(28, 23);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(59, 20);
             this.label1.TabIndex = 27;
@@ -104,7 +104,7 @@ namespace ListBox_Records
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(110, 30);
+            this.label2.Location = new System.Drawing.Point(93, 23);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(19, 20);
             this.label2.TabIndex = 28;
@@ -113,7 +113,7 @@ namespace ListBox_Records
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(407, 30);
+            this.label4.Location = new System.Drawing.Point(390, 23);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(19, 20);
             this.label4.TabIndex = 36;
@@ -133,7 +133,7 @@ namespace ListBox_Records
             "Ümit",
             "Nejat",
             "Kamil"});
-            this.listBox1.Location = new System.Drawing.Point(274, 77);
+            this.listBox1.Location = new System.Drawing.Point(252, 98);
             this.listBox1.Name = "listBox1";
             this.listBox1.Size = new System.Drawing.Size(200, 274);
             this.listBox1.TabIndex = 38;
@@ -142,7 +142,7 @@ namespace ListBox_Records
             // button3
             // 
             this.button3.ForeColor = System.Drawing.Color.Indigo;
-            this.button3.Location = new System.Drawing.Point(44, 211);
+            this.button3.Location = new System.Drawing.Point(22, 174);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(200, 32);
             this.button3.TabIndex = 31;
@@ -153,7 +153,7 @@ namespace ListBox_Records
             // button2
             // 
             this.button2.ForeColor = System.Drawing.Color.Indigo;
-            this.button2.Location = new System.Drawing.Point(44, 154);
+            this.button2.Location = new System.Drawing.Point(22, 136);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(200, 32);
             this.button2.TabIndex = 30;
@@ -164,7 +164,7 @@ namespace ListBox_Records
             // button1
             // 
             this.button1.ForeColor = System.Drawing.Color.Indigo;
-            this.button1.Location = new System.Drawing.Point(44, 77);
+            this.button1.Location = new System.Drawing.Point(22, 98);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(200, 32);
             this.button1.TabIndex = 29;
@@ -175,7 +175,7 @@ namespace ListBox_Records
             // textBox1
             // 
             this.textBox1.ForeColor = System.Drawing.Color.DarkGreen;
-            this.textBox1.Location = new System.Drawing.Point(44, 49);
+            this.textBox1.Location = new System.Drawing.Point(22, 56);
             this.textBox1.MaxLength = 24;
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(200, 26);
@@ -186,7 +186,7 @@ namespace ListBox_Records
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(518, 386);
+            this.ClientSize = new System.Drawing.Size(479, 398);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.textBox4);
             this.Controls.Add(this.textBox3);

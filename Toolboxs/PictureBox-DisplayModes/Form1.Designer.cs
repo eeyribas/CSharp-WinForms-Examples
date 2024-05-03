@@ -53,7 +53,7 @@ namespace PictureBox_DisplayModes
             this.groupBox1.Controls.Add(this.radioButton1);
             this.groupBox1.Location = new System.Drawing.Point(175, 12);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(489, 65);
+            this.groupBox1.Size = new System.Drawing.Size(480, 65);
             this.groupBox1.TabIndex = 11;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Display Mode :";
@@ -69,7 +69,7 @@ namespace PictureBox_DisplayModes
             // 
             // radioButton4
             // 
-            this.radioButton4.Location = new System.Drawing.Point(317, 28);
+            this.radioButton4.Location = new System.Drawing.Point(302, 28);
             this.radioButton4.Name = "radioButton4";
             this.radioButton4.Size = new System.Drawing.Size(77, 27);
             this.radioButton4.TabIndex = 3;
@@ -79,7 +79,7 @@ namespace PictureBox_DisplayModes
             // 
             this.radioButton3.Location = new System.Drawing.Point(194, 28);
             this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(117, 27);
+            this.radioButton3.Size = new System.Drawing.Size(102, 27);
             this.radioButton3.TabIndex = 2;
             this.radioButton3.Text = "Automatic";
             // 
@@ -112,9 +112,9 @@ namespace PictureBox_DisplayModes
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(12, 86);
+            this.pictureBox1.Location = new System.Drawing.Point(12, 92);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(643, 249);
+            this.pictureBox1.Size = new System.Drawing.Size(643, 243);
             this.pictureBox1.TabIndex = 8;
             this.pictureBox1.TabStop = false;
             // 
@@ -131,7 +131,7 @@ namespace PictureBox_DisplayModes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(673, 355);
+            this.ClientSize = new System.Drawing.Size(668, 355);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.pictureBox1);

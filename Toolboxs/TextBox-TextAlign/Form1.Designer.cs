@@ -46,7 +46,7 @@ namespace TextBox_TextAlign
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(108, 49);
+            this.button2.Location = new System.Drawing.Point(113, 49);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(90, 27);
             this.button2.TabIndex = 10;
@@ -68,7 +68,7 @@ namespace TextBox_TextAlign
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(288, 22);
             this.textBox1.TabIndex = 8;
-            this.textBox1.Text = "textBox1";
+            this.textBox1.Text = "-";
             // 
             // Form1
             // 

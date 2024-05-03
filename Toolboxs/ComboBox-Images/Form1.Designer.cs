@@ -42,7 +42,7 @@ namespace ComboBox_Images
             // 
             this.label1.Location = new System.Drawing.Point(12, 12);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(120, 27);
+            this.label1.Size = new System.Drawing.Size(98, 27);
             this.label1.TabIndex = 10;
             this.label1.Text = "Name :";
             // 
@@ -50,7 +50,7 @@ namespace ComboBox_Images
             // 
             this.label2.Location = new System.Drawing.Point(12, 49);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(134, 27);
+            this.label2.Size = new System.Drawing.Size(98, 27);
             this.label2.TabIndex = 9;
             this.label2.Text = "Country :";
             // 
@@ -60,7 +60,7 @@ namespace ComboBox_Images
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(192, 22);
             this.textBox1.TabIndex = 11;
-            this.textBox1.Text = "textBox1";
+            this.textBox1.Text = "-";
             // 
             // imageList1
             // 
@@ -80,7 +80,7 @@ namespace ComboBox_Images
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(192, 24);
             this.comboBox1.TabIndex = 8;
-            this.comboBox1.Text = "comboBox1";
+            this.comboBox1.Text = "-";
             this.comboBox1.DrawItem += new System.Windows.Forms.DrawItemEventHandler(this.comboBox1_DrawItem);
             this.comboBox1.MeasureItem += new System.Windows.Forms.MeasureItemEventHandler(this.comboBox1_MeasureItem);
             // 

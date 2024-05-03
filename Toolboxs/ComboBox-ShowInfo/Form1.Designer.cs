@@ -29,7 +29,7 @@ namespace ComboBox_ShowInfo
         /// </summary>
         private void InitializeComponent()
         {
-            this.Label5 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -37,14 +37,14 @@ namespace ComboBox_ShowInfo
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
-            // Label5
+            // label5
             // 
-            this.Label5.AutoSize = true;
-            this.Label5.Location = new System.Drawing.Point(23, 22);
-            this.Label5.Name = "Label5";
-            this.Label5.Size = new System.Drawing.Size(78, 17);
-            this.Label5.TabIndex = 17;
-            this.Label5.Text = "Provinces :";
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(23, 22);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(78, 17);
+            this.label5.TabIndex = 17;
+            this.label5.Text = "Provinces :";
             // 
             // label4
             // 
@@ -52,7 +52,7 @@ namespace ComboBox_ShowInfo
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(144, 27);
             this.label4.TabIndex = 16;
-            this.label4.Text = "--";
+            this.label4.Text = "-";
             // 
             // label3
             // 
@@ -64,15 +64,15 @@ namespace ComboBox_ShowInfo
             // 
             // label2
             // 
-            this.label2.Location = new System.Drawing.Point(171, 157);
+            this.label2.Location = new System.Drawing.Point(171, 147);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(144, 26);
             this.label2.TabIndex = 14;
-            this.label2.Text = "--";
+            this.label2.Text = "-";
             // 
             // label1
             // 
-            this.label1.Location = new System.Drawing.Point(23, 157);
+            this.label1.Location = new System.Drawing.Point(23, 147);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(142, 26);
             this.label1.TabIndex = 13;
@@ -84,7 +84,7 @@ namespace ComboBox_ShowInfo
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(182, 24);
             this.comboBox1.TabIndex = 12;
-            this.comboBox1.Text = "--";
+            this.comboBox1.Text = "-";
             this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // Form1
@@ -92,7 +92,7 @@ namespace ComboBox_ShowInfo
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(330, 251);
-            this.Controls.Add(this.Label5);
+            this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -108,7 +108,7 @@ namespace ComboBox_ShowInfo
 
         #endregion
 
-        internal System.Windows.Forms.Label Label5;
+        internal System.Windows.Forms.Label label5;
         internal System.Windows.Forms.Label label4;
         internal System.Windows.Forms.Label label3;
         internal System.Windows.Forms.Label label2;

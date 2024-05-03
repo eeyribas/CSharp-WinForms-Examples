@@ -13,6 +13,7 @@ namespace PrintDocument_NewPage
     public partial class Form1 : Form
     {
         private int pageNo = 0;
+
         public Form1()
         {
             InitializeComponent();
@@ -37,8 +38,8 @@ namespace PrintDocument_NewPage
         private void printDocument1_PrintPage(object sender, System.Drawing.Printing.PrintPageEventArgs e)
         {
             pageNo += 1;
-            e.Graphics.DrawString("Page " + pageNo.ToString(), new Font("Tahoma", 50, FontStyle.Bold),
-                                  Brushes.Black, 100, 100);
+            e.Graphics.DrawString("Page " + pageNo.ToString(), new Font("Tahoma", 50, FontStyle.Bold), Brushes.Black, 100, 100);
+            
             if (pageNo == 3)
             {
                 e.HasMorePages = false;

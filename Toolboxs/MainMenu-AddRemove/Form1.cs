@@ -12,7 +12,7 @@ namespace MainMenu_AddRemove
 {
     public partial class Form1 : Form
     {
-        int count, y;
+        private int count, y;
 
         public Form1()
         {
@@ -25,6 +25,7 @@ namespace MainMenu_AddRemove
             button1.Top = y;
             button1.Left = 0;
             button1.Width = 150;
+
             count++;
             button1.Text = "Add " + count.ToString();
             y += button1.Height + 5;

@@ -12,7 +12,7 @@ namespace Button_DeleteContent
 {
     public partial class Form1 : Form
     {
-        bool state = true;
+        private bool state = true;
 
         public Form1()
         {
@@ -27,7 +27,8 @@ namespace Button_DeleteContent
 
         private void Form1_KeyPress(object sender, KeyPressEventArgs e)
         {
-            if (e.KeyChar == (char)27) {
+            if (e.KeyChar == (char)27) 
+            {
                 state = false;
                 Close();
             }
@@ -36,10 +37,8 @@ namespace Button_DeleteContent
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)
         {
             e.Cancel = state;
-            if(state) {
-                MessageBox.Show("Exit just by pressing\n the ESC key",
-                    "Message Box");
-            }
+            if (state)
+                MessageBox.Show("Exit just by pressing\n the ESC key", "Message Box");
         }
 
         private void button1_Click(object sender, EventArgs e)

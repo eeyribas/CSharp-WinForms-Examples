@@ -14,6 +14,7 @@ namespace PrintDocument_MultiplePages
     public partial class Form1 : Form
     {
         private int number = 1;
+
         public Form1()
         {
             InitializeComponent();
@@ -41,7 +42,6 @@ namespace PrintDocument_MultiplePages
         {
             Font font = new Font("Tahoma", 12, FontStyle.Regular);
             PageSettings pageSettings = printDocument1.DefaultPageSettings;
-
             int pageHeight = pageSettings.PaperSize.Height - pageSettings.Margins.Top - pageSettings.Margins.Bottom;
             int lineHeight  = (int)e.Graphics.MeasureString("1", font).Height;
             int maxLine = pageHeight / lineHeight;

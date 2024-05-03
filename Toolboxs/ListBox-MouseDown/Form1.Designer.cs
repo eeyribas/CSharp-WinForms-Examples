@@ -45,7 +45,7 @@ namespace ListBox_MouseDown
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(21, 212);
+            this.button1.Location = new System.Drawing.Point(32, 229);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(183, 37);
             this.button1.TabIndex = 10;
@@ -64,7 +64,7 @@ namespace ListBox_MouseDown
             "Abdurrahman Tekçe",
             "Ömer Bakır",
             "Aynur Tanyürek"});
-            this.listBox1.Location = new System.Drawing.Point(21, 55);
+            this.listBox1.Location = new System.Drawing.Point(32, 58);
             this.listBox1.Name = "listBox1";
             this.listBox1.Size = new System.Drawing.Size(183, 148);
             this.listBox1.TabIndex = 9;
@@ -72,11 +72,12 @@ namespace ListBox_MouseDown
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(21, 249);
+            this.textBox1.Location = new System.Drawing.Point(32, 284);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(183, 22);
             this.textBox1.TabIndex = 8;
-            this.textBox1.Text = "TextBox1";
+            this.textBox1.Text = "-";
+            this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.textBox1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox1_KeyPress);
             this.textBox1.Leave += new System.EventHandler(this.textBox1_Leave);
             // 
@@ -84,7 +85,7 @@ namespace ListBox_MouseDown
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(253, 300);
+            this.ClientSize = new System.Drawing.Size(253, 329);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.listBox1);

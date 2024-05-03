@@ -24,21 +24,21 @@ namespace TextBox_TextChanged_EnterNumbers
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
-            int i;
-            double d;
-            string s;
+            int intNumber;
+            double doubleNumber;
+            string str;
 
-            if (int.TryParse(textBox1.Text, out i))
-                s = "Integer";
+            if (int.TryParse(textBox1.Text, out intNumber))
+                str = "Integer";
             else
-                s = "Not Integer";
-            label1.Text = s + " ( " + i.ToString() + " ) ";
+                str = "Not Integer";
+            label1.Text = str + " ( " + intNumber.ToString() + " ) ";
 
-            if (double.TryParse(textBox1.Text, out d))
-                s = "Real Number";
+            if (double.TryParse(textBox1.Text, out doubleNumber))
+                str = "Real Number";
             else
-                s = "Not Real Number";
-            label2.Text = s + " ( " + d.ToString() + " ) ";
+                str = "Not Real Number";
+            label2.Text = str + " ( " + doubleNumber.ToString() + " ) ";
         }
     }
 }

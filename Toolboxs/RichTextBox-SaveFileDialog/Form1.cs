@@ -21,6 +21,7 @@ namespace RichTextBox_SaveFileDialog
         {
             openFileDialog1.Filter = "RTF Files|*.rtf|" + "Text Files|*.txt|" + "All Files|*.*";
             openFileDialog1.Title = "Open File";
+
             saveFileDialog1.Filter = openFileDialog1.Filter;
             saveFileDialog1.DefaultExt = "rtf";
             saveFileDialog1.Title = "Save File";

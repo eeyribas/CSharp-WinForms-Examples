@@ -22,21 +22,12 @@ namespace ListBox_Records
             listBox1_SelectedIndexChanged(sender, e);
         }
 
-        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            label4.Text = listBox1.SelectedIndex.ToString();
-            label2.Text = listBox1.Items.Count.ToString();
-            if (listBox1.SelectedIndex >= 0)
-                textBox2.Text = listBox1.SelectedItem.ToString();
-            else
-                textBox2.Clear();
-        }
-
         private void button1_Click(object sender, EventArgs e)
         {
             textBox1.Text = textBox1.Text.Trim();
             if (textBox1.TextLength > 0)
                 listBox1.Items.Add(textBox1.Text);
+
             textBox1.Clear();
             textBox1.Focus();
             listBox1_SelectedIndexChanged(sender, e);
@@ -56,11 +47,11 @@ namespace ListBox_Records
 
         private void button4_Click(object sender, EventArgs e)
         {
-            int i = 0;
-            if (int.TryParse(textBox3.Text, out i))
+            int item = 0;
+            if (int.TryParse(textBox3.Text, out item))
             {
-                if ((i >= 0) && (i < listBox1.Items.Count))
-                    textBox4.Text = listBox1.Items[i].ToString();
+                if ((item >= 0) && (item < listBox1.Items.Count))
+                    textBox4.Text = listBox1.Items[item].ToString();
                 else
                     MessageBox.Show("Out of Range", "Info");
             }
@@ -69,6 +60,17 @@ namespace ListBox_Records
                 MessageBox.Show("TextBox object\nEnter integer", "Info");
             }
             textBox3.Focus();
+        }
+
+        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            label4.Text = listBox1.SelectedIndex.ToString();
+            label2.Text = listBox1.Items.Count.ToString();
+
+            if (listBox1.SelectedIndex >= 0)
+                textBox2.Text = listBox1.SelectedItem.ToString();
+            else
+                textBox2.Clear();
         }
 
         private void textBox1_KeyPress(object sender, KeyPressEventArgs e)

@@ -14,42 +14,43 @@ namespace DateTimePicker_Records
     {
         struct Student
         {
-            public string name, fatherName, city;
+            public string fullName, fatherName, city;
             public DateTime birthDay, recordDate, date;
             public bool finish;
 
             public override string ToString()
             {
-                string s1, s2;
-                s1 = name;
-                s1 = s1.PadRight(20);
-                s2 = s1;
+                string str1, str2;
 
-                s1 = fatherName;
-                s1 = s1.PadRight(10);
-                s2 = s2 + s1;
+                str1 = fullName;
+                str1 = str1.PadRight(20);
+                str2 = str1;
 
-                s1 = city;
-                s1 = s1.PadRight(10);
-                s2 = s2 + s1;
+                str1 = fatherName;
+                str1 = str1.PadRight(10);
+                str2 += str1;
 
-                s1 = birthDay.ToShortDateString();
-                s1 = s1.PadRight(11);
-                s2 = s2 + s1;
+                str1 = city;
+                str1 = str1.PadRight(10);
+                str2 += str1;
 
-                s1 = recordDate.ToShortDateString();
-                s1 = s1.PadRight(11);
-                s2 = s2 + s1;
+                str1 = birthDay.ToShortDateString();
+                str1 = str1.PadRight(11);
+                str2 += str1;
 
-                if(finish)
-                    s1 = date.ToShortDateString();
+                str1 = recordDate.ToShortDateString();
+                str1 = str1.PadRight(11);
+                str2 += str1;
+
+                if (finish)
+                    str1 = date.ToShortDateString();
                 else
-                    s1 = "Error";
+                    str1 = "Error";
 
-                s1 = s1.PadRight(12);
-                s2 = s2 + s1;
+                str1 = str1.PadRight(12);
+                str2 += str1;
 
-                return s2;
+                return str2;
             }
         }
 
@@ -75,14 +76,14 @@ namespace DateTimePicker_Records
         private void button1_Click(object sender, EventArgs e)
         {
             Student student;
-            student.name = textBox1.Text;
+            student.fullName = textBox1.Text;
             student.fatherName = textBox2.Text;
             student.city = textBox3.Text;
             student.birthDay = dateTimePicker1.Value;
             student.recordDate = dateTimePicker2.Value;
             student.date = dateTimePicker3.Value;
 
-            if(dateTimePicker3.Checked)
+            if (dateTimePicker3.Checked)
                 student.finish = true;
             else
                 student.finish = false;
@@ -93,9 +94,9 @@ namespace DateTimePicker_Records
                 return;
             }
 
-            if(student.finish)
+            if (student.finish)
             {
-                if(student.recordDate > student.date)
+                if (student.recordDate > student.date)
                 {
                     MessageBox.Show("Error2");
                     return;

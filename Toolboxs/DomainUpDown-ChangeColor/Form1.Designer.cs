@@ -38,21 +38,21 @@ namespace DomainUpDown_ChangeColor
             // 
             // domainUpDown2
             // 
-            this.domainUpDown2.Location = new System.Drawing.Point(98, 120);
+            this.domainUpDown2.Location = new System.Drawing.Point(98, 256);
             this.domainUpDown2.Name = "domainUpDown2";
             this.domainUpDown2.Size = new System.Drawing.Size(134, 22);
             this.domainUpDown2.TabIndex = 29;
-            this.domainUpDown2.Text = "domainUpDown2";
+            this.domainUpDown2.Text = "-";
             this.domainUpDown2.SelectedItemChanged += new System.EventHandler(this.domainUpDown2_SelectedItemChanged);
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(12, 120);
+            this.label2.Location = new System.Drawing.Point(12, 258);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(41, 17);
+            this.label2.Size = new System.Drawing.Size(49, 17);
             this.label2.TabIndex = 28;
-            this.label2.Text = "Color";
+            this.label2.Text = "Color :";
             // 
             // domainUpDown1
             // 
@@ -60,32 +60,32 @@ namespace DomainUpDown_ChangeColor
             this.domainUpDown1.Name = "domainUpDown1";
             this.domainUpDown1.Size = new System.Drawing.Size(134, 22);
             this.domainUpDown1.TabIndex = 27;
-            this.domainUpDown1.Text = "domainUpDown1";
+            this.domainUpDown1.Text = "-";
             this.domainUpDown1.SelectedItemChanged += new System.EventHandler(this.domainUpDown1_SelectedItemChanged);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(12, 9);
+            this.label1.Location = new System.Drawing.Point(12, 11);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(41, 17);
+            this.label1.Size = new System.Drawing.Size(49, 17);
             this.label1.TabIndex = 26;
-            this.label1.Text = "Color";
+            this.label1.Text = "Color :";
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(12, 37);
+            this.textBox1.Location = new System.Drawing.Point(15, 47);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(220, 74);
+            this.textBox1.Size = new System.Drawing.Size(510, 192);
             this.textBox1.TabIndex = 25;
-            this.textBox1.Text = "textBox1";
+            this.textBox1.Text = "-";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(242, 162);
+            this.ClientSize = new System.Drawing.Size(537, 297);
             this.Controls.Add(this.domainUpDown2);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.domainUpDown1);

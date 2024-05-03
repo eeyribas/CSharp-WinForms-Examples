@@ -17,7 +17,7 @@ namespace StatusBar_PCMemoryInformation
         [DllImport("kernel32.dll")]
         public static extern int GetDiskFreeSpaceExA(string lpRootPathName, ref long lpFreeBytesAvailableToCaller,
                                                      ref long lpTotalNumberOfBytes, ref long lpTotalNumberOfFreeBytes);
-        float[] percentages;
+        private float[] percentages;
 
         public Form1()
         {
@@ -27,6 +27,7 @@ namespace StatusBar_PCMemoryInformation
         private void Form1_Load(object sender, EventArgs e)
         {
             statusBar1.ShowPanels = true;
+
             long x = 0, y = 0, z = 0;
             string[] drivers = Directory.GetLogicalDrives();
             percentages = new float[drivers.Length];
@@ -47,14 +48,15 @@ namespace StatusBar_PCMemoryInformation
                 else
                     percentages[i] = (float)z / y * 100;
 
-                statusBarPanel.ToolTipText = drivers[i] + "=" + (y / 1024 / 1024).ToString() + " MB Full, " +
-                                             (z / 1024 / 1024).ToString() + " MB Empty";
+                statusBarPanel.ToolTipText = drivers[i] + "=" + (y / 1024 / 1024).ToString() + " MB Full, " + (z / 1024 / 1024).ToString() 
+                                           + " MB Empty";
             }
 
             statusBarPanel = statusBar1.Panels.Add("Hour");
             statusBarPanel.ToolTipText = "Hour";
             statusBarPanel.Style = StatusBarPanelStyle.OwnerDraw;
             statusBarPanel.Width = (int)(statusBar1.Height * 1.5);
+
             timer1.Interval = 1000;
             timer1.Enabled = true;
         }
@@ -63,25 +65,25 @@ namespace StatusBar_PCMemoryInformation
         {
             Rectangle rectangle = new Rectangle();
             rectangle = sbdevent.Bounds;
+
             if (sbdevent.Index < percentages.Length)
             {
-                sbdevent.Graphics.DrawString(sbdevent.Panel.Text, new Font("Tahoma", 12, FontStyle.Bold),
-                                             Brushes.Blue, sbdevent.Bounds.Left, sbdevent.Bounds.Top);
+                sbdevent.Graphics.DrawString(sbdevent.Panel.Text, new Font("Tahoma", 12, FontStyle.Bold), Brushes.Blue, sbdevent.Bounds.Left, 
+                                             sbdevent.Bounds.Top);
                 rectangle.X = sbdevent.Bounds.Left + 30;
                 sbdevent.Graphics.FillRectangle(Brushes.Blue, rectangle);
                 rectangle.Width = (int)((sbdevent.Bounds.Width - 30) * (1 - percentages[sbdevent.Index] / 100));
                 sbdevent.Graphics.FillRectangle(Brushes.Red, rectangle);
-                sbdevent.Graphics.DrawString("%" + ((int)percentages[sbdevent.Index]).ToString() +
-                                             " empty", new Font("Tahoma", 8, FontStyle.Bold), Brushes.White,
-                                             sbdevent.Bounds.Left + 30, sbdevent.Bounds.Top);
+                sbdevent.Graphics.DrawString("%" + ((int)percentages[sbdevent.Index]).ToString() + " empty", new Font("Tahoma", 8, FontStyle.Bold), 
+                                             Brushes.White, sbdevent.Bounds.Left + 30, sbdevent.Bounds.Top);
             }
             else
             {
                 sbdevent.Graphics.DrawRectangle(new Pen(Color.Red), rectangle);
-                float diameter, sx, sy;
                 float xMiddle = rectangle.Left + rectangle.Width / 2;
                 float yMiddle = rectangle.Top + rectangle.Height / 2;
 
+                float diameter;
                 if (rectangle.Width > rectangle.Height)
                     diameter = rectangle.Height / 2;
                 else
@@ -89,8 +91,8 @@ namespace StatusBar_PCMemoryInformation
     
                 int hour = DateTime.Now.Hour;
                 int angle = -hour * 30 + 90;
-                sx = (float)(xMiddle + diameter * 2 / 3 * Math.Cos(angle * 3.1415 / 180));
-                sy = (float)(yMiddle - diameter * 2 / 3 * Math.Sin(angle * 3.1415 / 180));
+                float sx = (float)(xMiddle + diameter * 2 / 3 * Math.Cos(angle * 3.1415 / 180));
+                float sy = (float)(yMiddle - diameter * 2 / 3 * Math.Sin(angle * 3.1415 / 180));
                 sbdevent.Graphics.DrawLine(new Pen(Color.Red, 2), xMiddle, yMiddle, sx, sy);
 
                 int minute = DateTime.Now.Minute;

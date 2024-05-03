@@ -41,7 +41,7 @@ namespace ComboBox_SortingNumbers
             this.comboBox1.Items.AddRange(new object[] {
             "Small to large",
             "Large to small"});
-            this.comboBox1.Location = new System.Drawing.Point(256, 47);
+            this.comboBox1.Location = new System.Drawing.Point(256, 30);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(168, 26);
             this.comboBox1.TabIndex = 5;
@@ -50,7 +50,7 @@ namespace ComboBox_SortingNumbers
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(49, 39);
+            this.button1.Location = new System.Drawing.Point(49, 23);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(168, 39);
             this.button1.TabIndex = 4;

@@ -105,9 +105,9 @@ namespace GroupBox_ShowingAndHiding
             // 
             // label3
             // 
-            this.label3.Location = new System.Drawing.Point(19, 74);
+            this.label3.Location = new System.Drawing.Point(40, 77);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(120, 26);
+            this.label3.Size = new System.Drawing.Size(98, 25);
             this.label3.TabIndex = 4;
             this.label3.Text = "Address:";
             // 
@@ -118,21 +118,21 @@ namespace GroupBox_ShowingAndHiding
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(182, 194);
             this.textBox3.TabIndex = 3;
-            this.textBox3.Text = "textBox3";
+            this.textBox3.Text = "-";
             // 
             // label2
             // 
-            this.label2.Location = new System.Drawing.Point(19, 46);
+            this.label2.Location = new System.Drawing.Point(40, 49);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(120, 27);
+            this.label2.Size = new System.Drawing.Size(98, 22);
             this.label2.TabIndex = 2;
             this.label2.Text = "Phone:";
             // 
             // label1
             // 
-            this.label1.Location = new System.Drawing.Point(19, 18);
+            this.label1.Location = new System.Drawing.Point(40, 21);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(120, 27);
+            this.label1.Size = new System.Drawing.Size(98, 19);
             this.label1.TabIndex = 0;
             this.label1.Text = "Full Name:";
             // 
@@ -142,7 +142,7 @@ namespace GroupBox_ShowingAndHiding
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(182, 22);
             this.textBox1.TabIndex = 1;
-            this.textBox1.Text = "textBox1";
+            this.textBox1.Text = "-";
             // 
             // textBox2
             // 
@@ -150,7 +150,7 @@ namespace GroupBox_ShowingAndHiding
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(182, 22);
             this.textBox2.TabIndex = 1;
-            this.textBox2.Text = "textBox2";
+            this.textBox2.Text = "-";
             // 
             // groupBox1
             // 
@@ -173,13 +173,13 @@ namespace GroupBox_ShowingAndHiding
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(120, 22);
             this.textBox6.TabIndex = 5;
-            this.textBox6.Text = "textBox6";
+            this.textBox6.Text = "-";
             // 
             // label6
             // 
-            this.label6.Location = new System.Drawing.Point(10, 132);
+            this.label6.Location = new System.Drawing.Point(6, 132);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(120, 26);
+            this.label6.Size = new System.Drawing.Size(65, 19);
             this.label6.TabIndex = 4;
             this.label6.Text = "Other:";
             // 
@@ -217,11 +217,11 @@ namespace GroupBox_ShowingAndHiding
             // 
             // textBox5
             // 
-            this.textBox5.Location = new System.Drawing.Point(115, 65);
+            this.textBox5.Location = new System.Drawing.Point(124, 65);
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(87, 22);
             this.textBox5.TabIndex = 4;
-            this.textBox5.Text = "textBox5";
+            this.textBox5.Text = "-";
             // 
             // label5
             // 
@@ -241,11 +241,11 @@ namespace GroupBox_ShowingAndHiding
             // 
             // textBox4
             // 
-            this.textBox4.Location = new System.Drawing.Point(115, 28);
+            this.textBox4.Location = new System.Drawing.Point(124, 27);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(87, 22);
             this.textBox4.TabIndex = 0;
-            this.textBox4.Text = "textBox4";
+            this.textBox4.Text = "-";
             // 
             // groupBox4
             // 
@@ -255,7 +255,7 @@ namespace GroupBox_ShowingAndHiding
             this.groupBox4.Controls.Add(this.textBox4);
             this.groupBox4.Location = new System.Drawing.Point(501, 12);
             this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(211, 111);
+            this.groupBox4.Size = new System.Drawing.Size(228, 111);
             this.groupBox4.TabIndex = 13;
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Family Infos";
@@ -317,7 +317,7 @@ namespace GroupBox_ShowingAndHiding
             this.groupBox5.Controls.Add(this.radioButton8);
             this.groupBox5.Location = new System.Drawing.Point(501, 123);
             this.groupBox5.Name = "groupBox5";
-            this.groupBox5.Size = new System.Drawing.Size(211, 166);
+            this.groupBox5.Size = new System.Drawing.Size(228, 166);
             this.groupBox5.TabIndex = 14;
             this.groupBox5.TabStop = false;
             this.groupBox5.Text = "Graduated Faculty/College";
@@ -326,7 +326,7 @@ namespace GroupBox_ShowingAndHiding
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(730, 300);
+            this.ClientSize = new System.Drawing.Size(744, 305);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.groupBox4);

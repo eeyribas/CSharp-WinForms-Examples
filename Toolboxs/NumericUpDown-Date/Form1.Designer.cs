@@ -47,58 +47,58 @@ namespace NumericUpDown_Date
             // 
             // label2
             // 
-            this.label2.Location = new System.Drawing.Point(12, 46);
+            this.label2.Location = new System.Drawing.Point(21, 48);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(67, 27);
+            this.label2.Size = new System.Drawing.Size(54, 27);
             this.label2.TabIndex = 23;
             this.label2.Text = "Time :";
             // 
             // label1
             // 
-            this.label1.Location = new System.Drawing.Point(12, 9);
+            this.label1.Location = new System.Drawing.Point(21, 11);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(67, 27);
+            this.label1.Size = new System.Drawing.Size(54, 27);
             this.label1.TabIndex = 22;
             this.label1.Text = "Date :";
             // 
             // numericUpDown6
             // 
-            this.numericUpDown6.Location = new System.Drawing.Point(195, 46);
+            this.numericUpDown6.Location = new System.Drawing.Point(190, 46);
             this.numericUpDown6.Name = "numericUpDown6";
-            this.numericUpDown6.Size = new System.Drawing.Size(48, 22);
+            this.numericUpDown6.Size = new System.Drawing.Size(76, 22);
             this.numericUpDown6.TabIndex = 21;
             // 
             // numericUpDown5
             // 
-            this.numericUpDown5.Location = new System.Drawing.Point(147, 46);
+            this.numericUpDown5.Location = new System.Drawing.Point(142, 46);
             this.numericUpDown5.Name = "numericUpDown5";
             this.numericUpDown5.Size = new System.Drawing.Size(48, 22);
             this.numericUpDown5.TabIndex = 20;
             // 
             // numericUpDown4
             // 
-            this.numericUpDown4.Location = new System.Drawing.Point(99, 46);
+            this.numericUpDown4.Location = new System.Drawing.Point(94, 46);
             this.numericUpDown4.Name = "numericUpDown4";
             this.numericUpDown4.Size = new System.Drawing.Size(48, 22);
             this.numericUpDown4.TabIndex = 19;
             // 
             // numericUpDown3
             // 
-            this.numericUpDown3.Location = new System.Drawing.Point(195, 9);
+            this.numericUpDown3.Location = new System.Drawing.Point(190, 9);
             this.numericUpDown3.Name = "numericUpDown3";
             this.numericUpDown3.Size = new System.Drawing.Size(76, 22);
             this.numericUpDown3.TabIndex = 18;
             // 
             // numericUpDown2
             // 
-            this.numericUpDown2.Location = new System.Drawing.Point(147, 9);
+            this.numericUpDown2.Location = new System.Drawing.Point(142, 9);
             this.numericUpDown2.Name = "numericUpDown2";
             this.numericUpDown2.Size = new System.Drawing.Size(48, 22);
             this.numericUpDown2.TabIndex = 17;
             // 
             // numericUpDown1
             // 
-            this.numericUpDown1.Location = new System.Drawing.Point(99, 9);
+            this.numericUpDown1.Location = new System.Drawing.Point(94, 9);
             this.numericUpDown1.Name = "numericUpDown1";
             this.numericUpDown1.Size = new System.Drawing.Size(48, 22);
             this.numericUpDown1.TabIndex = 16;

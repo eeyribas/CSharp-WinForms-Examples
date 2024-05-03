@@ -28,6 +28,7 @@ namespace Button_UseOf
                 button2.ForeColor = Color.Red;
             else
                 button2.ForeColor = Color.Black;
+
             button1.Enabled = true;
         }
     }

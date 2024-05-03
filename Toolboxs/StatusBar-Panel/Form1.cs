@@ -16,7 +16,7 @@ namespace StatusBar_Panel
     {
         [DllImport("kernel32.dll")]
         public static extern int GetDiskFreeSpaceExA(string lpRootPathName, ref long lpFreeBytesAvailableToCaller,
-                                               ref long lpTotalNumberOfBytes, ref long lpTotalNumberOfFreeBytes);
+                                                     ref long lpTotalNumberOfBytes, ref long lpTotalNumberOfFreeBytes);
 
         public Form1()
         {
@@ -28,6 +28,7 @@ namespace StatusBar_Panel
             this.KeyPreview = true;
             timer1.Interval = 1000;
             timer1.Enabled = true;
+
             statusBar1.Panels[0].ToolTipText = "Disk Capacity";
             statusBar1.Panels[1].ToolTipText = "Screen resolution";
             statusBar1.Panels[2].ToolTipText = "Status of Keys";
@@ -46,6 +47,7 @@ namespace StatusBar_Panel
                 else
                     str += drivers[i] + "=" + (y / 1024 / 1024).ToString() + "MB" + " ";
             }
+
             statusBar1.Panels[0].Text = str;
 
             Rectangle rectangle = new Rectangle();

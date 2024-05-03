@@ -81,7 +81,7 @@ namespace PrintDocument_Image
             // checkBox2
             // 
             this.checkBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.checkBox2.Location = new System.Drawing.Point(336, 218);
+            this.checkBox2.Location = new System.Drawing.Point(336, 225);
             this.checkBox2.Name = "checkBox2";
             this.checkBox2.Size = new System.Drawing.Size(173, 27);
             this.checkBox2.TabIndex = 27;
@@ -92,7 +92,7 @@ namespace PrintDocument_Image
             this.checkBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.checkBox1.Location = new System.Drawing.Point(336, 190);
             this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(163, 28);
+            this.checkBox1.Size = new System.Drawing.Size(173, 28);
             this.checkBox1.TabIndex = 26;
             this.checkBox1.Text = "Fit";
             // 

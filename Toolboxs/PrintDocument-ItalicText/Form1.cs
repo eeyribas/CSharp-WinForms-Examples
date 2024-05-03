@@ -37,16 +37,12 @@ namespace PrintDocument_ItalicText
             PageSettings pageSettings = printDocument1.DefaultPageSettings;
 
             e.Graphics.TranslateTransform(pageSettings.PaperSize.Width / 2, pageSettings.PaperSize.Height / 2);
-
             e.Graphics.RotateTransform(-45);
             e.Graphics.DrawString(text, font, Brushes.Red, 0, 0);
-
             e.Graphics.RotateTransform(45);
             e.Graphics.DrawString(text, font, Brushes.Green, 0, 0);
-
             e.Graphics.RotateTransform(90);
             e.Graphics.DrawString(text, font, Brushes.Blue, 0, 0);
-
             e.Graphics.RotateTransform(135);
             e.Graphics.DrawString(text, font, Brushes.Brown, 0, 0);
         }

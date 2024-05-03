@@ -19,22 +19,13 @@ namespace Form_KeyUp_KeyDown_KeyPress
 
         private void Form1_KeyPress(object sender, KeyPressEventArgs e)
         {
-            label1.Text = "KeyPress"
-                        + "\nKeyChar : " + e.KeyChar
-                        + "\nHandled : " + e.Handled;
+            label1.Text = "KeyPress" + "\nKeyChar : " + e.KeyChar + "\nHandled : " + e.Handled;
         }
 
         private void Form1_KeyDown(object sender, KeyEventArgs e)
         {
-            label2.Text = "KeyDown"
-                        + "\nAlt : " + e.Alt
-                        + "\nControl : " + e.Control
-                        + "\nShift : " + e.Shift
-                        + "\nKeyCode : " + e.KeyCode
-                        + "\nKeyData : " + e.KeyData
-                        + "\nKeyValue : " + e.KeyValue
-                        + "\nHandled : " + e.Handled
-                        + "\nModifiers : " + e.Modifiers
+            label2.Text = "KeyDown" + "\nAlt : " + e.Alt + "\nControl : " + e.Control + "\nShift : " + e.Shift + "\nKeyCode : " + e.KeyCode
+                        + "\nKeyData : " + e.KeyData + "\nKeyValue : " + e.KeyValue + "\nHandled : " + e.Handled + "\nModifiers : " + e.Modifiers
                         + "\nSuppressKeyPress : " + e.SuppressKeyPress;
         }
 

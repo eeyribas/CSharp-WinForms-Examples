@@ -51,7 +51,7 @@ namespace ErrorProvider_TextBoxValidating
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(120, 22);
             this.textBox2.TabIndex = 16;
-            this.textBox2.Text = "textBox2";
+            this.textBox2.Text = "-";
             this.textBox2.Validating += new System.ComponentModel.CancelEventHandler(this.textBox2_Validating);
             // 
             // textBox1
@@ -60,32 +60,32 @@ namespace ErrorProvider_TextBoxValidating
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(120, 22);
             this.textBox1.TabIndex = 15;
-            this.textBox1.Text = "textBox1";
+            this.textBox1.Text = "-";
             this.textBox1.Validating += new System.ComponentModel.CancelEventHandler(this.textBox1_Validating);
             // 
             // label3
             // 
             this.label3.Location = new System.Drawing.Point(12, 78);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(120, 26);
+            this.label3.Size = new System.Drawing.Size(120, 19);
             this.label3.TabIndex = 14;
-            this.label3.Text = "Text 3";
+            this.label3.Text = "Text 3 :";
             // 
             // label2
             // 
             this.label2.Location = new System.Drawing.Point(12, 50);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(120, 26);
+            this.label2.Size = new System.Drawing.Size(120, 19);
             this.label2.TabIndex = 13;
-            this.label2.Text = "Text 2";
+            this.label2.Text = "Text 2 :";
             // 
             // label1
             // 
             this.label1.Location = new System.Drawing.Point(12, 22);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(120, 27);
+            this.label1.Size = new System.Drawing.Size(120, 19);
             this.label1.TabIndex = 12;
-            this.label1.Text = "Text 1";
+            this.label1.Text = "Text 1 :";
             // 
             // textBox3
             // 
@@ -93,7 +93,7 @@ namespace ErrorProvider_TextBoxValidating
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(120, 22);
             this.textBox3.TabIndex = 17;
-            this.textBox3.Text = "textBox3";
+            this.textBox3.Text = "-";
             this.textBox3.Validating += new System.ComponentModel.CancelEventHandler(this.textBox3_Validating);
             // 
             // Form1

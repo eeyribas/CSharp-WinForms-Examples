@@ -36,20 +36,20 @@ namespace Form_KeyUp_KeyDown_KeyPress
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(214, 45);
+            this.label2.Location = new System.Drawing.Point(292, 45);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(46, 17);
+            this.label2.Size = new System.Drawing.Size(13, 17);
             this.label2.TabIndex = 4;
-            this.label2.Text = "label2";
+            this.label2.Text = "-";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(42, 45);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(46, 17);
+            this.label1.Size = new System.Drawing.Size(13, 17);
             this.label1.TabIndex = 3;
-            this.label1.Text = "label1";
+            this.label1.Text = "-";
             // 
             // Form1
             // 

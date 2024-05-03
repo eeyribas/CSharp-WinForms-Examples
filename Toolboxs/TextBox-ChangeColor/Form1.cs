@@ -27,6 +27,7 @@ namespace TextBox_ChangeColor
         {
             label1.Text = textBox1.TextLength.ToString();
             label2.Text = textBox2.TextLength.ToString();
+
             Color color = (textBox1.Text == textBox2.Text) ? Color.Green : Color.Red;
             for (int i = 0; i < Controls.Count; i++)
                 Controls[i].ForeColor = color;

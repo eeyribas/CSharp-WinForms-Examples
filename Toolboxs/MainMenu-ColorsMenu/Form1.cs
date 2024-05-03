@@ -48,8 +48,7 @@ namespace MainMenu_ColorsMenu
         {
             Color color = FindColor((sender as MenuItem).Text);
             e.DrawBackground();
-            e.Graphics.DrawString((sender as MenuItem).Text, this.Font, new SolidBrush(color),
-                                   e.Bounds.Left, e.Bounds.Top);
+            e.Graphics.DrawString((sender as MenuItem).Text, this.Font, new SolidBrush(color), e.Bounds.Left, e.Bounds.Top);
             e.DrawFocusRectangle();
         }
 

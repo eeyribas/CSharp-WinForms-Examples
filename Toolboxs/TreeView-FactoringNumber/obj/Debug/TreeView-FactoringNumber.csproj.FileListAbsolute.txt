@@ -1,7 +1,6 @@
 D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\TreeView-FactoringNumber\bin\Debug\TreeView-FactoringNumber.exe.config
 D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\TreeView-FactoringNumber\bin\Debug\TreeView-FactoringNumber.exe
 D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\TreeView-FactoringNumber\bin\Debug\TreeView-FactoringNumber.pdb
-D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\TreeView-FactoringNumber\obj\Debug\TreeView-FactoringNumber.csproj.AssemblyReference.cache
 D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\TreeView-FactoringNumber\obj\Debug\TreeView_FactoringNumber.Form1.resources
 D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\TreeView-FactoringNumber\obj\Debug\TreeView_FactoringNumber.Properties.Resources.resources
 D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\TreeView-FactoringNumber\obj\Debug\TreeView-FactoringNumber.csproj.GenerateResource.cache

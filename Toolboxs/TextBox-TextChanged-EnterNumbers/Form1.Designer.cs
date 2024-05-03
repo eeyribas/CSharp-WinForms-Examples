@@ -37,29 +37,29 @@ namespace TextBox_TextChanged_EnterNumbers
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(42, 76);
+            this.label2.Location = new System.Drawing.Point(58, 120);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(46, 17);
+            this.label2.Size = new System.Drawing.Size(13, 17);
             this.label2.TabIndex = 5;
-            this.label2.Text = "label2";
+            this.label2.Text = "-";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(42, 42);
+            this.label1.Location = new System.Drawing.Point(58, 82);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(46, 17);
+            this.label1.Size = new System.Drawing.Size(13, 17);
             this.label1.TabIndex = 4;
-            this.label1.Text = "label1";
+            this.label1.Text = "-";
             // 
             // textBox1
             // 
             this.textBox1.ForeColor = System.Drawing.Color.SeaGreen;
-            this.textBox1.Location = new System.Drawing.Point(42, 110);
+            this.textBox1.Location = new System.Drawing.Point(61, 34);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(242, 22);
             this.textBox1.TabIndex = 3;
-            this.textBox1.Text = "content";
+            this.textBox1.Text = "1234";
             this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // Form1

@@ -40,7 +40,7 @@ namespace TextBox_EnterLeave
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(120, 22);
             this.textBox3.TabIndex = 5;
-            this.textBox3.Text = "textBox3";
+            this.textBox3.Text = "-";
             // 
             // textBox2
             // 
@@ -48,7 +48,7 @@ namespace TextBox_EnterLeave
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(120, 22);
             this.textBox2.TabIndex = 4;
-            this.textBox2.Text = "textBox2";
+            this.textBox2.Text = "-";
             // 
             // textBox1
             // 
@@ -56,7 +56,7 @@ namespace TextBox_EnterLeave
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(120, 22);
             this.textBox1.TabIndex = 3;
-            this.textBox1.Text = "textBox1";
+            this.textBox1.Text = "-";
             this.textBox1.Enter += new System.EventHandler(this.textBox_Enter);
             this.textBox1.Leave += new System.EventHandler(this.textBox_Leave);
             // 

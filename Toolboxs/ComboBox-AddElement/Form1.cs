@@ -19,8 +19,8 @@ namespace ComboBox_AddElement
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            string[] meslekler = {"Worker", "Engineer", "Accountant", "Trainer", "Programmer", "Technician"};
-            comboBox1.Items.AddRange(meslekler);
+            string[] jobs = {"Worker", "Engineer", "Accountant", "Trainer", "Programmer", "Technician"};
+            comboBox1.Items.AddRange(jobs);
         }
 
         private void comboBox1_KeyPress(object sender, KeyPressEventArgs e)

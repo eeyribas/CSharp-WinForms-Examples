@@ -20,6 +20,7 @@ namespace MenuItem_Check
         private void menuItem1_Click(object sender, EventArgs e)
         {
             (sender as MenuItem).Checked = !(sender as MenuItem).Checked;
+
             if (menuItem1.Checked)
                 textBox1.Font = new Font(textBox1.Font, textBox1.Font.Style | FontStyle.Bold);
             else
@@ -29,6 +30,7 @@ namespace MenuItem_Check
         private void menuItem2_Click(object sender, EventArgs e)
         {
             (sender as MenuItem).Checked = !(sender as MenuItem).Checked;
+
             if (menuItem2.Checked)
                 textBox1.Font = new Font(textBox1.Font, textBox1.Font.Style | FontStyle.Italic);
             else
@@ -38,6 +40,7 @@ namespace MenuItem_Check
         private void menuItem3_Click(object sender, EventArgs e)
         {
             (sender as MenuItem).Checked = !(sender as MenuItem).Checked;
+
             if (menuItem3.Checked)
                 textBox1.Font = new Font(textBox1.Font, textBox1.Font.Style | FontStyle.Underline);
             else

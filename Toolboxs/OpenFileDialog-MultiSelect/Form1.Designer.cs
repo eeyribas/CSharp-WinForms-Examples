@@ -49,7 +49,7 @@ namespace OpenFileDialog_MultiSelect
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(127, 13);
+            this.button2.Location = new System.Drawing.Point(139, 13);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(105, 27);
             this.button2.TabIndex = 8;
@@ -62,7 +62,7 @@ namespace OpenFileDialog_MultiSelect
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(12, 13);
+            this.button1.Location = new System.Drawing.Point(16, 13);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(105, 27);
             this.button1.TabIndex = 7;
@@ -72,7 +72,7 @@ namespace OpenFileDialog_MultiSelect
             // pictureBox1
             // 
             this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox1.Location = new System.Drawing.Point(12, 50);
+            this.pictureBox1.Location = new System.Drawing.Point(16, 50);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(451, 323);
             this.pictureBox1.TabIndex = 6;

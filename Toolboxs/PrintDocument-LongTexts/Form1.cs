@@ -15,6 +15,7 @@ namespace PrintDocument_LongTexts
     public partial class Form1 : Form
     {
         private int lastLetter = 0;
+
         public Form1()
         {
             InitializeComponent();
@@ -27,6 +28,7 @@ namespace PrintDocument_LongTexts
             if (openFileDialog1.ShowDialog() == DialogResult.OK)
             {
                 textBox1.Text = "";
+
                 TextReader textReader = File.OpenText(openFileDialog1.FileName);
                 string row;
                 while ((row = textReader.ReadLine()) != null)
@@ -67,9 +69,9 @@ namespace PrintDocument_LongTexts
             PageSettings pageSettings = printDocument1.DefaultPageSettings;
             int height = pageSettings.PaperSize.Height - pageSettings.Margins.Top - pageSettings.Margins.Bottom;
             int width = pageSettings.PaperSize.Width - pageSettings.Margins.Left - pageSettings.Margins.Right;
+            
             StringFormat stringFormat = new StringFormat(StringFormatFlags.LineLimit);
             RectangleF rectangleF = new RectangleF(pageSettings.Margins.Left, pageSettings.Margins.Top, width, height);
-            
             e.Graphics.MeasureString(textBox1.Text.Substring(lastLetter), font, new SizeF(width, height), stringFormat, out letterCount, out rowCount);
             string text = textBox1.Text.Substring(lastLetter, letterCount);
             e.Graphics.DrawString(text, font, new SolidBrush(Color.Black), rectangleF, stringFormat);

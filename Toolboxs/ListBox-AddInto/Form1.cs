@@ -53,6 +53,7 @@ namespace ListBox_AddInto
                 textWriter.WriteLine(listBox2.Items[i]);
                 textWriter.WriteLine(listBox3.Items[i]);
             }
+
             textWriter.Close();
         }
 

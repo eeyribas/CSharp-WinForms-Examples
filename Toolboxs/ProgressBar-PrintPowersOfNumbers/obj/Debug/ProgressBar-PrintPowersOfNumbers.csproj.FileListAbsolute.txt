@@ -1,0 +1,10 @@
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\ProgressBar-PrintPowersOfNumbers\bin\Debug\ProgressBar-PrintPowersOfNumbers.exe.config
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\ProgressBar-PrintPowersOfNumbers\bin\Debug\ProgressBar-PrintPowersOfNumbers.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\ProgressBar-PrintPowersOfNumbers\bin\Debug\ProgressBar-PrintPowersOfNumbers.pdb
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\ProgressBar-PrintPowersOfNumbers\obj\Debug\ProgressBar-PrintPowersOfNumbers.csproj.AssemblyReference.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\ProgressBar-PrintPowersOfNumbers\obj\Debug\ProgressBar_PrintPowersOfNumbers.Form1.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\ProgressBar-PrintPowersOfNumbers\obj\Debug\ProgressBar_PrintPowersOfNumbers.Properties.Resources.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\ProgressBar-PrintPowersOfNumbers\obj\Debug\ProgressBar-PrintPowersOfNumbers.csproj.GenerateResource.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\ProgressBar-PrintPowersOfNumbers\obj\Debug\ProgressBar-PrintPowersOfNumbers.csproj.CoreCompileInputs.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\ProgressBar-PrintPowersOfNumbers\obj\Debug\ProgressBar-PrintPowersOfNumbers.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\ProgressBar-PrintPowersOfNumbers\obj\Debug\ProgressBar-PrintPowersOfNumbers.pdb

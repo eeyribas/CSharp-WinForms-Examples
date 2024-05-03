@@ -63,6 +63,7 @@ namespace ListBox_SortingNumbers
                 }
             }
             listBox1.EndUpdate();
+
             DateTime lastTime = DateTime.Now;
             TimeSpan difference = lastTime - startTime;
             this.Text = "Process Time " + difference.ToString();
@@ -125,6 +126,7 @@ namespace ListBox_SortingNumbers
                     }
                 }
             }
+
             DateTime lastTime = DateTime.Now;
             TimeSpan difference = lastTime - startTime;
             this.Text = "Process Time " + difference.ToString();

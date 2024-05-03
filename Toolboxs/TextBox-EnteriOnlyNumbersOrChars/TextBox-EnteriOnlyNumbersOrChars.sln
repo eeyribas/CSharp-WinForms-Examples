@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32901.82
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextBox-EnteriOnlyNumbersOrChars", "TextBox-EnteriOnlyNumbersOrChars.csproj", "{587F0F49-0222-4620-A04D-3DD308A97D69}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{587F0F49-0222-4620-A04D-3DD308A97D69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{587F0F49-0222-4620-A04D-3DD308A97D69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{587F0F49-0222-4620-A04D-3DD308A97D69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{587F0F49-0222-4620-A04D-3DD308A97D69}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8E3DBB12-D3C3-49B2-BA5B-1FD1B32DA52F}
+	EndGlobalSection
+EndGlobal

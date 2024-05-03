@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -40,7 +41,7 @@ namespace ListView_ItemActivate
         private void listView1_ItemActivate(object sender, EventArgs e)
         {
             string email = "mailto:" + listView1.SelectedItems[0].SubItems[1].Text;
-            System.Diagnostics.Process.Start(email);
+            Process.Start(email);
         }
     }
 }

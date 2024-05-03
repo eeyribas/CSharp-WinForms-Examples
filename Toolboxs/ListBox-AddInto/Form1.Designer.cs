@@ -45,7 +45,7 @@ namespace ListBox_AddInto
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(194, 212);
+            this.button2.Location = new System.Drawing.Point(206, 229);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(192, 27);
             this.button2.TabIndex = 35;
@@ -54,7 +54,7 @@ namespace ListBox_AddInto
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(21, 212);
+            this.button1.Location = new System.Drawing.Point(24, 229);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(154, 27);
             this.button1.TabIndex = 34;
@@ -63,32 +63,32 @@ namespace ListBox_AddInto
             // 
             // label4
             // 
-            this.label4.Location = new System.Drawing.Point(261, 65);
+            this.label4.Location = new System.Drawing.Point(273, 86);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(120, 26);
             this.label4.TabIndex = 33;
-            this.label4.Text = "Age";
+            this.label4.Text = "Age :";
             // 
             // label3
             // 
-            this.label3.Location = new System.Drawing.Point(136, 65);
+            this.label3.Location = new System.Drawing.Point(148, 86);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(120, 26);
             this.label3.TabIndex = 32;
-            this.label3.Text = "Job";
+            this.label3.Text = "Job :";
             // 
             // label2
             // 
-            this.label2.Location = new System.Drawing.Point(12, 65);
+            this.label2.Location = new System.Drawing.Point(24, 86);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(120, 26);
+            this.label2.Size = new System.Drawing.Size(120, 24);
             this.label2.TabIndex = 31;
-            this.label2.Text = "Full Name";
+            this.label2.Text = "Full Name :";
             // 
             // listBox3
             // 
             this.listBox3.ItemHeight = 16;
-            this.listBox3.Location = new System.Drawing.Point(261, 92);
+            this.listBox3.Location = new System.Drawing.Point(273, 121);
             this.listBox3.Name = "listBox3";
             this.listBox3.Size = new System.Drawing.Size(125, 84);
             this.listBox3.TabIndex = 30;
@@ -96,7 +96,7 @@ namespace ListBox_AddInto
             // listBox2
             // 
             this.listBox2.ItemHeight = 16;
-            this.listBox2.Location = new System.Drawing.Point(136, 92);
+            this.listBox2.Location = new System.Drawing.Point(148, 121);
             this.listBox2.Name = "listBox2";
             this.listBox2.Size = new System.Drawing.Size(116, 84);
             this.listBox2.TabIndex = 29;
@@ -104,7 +104,7 @@ namespace ListBox_AddInto
             // listBox1
             // 
             this.listBox1.ItemHeight = 16;
-            this.listBox1.Location = new System.Drawing.Point(12, 92);
+            this.listBox1.Location = new System.Drawing.Point(24, 121);
             this.listBox1.Name = "listBox1";
             this.listBox1.Size = new System.Drawing.Size(115, 84);
             this.listBox1.TabIndex = 28;
@@ -112,31 +112,31 @@ namespace ListBox_AddInto
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(261, 37);
+            this.textBox3.Location = new System.Drawing.Point(273, 44);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(120, 22);
             this.textBox3.TabIndex = 27;
-            this.textBox3.Text = "textBox3";
+            this.textBox3.Text = "-";
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(136, 37);
+            this.textBox2.Location = new System.Drawing.Point(148, 44);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(120, 22);
             this.textBox2.TabIndex = 26;
-            this.textBox2.Text = "textBox2";
+            this.textBox2.Text = "-";
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(12, 37);
+            this.textBox1.Location = new System.Drawing.Point(24, 44);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(120, 22);
             this.textBox1.TabIndex = 25;
-            this.textBox1.Text = "textBox1";
+            this.textBox1.Text = "-";
             // 
             // label1
             // 
-            this.label1.Location = new System.Drawing.Point(12, 9);
+            this.label1.Location = new System.Drawing.Point(21, 14);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(120, 27);
             this.label1.TabIndex = 24;
@@ -146,7 +146,7 @@ namespace ListBox_AddInto
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(400, 260);
+            this.ClientSize = new System.Drawing.Size(420, 284);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label4);

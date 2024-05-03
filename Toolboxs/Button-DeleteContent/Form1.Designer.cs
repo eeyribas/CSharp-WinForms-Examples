@@ -37,22 +37,22 @@ namespace Button_DeleteContent
             // textBox1
             // 
             this.textBox1.ForeColor = System.Drawing.Color.Sienna;
-            this.textBox1.Location = new System.Drawing.Point(60, 77);
+            this.textBox1.Location = new System.Drawing.Point(60, 33);
             this.textBox1.MaxLength = 20;
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(170, 22);
             this.textBox1.TabIndex = 3;
-            this.textBox1.Text = "content";
+            this.textBox1.Text = "-";
             this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(57, 47);
+            this.label1.Location = new System.Drawing.Point(57, 76);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(46, 17);
+            this.label1.Size = new System.Drawing.Size(13, 17);
             this.label1.TabIndex = 5;
-            this.label1.Text = "label1";
+            this.label1.Text = "-";
             // 
             // button1
             // 

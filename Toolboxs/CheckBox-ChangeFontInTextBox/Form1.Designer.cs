@@ -82,7 +82,7 @@ namespace CheckBox_ChangeFontInTextBox
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(316, 139);
             this.textBox1.TabIndex = 8;
-            this.textBox1.Text = "textBox1";
+            this.textBox1.Text = "-";
             // 
             // Form1
             // 

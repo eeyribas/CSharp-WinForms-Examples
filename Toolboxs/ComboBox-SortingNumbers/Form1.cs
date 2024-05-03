@@ -12,9 +12,9 @@ namespace ComboBox_SortingNumbers
 {
     public partial class Form1 : Form
     {
-        int n;
-        double[] a, b;
-        Random random;
+        private Random random;
+        private double[] a, b;
+        private int n;
 
         public Form1()
         {
@@ -31,13 +31,16 @@ namespace ComboBox_SortingNumbers
         {
             n = random.Next(15, 31);
             a = new double[n];
+
             Text = "Array size = " + n.ToString();
             listBox1.Items.Clear();
+
             for (int i = 0; i < n; i++)
             {
                 a[i] = Math.Round(1e3 * random.NextDouble(), 6);
                 listBox1.Items.Add(a[i].ToString());
             }
+
             comboBox1_SelectedIndexChanged(sender, e);
         }
 

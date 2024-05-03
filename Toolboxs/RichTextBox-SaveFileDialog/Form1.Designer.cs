@@ -65,7 +65,7 @@ namespace RichTextBox_SaveFileDialog
             this.richTextBox1.Name = "richTextBox1";
             this.richTextBox1.Size = new System.Drawing.Size(297, 268);
             this.richTextBox1.TabIndex = 11;
-            this.richTextBox1.Text = "richTextBox1";
+            this.richTextBox1.Text = "-";
             // 
             // button3
             // 

@@ -30,8 +30,8 @@ namespace ComboBox_Images
             e.DrawBackground();
             e.DrawFocusRectangle();
             imageList1.Draw(e.Graphics, e.Bounds.Left, e.Bounds.Top, e.Index);
-            e.Graphics.DrawString(str, new Font("Tahoma", 10, FontStyle.Bold), new SolidBrush(Color.Black),
-                                  e.Bounds.Left + 35, e.Bounds.Top + 8);
+            e.Graphics.DrawString(str, new Font("Tahoma", 10, FontStyle.Bold), new SolidBrush(Color.Black), e.Bounds.Left + 35, 
+                                  e.Bounds.Top + 8);
         }
 
         private void comboBox1_MeasureItem(object sender, MeasureItemEventArgs e)

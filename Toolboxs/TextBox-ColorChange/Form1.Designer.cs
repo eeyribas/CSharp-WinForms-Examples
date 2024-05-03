@@ -41,7 +41,7 @@ namespace TextBox_ColorChange
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(279, 211);
+            this.button2.Location = new System.Drawing.Point(279, 205);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(168, 35);
             this.button2.TabIndex = 15;
@@ -51,7 +51,7 @@ namespace TextBox_ColorChange
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(69, 211);
+            this.button1.Location = new System.Drawing.Point(69, 205);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(168, 35);
             this.button1.TabIndex = 14;
@@ -62,62 +62,62 @@ namespace TextBox_ColorChange
             // textBox6
             // 
             this.textBox6.ForeColor = System.Drawing.Color.SeaGreen;
-            this.textBox6.Location = new System.Drawing.Point(279, 156);
+            this.textBox6.Location = new System.Drawing.Point(279, 150);
             this.textBox6.MaxLength = 20;
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(168, 26);
             this.textBox6.TabIndex = 13;
-            this.textBox6.Text = "content";
+            this.textBox6.Text = "-";
             // 
             // textBox5
             // 
             this.textBox5.ForeColor = System.Drawing.Color.SeaGreen;
-            this.textBox5.Location = new System.Drawing.Point(69, 156);
+            this.textBox5.Location = new System.Drawing.Point(69, 150);
             this.textBox5.MaxLength = 20;
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(168, 26);
             this.textBox5.TabIndex = 12;
-            this.textBox5.Text = "content";
+            this.textBox5.Text = "-";
             // 
             // textBox4
             // 
             this.textBox4.ForeColor = System.Drawing.Color.SeaGreen;
-            this.textBox4.Location = new System.Drawing.Point(279, 107);
+            this.textBox4.Location = new System.Drawing.Point(279, 101);
             this.textBox4.MaxLength = 20;
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(168, 26);
             this.textBox4.TabIndex = 11;
-            this.textBox4.Text = "content";
+            this.textBox4.Text = "-";
             // 
             // textBox3
             // 
             this.textBox3.ForeColor = System.Drawing.Color.SeaGreen;
-            this.textBox3.Location = new System.Drawing.Point(69, 107);
+            this.textBox3.Location = new System.Drawing.Point(69, 101);
             this.textBox3.MaxLength = 20;
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(168, 26);
             this.textBox3.TabIndex = 10;
-            this.textBox3.Text = "content";
+            this.textBox3.Text = "-";
             // 
             // textBox2
             // 
             this.textBox2.ForeColor = System.Drawing.Color.SeaGreen;
-            this.textBox2.Location = new System.Drawing.Point(279, 59);
+            this.textBox2.Location = new System.Drawing.Point(279, 53);
             this.textBox2.MaxLength = 20;
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(168, 26);
             this.textBox2.TabIndex = 9;
-            this.textBox2.Text = "content";
+            this.textBox2.Text = "-";
             // 
             // textBox1
             // 
             this.textBox1.ForeColor = System.Drawing.Color.SeaGreen;
-            this.textBox1.Location = new System.Drawing.Point(69, 59);
+            this.textBox1.Location = new System.Drawing.Point(69, 53);
             this.textBox1.MaxLength = 20;
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(168, 26);
             this.textBox1.TabIndex = 8;
-            this.textBox1.Text = "content";
+            this.textBox1.Text = "-";
             // 
             // Form1
             // 

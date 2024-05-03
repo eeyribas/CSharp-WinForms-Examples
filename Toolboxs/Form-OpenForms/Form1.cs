@@ -20,9 +20,10 @@ namespace Form_OpenForms
         private void button1_Click(object sender, EventArgs e)
         {
             Hide();
-            Form2 frm = new Form2();
-            frm.ShowDialog();
-            frm.Dispose();
+
+            Form2 form2 = new Form2();
+            form2.ShowDialog();
+            form2.Dispose();
         }
     }
 }

@@ -12,7 +12,8 @@ namespace Timer_ScrollingText
 {
     public partial class Form1 : Form
     {
-        string lesson = "C# Programming";
+        private string lesson = "C# Programming";
+
         public Form1()
         {
             InitializeComponent();

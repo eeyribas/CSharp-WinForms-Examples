@@ -45,6 +45,7 @@ namespace ListView_ItemSorter
             listView1.Items[4].SubItems.Add("7888");
             listView1.Items[4].SubItems.Add("14/2/1970");
             listView1.View = View.Details;
+
             listView1.Sorting = SortOrder.Ascending;
         }
 

@@ -43,7 +43,7 @@ namespace MainMenu_CreatingWithCode
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(800, 450);
             this.textBox1.TabIndex = 2;
-            this.textBox1.Text = "textBox1";
+            this.textBox1.Text = "-";
             // 
             // mainMenu1
             // 

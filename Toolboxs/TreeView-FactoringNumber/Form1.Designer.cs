@@ -46,17 +46,17 @@ namespace TreeView_FactoringNumber
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(228, 13);
+            this.textBox1.Location = new System.Drawing.Point(165, 13);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(86, 22);
             this.textBox1.TabIndex = 7;
-            this.textBox1.Text = "textBox1";
+            this.textBox1.Text = "-";
             // 
             // label1
             // 
             this.label1.Location = new System.Drawing.Point(21, 16);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(201, 27);
+            this.label1.Size = new System.Drawing.Size(138, 27);
             this.label1.TabIndex = 6;
             this.label1.Text = "Factoring Number :";
             // 

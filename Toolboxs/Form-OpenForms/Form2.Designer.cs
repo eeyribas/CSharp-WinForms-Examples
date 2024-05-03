@@ -35,7 +35,7 @@ namespace Form_OpenForms
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Courier New", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button1.Location = new System.Drawing.Point(60, 117);
+            this.button1.Location = new System.Drawing.Point(58, 93);
             this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(642, 150);

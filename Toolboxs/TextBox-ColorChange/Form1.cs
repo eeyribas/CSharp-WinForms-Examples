@@ -12,7 +12,7 @@ namespace TextBox_ColorChange
 {
     public partial class Form1 : Form
     {
-        Random random = new Random();
+        private Random random = new Random();
 
         public Form1()
         {
@@ -21,33 +21,34 @@ namespace TextBox_ColorChange
 
         private void button1_Click(object sender, EventArgs e)
         {
-            foreach (Control kont in Controls)
+            foreach (Control control in Controls)
             {
-                if (kont.GetType().Name == "TextBox")
+                if (control.GetType().Name == "TextBox")
                 {
-                    kont.BackColor = SelectionColor();
-                    kont.ForeColor = SelectionColor();
+                    control.BackColor = SelectionColor();
+                    control.ForeColor = SelectionColor();
                 }
             }
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            foreach (Control kont in Controls)
+            foreach (Control control in Controls)
             {
-                if (kont.GetType().Name == "TextBox")
+                if (control.GetType().Name == "TextBox")
                 {
-                    kont.ResetBackColor();
-                    kont.ResetForeColor();
+                    control.ResetBackColor();
+                    control.ResetForeColor();
                 }
             }
         }
 
-        Color SelectionColor()
+        private Color SelectionColor()
         {
             int r = random.Next(256);
             int g = random.Next(256);
             int b = random.Next(256);
+
             return Color.FromArgb(r, g, b);
         }
     }

@@ -44,7 +44,7 @@ namespace ComboBox_AddElement
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(144, 64);
             this.textBox2.TabIndex = 18;
-            this.textBox2.Text = "textBox2";
+            this.textBox2.Text = "-";
             // 
             // comboBox1
             // 
@@ -52,7 +52,7 @@ namespace ComboBox_AddElement
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(146, 24);
             this.comboBox1.TabIndex = 17;
-            this.comboBox1.Text = "comboBox1";
+            this.comboBox1.Text = "-";
             this.comboBox1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.comboBox1_KeyPress);
             this.comboBox1.Leave += new System.EventHandler(this.comboBox1_Leave);
             // 
@@ -62,31 +62,31 @@ namespace ComboBox_AddElement
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(144, 22);
             this.textBox1.TabIndex = 16;
-            this.textBox1.Text = "textBox1";
+            this.textBox1.Text = "-";
             // 
             // label3
             // 
-            this.label3.Location = new System.Drawing.Point(12, 65);
+            this.label3.Location = new System.Drawing.Point(12, 68);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(120, 26);
+            this.label3.Size = new System.Drawing.Size(120, 19);
             this.label3.TabIndex = 15;
-            this.label3.Text = "Address";
+            this.label3.Text = "Address :";
             // 
             // label2
             // 
-            this.label2.Location = new System.Drawing.Point(12, 37);
+            this.label2.Location = new System.Drawing.Point(12, 40);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(120, 26);
+            this.label2.Size = new System.Drawing.Size(120, 21);
             this.label2.TabIndex = 14;
-            this.label2.Text = "Job";
+            this.label2.Text = "Job :";
             // 
             // label1
             // 
-            this.label1.Location = new System.Drawing.Point(12, 9);
+            this.label1.Location = new System.Drawing.Point(10, 12);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(120, 27);
+            this.label1.Size = new System.Drawing.Size(120, 25);
             this.label1.TabIndex = 13;
-            this.label1.Text = "Name Surname";
+            this.label1.Text = "Full name :";
             // 
             // Form1
             // 

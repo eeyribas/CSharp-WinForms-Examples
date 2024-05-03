@@ -29,6 +29,7 @@ namespace PictureBox_ImageAnimation
         {
             i++;
             i %= 8;
+
             pictureBox1.Image = imageList1.Images[i];
         }
     }

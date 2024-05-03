@@ -54,7 +54,7 @@ namespace PrintDocument_MultiplePages
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(146, 144);
+            this.button2.Location = new System.Drawing.Point(33, 91);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(135, 26);
             this.button2.TabIndex = 7;
@@ -63,7 +63,7 @@ namespace PrintDocument_MultiplePages
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(146, 116);
+            this.button1.Location = new System.Drawing.Point(33, 34);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(135, 27);
             this.button1.TabIndex = 6;
@@ -72,7 +72,7 @@ namespace PrintDocument_MultiplePages
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(146, 172);
+            this.button3.Location = new System.Drawing.Point(33, 147);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(135, 26);
             this.button3.TabIndex = 8;
@@ -83,7 +83,7 @@ namespace PrintDocument_MultiplePages
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(454, 357);
+            this.ClientSize = new System.Drawing.Size(204, 214);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.button3);

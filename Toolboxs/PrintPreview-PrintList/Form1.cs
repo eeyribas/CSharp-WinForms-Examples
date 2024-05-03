@@ -14,6 +14,7 @@ namespace PrintPreview_PrintList
     public partial class Form1 : Form
     {
         private int elementNo = 0;
+
         public Form1()
         {
             InitializeComponent();
@@ -43,6 +44,24 @@ namespace PrintPreview_PrintList
                 printDocument1.DefaultPageSettings = pageSetupDialog1.PageSettings;
         }
 
+        private void button5_Click(object sender, EventArgs e)
+        {
+            string[] names = {"Ali", "Veli", "Ahmet", "Mehmet", "Ayşe", "Fatma", "Mustafa", "Hasan", "Hüseyin", "Muhammet"};
+            Random random = new Random();
+
+            for (int i = 1; i <= 100; i++)
+            {
+                listBox1.Items.Add(i.ToString() + " " + names[random.Next(9)]);
+                int note = random.Next(100);
+                listBox2.Items.Add(note);
+
+                if (note >= 50)
+                    listBox3.Items.Add("Pass");
+                else
+                    listBox3.Items.Add("Fail");
+            }
+        }
+
         private void textBox2_TextChanged(object sender, EventArgs e)
         {
             if (int.Parse(textBox2.Text) >= 50)
@@ -51,23 +70,7 @@ namespace PrintPreview_PrintList
                 textBox3.Text = "Fail";
         }
 
-        private void button5_Click(object sender, EventArgs e)
-        {
-            string[] names = {"Ali", "Veli", "Ahmet", "Mehmet", "Ayşe", "Fatma", "Mustafa", "Hasan", "Hüseyin", "Muhammet"};
-            Random random = new Random();
-            for (int i = 1; i <= 100; i++)
-            {
-                listBox1.Items.Add(i.ToString() + " " + names[random.Next(9)]);
-                int note = random.Next(100);
-                listBox2.Items.Add(note);
-                if (note >= 50)
-                    listBox3.Items.Add("Pass");
-                else
-                    listBox3.Items.Add("Fail");
-            }
-        }
-
-        private void printDocument1_PrintPage(object sender, System.Drawing.Printing.PrintPageEventArgs e)
+        private void printDocument1_PrintPage(object sender, PrintPageEventArgs e)
         {
             PageSettings pageSettings = printDocument1.DefaultPageSettings;
             int pageHeight = pageSettings.PaperSize.Height - pageSettings.Margins.Top - pageSettings.Margins.Bottom;
@@ -81,6 +84,7 @@ namespace PrintPreview_PrintList
             alignRight.Alignment = StringAlignment.Far;
             Font mainFont = new Font("Tahoma", 20, FontStyle.Regular);
             int rowHeight = (int)e.Graphics.MeasureString("x", mainFont).Height;
+
             e.Graphics.DrawString(textBox4.Text, mainFont, new SolidBrush(Color.Red), pageSettings.PaperSize.Width / 2, y, middle);
             y += rowHeight;
             int tableInit = y;
@@ -119,9 +123,8 @@ namespace PrintPreview_PrintList
             }
 
             e.Graphics.DrawLine(new Pen(Color.Blue, 2), pageSettings.Margins.Left, tableInit, pageSettings.Margins.Left, y);
-            e.Graphics.DrawLine(new Pen(Color.Blue, 2), pageSettings.Margins.Left + pageWidth / 3 - 2, tableInit,
-                                pageSettings.Margins.Left + pageWidth / 3 - 2, y);
-            e.Graphics.DrawLine(new Pen(Color.Blue, 2), pageSettings.Margins.Left + 2 * pageWidth / 3 - 2, tableInit,
+            e.Graphics.DrawLine(new Pen(Color.Blue, 2), pageSettings.Margins.Left + pageWidth / 3 - 2, tableInit, pageSettings.Margins.Left + pageWidth / 3 - 2, y);
+            e.Graphics.DrawLine(new Pen(Color.Blue, 2), pageSettings.Margins.Left + 2 * pageWidth / 3 - 2, tableInit, 
                                 pageSettings.Margins.Left + 2 * pageWidth / 3 - 2, y);
             e.Graphics.DrawLine(new Pen(Color.Blue, 2), pageSettings.PaperSize.Width - pageSettings.Margins.Right, tableInit,
                                 pageSettings.PaperSize.Width - pageSettings.Margins.Right, y);

@@ -63,7 +63,7 @@ namespace PrintPreview_PrintList
             // 
             // button7
             // 
-            this.button7.Location = new System.Drawing.Point(492, 234);
+            this.button7.Location = new System.Drawing.Point(498, 237);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(90, 26);
             this.button7.TabIndex = 63;
@@ -71,7 +71,7 @@ namespace PrintPreview_PrintList
             // 
             // button6
             // 
-            this.button6.Location = new System.Drawing.Point(396, 234);
+            this.button6.Location = new System.Drawing.Point(402, 237);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(90, 26);
             this.button6.TabIndex = 62;
@@ -79,15 +79,15 @@ namespace PrintPreview_PrintList
             // 
             // comboBox1
             // 
-            this.comboBox1.Location = new System.Drawing.Point(281, 236);
+            this.comboBox1.Location = new System.Drawing.Point(281, 239);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(105, 24);
             this.comboBox1.TabIndex = 61;
-            this.comboBox1.Text = "ComboBox1";
+            this.comboBox1.Text = "-";
             // 
             // label6
             // 
-            this.label6.Location = new System.Drawing.Point(220, 239);
+            this.label6.Location = new System.Drawing.Point(220, 241);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(55, 26);
             this.label6.TabIndex = 60;
@@ -95,15 +95,15 @@ namespace PrintPreview_PrintList
             // 
             // label5
             // 
-            this.label5.Location = new System.Drawing.Point(12, 239);
+            this.label5.Location = new System.Drawing.Point(31, 228);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(100, 27);
+            this.label5.Size = new System.Drawing.Size(81, 36);
             this.label5.TabIndex = 59;
             this.label5.Text = "Page Layout :";
             // 
             // numericUpDown2
             // 
-            this.numericUpDown2.Location = new System.Drawing.Point(166, 237);
+            this.numericUpDown2.Location = new System.Drawing.Point(166, 240);
             this.numericUpDown2.Name = "numericUpDown2";
             this.numericUpDown2.Size = new System.Drawing.Size(48, 22);
             this.numericUpDown2.TabIndex = 58;
@@ -114,27 +114,27 @@ namespace PrintPreview_PrintList
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.printPreviewControl1.AutoZoom = false;
-            this.printPreviewControl1.Location = new System.Drawing.Point(18, 279);
+            this.printPreviewControl1.Location = new System.Drawing.Point(18, 293);
             this.printPreviewControl1.Name = "printPreviewControl1";
-            this.printPreviewControl1.Size = new System.Drawing.Size(570, 360);
+            this.printPreviewControl1.Size = new System.Drawing.Size(583, 353);
             this.printPreviewControl1.TabIndex = 56;
             this.printPreviewControl1.Zoom = 0.30000001192092896D;
             // 
             // label1
             // 
-            this.label1.Location = new System.Drawing.Point(31, 15);
+            this.label1.Location = new System.Drawing.Point(31, 18);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(120, 27);
+            this.label1.Size = new System.Drawing.Size(81, 25);
             this.label1.TabIndex = 41;
-            this.label1.Text = "Name";
+            this.label1.Text = "Name :";
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(31, 43);
+            this.textBox1.Location = new System.Drawing.Point(31, 46);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(154, 22);
             this.textBox1.TabIndex = 40;
-            this.textBox1.Text = "textBox1";
+            this.textBox1.Text = "-";
             // 
             // printDocument1
             // 
@@ -142,26 +142,26 @@ namespace PrintPreview_PrintList
             // 
             // numericUpDown1
             // 
-            this.numericUpDown1.Location = new System.Drawing.Point(118, 237);
+            this.numericUpDown1.Location = new System.Drawing.Point(118, 240);
             this.numericUpDown1.Name = "numericUpDown1";
             this.numericUpDown1.Size = new System.Drawing.Size(48, 22);
             this.numericUpDown1.TabIndex = 57;
             // 
             // label3
             // 
-            this.label3.Location = new System.Drawing.Point(338, 15);
+            this.label3.Location = new System.Drawing.Point(338, 18);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(58, 27);
             this.label3.TabIndex = 43;
-            this.label3.Text = "Result";
+            this.label3.Text = "Result :";
             // 
             // label2
             // 
-            this.label2.Location = new System.Drawing.Point(194, 15);
+            this.label2.Location = new System.Drawing.Point(194, 18);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(120, 27);
+            this.label2.Size = new System.Drawing.Size(81, 27);
             this.label2.TabIndex = 42;
-            this.label2.Text = "Note";
+            this.label2.Text = "Note :";
             // 
             // printPreviewDialog1
             // 
@@ -175,23 +175,23 @@ namespace PrintPreview_PrintList
             // 
             // textBox4
             // 
-            this.textBox4.Location = new System.Drawing.Point(127, 200);
+            this.textBox4.Location = new System.Drawing.Point(99, 203);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(269, 22);
             this.textBox4.TabIndex = 54;
-            this.textBox4.Text = "textBox4";
+            this.textBox4.Text = "-";
             // 
             // label4
             // 
-            this.label4.Location = new System.Drawing.Point(28, 205);
+            this.label4.Location = new System.Drawing.Point(31, 206);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(96, 26);
+            this.label4.Size = new System.Drawing.Size(65, 17);
             this.label4.TabIndex = 53;
             this.label4.Text = "Report :";
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(463, 154);
+            this.button4.Location = new System.Drawing.Point(463, 157);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(125, 26);
             this.button4.TabIndex = 52;
@@ -200,7 +200,7 @@ namespace PrintPreview_PrintList
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(463, 117);
+            this.button3.Location = new System.Drawing.Point(463, 120);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(125, 26);
             this.button3.TabIndex = 51;
@@ -209,7 +209,7 @@ namespace PrintPreview_PrintList
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(463, 80);
+            this.button2.Location = new System.Drawing.Point(463, 83);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(125, 26);
             this.button2.TabIndex = 50;
@@ -218,7 +218,7 @@ namespace PrintPreview_PrintList
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(463, 43);
+            this.button1.Location = new System.Drawing.Point(463, 46);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(125, 26);
             this.button1.TabIndex = 49;
@@ -228,7 +228,7 @@ namespace PrintPreview_PrintList
             // listBox3
             // 
             this.listBox3.ItemHeight = 16;
-            this.listBox3.Location = new System.Drawing.Point(329, 80);
+            this.listBox3.Location = new System.Drawing.Point(329, 83);
             this.listBox3.Name = "listBox3";
             this.listBox3.Size = new System.Drawing.Size(125, 84);
             this.listBox3.TabIndex = 48;
@@ -236,7 +236,7 @@ namespace PrintPreview_PrintList
             // listBox2
             // 
             this.listBox2.ItemHeight = 16;
-            this.listBox2.Location = new System.Drawing.Point(194, 80);
+            this.listBox2.Location = new System.Drawing.Point(194, 83);
             this.listBox2.Name = "listBox2";
             this.listBox2.Size = new System.Drawing.Size(125, 84);
             this.listBox2.TabIndex = 47;
@@ -244,31 +244,31 @@ namespace PrintPreview_PrintList
             // listBox1
             // 
             this.listBox1.ItemHeight = 16;
-            this.listBox1.Location = new System.Drawing.Point(31, 80);
+            this.listBox1.Location = new System.Drawing.Point(31, 83);
             this.listBox1.Name = "listBox1";
             this.listBox1.Size = new System.Drawing.Size(154, 84);
             this.listBox1.TabIndex = 46;
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(329, 43);
+            this.textBox3.Location = new System.Drawing.Point(329, 46);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(120, 22);
             this.textBox3.TabIndex = 45;
-            this.textBox3.Text = "textBox3";
+            this.textBox3.Text = "-";
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(194, 43);
+            this.textBox2.Location = new System.Drawing.Point(194, 46);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(120, 22);
             this.textBox2.TabIndex = 44;
-            this.textBox2.Text = "textBox2";
+            this.textBox2.Text = "-";
             this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // button5
             // 
-            this.button5.Location = new System.Drawing.Point(415, 200);
+            this.button5.Location = new System.Drawing.Point(415, 203);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(173, 26);
             this.button5.TabIndex = 55;
@@ -279,7 +279,7 @@ namespace PrintPreview_PrintList
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(601, 641);
+            this.ClientSize = new System.Drawing.Size(614, 648);
             this.Controls.Add(this.button7);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.comboBox1);

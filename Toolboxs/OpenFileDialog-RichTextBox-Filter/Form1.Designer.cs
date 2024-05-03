@@ -39,7 +39,7 @@ namespace OpenFileDialog_RichTextBox_Filter
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(21, 169);
+            this.button1.Location = new System.Drawing.Point(12, 185);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(202, 27);
             this.button1.TabIndex = 10;
@@ -52,7 +52,7 @@ namespace OpenFileDialog_RichTextBox_Filter
             this.richTextBox1.Name = "richTextBox1";
             this.richTextBox1.Size = new System.Drawing.Size(375, 148);
             this.richTextBox1.TabIndex = 9;
-            this.richTextBox1.Text = "RichTextBox1";
+            this.richTextBox1.Text = "-";
             // 
             // textBox1
             // 
@@ -61,7 +61,7 @@ namespace OpenFileDialog_RichTextBox_Filter
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(375, 129);
             this.textBox1.TabIndex = 11;
-            this.textBox1.Text = "TextBox1";
+            this.textBox1.Text = "-";
             // 
             // pictureBox1
             // 

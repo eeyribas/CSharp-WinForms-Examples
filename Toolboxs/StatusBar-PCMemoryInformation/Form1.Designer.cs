@@ -40,7 +40,7 @@ namespace StatusBar_PCMemoryInformation
             this.statusBar1.Name = "statusBar1";
             this.statusBar1.Size = new System.Drawing.Size(800, 71);
             this.statusBar1.TabIndex = 3;
-            this.statusBar1.Text = "StatusBar1";
+            this.statusBar1.Text = "-";
             this.statusBar1.DrawItem += new System.Windows.Forms.StatusBarDrawItemEventHandler(this.statusBar1_DrawItem);
             // 
             // timer1

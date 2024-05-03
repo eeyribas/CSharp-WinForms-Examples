@@ -44,11 +44,10 @@ namespace ComboBox_ShowInfo
         {
             Provinces province = new Provinces("Hakkari", "30");
             comboBox1.Items.Add(province);
-            Provinces[] provinces = {new Provinces("Ankara",   "06"),
-                 new Provinces("İstanbul", "34"),
-                 new Provinces("Erzurum",  "25"),
-                 new Provinces("Bursa",    "16"),
-                 new Provinces("İzmir",    "35")};
+
+            Provinces[] provinces = { new Provinces("Ankara",   "06"), new Provinces("İstanbul", "34"),
+                                      new Provinces("Erzurum",  "25"), new Provinces("Bursa",    "16"),
+                                      new Provinces("İzmir",    "35")};
             comboBox1.Items.AddRange(provinces);
         }
 
@@ -56,6 +55,7 @@ namespace ComboBox_ShowInfo
         {
             if (comboBox1.SelectedIndex < 0)
                 return;
+
             label2.Text = ((Provinces)comboBox1.SelectedItem).name;
             label4.Text = ((Provinces)comboBox1.SelectedItem).plate;
         }

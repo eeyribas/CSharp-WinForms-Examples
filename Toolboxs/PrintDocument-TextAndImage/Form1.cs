@@ -43,7 +43,7 @@ namespace PrintDocument_TextAndImage
                 pictureBox1.Image = Image.FromFile(openFileDialog1.FileName);
         }
 
-        private void printDocument1_PrintPage(object sender, System.Drawing.Printing.PrintPageEventArgs e)
+        private void printDocument1_PrintPage(object sender, PrintPageEventArgs e)
         {
             Font labelFont = new Font("Tahoma", 12, FontStyle.Bold);
             Font textFont = new Font("Tahoma", 12, FontStyle.Regular);
@@ -56,6 +56,7 @@ namespace PrintDocument_TextAndImage
             float x3 = x2 + 200;
             float y = pageSettings.Margins.Top;
             text = "Infos : ";
+
             e.Graphics.DrawString(text, headerFont, Brushes.Black, x1, y);
             y += e.Graphics.MeasureString(text, headerFont).Height;
             e.Graphics.DrawLine(new Pen(Color.Blue, 2), x1, y, pageSettings.PaperSize.Width - pageSettings.Margins.Left, y);
@@ -73,6 +74,7 @@ namespace PrintDocument_TextAndImage
             e.Graphics.DrawString(text, textFont, Brushes.Black, x2, y);
 
             float y2 = 0;
+
             try
             {
                 e.Graphics.DrawImage(pictureBox1.Image, x3, y, 150, 150);
@@ -90,6 +92,7 @@ namespace PrintDocument_TextAndImage
             text = textBox3.Text;
             e.Graphics.DrawString(text, textFont, Brushes.Black, new RectangleF(x2, y, x3 - x2, pageSettings.PaperSize.Height));
             y += e.Graphics.MeasureString(text, labelFont).Height;
+
             if (y2 > y)
                 e.Graphics.DrawLine(new Pen(Color.Blue, 2), x1, y2, pageSettings.PaperSize.Width - pageSettings.Margins.Left, y2);
             else

@@ -47,7 +47,8 @@ namespace OpenFileDialog_MultiSelect
         {
             if (openFileDialog2.ShowDialog() == DialogResult.OK)
             {
-                DialogResult dialogResult = MessageBox.Show("Warning! All selected files will be deleted.", "Warning!", MessageBoxButtons.OKCancel, MessageBoxIcon.Warning, MessageBoxDefaultButton.Button2);
+                DialogResult dialogResult = MessageBox.Show("Warning! All selected files will be deleted.", "Warning!", MessageBoxButtons.OKCancel, 
+                                                            MessageBoxIcon.Warning, MessageBoxDefaultButton.Button2);
                 if (dialogResult == DialogResult.OK)
                 {
                     for (int i = 0; i <= openFileDialog2.FileNames.Length - 1; i++)
@@ -69,7 +70,8 @@ namespace OpenFileDialog_MultiSelect
         private void timer1_Tick(object sender, EventArgs e)
         {
             count++;
-            count = count % openFileDialog1.FileNames.Length;
+            count %= openFileDialog1.FileNames.Length;
+
             try
             {
                 pictureBox1.Image = Image.FromFile(openFileDialog1.FileNames[count]);
@@ -83,14 +85,12 @@ namespace OpenFileDialog_MultiSelect
 
         private void openFileDialog1_HelpRequest(object sender, EventArgs e)
         {
-            MessageBox.Show("Please select the images to be displayed.\r\n" +
-                            "To select multiple images, hold down the Shift or Ctrl keys.");
+            MessageBox.Show("Please select the images to be displayed.\r\n" + "To select multiple images, hold down the Shift or Ctrl keys.");
         }
 
         private void openFileDialog2_HelpRequest(object sender, EventArgs e)
         {
-            MessageBox.Show("Select the files to be deleted.\r\n" +
-                            "To select multiple images, hold down the Shift or Ctrl keys.");
+            MessageBox.Show("Select the files to be deleted.\r\n" + "To select multiple images, hold down the Shift or Ctrl keys.");
         }
     }
 }

@@ -28,11 +28,10 @@ namespace OpenFileDialog_RichTextBox_Filter
         private void button1_Click(object sender, EventArgs e)
         {
             openFileDialog1.Title = "Please select the file to open.";
-            openFileDialog1.Filter = "Text Files|*.TXT|" +
-                                     "RTF Files|*.RTF|" +
-                                     "Images|*.GIF;*.BMP;*.JPG;*.WMF;*PNG;*.TIF|" +
+            openFileDialog1.Filter = "Text Files|*.TXT|" + "RTF Files|*.RTF|" + "Images|*.GIF;*.BMP;*.JPG;*.WMF;*PNG;*.TIF|" +
                                      "Programs|*.EXE";
             openFileDialog1.FilterIndex = 1;
+
             if (openFileDialog1.ShowDialog() == DialogResult.OK)
             {
                 switch (openFileDialog1.FilterIndex)

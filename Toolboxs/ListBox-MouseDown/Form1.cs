@@ -36,6 +36,7 @@ namespace ListBox_MouseDown
 
                 Rectangle rectangle = listBox1.GetItemRectangle(index);
                 listBox1.SelectedIndex = index;
+
                 textBox1.SetBounds(listBox1.Left + rectangle.Left, listBox1.Top + rectangle.Top, 
                                                    rectangle.Width, rectangle.Height);
                 textBox1.Text = listBox1.Text;
@@ -53,6 +54,7 @@ namespace ListBox_MouseDown
                 int index = listBox1.SelectedIndex;
                 if (index >= 0)
                     listBox1.Items[index] = textBox1.Text;
+
                 textBox1.Visible = false;
                 e.Handled = true;
             }
@@ -70,6 +72,7 @@ namespace ListBox_MouseDown
             int index = listBox1.SelectedIndex;
             if (index >= 0)
                 listBox1.Items[index] = textBox1.Text;
+
             textBox1.Visible = false;
         }
     }

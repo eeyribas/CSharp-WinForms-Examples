@@ -48,7 +48,7 @@ namespace TextBox_NumericUpDown
             // 
             this.label4.Location = new System.Drawing.Point(152, 234);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(67, 27);
+            this.label4.Size = new System.Drawing.Size(61, 27);
             this.label4.TabIndex = 26;
             this.label4.Text = "Height:";
             // 
@@ -114,7 +114,7 @@ namespace TextBox_NumericUpDown
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(182, 22);
             this.textBox1.TabIndex = 18;
-            this.textBox1.Text = "textBox1";
+            this.textBox1.Text = "-";
             // 
             // Form1
             // 

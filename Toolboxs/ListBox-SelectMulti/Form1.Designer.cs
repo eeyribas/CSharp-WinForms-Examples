@@ -44,38 +44,38 @@ namespace ListBox_SelectMulti
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(144, 22);
             this.textBox1.TabIndex = 19;
-            this.textBox1.Text = "textBox1";
+            this.textBox1.Text = "-";
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(165, 95);
+            this.button4.Location = new System.Drawing.Point(174, 87);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(48, 27);
+            this.button4.Size = new System.Drawing.Size(67, 27);
             this.button4.TabIndex = 18;
             this.button4.Text = "<<";
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(165, 58);
+            this.button3.Location = new System.Drawing.Point(174, 54);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(48, 27);
+            this.button3.Size = new System.Drawing.Size(67, 27);
             this.button3.TabIndex = 17;
             this.button3.Text = ">>";
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(242, 12);
+            this.button2.Location = new System.Drawing.Point(259, 12);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(77, 27);
+            this.button2.Size = new System.Drawing.Size(77, 28);
             this.button2.TabIndex = 16;
             this.button2.Text = "Delete";
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(165, 12);
+            this.button1.Location = new System.Drawing.Point(174, 12);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(67, 28);
             this.button1.TabIndex = 15;
@@ -85,7 +85,7 @@ namespace ListBox_SelectMulti
             // listBox2
             // 
             this.listBox2.ItemHeight = 16;
-            this.listBox2.Location = new System.Drawing.Point(232, 49);
+            this.listBox2.Location = new System.Drawing.Point(259, 46);
             this.listBox2.Name = "listBox2";
             this.listBox2.Size = new System.Drawing.Size(144, 84);
             this.listBox2.TabIndex = 14;
@@ -93,7 +93,7 @@ namespace ListBox_SelectMulti
             // listBox1
             // 
             this.listBox1.ItemHeight = 16;
-            this.listBox1.Location = new System.Drawing.Point(12, 49);
+            this.listBox1.Location = new System.Drawing.Point(12, 46);
             this.listBox1.Name = "listBox1";
             this.listBox1.Size = new System.Drawing.Size(144, 84);
             this.listBox1.TabIndex = 13;
@@ -102,7 +102,7 @@ namespace ListBox_SelectMulti
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(396, 150);
+            this.ClientSize = new System.Drawing.Size(417, 146);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);

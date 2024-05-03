@@ -33,9 +33,10 @@ namespace PictureBox_DisplayModes
 
         private void button2_Click(object sender, EventArgs e)
         {
-            IDataObject pano = Clipboard.GetDataObject();
-            if (pano.GetDataPresent(DataFormats.Bitmap))
-                pictureBox1.Image = (Bitmap)pano.GetData(DataFormats.Bitmap);
+            IDataObject iDataObject = Clipboard.GetDataObject();
+
+            if (iDataObject.GetDataPresent(DataFormats.Bitmap))
+                pictureBox1.Image = (Bitmap)iDataObject.GetData(DataFormats.Bitmap);
             else
                 MessageBox.Show("There is no suitable image in the clipboard.");
         }
@@ -59,6 +60,7 @@ namespace PictureBox_DisplayModes
                         pictureBox1.SizeMode = PictureBoxSizeMode.CenterImage;
                         break;
                 }
+
                 pictureBox1.Width = ClientSize.Width;
                 pictureBox1.Height = ClientSize.Height - pictureBox1.Top;
             }

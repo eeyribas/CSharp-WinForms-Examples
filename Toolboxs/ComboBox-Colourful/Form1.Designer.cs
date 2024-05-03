@@ -39,7 +39,7 @@ namespace ComboBox_Colourful
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(153, 23);
             this.comboBox1.TabIndex = 2;
-            this.comboBox1.Text = "comboBox1";
+            this.comboBox1.Text = "-";
             this.comboBox1.DrawItem += new System.Windows.Forms.DrawItemEventHandler(this.comboBox1_DrawItem);
             this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 

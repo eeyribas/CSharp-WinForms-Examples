@@ -19,8 +19,8 @@ namespace Form_OpenForms
 
         private void Form2_FormClosed(object sender, FormClosedEventArgs e)
         {
-            Form frm = Application.OpenForms["Form1"];
-            frm.Show();
+            Form form = Application.OpenForms["Form1"];
+            form.Show();
         }
 
         private void button1_Click(object sender, EventArgs e)

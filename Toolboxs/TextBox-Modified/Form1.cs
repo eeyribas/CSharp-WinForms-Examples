@@ -20,19 +20,14 @@ namespace TextBox_Modified
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            try
-            {
-                textBox1.Text = "";
-                TextReader textReader = File.OpenText("info.dat");
+            textBox1.Text = "";
 
-                string row;
-                while ((row = textReader.ReadLine()) != null)
-                    textBox1.Text += row + (char)13 + (char)10;
-                textReader.Close();
-            }
-            catch
-            {
-            }
+            TextReader textReader = File.OpenText("info.dat");
+            string row;
+            while ((row = textReader.ReadLine()) != null)
+                textBox1.Text += row + (char)13 + (char)10;
+
+            textReader.Close();
         }
 
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)

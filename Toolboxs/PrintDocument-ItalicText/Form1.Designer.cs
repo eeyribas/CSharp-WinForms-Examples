@@ -54,17 +54,17 @@ namespace PrintDocument_ItalicText
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(136, 9);
+            this.textBox1.Location = new System.Drawing.Point(91, 15);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(135, 22);
             this.textBox1.TabIndex = 9;
-            this.textBox1.Text = "textBox1";
+            this.textBox1.Text = "-";
             // 
             // label1
             // 
-            this.label1.Location = new System.Drawing.Point(10, 12);
+            this.label1.Location = new System.Drawing.Point(36, 18);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(120, 27);
+            this.label1.Size = new System.Drawing.Size(49, 27);
             this.label1.TabIndex = 8;
             this.label1.Text = "Text :";
             // 
@@ -79,7 +79,7 @@ namespace PrintDocument_ItalicText
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(13, 58);
+            this.button1.Location = new System.Drawing.Point(12, 58);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(90, 27);
             this.button1.TabIndex = 6;
@@ -90,7 +90,7 @@ namespace PrintDocument_ItalicText
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(294, 116);
+            this.ClientSize = new System.Drawing.Size(271, 104);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button2);

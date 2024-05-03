@@ -29,78 +29,78 @@ namespace TextBox_SplitterDock
         /// </summary>
         private void InitializeComponent()
         {
-            this.TextBox4 = new System.Windows.Forms.TextBox();
-            this.Splitter3 = new System.Windows.Forms.Splitter();
-            this.TextBox3 = new System.Windows.Forms.TextBox();
-            this.Splitter2 = new System.Windows.Forms.Splitter();
-            this.Splitter1 = new System.Windows.Forms.Splitter();
-            this.TextBox2 = new System.Windows.Forms.TextBox();
-            this.TextBox1 = new System.Windows.Forms.TextBox();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.splitter3 = new System.Windows.Forms.Splitter();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.splitter2 = new System.Windows.Forms.Splitter();
+            this.splitter1 = new System.Windows.Forms.Splitter();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textBox3 = new System.Windows.Forms.TextBox();
             this.TextBox5 = new System.Windows.Forms.TextBox();
-            this.Splitter4 = new System.Windows.Forms.Splitter();
+            this.splitter4 = new System.Windows.Forms.Splitter();
             this.SuspendLayout();
             // 
-            // TextBox4
+            // textBox4
             // 
-            this.TextBox4.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.TextBox4.Location = new System.Drawing.Point(124, 425);
-            this.TextBox4.Name = "TextBox4";
-            this.TextBox4.Size = new System.Drawing.Size(552, 22);
-            this.TextBox4.TabIndex = 34;
-            this.TextBox4.Text = "TextBox4";
+            this.textBox4.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.textBox4.Location = new System.Drawing.Point(124, 425);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(552, 22);
+            this.textBox4.TabIndex = 34;
+            this.textBox4.Text = "-";
             // 
-            // Splitter3
+            // splitter3
             // 
-            this.Splitter3.Dock = System.Windows.Forms.DockStyle.Top;
-            this.Splitter3.Location = new System.Drawing.Point(124, 22);
-            this.Splitter3.Name = "Splitter3";
-            this.Splitter3.Size = new System.Drawing.Size(552, 4);
-            this.Splitter3.TabIndex = 33;
-            this.Splitter3.TabStop = false;
+            this.splitter3.Dock = System.Windows.Forms.DockStyle.Top;
+            this.splitter3.Location = new System.Drawing.Point(124, 22);
+            this.splitter3.Name = "splitter3";
+            this.splitter3.Size = new System.Drawing.Size(552, 4);
+            this.splitter3.TabIndex = 33;
+            this.splitter3.TabStop = false;
             // 
-            // TextBox3
+            // textBox2
             // 
-            this.TextBox3.Dock = System.Windows.Forms.DockStyle.Top;
-            this.TextBox3.Location = new System.Drawing.Point(124, 0);
-            this.TextBox3.Name = "TextBox3";
-            this.TextBox3.Size = new System.Drawing.Size(552, 22);
-            this.TextBox3.TabIndex = 32;
-            this.TextBox3.Text = "TextBox3";
+            this.textBox2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.textBox2.Location = new System.Drawing.Point(124, 0);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(552, 22);
+            this.textBox2.TabIndex = 32;
+            this.textBox2.Text = "-";
             // 
-            // Splitter2
+            // splitter2
             // 
-            this.Splitter2.Dock = System.Windows.Forms.DockStyle.Right;
-            this.Splitter2.Location = new System.Drawing.Point(676, 0);
-            this.Splitter2.Name = "Splitter2";
-            this.Splitter2.Size = new System.Drawing.Size(4, 447);
-            this.Splitter2.TabIndex = 31;
-            this.Splitter2.TabStop = false;
+            this.splitter2.Dock = System.Windows.Forms.DockStyle.Right;
+            this.splitter2.Location = new System.Drawing.Point(676, 0);
+            this.splitter2.Name = "splitter2";
+            this.splitter2.Size = new System.Drawing.Size(4, 447);
+            this.splitter2.TabIndex = 31;
+            this.splitter2.TabStop = false;
             // 
-            // Splitter1
+            // splitter1
             // 
-            this.Splitter1.Location = new System.Drawing.Point(120, 0);
-            this.Splitter1.Name = "Splitter1";
-            this.Splitter1.Size = new System.Drawing.Size(4, 447);
-            this.Splitter1.TabIndex = 30;
-            this.Splitter1.TabStop = false;
+            this.splitter1.Location = new System.Drawing.Point(120, 0);
+            this.splitter1.Name = "splitter1";
+            this.splitter1.Size = new System.Drawing.Size(4, 447);
+            this.splitter1.TabIndex = 30;
+            this.splitter1.TabStop = false;
             // 
-            // TextBox2
+            // textBox1
             // 
-            this.TextBox2.Dock = System.Windows.Forms.DockStyle.Left;
-            this.TextBox2.Location = new System.Drawing.Point(0, 0);
-            this.TextBox2.Name = "TextBox2";
-            this.TextBox2.Size = new System.Drawing.Size(120, 22);
-            this.TextBox2.TabIndex = 29;
-            this.TextBox2.Text = "TextBox2";
+            this.textBox1.Dock = System.Windows.Forms.DockStyle.Left;
+            this.textBox1.Location = new System.Drawing.Point(0, 0);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(120, 22);
+            this.textBox1.TabIndex = 29;
+            this.textBox1.Text = "-";
             // 
-            // TextBox1
+            // textBox3
             // 
-            this.TextBox1.Dock = System.Windows.Forms.DockStyle.Right;
-            this.TextBox1.Location = new System.Drawing.Point(680, 0);
-            this.TextBox1.Name = "TextBox1";
-            this.TextBox1.Size = new System.Drawing.Size(120, 22);
-            this.TextBox1.TabIndex = 28;
-            this.TextBox1.Text = "TextBox1";
+            this.textBox3.Dock = System.Windows.Forms.DockStyle.Right;
+            this.textBox3.Location = new System.Drawing.Point(680, 0);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(120, 22);
+            this.textBox3.TabIndex = 28;
+            this.textBox3.Text = "-";
             // 
             // TextBox5
             // 
@@ -111,29 +111,29 @@ namespace TextBox_SplitterDock
             this.TextBox5.TabIndex = 36;
             this.TextBox5.Text = "TextBox5";
             // 
-            // Splitter4
+            // splitter4
             // 
-            this.Splitter4.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.Splitter4.Location = new System.Drawing.Point(0, 447);
-            this.Splitter4.Name = "Splitter4";
-            this.Splitter4.Size = new System.Drawing.Size(800, 3);
-            this.Splitter4.TabIndex = 35;
-            this.Splitter4.TabStop = false;
+            this.splitter4.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.splitter4.Location = new System.Drawing.Point(0, 447);
+            this.splitter4.Name = "splitter4";
+            this.splitter4.Size = new System.Drawing.Size(800, 3);
+            this.splitter4.TabIndex = 35;
+            this.splitter4.TabStop = false;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.TextBox4);
-            this.Controls.Add(this.Splitter3);
-            this.Controls.Add(this.TextBox3);
-            this.Controls.Add(this.Splitter2);
-            this.Controls.Add(this.Splitter1);
-            this.Controls.Add(this.TextBox2);
-            this.Controls.Add(this.TextBox1);
+            this.Controls.Add(this.textBox4);
+            this.Controls.Add(this.splitter3);
+            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.splitter2);
+            this.Controls.Add(this.splitter1);
+            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.textBox3);
             this.Controls.Add(this.TextBox5);
-            this.Controls.Add(this.Splitter4);
+            this.Controls.Add(this.splitter4);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -143,15 +143,15 @@ namespace TextBox_SplitterDock
 
         #endregion
 
-        internal System.Windows.Forms.TextBox TextBox4;
-        internal System.Windows.Forms.Splitter Splitter3;
-        internal System.Windows.Forms.TextBox TextBox3;
-        internal System.Windows.Forms.Splitter Splitter2;
-        internal System.Windows.Forms.Splitter Splitter1;
-        internal System.Windows.Forms.TextBox TextBox2;
-        internal System.Windows.Forms.TextBox TextBox1;
+        internal System.Windows.Forms.TextBox textBox4;
+        internal System.Windows.Forms.Splitter splitter3;
+        internal System.Windows.Forms.TextBox textBox2;
+        internal System.Windows.Forms.Splitter splitter2;
+        internal System.Windows.Forms.Splitter splitter1;
+        internal System.Windows.Forms.TextBox textBox1;
+        internal System.Windows.Forms.TextBox textBox3;
         internal System.Windows.Forms.TextBox TextBox5;
-        internal System.Windows.Forms.Splitter Splitter4;
+        internal System.Windows.Forms.Splitter splitter4;
     }
 }
 

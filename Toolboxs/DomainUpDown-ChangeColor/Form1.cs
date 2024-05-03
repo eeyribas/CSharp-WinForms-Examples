@@ -30,16 +30,16 @@ namespace DomainUpDown_ChangeColor
 
         private void domainUpDown1_SelectedItemChanged(object sender, EventArgs e)
         {
-            if(domainUpDown1.SelectedIndex >= 0)
+            if (domainUpDown1.SelectedIndex >= 0)
                 textBox1.BackColor = Color.FromName(domainUpDown1.SelectedItem.ToString());
         }
 
         private void domainUpDown2_SelectedItemChanged(object sender, EventArgs e)
         {
-            if(domainUpDown2.SelectedIndex >= 0)
+            if (domainUpDown2.SelectedIndex >= 0)
             {
                 Color color = Color.Black;
-                switch(domainUpDown2.SelectedItem.ToString())
+                switch (domainUpDown2.SelectedItem.ToString())
                 {
                     case "Kırmızı":
                         color = Color.Red; break;
@@ -52,6 +52,7 @@ namespace DomainUpDown_ChangeColor
                     case "Kahverengi":
                         color = Color.Brown; break;
                 }
+
                 textBox1.BackColor = color;
             }
         }

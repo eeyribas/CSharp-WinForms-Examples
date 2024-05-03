@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -7,7 +8,7 @@ using System.Windows.Forms;
 
 namespace ListView_ItemSorter
 {
-    public class SortAlphabetically : System.Collections.IComparer
+    public class SortAlphabetically : IComparer
     {
         public SortAlphabetically()
         {
@@ -23,7 +24,7 @@ namespace ListView_ItemSorter
         }
     }
 
-    class SortByTitle : System.Collections.IComparer
+    class SortByTitle : IComparer
     {
         public SortByTitle()
         {
@@ -35,6 +36,7 @@ namespace ListView_ItemSorter
             string element1 = ((ListViewItem)x).SubItems[1].Text;
             string element2 = ((ListViewItem)y).SubItems[1].Text;
             string[] sort = { "Specialist", "Lecturer", "Ass. Professor", "Dr.", "Prof Dr."};
+
             if (Array.IndexOf(sort, element1) > Array.IndexOf(sort, element2))
                 return 1;
             else if (Array.IndexOf(sort, element1) < Array.IndexOf(sort, element2))
@@ -44,7 +46,7 @@ namespace ListView_ItemSorter
         }
     }
 
-    class SortNumbers : System.Collections.IComparer
+    class SortNumbers : IComparer
     {
         public SortNumbers()
         {
@@ -60,7 +62,7 @@ namespace ListView_ItemSorter
         }
     }
 
-    class SortDate : System.Collections.IComparer
+    class SortDate : IComparer
     {
         public SortDate()
         {

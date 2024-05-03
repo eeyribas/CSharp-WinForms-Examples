@@ -19,9 +19,10 @@ namespace PictureBox_GetSetPixel
 
         private void button1_Click(object sender, EventArgs e)
         {
-            progressBar1.Visible = true;
             Bitmap bitmap = new Bitmap(pictureBox1.Image);
             progressBar1.Maximum = bitmap.Width * bitmap.Height;
+            progressBar1.Visible = true;
+
             for (int i = 0; i <= bitmap.Width - 1; i++)
             {
                 for (int j = 0; j <= bitmap.Height - 1; j++)
@@ -29,28 +30,32 @@ namespace PictureBox_GetSetPixel
                     Color color = bitmap.GetPixel(i, j);
                     color = Color.FromArgb(color.A, (byte)~color.R, (byte)~color.G, (byte)~color.B);
                     bitmap.SetPixel(i, j, color);
+
                     if ((i % 10) == 0)
                     {
                         progressBar1.Value = i * bitmap.Height + j;
                         Application.DoEvents();
                     }
                 }
+
                 pictureBox2.Image = bitmap;
             }
+
             progressBar1.Visible = false;
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
+            Bitmap bitmap = new Bitmap(pictureBox1.Image);
+            progressBar1.Maximum = bitmap.Width * bitmap.Height;
             progressBar1.Visible = true;
-            Bitmap bmp = new Bitmap(pictureBox1.Image);
-            progressBar1.Maximum = bmp.Width * bmp.Height;
-            for (int i = 0; i <= bmp.Width - 2; i++)
+
+            for (int i = 0; i <= bitmap.Width - 2; i++)
             {
-                for (int j = 0; j <= bmp.Height - 2; j++)
+                for (int j = 0; j <= bitmap.Height - 2; j++)
                 {
-                    Color color1 = bmp.GetPixel(i, j);
-                    Color color2 = bmp.GetPixel(i + 1, j + 1);
+                    Color color1 = bitmap.GetPixel(i, j);
+                    Color color2 = bitmap.GetPixel(i + 1, j + 1);
 
                     int r = Math.Abs((int)(color1.R) - color2.R) + 128;
                     if (r > 255) 
@@ -65,15 +70,18 @@ namespace PictureBox_GetSetPixel
                         b = 255;
 
                     Color color3 = Color.FromArgb(r, g, b);
-                    bmp.SetPixel(i, j, color3);
+                    bitmap.SetPixel(i, j, color3);
+
                     if ((i % 10) == 0)
                     {
-                        progressBar1.Value = i * bmp.Height + j;
+                        progressBar1.Value = i * bitmap.Height + j;
                         Application.DoEvents();
                     }
                 }
-                pictureBox2.Image = bmp;
+
+                pictureBox2.Image = bitmap;
             }
+
             progressBar1.Visible = false;
         }
     }

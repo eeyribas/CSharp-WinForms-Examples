@@ -41,7 +41,7 @@ namespace PictureBox_GetSetPixel
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(163, 190);
+            this.button2.Location = new System.Drawing.Point(156, 210);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(183, 62);
             this.button2.TabIndex = 19;
@@ -51,14 +51,14 @@ namespace PictureBox_GetSetPixel
             // progressBar1
             // 
             this.progressBar1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.progressBar1.Location = new System.Drawing.Point(0, 343);
+            this.progressBar1.Location = new System.Drawing.Point(0, 291);
             this.progressBar1.Name = "progressBar1";
-            this.progressBar1.Size = new System.Drawing.Size(800, 32);
+            this.progressBar1.Size = new System.Drawing.Size(765, 32);
             this.progressBar1.TabIndex = 18;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(19, 190);
+            this.button1.Location = new System.Drawing.Point(12, 210);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(135, 62);
             this.button1.TabIndex = 17;
@@ -67,7 +67,7 @@ namespace PictureBox_GetSetPixel
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Location = new System.Drawing.Point(384, -3);
+            this.pictureBox2.Location = new System.Drawing.Point(386, 12);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(365, 181);
             this.pictureBox2.TabIndex = 16;
@@ -76,7 +76,7 @@ namespace PictureBox_GetSetPixel
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(10, -3);
+            this.pictureBox1.Location = new System.Drawing.Point(12, 12);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(364, 181);
             this.pictureBox1.TabIndex = 15;
@@ -86,7 +86,7 @@ namespace PictureBox_GetSetPixel
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 375);
+            this.ClientSize = new System.Drawing.Size(765, 323);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.progressBar1);
             this.Controls.Add(this.button1);

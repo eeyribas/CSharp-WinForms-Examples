@@ -20,8 +20,7 @@ namespace PrintDocument_Text
         private void Form1_Paint(object sender, PaintEventArgs e)
         {
             e.Graphics.FillEllipse(new SolidBrush(Color.Red), 10, 10, 400, 60);
-            e.Graphics.DrawString("C# .NET", new Font("Tahoma", 24, FontStyle.Regular),
-                                  new SolidBrush(Color.White), 75, 25);
+            e.Graphics.DrawString("C# .NET", new Font("Tahoma", 24, FontStyle.Regular), new SolidBrush(Color.White), 75, 25);
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -32,8 +31,7 @@ namespace PrintDocument_Text
         private void printDocument1_PrintPage(object sender, System.Drawing.Printing.PrintPageEventArgs e)
         {
             e.Graphics.FillEllipse(new SolidBrush(Color.Red), 10, 10, 400, 60);
-            e.Graphics.DrawString("C# .NET", new Font("Tahoma", 24, FontStyle.Regular),
-                                  new SolidBrush(Color.White), 75, 25);
+            e.Graphics.DrawString("C# .NET", new Font("Tahoma", 24, FontStyle.Regular), new SolidBrush(Color.White), 75, 25);
         }
     }
 }

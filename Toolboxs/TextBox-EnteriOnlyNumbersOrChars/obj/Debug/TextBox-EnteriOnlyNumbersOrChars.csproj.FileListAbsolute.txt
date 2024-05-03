@@ -1,0 +1,10 @@
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\TextBox-EnteriOnlyNumbersOrChars\bin\Debug\TextBox-EnteriOnlyNumbersOrChars.exe.config
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\TextBox-EnteriOnlyNumbersOrChars\bin\Debug\TextBox-EnteriOnlyNumbersOrChars.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\TextBox-EnteriOnlyNumbersOrChars\bin\Debug\TextBox-EnteriOnlyNumbersOrChars.pdb
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\TextBox-EnteriOnlyNumbersOrChars\obj\Debug\TextBox-EnteriOnlyNumbersOrChars.csproj.AssemblyReference.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\TextBox-EnteriOnlyNumbersOrChars\obj\Debug\TextBox_EnteriOnlyNumbersOrChars.Form1.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\TextBox-EnteriOnlyNumbersOrChars\obj\Debug\TextBox_EnteriOnlyNumbersOrChars.Properties.Resources.resources
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\TextBox-EnteriOnlyNumbersOrChars\obj\Debug\TextBox-EnteriOnlyNumbersOrChars.csproj.GenerateResource.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\TextBox-EnteriOnlyNumbersOrChars\obj\Debug\TextBox-EnteriOnlyNumbersOrChars.csproj.CoreCompileInputs.cache
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\TextBox-EnteriOnlyNumbersOrChars\obj\Debug\TextBox-EnteriOnlyNumbersOrChars.exe
+D:\BACKUP\GitHub Calismalar\C#-Programming-WinForms-Examples\Toolboxs\TextBox-EnteriOnlyNumbersOrChars\obj\Debug\TextBox-EnteriOnlyNumbersOrChars.pdb

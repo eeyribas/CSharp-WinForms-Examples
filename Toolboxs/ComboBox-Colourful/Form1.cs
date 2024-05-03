@@ -50,13 +50,14 @@ namespace ComboBox_Colourful
             }
 
             if (e.State == DrawItemState.Selected)
-                e.Graphics.FillRectangle(new SolidBrush(Color.Turquoise), e.Bounds.Left, e.Bounds.Top,
-                                         e.Bounds.Width, e.Bounds.Height);
+            {
+                e.Graphics.FillRectangle(new SolidBrush(Color.Turquoise), e.Bounds.Left, e.Bounds.Top, e.Bounds.Width, e.Bounds.Height);
+            }
             else
-                e.Graphics.FillRectangle(new SolidBrush(color), e.Bounds.Left, e.Bounds.Top,
-                                         e.Bounds.Width, e.Bounds.Height);
-                                         e.Graphics.DrawString(element, e.Font, new SolidBrush(Color.White),
-                                         e.Bounds.Left, e.Bounds.Top);
+            {
+                e.Graphics.FillRectangle(new SolidBrush(color), e.Bounds.Left, e.Bounds.Top, e.Bounds.Width, e.Bounds.Height);
+                e.Graphics.DrawString(element, e.Font, new SolidBrush(Color.White), e.Bounds.Left, e.Bounds.Top);
+            }
             e.DrawFocusRectangle();
         }
 

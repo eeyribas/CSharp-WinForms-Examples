@@ -40,7 +40,7 @@ namespace ListBox_MeasureItem
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(346, 244);
             this.textBox1.TabIndex = 5;
-            this.textBox1.Text = "textBox1";
+            this.textBox1.Text = "-";
             // 
             // listBox1
             // 
@@ -57,7 +57,7 @@ namespace ListBox_MeasureItem
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(600, 273);
+            this.ClientSize = new System.Drawing.Size(603, 273);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.listBox1);
             this.Name = "Form1";

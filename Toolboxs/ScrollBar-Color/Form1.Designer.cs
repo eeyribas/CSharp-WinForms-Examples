@@ -46,27 +46,27 @@ namespace ScrollBar_Color
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(290, 123);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(51, 17);
+            this.label4.Size = new System.Drawing.Size(13, 17);
             this.label4.TabIndex = 29;
-            this.label4.Text = "Label4";
+            this.label4.Text = "-";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.Location = new System.Drawing.Point(290, 141);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(51, 17);
+            this.label5.Size = new System.Drawing.Size(13, 17);
             this.label5.TabIndex = 28;
-            this.label5.Text = "Label5";
+            this.label5.Text = "-";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
             this.label6.Location = new System.Drawing.Point(290, 160);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(51, 17);
+            this.label6.Size = new System.Drawing.Size(13, 17);
             this.label6.TabIndex = 27;
-            this.label6.Text = "Label6";
+            this.label6.Text = "-";
             // 
             // label3
             // 

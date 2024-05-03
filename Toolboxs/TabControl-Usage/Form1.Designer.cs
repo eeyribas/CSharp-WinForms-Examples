@@ -52,7 +52,6 @@ namespace TabControl_Usage
             this.imageList1 = new System.Windows.Forms.ImageList(this.components);
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.TabPage1 = new System.Windows.Forms.TabPage();
-            this.label12 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
@@ -69,45 +68,45 @@ namespace TabControl_Usage
             // 
             // textBox9
             // 
-            this.textBox9.Location = new System.Drawing.Point(163, 65);
+            this.textBox9.Location = new System.Drawing.Point(106, 18);
             this.textBox9.Name = "textBox9";
             this.textBox9.Size = new System.Drawing.Size(120, 22);
             this.textBox9.TabIndex = 18;
-            this.textBox9.Text = "textBox9";
+            this.textBox9.Text = "-";
             // 
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(10, 65);
+            this.label9.Location = new System.Drawing.Point(28, 21);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(46, 17);
+            this.label9.Size = new System.Drawing.Size(56, 17);
             this.label9.TabIndex = 17;
-            this.label9.Text = "label9";
+            this.label9.Text = "Text-9 :";
             // 
             // textBox10
             // 
-            this.textBox10.Location = new System.Drawing.Point(163, 37);
+            this.textBox10.Location = new System.Drawing.Point(106, 46);
             this.textBox10.Name = "textBox10";
             this.textBox10.Size = new System.Drawing.Size(120, 22);
             this.textBox10.TabIndex = 16;
-            this.textBox10.Text = "textBox10";
+            this.textBox10.Text = "-";
             // 
             // textBox11
             // 
-            this.textBox11.Location = new System.Drawing.Point(163, 9);
+            this.textBox11.Location = new System.Drawing.Point(106, 74);
             this.textBox11.Name = "textBox11";
             this.textBox11.Size = new System.Drawing.Size(120, 22);
             this.textBox11.TabIndex = 15;
-            this.textBox11.Text = "textBox11";
+            this.textBox11.Text = "-";
             // 
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(10, 9);
+            this.label11.Location = new System.Drawing.Point(28, 77);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(54, 17);
+            this.label11.Size = new System.Drawing.Size(64, 17);
             this.label11.TabIndex = 13;
-            this.label11.Text = "label11";
+            this.label11.Text = "Text-11 :";
             // 
             // TabPage3
             // 
@@ -122,17 +121,17 @@ namespace TabControl_Usage
             this.TabPage3.Name = "TabPage3";
             this.TabPage3.Size = new System.Drawing.Size(395, 123);
             this.TabPage3.TabIndex = 2;
-            this.TabPage3.Text = "tabPage3";
+            this.TabPage3.Text = "Page3";
             this.TabPage3.Visible = false;
             // 
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(10, 36);
+            this.label10.Location = new System.Drawing.Point(28, 49);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(54, 17);
+            this.label10.Size = new System.Drawing.Size(64, 17);
             this.label10.TabIndex = 14;
-            this.label10.Text = "label10";
+            this.label10.Text = "Text-10 :";
             // 
             // textBox8
             // 
@@ -141,15 +140,15 @@ namespace TabControl_Usage
             this.textBox8.Name = "textBox8";
             this.textBox8.Size = new System.Drawing.Size(144, 74);
             this.textBox8.TabIndex = 15;
-            this.textBox8.Text = "textBox8";
+            this.textBox8.Text = "-";
             // 
             // label8
             // 
-            this.label8.Location = new System.Drawing.Point(240, 9);
+            this.label8.Location = new System.Drawing.Point(237, 9);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(120, 27);
+            this.label8.Size = new System.Drawing.Size(61, 22);
             this.label8.TabIndex = 14;
-            this.label8.Text = "label8";
+            this.label8.Text = "Text-8";
             // 
             // TabPage2
             // 
@@ -168,72 +167,72 @@ namespace TabControl_Usage
             this.TabPage2.Name = "TabPage2";
             this.TabPage2.Size = new System.Drawing.Size(395, 123);
             this.TabPage2.TabIndex = 1;
-            this.TabPage2.Text = "tabPage2";
+            this.TabPage2.Text = "Page2";
             this.TabPage2.Visible = false;
             // 
             // textBox6
             // 
-            this.textBox6.Location = new System.Drawing.Point(96, 88);
+            this.textBox6.Location = new System.Drawing.Point(96, 62);
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(120, 22);
             this.textBox6.TabIndex = 13;
-            this.textBox6.Text = "textBox6";
+            this.textBox6.Text = "-";
             // 
             // textBox7
             // 
-            this.textBox7.Location = new System.Drawing.Point(96, 60);
+            this.textBox7.Location = new System.Drawing.Point(96, 88);
             this.textBox7.Name = "textBox7";
             this.textBox7.Size = new System.Drawing.Size(120, 22);
             this.textBox7.TabIndex = 12;
-            this.textBox7.Text = "textBox7";
+            this.textBox7.Text = "-";
             // 
             // label6
             // 
-            this.label6.Location = new System.Drawing.Point(10, 88);
+            this.label6.Location = new System.Drawing.Point(10, 65);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(120, 26);
+            this.label6.Size = new System.Drawing.Size(64, 22);
             this.label6.TabIndex = 11;
-            this.label6.Text = "label6";
+            this.label6.Text = "Text-6 :";
             // 
             // label7
             // 
-            this.label7.Location = new System.Drawing.Point(10, 60);
+            this.label7.Location = new System.Drawing.Point(10, 91);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(120, 27);
+            this.label7.Size = new System.Drawing.Size(64, 22);
             this.label7.TabIndex = 10;
-            this.label7.Text = "label7";
+            this.label7.Text = "Text-7 :";
             // 
             // textBox4
             // 
-            this.textBox4.Location = new System.Drawing.Point(96, 37);
+            this.textBox4.Location = new System.Drawing.Point(96, 9);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(120, 22);
             this.textBox4.TabIndex = 9;
-            this.textBox4.Text = "textBox4";
+            this.textBox4.Text = "-";
             // 
             // textBox5
             // 
-            this.textBox5.Location = new System.Drawing.Point(96, 9);
+            this.textBox5.Location = new System.Drawing.Point(96, 37);
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(120, 22);
             this.textBox5.TabIndex = 8;
-            this.textBox5.Text = "textBox5";
+            this.textBox5.Text = "-";
             // 
             // label4
             // 
-            this.label4.Location = new System.Drawing.Point(10, 37);
+            this.label4.Location = new System.Drawing.Point(10, 12);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(120, 26);
+            this.label4.Size = new System.Drawing.Size(64, 19);
             this.label4.TabIndex = 7;
-            this.label4.Text = "label4";
+            this.label4.Text = "Text-4 :";
             // 
             // label5
             // 
-            this.label5.Location = new System.Drawing.Point(10, 9);
+            this.label5.Location = new System.Drawing.Point(10, 40);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(120, 27);
+            this.label5.Size = new System.Drawing.Size(64, 22);
             this.label5.TabIndex = 6;
-            this.label5.Text = "label5";
+            this.label5.Text = "Text-5 :";
             // 
             // imageList1
             // 
@@ -257,7 +256,6 @@ namespace TabControl_Usage
             // 
             // TabPage1
             // 
-            this.TabPage1.Controls.Add(this.label12);
             this.TabPage1.Controls.Add(this.pictureBox1);
             this.TabPage1.Controls.Add(this.textBox3);
             this.TabPage1.Controls.Add(this.textBox2);
@@ -270,21 +268,12 @@ namespace TabControl_Usage
             this.TabPage1.Name = "TabPage1";
             this.TabPage1.Size = new System.Drawing.Size(395, 123);
             this.TabPage1.TabIndex = 0;
-            this.TabPage1.Text = "tabPage1";
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(211, 2);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(44, 17);
-            this.label12.TabIndex = 7;
-            this.label12.Text = "photo";
+            this.TabPage1.Text = "Page1";
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(250, 9);
+            this.pictureBox1.Location = new System.Drawing.Point(255, 15);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(124, 93);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -297,7 +286,7 @@ namespace TabControl_Usage
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(120, 22);
             this.textBox3.TabIndex = 6;
-            this.textBox3.Text = "textBox3";
+            this.textBox3.Text = "-";
             // 
             // textBox2
             // 
@@ -305,7 +294,7 @@ namespace TabControl_Usage
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(120, 22);
             this.textBox2.TabIndex = 5;
-            this.textBox2.Text = "textBox2";
+            this.textBox2.Text = "-";
             // 
             // textBox1
             // 
@@ -313,31 +302,31 @@ namespace TabControl_Usage
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(120, 22);
             this.textBox1.TabIndex = 4;
-            this.textBox1.Text = "textBox1";
+            this.textBox1.Text = "-";
             // 
             // label3
             // 
             this.label3.Location = new System.Drawing.Point(10, 74);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(120, 26);
+            this.label3.Size = new System.Drawing.Size(70, 22);
             this.label3.TabIndex = 3;
-            this.label3.Text = "label3";
+            this.label3.Text = "Text-3 :";
             // 
             // label2
             // 
-            this.label2.Location = new System.Drawing.Point(10, 46);
+            this.label2.Location = new System.Drawing.Point(10, 49);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(120, 27);
+            this.label2.Size = new System.Drawing.Size(70, 22);
             this.label2.TabIndex = 2;
-            this.label2.Text = "label2";
+            this.label2.Text = "Text-2 :";
             // 
             // label1
             // 
-            this.label1.Location = new System.Drawing.Point(10, 18);
+            this.label1.Location = new System.Drawing.Point(10, 21);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(120, 27);
+            this.label1.Size = new System.Drawing.Size(70, 19);
             this.label1.TabIndex = 1;
-            this.label1.Text = "label1";
+            this.label1.Text = "Text-1 :";
             // 
             // Form1
             // 
@@ -382,7 +371,6 @@ namespace TabControl_Usage
         internal System.Windows.Forms.ImageList imageList1;
         internal System.Windows.Forms.TabControl tabControl1;
         internal System.Windows.Forms.TabPage TabPage1;
-        internal System.Windows.Forms.Label label12;
         internal System.Windows.Forms.PictureBox pictureBox1;
         internal System.Windows.Forms.TextBox textBox3;
         internal System.Windows.Forms.TextBox textBox2;

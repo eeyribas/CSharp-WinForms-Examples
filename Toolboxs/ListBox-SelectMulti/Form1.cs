@@ -31,7 +31,7 @@ namespace ListBox_SelectMulti
         private void button2_Click(object sender, EventArgs e)
         {
             DialogResult dialogResult = MessageBox.Show(listBox1.SelectedIndices.Count.ToString() + " ?", "Delete", 
-                                        MessageBoxButtons.YesNo);
+                                                        MessageBoxButtons.YesNo);
             if (dialogResult == DialogResult.Yes)
             {
                 for (int i = listBox1.SelectedIndices.Count - 1; i >= 0; i--)

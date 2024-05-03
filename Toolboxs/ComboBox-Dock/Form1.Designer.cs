@@ -64,7 +64,7 @@ namespace ComboBox_Dock
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(153, 24);
             this.comboBox2.TabIndex = 9;
-            this.comboBox2.Text = "comboBox2";
+            this.comboBox2.Text = "-";
             this.comboBox2.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // button10
@@ -158,7 +158,7 @@ namespace ComboBox_Dock
             this.comboBox3.Name = "comboBox3";
             this.comboBox3.Size = new System.Drawing.Size(144, 24);
             this.comboBox3.TabIndex = 10;
-            this.comboBox3.Text = "comboBox3";
+            this.comboBox3.Text = "-";
             this.comboBox3.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // button11
@@ -253,7 +253,7 @@ namespace ComboBox_Dock
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(153, 24);
             this.comboBox1.TabIndex = 15;
-            this.comboBox1.Text = "comboBox1";
+            this.comboBox1.Text = "-";
             this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // button15

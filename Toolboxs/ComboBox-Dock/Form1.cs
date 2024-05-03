@@ -19,10 +19,11 @@ namespace ComboBox_Dock
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            string[] s = { "Empty", "Left", "Right", "Top", "Bottom", "Into" };
-            comboBox1.Items.AddRange(s);
-            comboBox2.Items.AddRange(s);
-            comboBox3.Items.AddRange(s);
+            string[] strArray = { "Empty", "Left", "Right", "Top", "Bottom", "Into" };
+            comboBox1.Items.AddRange(strArray);
+            comboBox2.Items.AddRange(strArray);
+            comboBox3.Items.AddRange(strArray);
+
             comboBox2.SelectedIndexChanged += new EventHandler(comboBox1_SelectedIndexChanged);
             comboBox3.SelectedIndexChanged += new EventHandler(comboBox1_SelectedIndexChanged);
         }
