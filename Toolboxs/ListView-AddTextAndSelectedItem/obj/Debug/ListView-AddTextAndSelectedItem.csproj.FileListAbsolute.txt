@@ -1,0 +1,10 @@
+D:\BACKUP\GitHub Calismalar\C#-WinForms\Toolboxs\ListView-AddTextAndSelectedItem\bin\Debug\ListView-AddTextAndSelectedItem.exe.config
+D:\BACKUP\GitHub Calismalar\C#-WinForms\Toolboxs\ListView-AddTextAndSelectedItem\bin\Debug\ListView-AddTextAndSelectedItem.exe
+D:\BACKUP\GitHub Calismalar\C#-WinForms\Toolboxs\ListView-AddTextAndSelectedItem\bin\Debug\ListView-AddTextAndSelectedItem.pdb
+D:\BACKUP\GitHub Calismalar\C#-WinForms\Toolboxs\ListView-AddTextAndSelectedItem\obj\Debug\ListView-AddTextAndSelectedItem.csproj.AssemblyReference.cache
+D:\BACKUP\GitHub Calismalar\C#-WinForms\Toolboxs\ListView-AddTextAndSelectedItem\obj\Debug\ListView_AddTextAndSelectedItem.Form1.resources
+D:\BACKUP\GitHub Calismalar\C#-WinForms\Toolboxs\ListView-AddTextAndSelectedItem\obj\Debug\ListView_AddTextAndSelectedItem.Properties.Resources.resources
+D:\BACKUP\GitHub Calismalar\C#-WinForms\Toolboxs\ListView-AddTextAndSelectedItem\obj\Debug\ListView-AddTextAndSelectedItem.csproj.GenerateResource.cache
+D:\BACKUP\GitHub Calismalar\C#-WinForms\Toolboxs\ListView-AddTextAndSelectedItem\obj\Debug\ListView-AddTextAndSelectedItem.csproj.CoreCompileInputs.cache
+D:\BACKUP\GitHub Calismalar\C#-WinForms\Toolboxs\ListView-AddTextAndSelectedItem\obj\Debug\ListView-AddTextAndSelectedItem.exe
+D:\BACKUP\GitHub Calismalar\C#-WinForms\Toolboxs\ListView-AddTextAndSelectedItem\obj\Debug\ListView-AddTextAndSelectedItem.pdb

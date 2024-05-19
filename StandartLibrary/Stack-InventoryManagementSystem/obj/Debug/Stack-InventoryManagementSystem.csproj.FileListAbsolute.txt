@@ -1,0 +1,10 @@
+D:\BACKUP\GitHub Calismalar\C#-WinForms\StandartLibrary\Stack-InventoryManagementSystem\bin\Debug\Stack-InventoryManagementSystem.exe.config
+D:\BACKUP\GitHub Calismalar\C#-WinForms\StandartLibrary\Stack-InventoryManagementSystem\bin\Debug\Stack-InventoryManagementSystem.exe
+D:\BACKUP\GitHub Calismalar\C#-WinForms\StandartLibrary\Stack-InventoryManagementSystem\bin\Debug\Stack-InventoryManagementSystem.pdb
+D:\BACKUP\GitHub Calismalar\C#-WinForms\StandartLibrary\Stack-InventoryManagementSystem\obj\Debug\Stack-InventoryManagementSystem.csproj.AssemblyReference.cache
+D:\BACKUP\GitHub Calismalar\C#-WinForms\StandartLibrary\Stack-InventoryManagementSystem\obj\Debug\Stack_InventoryManagementSystem.Form1.resources
+D:\BACKUP\GitHub Calismalar\C#-WinForms\StandartLibrary\Stack-InventoryManagementSystem\obj\Debug\Stack_InventoryManagementSystem.Properties.Resources.resources
+D:\BACKUP\GitHub Calismalar\C#-WinForms\StandartLibrary\Stack-InventoryManagementSystem\obj\Debug\Stack-InventoryManagementSystem.csproj.GenerateResource.cache
+D:\BACKUP\GitHub Calismalar\C#-WinForms\StandartLibrary\Stack-InventoryManagementSystem\obj\Debug\Stack-InventoryManagementSystem.csproj.CoreCompileInputs.cache
+D:\BACKUP\GitHub Calismalar\C#-WinForms\StandartLibrary\Stack-InventoryManagementSystem\obj\Debug\Stack-InventoryManagementSystem.exe
+D:\BACKUP\GitHub Calismalar\C#-WinForms\StandartLibrary\Stack-InventoryManagementSystem\obj\Debug\Stack-InventoryManagementSystem.pdb

@@ -1,0 +1,10 @@
+D:\BACKUP\GitHub Calismalar\C#-WinForms\SimpleExamples\TicketingSystem\bin\Debug\TicketingSystem.exe.config
+D:\BACKUP\GitHub Calismalar\C#-WinForms\SimpleExamples\TicketingSystem\bin\Debug\TicketingSystem.exe
+D:\BACKUP\GitHub Calismalar\C#-WinForms\SimpleExamples\TicketingSystem\bin\Debug\TicketingSystem.pdb
+D:\BACKUP\GitHub Calismalar\C#-WinForms\SimpleExamples\TicketingSystem\obj\Debug\TicketingSystem.csproj.AssemblyReference.cache
+D:\BACKUP\GitHub Calismalar\C#-WinForms\SimpleExamples\TicketingSystem\obj\Debug\TicketingSystem.Form1.resources
+D:\BACKUP\GitHub Calismalar\C#-WinForms\SimpleExamples\TicketingSystem\obj\Debug\TicketingSystem.Properties.Resources.resources
+D:\BACKUP\GitHub Calismalar\C#-WinForms\SimpleExamples\TicketingSystem\obj\Debug\TicketingSystem.csproj.GenerateResource.cache
+D:\BACKUP\GitHub Calismalar\C#-WinForms\SimpleExamples\TicketingSystem\obj\Debug\TicketingSystem.csproj.CoreCompileInputs.cache
+D:\BACKUP\GitHub Calismalar\C#-WinForms\SimpleExamples\TicketingSystem\obj\Debug\TicketingSystem.exe
+D:\BACKUP\GitHub Calismalar\C#-WinForms\SimpleExamples\TicketingSystem\obj\Debug\TicketingSystem.pdb

@@ -1,0 +1,11 @@
+D:\BACKUP\GitHub Calismalar\C#-WinForms\SimpleExamples\HanoiTowers-Advanced\bin\Debug\HanoiTowers-Advanced.exe.config
+D:\BACKUP\GitHub Calismalar\C#-WinForms\SimpleExamples\HanoiTowers-Advanced\bin\Debug\HanoiTowers-Advanced.exe
+D:\BACKUP\GitHub Calismalar\C#-WinForms\SimpleExamples\HanoiTowers-Advanced\bin\Debug\HanoiTowers-Advanced.pdb
+D:\BACKUP\GitHub Calismalar\C#-WinForms\SimpleExamples\HanoiTowers-Advanced\obj\Debug\HanoiTowers-Advanced.csproj.AssemblyReference.cache
+D:\BACKUP\GitHub Calismalar\C#-WinForms\SimpleExamples\HanoiTowers-Advanced\obj\Debug\HanoiTowers_Advanced.Form1.resources
+D:\BACKUP\GitHub Calismalar\C#-WinForms\SimpleExamples\HanoiTowers-Advanced\obj\Debug\HanoiTowers_Advanced.Form2.resources
+D:\BACKUP\GitHub Calismalar\C#-WinForms\SimpleExamples\HanoiTowers-Advanced\obj\Debug\HanoiTowers_Advanced.Properties.Resources.resources
+D:\BACKUP\GitHub Calismalar\C#-WinForms\SimpleExamples\HanoiTowers-Advanced\obj\Debug\HanoiTowers-Advanced.csproj.GenerateResource.cache
+D:\BACKUP\GitHub Calismalar\C#-WinForms\SimpleExamples\HanoiTowers-Advanced\obj\Debug\HanoiTowers-Advanced.csproj.CoreCompileInputs.cache
+D:\BACKUP\GitHub Calismalar\C#-WinForms\SimpleExamples\HanoiTowers-Advanced\obj\Debug\HanoiTowers-Advanced.exe
+D:\BACKUP\GitHub Calismalar\C#-WinForms\SimpleExamples\HanoiTowers-Advanced\obj\Debug\HanoiTowers-Advanced.pdb

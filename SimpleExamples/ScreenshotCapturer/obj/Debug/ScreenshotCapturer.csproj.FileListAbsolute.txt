@@ -1,0 +1,10 @@
+D:\BACKUP\GitHub Calismalar\C#-WinForms\SimpleExamples\ScreenshotCapturer\bin\Debug\ScreenshotCapturer.exe.config
+D:\BACKUP\GitHub Calismalar\C#-WinForms\SimpleExamples\ScreenshotCapturer\bin\Debug\ScreenshotCapturer.exe
+D:\BACKUP\GitHub Calismalar\C#-WinForms\SimpleExamples\ScreenshotCapturer\bin\Debug\ScreenshotCapturer.pdb
+D:\BACKUP\GitHub Calismalar\C#-WinForms\SimpleExamples\ScreenshotCapturer\obj\Debug\ScreenshotCapturer.csproj.AssemblyReference.cache
+D:\BACKUP\GitHub Calismalar\C#-WinForms\SimpleExamples\ScreenshotCapturer\obj\Debug\ScreenshotCapturer.Form1.resources
+D:\BACKUP\GitHub Calismalar\C#-WinForms\SimpleExamples\ScreenshotCapturer\obj\Debug\ScreenshotCapturer.Properties.Resources.resources
+D:\BACKUP\GitHub Calismalar\C#-WinForms\SimpleExamples\ScreenshotCapturer\obj\Debug\ScreenshotCapturer.csproj.GenerateResource.cache
+D:\BACKUP\GitHub Calismalar\C#-WinForms\SimpleExamples\ScreenshotCapturer\obj\Debug\ScreenshotCapturer.csproj.CoreCompileInputs.cache
+D:\BACKUP\GitHub Calismalar\C#-WinForms\SimpleExamples\ScreenshotCapturer\obj\Debug\ScreenshotCapturer.exe
+D:\BACKUP\GitHub Calismalar\C#-WinForms\SimpleExamples\ScreenshotCapturer\obj\Debug\ScreenshotCapturer.pdb
