@@ -21,7 +21,6 @@ namespace ExportProductPricesToExcel
         {
             DataTable dataTable = new DataTable();
             DataColumn dataColumn;
-
             dataColumn = new DataColumn("Product Name", Type.GetType("System.String"));
             dataTable.Columns.Add(dataColumn);
             dataColumn = new DataColumn("Piece", Type.GetType("System.Int32"));
@@ -38,7 +37,6 @@ namespace ExportProductPricesToExcel
         private void button1_Click(object sender, EventArgs e)
         {
             saveFileDialog1.DefaultExt = "xml";
-
             if (saveFileDialog1.ShowDialog() == DialogResult.OK)
             {
                 DataTable dataTable = (DataTable)dataGridView1.DataSource;
@@ -54,15 +52,14 @@ namespace ExportProductPricesToExcel
 
         private void button2_Click(object sender, EventArgs e)
         {
-            openFileDialog1.Filter = "XML Dosyaları|*.xml";
+            openFileDialog1.Filter = "XML Files|*.xml";
             openFileDialog1.FilterIndex = 0;
-
             if (openFileDialog1.ShowDialog() == DialogResult.OK)
             {
-                DataSet dataSet = new DataSet();
                 string xsd = openFileDialog1.FileName.Substring(openFileDialog1.FileName.LastIndexOf("."));
                 xsd += ".XSD";
 
+                DataSet dataSet = new DataSet();
                 dataSet.ReadXmlSchema(xsd);
                 dataSet.ReadXml(openFileDialog1.FileName);
 

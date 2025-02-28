@@ -33,7 +33,7 @@ namespace OpenOnlyFormWithAnotherForm
             }
         }
 
-        private void Closed(object sender, System.EventArgs e)
+        private void Closed(object sender, EventArgs e)
         {
             form2 = null;
         }

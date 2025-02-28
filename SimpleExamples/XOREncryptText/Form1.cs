@@ -19,19 +19,8 @@ namespace XOREncryptText
 
         private void button1_Click(object sender, EventArgs e)
         {
-            byte password;
-            
-            try
-            {
-                password = byte.Parse(textBox2.Text);
-            }
-            catch
-            {
-                MessageBox.Show("Enter a number between 0 and 255 as the key : ");
-                return;
-            }
-
             string text = textBox1.Text;
+            byte password = byte.Parse(textBox2.Text);
             string encryptText = "";
             for (int i = 0; i <= text.Length - 1; i++)
             {

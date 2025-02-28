@@ -19,19 +19,11 @@ namespace ProductBalanceCalculation
 
         private void button1_Click(object sender, EventArgs e)
         {
-            long amount = 0, difference = 0, penaltyFee = 0;
-
-            try
-            {
-                amount = long.Parse(textBox2.Text);
-                DateTime dueDate = DateTime.Parse(textBox3.Text);
-                DateTime paymentDate = DateTime.Parse(textBox4.Text);
-                difference = (long)(paymentDate.ToOADate() - dueDate.ToOADate());
-            }
-            catch (Exception exception)
-            {
-                MessageBox.Show("Information is incorrect." + exception.Message);
-            }
+            DateTime dueDate = DateTime.Parse(textBox3.Text);
+            DateTime paymentDate = DateTime.Parse(textBox4.Text);
+            long amount = long.Parse(textBox2.Text);
+            long difference = (long)(paymentDate.ToOADate() - dueDate.ToOADate());
+            long penaltyFee = 0;
 
             if (difference > 0)
             {

@@ -12,8 +12,8 @@ namespace ButtonCaptureGame
 {
     public partial class Form2 : Form
     {
-        int x, y;
-        int number = 1;
+        private int x, y;
+        private int number = 1;
 
         public Form2(int number1, int number2, bool checkbox)
         {
@@ -28,9 +28,7 @@ namespace ButtonCaptureGame
 
             timer1.Interval = (number1);
             if (checkbox == false)
-            {
                 this.FormBorderStyle = FormBorderStyle.FixedDialog;
-            }
         }
 
         private void button1_Click(object sender, EventArgs e)

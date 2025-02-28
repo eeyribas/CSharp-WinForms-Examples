@@ -44,7 +44,7 @@ namespace XOREncryptText
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(164, 27);
             this.button1.TabIndex = 13;
-            this.button1.Text = "Encrypt/Decrypt";
+            this.button1.Text = "Encrypt";
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // textBox3
@@ -77,7 +77,7 @@ namespace XOREncryptText
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(165, 26);
             this.label3.TabIndex = 9;
-            this.label3.Text = "Encoded/Decoded Text :";
+            this.label3.Text = "Encoded Text :";
             // 
             // label2
             // 

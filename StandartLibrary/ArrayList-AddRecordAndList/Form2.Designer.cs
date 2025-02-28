@@ -1,5 +1,5 @@
 ﻿
-namespace ArrayList_AddRecordAndList
+namespace ArrayList_AddAndList
 {
     partial class Form2
     {

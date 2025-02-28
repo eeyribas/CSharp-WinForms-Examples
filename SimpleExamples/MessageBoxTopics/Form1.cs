@@ -21,7 +21,6 @@ namespace MessageBoxTopics
         {
             DialogResult dialogResult = MessageBox.Show("The program will close.", "Exit", MessageBoxButtons.OKCancel, 
                                                         MessageBoxIcon.Information);
-            
             if (dialogResult == DialogResult.Cancel)
                 e.Cancel = true;
             else

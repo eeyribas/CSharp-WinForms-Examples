@@ -60,14 +60,14 @@ namespace Class_Create
         {
             string result = text;
 
-            for (int j = 0; j <= password.Length - 1; j++)
+            for (int i = 0; i <= password.Length - 1; i++)
             {
                 string findResult = "";
-                for (int i = 0; i <= result.Length - 1; i++)
+                for (int j = 0; j <= result.Length - 1; j++)
                 {
-                    char ch = (char)(result[i] ^ password[j]);
+                    char ch = (char)(result[j] ^ password[i]);
                     if (ch == '0')
-                        ch = password[j];
+                        ch = password[i];
                     findResult += (char)ch;
                 }
                 result = findResult;

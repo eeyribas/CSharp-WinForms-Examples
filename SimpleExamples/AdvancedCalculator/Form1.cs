@@ -35,12 +35,13 @@ namespace AdvancedCalculator
 
         private void button_Click(object sender, System.EventArgs e)
         {
-            decimal result = 0, number1 = 0, number2 = 0;
+            decimal number1 = 0;
 
             try
             {
                 number1 = decimal.Parse(textBox1.Text);
-                number2 = decimal.Parse(textBox2.Text);
+                decimal number2 = decimal.Parse(textBox2.Text);
+                decimal result = 0;
 
                 switch ((sender as Button).Text)
                 {
@@ -84,24 +85,24 @@ namespace AdvancedCalculator
 
                 textBox3.Text = result.ToString();
             }
-            catch (System.DivideByZeroException hata)
+            catch (DivideByZeroException divideByZeroException)
             {
-                MessageBox.Show("You are trying to divide by zero.\r\n" + hata.Message);
+                MessageBox.Show("You are trying to divide by zero.\r\n" + divideByZeroException.Message);
             }
-            catch (System.OverflowException hata)
+            catch (OverflowException overflowException)
             {
                 if (number1 < 0)
-                    MessageBox.Show("You can't perform this operation with a negative number.\r\n" + hata.Message);
+                    MessageBox.Show("You can't perform this operation with a negative number.\r\n" + overflowException.Message);
                 else
-                    MessageBox.Show("The numbers are too large.\r\n" + hata.Message);
+                    MessageBox.Show("The numbers are too large.\r\n" + overflowException.Message);
             }
-            catch (System.FormatException hata)
+            catch (FormatException formatException)
             {
-                MessageBox.Show("You haven't entered a number.\r\n" + hata.Message);
+                MessageBox.Show("You haven't entered a number.\r\n" + formatException.Message);
             }
-            catch (Exception hata)
+            catch (Exception exception)
             {
-                MessageBox.Show("An unknown error occurred.\r\n" + hata.Message);
+                MessageBox.Show("An unknown error occurred.\r\n" + exception.Message);
             }
         }
     }

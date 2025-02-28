@@ -24,20 +24,10 @@ namespace TakingMode
 
         private void button1_Click(object sender, EventArgs e)
         {
-            int number = 0, piece = 0;
             listBox1.Items.Clear();
+            int number = int.Parse(textBox1.Text);
 
-            try
-            {
-                number = int.Parse(textBox1.Text);
-            }
-            catch
-            {
-                MessageBox.Show("You entered an invalid number.");
-                return;
-            }
-
-            piece = (int)(number / 20000000);
+            int piece = (int)(number / 20000000);
             listBox1.Items.Add(piece.ToString() + " piece 20.000.000");
             number %= 20000000;
 

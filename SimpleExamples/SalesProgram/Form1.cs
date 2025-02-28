@@ -86,15 +86,7 @@ namespace SalesProgram
             listView1.Items[index].SubItems.Add(comboBox1.Text);
             listView1.Items[index].SubItems.Add(textBox2.Text);
             listView1.Items[index].SubItems.Add(textBox3.Text);
-
-            try
-            {
-                listView1.Items[index].SubItems.Add((int.Parse(textBox2.Text) * int.Parse(textBox3.Text)).ToString());
-            }
-            catch
-            {
-                MessageBox.Show("There are errors in the numbers.");
-            }
+            listView1.Items[index].SubItems.Add((int.Parse(textBox2.Text) * int.Parse(textBox3.Text)).ToString());
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -107,26 +99,18 @@ namespace SalesProgram
 
         private void button3_Click(object sender, EventArgs e)
         {
-            if (listView1.SelectedItems.Count == 0)
-            {
-                MessageBox.Show("Please select the item to be replaced first.");
-            }
-            else
+            if (listView1.SelectedItems.Count != 0)
             {
                 listView1.SelectedItems[0].Text = textBox1.Text;
                 listView1.SelectedItems[0].ImageIndex = comboBox1.SelectedIndex;
                 listView1.SelectedItems[0].SubItems[1].Text = comboBox1.Text;
                 listView1.SelectedItems[0].SubItems[2].Text = textBox2.Text;
                 listView1.SelectedItems[0].SubItems[3].Text = textBox3.Text;
-
-                try
-                {
-                    listView1.SelectedItems[0].SubItems[4].Text = (int.Parse(textBox2.Text) * int.Parse(textBox3.Text)).ToString();
-                }
-                catch
-                {
-                    MessageBox.Show("There are errors in the numbers.");
-                }
+                listView1.SelectedItems[0].SubItems[4].Text = (int.Parse(textBox2.Text) * int.Parse(textBox3.Text)).ToString();
+            }
+            else
+            {
+                MessageBox.Show("Please select the item to be replaced first.");
             }
         }
 

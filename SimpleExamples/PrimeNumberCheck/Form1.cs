@@ -19,18 +19,7 @@ namespace PrimeNumberCheck
 
         private void button1_Click(object sender, EventArgs e)
         {
-            long number;
-
-            try
-            {
-                number = long.Parse(textBox1.Text);
-            }
-            catch
-            {
-                MessageBox.Show("The number is invalid.");
-                return;
-            }
-
+            long number = long.Parse(textBox1.Text);
             if (Check(number) == true)
                 MessageBox.Show(number.ToString() + " = Prime");
             else

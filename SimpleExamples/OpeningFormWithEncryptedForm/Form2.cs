@@ -12,7 +12,7 @@ namespace OpeningFormWithEncryptedForm
 {
     public partial class Form2 : Form
     {
-        int count;
+        private int count;
 
         public Form2()
         {

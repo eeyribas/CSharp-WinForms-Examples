@@ -26,7 +26,7 @@ namespace GetNextControl
 
         private void textBox1_KeyDown(object sender, KeyEventArgs e)
         {
-            if(e.KeyCode == Keys.Enter)
+            if (e.KeyCode == Keys.Enter)
                 this.GetNextControl((sender as Control), true).Focus();
         }
     }

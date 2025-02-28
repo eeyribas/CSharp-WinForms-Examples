@@ -19,17 +19,14 @@ namespace RTFCode
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            richTextBox1.SelectedRtf = "{\\rtf1 \r\n" +
-                             "Hello\\par \r\n" +
-                             "Ali\\par \r\n" +
+            textBox1.SelectedRtf = "{\\rtf1 \r\n" + "Hello\\par \r\n" + "Ali\\par \r\n" +
                              "\\b Where are you from ? \\b0 \\par \r\n" +
-                             "\\ul Goodbye \\ul \r\n" +
-                             "}";
+                             "\\ul Goodbye \\ul \r\n" + "}";
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            textBox1.Text = richTextBox1.Rtf;
+            textBox2.Text = textBox1.Rtf;
         }
     }
 }

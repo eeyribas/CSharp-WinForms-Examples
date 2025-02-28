@@ -31,7 +31,6 @@ namespace ImageAlpha
 
         private void hScrollBar1_ValueChanged(object sender, EventArgs e)
         {
-            Color color;
             int len = hScrollBar1.Value;
             label1.Text = "Alpha = " + len.ToString();
 
@@ -39,7 +38,7 @@ namespace ImageAlpha
             {
                 for (int n = 0; n < N; n++)
                 {
-                    color = bitmap.GetPixel(m, n);
+                    Color color = bitmap.GetPixel(m, n);
                     color = Color.FromArgb(len, color.R, color.G, color.B);
                     bitmap.SetPixel(m, n, color);
                 }

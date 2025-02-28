@@ -14,7 +14,7 @@ namespace TennisGame
     public partial class Form1 : Form
     {
         private int rowCount, columnCount, boxCount, score, level;
-        private int xa, ya;
+        private int xA, yA;
         private bool demo = false;
         private int[] box;
         private int imageNo = 0;
@@ -66,9 +66,8 @@ namespace TennisGame
 
         private void Form1_Paint(object sender, PaintEventArgs e)
         {
-            int ks = 0;
             SolidBrush solidBrush = new SolidBrush(Color.White);
-
+            int ks = 0;
             for (int i = 0; i <= rowCount * columnCount - 1; i++)
             {
                 float x = 60 * (i % columnCount);
@@ -106,29 +105,30 @@ namespace TennisGame
         {
             if (pictureBox1.Left <= 0)
             {
-                xa = -xa;
+                xA = -xA;
                 pictureBox1.Left = 0;
             }
  
             if (pictureBox1.Right >= ClientSize.Width)
-                xa = -xa;
+                xA = -xA;
 
             if (pictureBox1.Top <= 0)
             {
-                ya = -ya;
+                yA = -yA;
                 pictureBox1.Top = 0;
             }
 
-            if ((pictureBox1.Top >= button1.Top) && (pictureBox1.Top < button1.Bottom) && (pictureBox1.Left > button1.Left) && (pictureBox1.Left < button1.Right))
-                ya = -ya;
+            if ((pictureBox1.Top >= button1.Top) && (pictureBox1.Top < button1.Bottom) && (pictureBox1.Left > button1.Left) && 
+                (pictureBox1.Left < button1.Right))
+                yA = -yA;
 
             if (pictureBox1.Top >= ClientSize.Height)
             {
                 timer1.Enabled = false;
                 MessageBox.Show("Game Over");
             }
-            pictureBox1.Left += xa;
-            pictureBox1.Top += ya;
+            pictureBox1.Left += xA;
+            pictureBox1.Top += yA;
    
             int i = (int)(pictureBox1.Left + pictureBox1.Width / 2) / 60;
             int j = (int)pictureBox1.Top / 20;
@@ -146,7 +146,7 @@ namespace TennisGame
                     graphics.DrawString((box[k] * 10).ToString(), new Font("Tahoma", 10, FontStyle.Bold), new SolidBrush(Color.White),
                                         60 * (k % columnCount) + 10, 20 * (k / columnCount) + 5);
                     Thread.Sleep(100);
-                    ya = -ya; 
+                    yA = -yA; 
 
                     if (box[k] == 200)
                     {
@@ -208,8 +208,8 @@ namespace TennisGame
             columnCount++;
             boxCount = rowCount * columnCount;
             box = new int[boxCount];
-            xa = 10;
-            ya = -10;
+            xA = 10;
+            yA = -10;
 
             this.pictureBox1.Top = this.button1.Top - 100;
             this.label3.Text = "Level " + level;

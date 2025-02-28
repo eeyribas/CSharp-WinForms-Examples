@@ -88,9 +88,9 @@ namespace PrintingTheList
                                   pageSettings.PaperSize.Width / 2, y, alignMiddle);
             y += rowHeight;
             int tableInit = y;
+
             Font headerFont = new Font("Tahoma", 12, FontStyle.Bold);
             rowHeight = (int)e.Graphics.MeasureString("x", headerFont).Height;
-
             e.Graphics.DrawLine(new Pen(Color.Blue, 2), pageSettings.Margins.Left, y,
                                 pageSettings.PaperSize.Width - pageSettings.Margins.Right, y);
             e.Graphics.DrawString("Name", headerFont, new SolidBrush(Color.Red), x, y);
@@ -102,7 +102,6 @@ namespace PrintingTheList
 
             Font listFont = new Font("Tahoma", 12, FontStyle.Regular);
             rowHeight = (int)e.Graphics.MeasureString("x", listFont).Height;
-
             while (elementNo < listBox1.Items.Count)
             {
                 e.Graphics.DrawString(listBox1.Items[elementNo].ToString(), listFont, new SolidBrush(Color.Red), x, y);

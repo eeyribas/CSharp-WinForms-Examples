@@ -19,11 +19,12 @@ namespace OpeningFormWithEncryptedForm
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            Form2 frm = new Form2();
-            frm.ShowDialog();
-            if (frm.DialogResult == DialogResult.Cancel) 
+            Form2 form2 = new Form2();
+            form2.ShowDialog();
+
+            if (form2.DialogResult == DialogResult.Cancel) 
                 Close();
-            frm.Dispose();
+            form2.Dispose();
         }
     }
 }

@@ -12,9 +12,9 @@ namespace ButtonCaptureGame
 {
     public partial class Form1 : Form
     {
-        int value1 = 2;
-        int value2 = 2;
-        bool value3 = true;
+        private int value1 = 2;
+        private int value2 = 2;
+        private bool value3 = true;
 
         public Form1()
         {

@@ -25,41 +25,41 @@ namespace WordApp
         private void Form1_Load(object sender, EventArgs e)
         {
             toolBar1.ImageList = imageList1;
-            string[] buttons = { "New", "Open", "Save", "Cut", "Cut", "Copy", "Paste", "Delete", "Cut", "Bold",
+            string[] buttonNames = { "New", "Open", "Save", "Cut", "Cut", "Copy", "Paste", "Delete", "Cut", "Bold",
                                  "Italic", "Underline", "Strikethrough", "Cut", "Left", "Center", "Right", "Cut",
                                  "Find", "Cut", "Undo", "Refresh", "Cut", "Bullet Point", "Cut", "Superscript", "Subscript" };
             int[] styles = {0, 0, 0, 1, 0, 0, 0, 0, 1, 2, 2, 2, 2, 1, 2, 2, 2, 1, 0, 1, 0, 0, 1, 2, 1, 2, 2};
             int image = 0;
 
-            for (int i = 0; i <= buttons.Length - 1; i++)
+            for (int i = 0; i <= buttonNames.Length - 1; i++)
             {
-                ToolBarButton button = new ToolBarButton();
-                toolBar1.Buttons.Add(button);
-                button.ToolTipText = buttons[i];
-                button.ImageIndex = image;
-                button.Text = buttons[i];
+                ToolBarButton toolBarButton = new ToolBarButton();
+                toolBar1.Buttons.Add(toolBarButton);
+                toolBarButton.ToolTipText = buttonNames[i];
+                toolBarButton.ImageIndex = image;
+                toolBarButton.Text = buttonNames[i];
 
                 switch (styles[i])
                 {
                     case 0:
-                        button.Style = ToolBarButtonStyle.PushButton;
+                        toolBarButton.Style = ToolBarButtonStyle.PushButton;
                         image += 1;
                         break;
                     case 1:
-                        button.Style = ToolBarButtonStyle.Separator;
-                        button.ImageIndex = -1;
+                        toolBarButton.Style = ToolBarButtonStyle.Separator;
+                        toolBarButton.ImageIndex = -1;
                         break;
                     case 2:
-                        button.Style = ToolBarButtonStyle.ToggleButton;
+                        toolBarButton.Style = ToolBarButtonStyle.ToggleButton;
                         image += 1;
                         break;
                 }
             }
 
             comboBox1.DrawMode = DrawMode.OwnerDrawVariable;
-            FontFamily[] fonts = FontFamily.Families;
-            for (int i = 0; i <= fonts.GetUpperBound(0) - 1; i++)
-                comboBox1.Items.Add(fonts[i].Name);
+            FontFamily[] fontFamilys = FontFamily.Families;
+            for (int i = 0; i <= fontFamilys.GetUpperBound(0) - 1; i++)
+                comboBox1.Items.Add(fontFamilys[i].Name);
             comboBox1.Text = richTextBox1.Font.Name;
 
             for (int i = 8; i <= 100; i += 2)
@@ -67,8 +67,8 @@ namespace WordApp
             comboBox2.Text = richTextBox1.Font.Size.ToString();
 
             comboBox3.DrawMode = DrawMode.OwnerDrawFixed;
-            string[] colors = { "Red", "Green", "Yellow", "Black", "Blue", "Brown" };
-            comboBox3.Items.AddRange(colors);
+            string[] colorNames = { "Red", "Green", "Yellow", "Black", "Blue", "Brown" };
+            comboBox3.Items.AddRange(colorNames);
             comboBox3.Text = "Black";
 
             comboBox4.Items.Add("%64");
@@ -655,14 +655,14 @@ namespace WordApp
 
         private void Save()
         {
-            if (fileName == "")
-            {
-                SaveAs();
-            }
-            else
+            if (fileName != "")
             {
                 richTextBox1.SaveFile(fileName);
                 richTextBox1.Modified = false;
+            }
+            else
+            {
+                SaveAs();
             }
         }
 
@@ -707,7 +707,8 @@ namespace WordApp
         {
             if (richTextBox1.Modified)
             {
-                DialogResult dialogResult = MessageBox.Show("Save changes?", "Exit", MessageBoxButtons.YesNoCancel, MessageBoxIcon.Question);
+                DialogResult dialogResult = MessageBox.Show("Save changes?", "Exit", MessageBoxButtons.YesNoCancel, 
+                                                            MessageBoxIcon.Question);
                 switch (dialogResult)
                 {
                     case DialogResult.Yes:

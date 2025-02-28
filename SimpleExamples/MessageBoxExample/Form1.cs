@@ -44,8 +44,8 @@ namespace MessageBoxExample
 
         private void button1_Click(object sender, EventArgs e)
         {
-            DialogResult state = MessageBox.Show("Message Box", "Info", messageBoxButtons, messageBoxIcon);
-            switch (state)
+            DialogResult dialogResult = MessageBox.Show("Message Box", "Info", messageBoxButtons, messageBoxIcon);
+            switch (dialogResult)
             {
                 case DialogResult.OK:
                     label1.Text = "OK";

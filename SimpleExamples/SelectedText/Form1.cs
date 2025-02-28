@@ -47,21 +47,21 @@ namespace SelectedText
 
         private void button4_Click(object sender, EventArgs e)
         {
-            int tmp;
             string search = textBox2.Text;
+            int tmp;
             if (textBox1.SelectionLength > 0)
                 tmp = textBox1.SelectionStart + textBox1.SelectedText.IndexOf(search);
             else
                 tmp = textBox1.Text.IndexOf(search);
 
-            if (tmp == 0)
-            {
-                MessageBox.Show("Not find.");
-            }
-            else
+            if (tmp != 0)
             {
                 textBox1.Select(tmp, search.Length);
                 textBox1.ScrollToCaret();
+            }
+            else
+            {
+                MessageBox.Show("Not find.");
             }
         }
 

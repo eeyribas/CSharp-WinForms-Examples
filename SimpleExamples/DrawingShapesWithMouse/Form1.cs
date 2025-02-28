@@ -22,13 +22,13 @@ namespace DrawingShapesWithMouse
 
         private void Form1_MouseDown(object sender, MouseEventArgs e)
         {
-			if(e.Button == MouseButtons.Left)
+			if (e.Button == MouseButtons.Left)
 			{
 				x = e.X;
 				y = e.Y;
 			}
 
-			if(e.Button == MouseButtons.Right)
+			if (e.Button == MouseButtons.Right)
 			{
 				graphics = this.CreateGraphics();
 				graphics.Clear(Color.Blue);

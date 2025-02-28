@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -25,7 +26,7 @@ namespace ConvertDecimalToHexaDecimal
 
         private void button2_Click(object sender, EventArgs e)
         {
-            long value = long.Parse(textBox2.Text, System.Globalization.NumberStyles.HexNumber);
+            long value = long.Parse(textBox2.Text, NumberStyles.HexNumber);
             textBox1.Text = value.ToString();
         }
     }

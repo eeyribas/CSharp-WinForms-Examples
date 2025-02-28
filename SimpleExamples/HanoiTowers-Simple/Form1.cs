@@ -160,7 +160,7 @@ namespace HanoiTowers_Simple
             aCount = aStack.Count;
             bCount = bStack.Count;
             cCount = cStack.Count;
-            printStack();
+            PrintStack();
             DiskSolution2(maxDisk, aStack, bStack, cStack);
 
             DiskInfo diskInfo1 = new DiskInfo(40, 25, Color.Green, 1);
@@ -186,19 +186,19 @@ namespace HanoiTowers_Simple
             Invalidate();
         }
 
-        static public void DiskSolution(Stack<int> source, Stack<int> temp, Stack<int> dest)
+        static public void DiskSolution1(Stack<int> source, Stack<int> temp, Stack<int> dest)
         {
             temp.Push(source.Pop());
             transportCount++;
-            printStack();
+            PrintStack();
 
             dest.Push(source.Pop());
             transportCount++;
-            printStack();
+            PrintStack();
 
             dest.Push(temp.Pop());
             transportCount++;
-            printStack();
+            PrintStack();
         }
 
         static public bool DiskSolution2(int nDiscs, Stack<int> source, Stack<int> temp, Stack<int> dest)
@@ -207,19 +207,19 @@ namespace HanoiTowers_Simple
             {
                 if ((nDiscs % 2) == 0)
                 {
-                    DiskSolution(source, temp, dest);
+                    DiskSolution1(source, temp, dest);
                     nDiscs--;
                     if (nDiscs == 1)
                         return true;
 
                     temp.Push(source.Pop());
                     transportCount++;
-                    printStack();
+                    PrintStack();
 
-                    DiskSolution(dest, source, temp);
+                    DiskSolution1(dest, source, temp);
                     dest.Push(source.Pop());
                     transportCount++;
-                    printStack();
+                    PrintStack();
 
                     DiskSolution2(nDiscs, temp, source, dest);
                 }
@@ -227,14 +227,15 @@ namespace HanoiTowers_Simple
                 {
                     if (nDiscs == 1)
                         return false;
-                    DiskSolution(source, dest, temp);
+                    DiskSolution1(source, dest, temp);
                     nDiscs--;
 
                     dest.Push(source.Pop());
                     transportCount++;
-                    printStack();
-                    DiskSolution(temp, source, dest);
+                    PrintStack();
+                    DiskSolution1(temp, source, dest);
                 }
+
                 return true;
             }
             else if (nDiscs >= 5)
@@ -242,19 +243,19 @@ namespace HanoiTowers_Simple
                 DiskSolution2(nDiscs - 2, source, temp, dest);
                 temp.Push(source.Pop());
                 transportCount++;
-                printStack();
+                PrintStack();
                 DiskSolution2(nDiscs - 2, dest, source, temp);
 
                 dest.Push(source.Pop());
                 transportCount++;
-                printStack();
+                PrintStack();
                 DiskSolution2(nDiscs - 1, temp, source, dest);
             }
 
             return true;
         }
 
-        static public void printStack()
+        static public void PrintStack()
         {
             if (aCount != aStack.Count || bCount != bStack.Count || cCount != cStack.Count)
             {

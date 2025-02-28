@@ -25,7 +25,9 @@ namespace FindingGregorianAndHijriDates
             HijriCalendar hijri = new HijriCalendar();
             DateTime hijriDate = new DateTime(DateTime.Now.Year, DateTime.Now.Month, DateTime.Now.Day, DateTime.Now.Hour,
                                               DateTime.Now.Minute, DateTime.Now.Second, HijriCalendar.CurrentEra);
-            string[] months = { "Muharrem", "Safer", "Rebiül Evvel", "Rebiül Ahir", "Cemaziyel Evvel", "Cemaziyel Ahir", "Recep", "Şaban", "Ramazan", "Şevval", "Zilkadde", "Zilhicce" };
+
+            string[] months = { "Muharrem", "Safer", "Rebiül Evvel", "Rebiül Ahir", "Cemaziyel Evvel", "Cemaziyel Ahir", 
+                                "Recep", "Şaban", "Ramazan", "Şevval", "Zilkadde", "Zilhicce" };
             int hDay = hijri.GetDayOfMonth(hijriDate);
             int hMonth = hijri.GetMonth(hijriDate);
             int hYear = hijri.GetYear(hijriDate);

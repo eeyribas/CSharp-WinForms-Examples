@@ -33,7 +33,7 @@ namespace UnitPriceCalculation
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.button = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
@@ -76,14 +76,14 @@ namespace UnitPriceCalculation
             this.textBox1.TabIndex = 23;
             this.textBox1.Text = "-";
             // 
-            // button
+            // button1
             // 
-            this.button.Location = new System.Drawing.Point(152, 145);
-            this.button.Name = "button";
-            this.button.Size = new System.Drawing.Size(125, 28);
-            this.button.TabIndex = 22;
-            this.button.Text = "Calculation";
-            this.button.Click += new System.EventHandler(this.button_Click);
+            this.button1.Location = new System.Drawing.Point(152, 145);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(125, 28);
+            this.button1.TabIndex = 22;
+            this.button1.Text = "Calculation";
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label4
             // 
@@ -126,7 +126,7 @@ namespace UnitPriceCalculation
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.button);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label1);
@@ -144,7 +144,7 @@ namespace UnitPriceCalculation
         internal System.Windows.Forms.TextBox textBox3;
         internal System.Windows.Forms.TextBox textBox2;
         internal System.Windows.Forms.TextBox textBox1;
-        internal System.Windows.Forms.Button button;
+        internal System.Windows.Forms.Button button1;
         internal System.Windows.Forms.Label label4;
         internal System.Windows.Forms.Label label3;
         internal System.Windows.Forms.Label label1;

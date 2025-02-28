@@ -20,7 +20,7 @@ namespace SelectFromFonts
         private void Form1_Load(object sender, EventArgs e)
         {
             FontFamily[] fontFamily = FontFamily.Families;
-            for(int i = 0; i <= fontFamily.Length - 1; i++)
+            for (int i = 0; i <= fontFamily.Length - 1; i++)
                 listBox1.Items.Add(fontFamily[i].Name);
         }
 

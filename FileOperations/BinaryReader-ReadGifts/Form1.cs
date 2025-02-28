@@ -28,8 +28,8 @@ namespace BinaryReader_ReadGifts
                 BinaryReader binaryReader = new BinaryReader(fileStream);
                 byte[] bytes = new byte[6];
                 bytes = binaryReader.ReadBytes(6);
-                ASCIIEncoding aSCIIEncoding = new ASCIIEncoding();
-                string asciiToString = aSCIIEncoding.GetString(bytes);
+                ASCIIEncoding asciiEncoding = new ASCIIEncoding();
+                string asciiToString = asciiEncoding.GetString(bytes);
                 label2.Text = asciiToString;
                 binaryReader.Close();
                 fileStream.Close();

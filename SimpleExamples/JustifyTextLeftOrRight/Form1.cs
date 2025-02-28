@@ -36,13 +36,12 @@ namespace JustifyTextLeftOrRight
             Text = (++count).ToString();
             graphics.Clear(Color.Yellow);
 
-            string str;
-            for(int i = 0; i < 2; i++) {
-                for(int j = 0; j < 6; j++) {
-                    str = x[i, j].ToString();
-
-                    if(jusf)
+            for (int i = 0; i < 2; i++) {
+                for (int j = 0; j < 6; j++) {
+                    string str = x[i, j].ToString();
+                    if (jusf)
                         str = str.PadLeft(16, ' ');
+
                     graphics.DrawString(str, font, solidBrush, 40 + 200 * i, 100 + 20 * j);
                 }
             }

@@ -17,7 +17,7 @@ namespace UnitPriceCalculation
             InitializeComponent();
         }
 
-        private void button_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
             decimal price = decimal.Parse(textBox2.Text) * decimal.Parse(textBox3.Text);
             label5.Text = price.ToString("C0");

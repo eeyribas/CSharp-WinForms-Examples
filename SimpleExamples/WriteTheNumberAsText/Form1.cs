@@ -24,14 +24,7 @@ namespace WriteTheNumberAsText
 
         private void button1_Click(object sender, EventArgs e)
         {
-            try
-            {
-                label1.Text = Convert(textBox1.Text);
-            }
-            catch
-            {
-                MessageBox.Show("Error number!");
-            }
+            label1.Text = Convert(textBox1.Text);
         }
 
         private string Convert(string number)

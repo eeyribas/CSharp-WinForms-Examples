@@ -15,7 +15,6 @@ namespace MatrixAdditionAndMultiplication
         private int[,] a = new int[3, 3];
         private int[,] b = new int[3, 3];
         private int[,] c = new int[3, 3];
-        private int j;
 
         public Form1()
         {
@@ -59,9 +58,7 @@ namespace MatrixAdditionAndMultiplication
                 {
                     int x = 0;
                     for (int k = 0; k <= 2; k++)
-                    {
                         x += a[i, k] * b[k, j];
-                    }
 
                     c[i, j] = x;
                 }

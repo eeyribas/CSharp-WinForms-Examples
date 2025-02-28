@@ -57,7 +57,7 @@ namespace DrawPieChart
 
                 graphics.FillRectangle(hatchBrush, 210, 80 + i * 20, 18, 18);
                 graphics.DrawString(references[i] + "=" + values[i].ToString(), new Font("Tahoma", 8, FontStyle.Regular),
-                new SolidBrush(Color.Red), 230, 80 + i * 20);
+                                    new SolidBrush(Color.Red), 230, 80 + i * 20);
                 firstAgree += secondAgree;
             }
         }

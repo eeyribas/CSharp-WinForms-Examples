@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace ArrayList_AddRecordAndList
+namespace ArrayList_AddAndList
 {
     public partial class Form2 : Form
     {

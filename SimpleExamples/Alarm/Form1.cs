@@ -22,10 +22,10 @@ namespace Alarm
             textBox1.Text = DateTime.Now.ToShortDateString();
             textBox2.Text = DateTime.Now.ToLongTimeString();
 
-            timer2.Enabled = false;
             timer1.Enabled = false;
-            timer2.Interval = 100;
             timer1.Interval = 1000;
+            timer2.Enabled = false;
+            timer2.Interval = 100;
             textBox3.Text = "Close Alarm";
         }
 

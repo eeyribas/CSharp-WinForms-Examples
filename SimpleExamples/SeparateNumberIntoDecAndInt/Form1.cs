@@ -26,7 +26,7 @@ namespace SeparateNumberIntoDecAndInt
         private void button1_Click(object sender, EventArgs e)
         {
             double x = 145.39;
-            Number number = Splitter(x);
+            Number number = Splitter1(x);
             MessageBox.Show("Integer : " + number.integ.ToString() + " Decimal : " + number.dec.ToString());
         }
 
@@ -48,7 +48,7 @@ namespace SeparateNumberIntoDecAndInt
             MessageBox.Show("Integer : " + y.ToString() + " Decimal : " + z.ToString());
         }
 
-        private Number Splitter(double x)
+        private Number Splitter1(double x)
         {
             Number number;
             number.integ = (int)x;

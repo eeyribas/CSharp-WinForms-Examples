@@ -49,7 +49,7 @@ namespace DirectorySearcher
             listBox1.Items.AddRange(files);
             string[] directorys = Directory.GetDirectories(path);
  
-            for(int i = 0; i <= directorys.Length - 1; i++)
+            for (int i = 0; i <= directorys.Length - 1; i++)
             {
                 Search(directorys[i]);
                 label3.Text = directorys[i];

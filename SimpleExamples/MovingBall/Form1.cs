@@ -12,7 +12,7 @@ namespace MovingBall
 {
     public partial class Form1 : Form
     {
-        private int sx = 5, sy = 5;
+        private int sX = 5, sY = 5;
 
         public Form1()
         {
@@ -23,6 +23,7 @@ namespace MovingBall
         {
             radioButton1.Text = "";
             radioButton1.Width = 10;
+
             timer1.Interval = 50;
             timer1.Enabled = true;
         }
@@ -30,12 +31,12 @@ namespace MovingBall
         private void timer1_Tick(object sender, EventArgs e)
         {
             if (radioButton1.Top <= 0 || radioButton1.Bottom >= this.ClientSize.Height)
-                sy = -sy;
+                sY = -sY;
             if (radioButton1.Left <= 0 || radioButton1.Right >= this.ClientSize.Width)
-                sx = -sx;
+                sX = -sX;
 
-            radioButton1.Left += sx;
-            radioButton1.Top += sy;
+            radioButton1.Left += sX;
+            radioButton1.Top += sY;
         }
     }
 }

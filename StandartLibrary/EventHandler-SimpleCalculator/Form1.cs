@@ -19,9 +19,9 @@ namespace EventHandler_SimpleCalculator
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            this.button2.Click += new System.EventHandler(this.button1_Click);
-            this.button3.Click += new System.EventHandler(this.button1_Click);
-            this.button4.Click += new System.EventHandler(this.button1_Click);
+            this.button2.Click += new EventHandler(this.button1_Click);
+            this.button3.Click += new EventHandler(this.button1_Click);
+            this.button4.Click += new EventHandler(this.button1_Click);
         }
 
         private void button1_Click(object sender, EventArgs e)

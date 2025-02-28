@@ -23,16 +23,15 @@ namespace FileStream_EncryptDecrypt
             button1.Enabled = false;
             openFileDialog1.Title = "Selection File";
             saveFileDialog1.Title = "Create file.";
-            byte value;
-
+            
             if (openFileDialog1.ShowDialog() == DialogResult.OK)
             {
                 if(saveFileDialog1.ShowDialog() == DialogResult.OK)
                 {
                     label1.Text = "Original File : " + openFileDialog1.FileName;
 
-                    FileStream fileStream = new FileStream(openFileDialog1.FileName, FileMode.Open);
-                    BinaryReader binaryReader = new BinaryReader(fileStream);
+                    FileStream fileStream1 = new FileStream(openFileDialog1.FileName, FileMode.Open);
+                    BinaryReader binaryReader = new BinaryReader(fileStream1);
                     label2.Text = "Creating File : " + saveFileDialog1.FileName;
 
                     FileStream fileStream2 = new FileStream(saveFileDialog1.FileName, FileMode.CreateNew);
@@ -41,6 +40,7 @@ namespace FileStream_EncryptDecrypt
 
                     progressBar1.Maximum = (int)size / 100;
                     label3.Text = "File Size :" + size.ToString();
+                    byte value;
                     for (long i = 1; i <= size; i++)
                     {
                         byte tmp = binaryReader.ReadByte();
@@ -59,7 +59,7 @@ namespace FileStream_EncryptDecrypt
 
                     binaryReader.Close();
                     binaryWriter.Close();
-                    fileStream.Close();
+                    fileStream1.Close();
                     fileStream2.Close();
                 }
             }

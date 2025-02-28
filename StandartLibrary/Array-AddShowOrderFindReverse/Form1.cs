@@ -46,11 +46,10 @@ namespace Array_AddShowOrderFindReverse
         {
             Graphics graphics = this.CreateGraphics();
             graphics.Clear(this.BackColor);
-
             for (int i = 0; i <= names.GetLength(0) - 1; i++)
             {
-                graphics.DrawString(names[i], new Font("Tahoma", 8, FontStyle.Regular), new SolidBrush(Color.Red), 10,
-                                    30 + i * 10);
+                graphics.DrawString(names[i], new Font("Tahoma", 8, FontStyle.Regular), new SolidBrush(Color.Red), 
+                                    10, 30 + i * 10);
             }
         }
 

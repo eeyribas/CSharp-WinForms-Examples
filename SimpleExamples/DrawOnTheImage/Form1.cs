@@ -27,39 +27,33 @@ namespace DrawOnTheImage
 
         private void Form1_Paint(object sender, PaintEventArgs e)
         {
-            string[] images = new string[500];
+            string[] imageStrs = new string[500];
 
-            if (selection == false)
-            {
-                e.Graphics.DrawString("Double-click the form to select an image", new Font("Tahoma", 16, FontStyle.Regular), 
-                                      new SolidBrush(Color.Black), 0, 0);
-            }
-            else
+            if (selection == true)
             {
                 e.Graphics.Clear(this.BackColor);
                 FileInfo fileInfo = new FileInfo(openFileDialog1.FileName);
                 DirectoryInfo directoryInfo = new DirectoryInfo(fileInfo.DirectoryName);
-                FileInfo[] fileInfos;
 
                 string[] paths = { "*.jpg", "*.bmp", "*.gif", "*.wmf" };
                 int k = 0, row = 0, column = 0;
                 int maxColumn = this.ClientSize.Width / 50;
 
-                for (int u = 0; u <= paths.Length - 1; u++)
+                for (int i = 0; i <= paths.Length - 1; i++)
                 {
-                    fileInfos = directoryInfo.GetFiles(paths[u]);
-                    for (int i = 0; i <= fileInfos.Length - 1; i++)
+                    FileInfo[] fileInfos = directoryInfo.GetFiles(paths[i]);
+                    for (int j = 0; j <= fileInfos.Length - 1; j++)
                     {
                         if (column == maxColumn)
                         {
                             column = 0;
                             row += 1;
                         }
+                        imageStrs[k] = fileInfos[j].FullName;
 
-                        images[k] = fileInfos[i].FullName;
                         try
                         {
-                            e.Graphics.DrawImage(Image.FromFile(fileInfos[i].FullName), new Rectangle(column * 50, row * 50, 45, 45));
+                            e.Graphics.DrawImage(Image.FromFile(fileInfos[j].FullName), new Rectangle(column * 50, row * 50, 45, 45));
                         }
                         catch
                         {
@@ -71,6 +65,11 @@ namespace DrawOnTheImage
                         k += 1;
                     }
                 }
+            }
+            else
+            {
+                e.Graphics.DrawString("Double-click the form to select an image", new Font("Tahoma", 16, FontStyle.Regular),
+                                      new SolidBrush(Color.Black), 0, 0);
             }
         }
 

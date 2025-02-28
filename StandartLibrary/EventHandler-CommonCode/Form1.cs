@@ -19,25 +19,15 @@ namespace EventHandler_CommonCode
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            textBox3.TextChanged += new System.EventHandler(textBox2_TextChanged);
-            textBox4.TextChanged += new System.EventHandler(textBox2_TextChanged);
+            textBox3.TextChanged += new EventHandler(textBox2_TextChanged);
+            textBox4.TextChanged += new EventHandler(textBox2_TextChanged);
         }
 
         private void textBox2_TextChanged(object sender, EventArgs e)
         {
-            long dayOfSalary, day, advancePayment;
-
-            try
-            {
-                dayOfSalary = long.Parse(textBox2.Text);
-                day = long.Parse(textBox3.Text);
-                advancePayment = long.Parse(textBox4.Text);
-            }
-            catch
-            {
-                this.Text = "Error numbers.";
-                return;
-            }
+            long dayOfSalary = long.Parse(textBox2.Text);
+            long day = long.Parse(textBox3.Text);
+            long advancePayment = long.Parse(textBox4.Text);
 
             this.Text = "Salary Account";
             long grossSalary = dayOfSalary * day;

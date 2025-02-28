@@ -26,14 +26,14 @@ namespace ProductStockTracking
         private void button2_Click(object sender, EventArgs e)
         {
             int ind = checkedListBox1.SelectedIndex;
-            if (ind < 0)
-            {
-                MessageBox.Show("First select the element to delete");
-            }
-            else
+            if (ind >= 0)
             {
                 checkedListBox1.Items.RemoveAt(ind);
                 checkedListBox2.Items.RemoveAt(ind);
+            }
+            else
+            {
+                MessageBox.Show("First select the element to delete");
             }
         }
 

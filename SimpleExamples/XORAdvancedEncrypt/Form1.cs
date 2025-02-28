@@ -19,19 +19,18 @@ namespace XORAdvancedEncrypt
 
         private void button1_Click(object sender, EventArgs e)
         {
-            string passwordText = "";
-            char ch;
-            string text= textBox1.Text;
+            string text = textBox1.Text;
             string password = textBox2.Text;
+            string passwordText = "";
 
-            for (int j = 0; j <= password.Length - 1; j++)
+            for (int i = 0; i <= password.Length - 1; i++)
             {
                 passwordText = "";
-                for (int i = 0; i <= text.Length - 1; i++)
+                for (int j = 0; j <= text.Length - 1; j++)
                 {
-                    ch = (char)(text[i] ^ password[j]);
+                    char ch = (char)(text[j] ^ password[i]);
                     if (ch == '0')
-                        ch = password[j];
+                        ch = password[i];
                     passwordText += (char)ch;
                 }
 
