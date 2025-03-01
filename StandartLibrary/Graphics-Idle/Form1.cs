@@ -13,8 +13,7 @@ namespace Graphics_Idle
     public partial class Form1 : Form
     {
         private Graphics graphics;
-        private Random random;
-        private int M, N, L, count;
+        private int count, L, M, N;
 
         public Form1()
         {
@@ -23,18 +22,18 @@ namespace Graphics_Idle
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            graphics = CreateGraphics();
+            Application.Idle += new EventHandler(IdleEvent);
+
             L = 20;
             M = ClientSize.Width - L;
             N = ClientSize.Height - L;
-
-            graphics = CreateGraphics();
-            random = new Random();
-            Application.Idle += new EventHandler(IdleEvent);
         }
 
         void IdleEvent(object sender, EventArgs e)
         {
             Text = (++count).ToString();
+            Random random = new Random();
             Color color = Color.FromArgb(random.Next(256), random.Next(256), random.Next(256));
             Brush brush = new SolidBrush(color);
             Rectangle rectangle = new Rectangle(random.Next(M), random.Next(N), L, L);

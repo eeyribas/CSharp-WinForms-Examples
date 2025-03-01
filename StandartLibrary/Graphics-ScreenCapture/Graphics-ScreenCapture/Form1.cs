@@ -13,9 +13,6 @@ namespace Graphics_ScreenCapture
 {
     public partial class Form1 : Form
     {
-        private static Bitmap bitmap;
-        private static Graphics graphics;
-
         public Form1()
         {
             InitializeComponent();
@@ -26,8 +23,8 @@ namespace Graphics_ScreenCapture
             if (saveFileDialog1.ShowDialog() == DialogResult.OK)
             {
                 this.Hide();
-                bitmap = new Bitmap(Screen.PrimaryScreen.Bounds.Width, Screen.PrimaryScreen.Bounds.Height, PixelFormat.Format32bppArgb);
-                graphics = Graphics.FromImage(bitmap);
+                Bitmap bitmap = new Bitmap(Screen.PrimaryScreen.Bounds.Width, Screen.PrimaryScreen.Bounds.Height, PixelFormat.Format32bppArgb);
+                Graphics graphics = Graphics.FromImage(bitmap);
                 graphics.CopyFromScreen(Screen.PrimaryScreen.Bounds.X, Screen.PrimaryScreen.Bounds.Y, 0, 0, Screen.PrimaryScreen.Bounds.Size, 
                                         CopyPixelOperation.SourceCopy);
                 bitmap.Save(saveFileDialog1.FileName, ImageFormat.Png);

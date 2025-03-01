@@ -26,12 +26,12 @@ namespace SolidBrush_PadLeftAndRight
             Font font = new Font("Courier New", 10, FontStyle.Bold);
 
             int[] numbers = {5, 17, 230, 900, 40, 8000};
-            string str;
             for (int i = 0; i <= numbers.Length - 1; i++)
             {
-                str = numbers[i].ToString();
+                string str = numbers[i].ToString();
                 graphics.DrawString(str, font, solidBrush, 10, i * 15);
             }
+
             graphics.Dispose();
         }
 
@@ -44,12 +44,12 @@ namespace SolidBrush_PadLeftAndRight
             Font font = new Font("Courier New", 10, FontStyle.Bold);
 
             int[] numbers = { 5, 17, 230, 900, 40, 8000 };
-            string str;
             for (int i = 0; i <= numbers.Length - 1; i++)
             {
-                str = numbers[i].ToString();
+                string str = numbers[i].ToString();
                 graphics.DrawString(str.PadLeft(7, ' '), font, solidBrush, 10, i * 15);
             }
+
             graphics.Dispose();
         }
     }

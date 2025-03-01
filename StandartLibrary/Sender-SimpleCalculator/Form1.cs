@@ -19,9 +19,9 @@ namespace Sender_SimpleCalculator
 
         private void button1_Click(object sender, EventArgs e)
         {
-            double result = 0;
             double number1 = double.Parse(textBox1.Text);
             double number2 = double.Parse(textBox2.Text);
+            double result = 0;
 
             if ((sender as Button).Text == "Sum")
                 result = number1 + number2;
