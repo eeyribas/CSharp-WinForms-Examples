@@ -104,16 +104,9 @@ namespace NumericUpDown_Date
             if (state)
                 return;
 
-            try
-            {
-                DateTimeSettings dateTimeSettings = new DateTimeSettings();
-                dateTimeSettings.DateSetting((short)numericUpDown1.Value, (short)numericUpDown2.Value, (short)numericUpDown3.Value);
-                dateTimeSettings.TimeSetting((short)numericUpDown4.Value, (short)numericUpDown5.Value, (short)numericUpDown6.Value);
-            }
-            catch
-            {
-                MessageBox.Show("The date or time is invalid!");
-            }
+            DateTimeSettings dateTimeSettings = new DateTimeSettings();
+            dateTimeSettings.DateSetting((short)numericUpDown1.Value, (short)numericUpDown2.Value, (short)numericUpDown3.Value);
+            dateTimeSettings.TimeSetting((short)numericUpDown4.Value, (short)numericUpDown5.Value, (short)numericUpDown6.Value);
         }
     }
 }

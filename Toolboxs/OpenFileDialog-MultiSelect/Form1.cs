@@ -53,15 +53,8 @@ namespace OpenFileDialog_MultiSelect
                 {
                     for (int i = 0; i <= openFileDialog2.FileNames.Length - 1; i++)
                     {
-                        try
-                        {
-                            FileInfo fileInfo = new FileInfo(openFileDialog2.FileNames[i]);
-                            fileInfo.Delete();
-                        }
-                        catch
-                        {
-                            MessageBox.Show(openFileDialog2.FileNames[i] + " This file could not be deleted.");
-                        }
+                        FileInfo fileInfo = new FileInfo(openFileDialog2.FileNames[i]);
+                        fileInfo.Delete();
                     }
                 }
             }
@@ -72,15 +65,8 @@ namespace OpenFileDialog_MultiSelect
             count++;
             count %= openFileDialog1.FileNames.Length;
 
-            try
-            {
-                pictureBox1.Image = Image.FromFile(openFileDialog1.FileNames[count]);
-                this.Text = openFileDialog1.FileNames[count];
-            }
-            catch
-            {
-                this.Text = openFileDialog1.FileNames[count] + " file error";
-            }
+            pictureBox1.Image = Image.FromFile(openFileDialog1.FileNames[count]);
+            this.Text = openFileDialog1.FileNames[count];
         }
 
         private void openFileDialog1_HelpRequest(object sender, EventArgs e)

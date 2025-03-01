@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{0647E232-34C7-44A2-B4E8-5BB222267148}</ProjectGuid>
+    <ProjectGuid>{D46074D7-DC6C-4383-9C19-BBB1159AE301}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>TextBox_ChangeColor</RootNamespace>
     <AssemblyName>TextBox-ChangeColor</AssemblyName>
@@ -65,6 +65,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

@@ -73,18 +73,8 @@ namespace PrintDocument_TextAndImage
             text = textBox2.Text;
             e.Graphics.DrawString(text, textFont, Brushes.Black, x2, y);
 
-            float y2 = 0;
-
-            try
-            {
-                e.Graphics.DrawImage(pictureBox1.Image, x3, y, 150, 150);
-                y2 = y + 150;
-            }
-            catch
-            {
-                text = "Image could not be printed.";
-                e.Graphics.DrawString(text, textFont, Brushes.Blue, x3, y);
-            }
+            e.Graphics.DrawImage(pictureBox1.Image, x3, y, 150, 150);
+            float y2 = y + 150;
 
             y += e.Graphics.MeasureString(text, labelFont).Height;
             text = "Address : ";

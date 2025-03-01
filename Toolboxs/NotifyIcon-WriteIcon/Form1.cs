@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.Drawing.Imaging;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -29,7 +30,7 @@ namespace NotifyIcon_WriteIcon
         {
             i = (i + 1) % 100;
 
-            Bitmap bitmap = new Bitmap(16, 16, System.Drawing.Imaging.PixelFormat.Format24bppRgb);
+            Bitmap bitmap = new Bitmap(16, 16, PixelFormat.Format24bppRgb);
             Graphics graphics = Graphics.FromImage(bitmap);
             graphics.FillRectangle(Brushes.Red, 0, 0, 16, 16);
             graphics.DrawString(i.ToString(), new Font("Tahoma", 8, FontStyle.Bold), Brushes.White, 0, 0);

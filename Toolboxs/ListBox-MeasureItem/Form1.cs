@@ -39,8 +39,8 @@ namespace ListBox_MeasureItem
             e.DrawFocusRectangle();
 
             string name = listBox1.Items[e.Index].ToString();
-            e.Graphics.DrawString(name, new Font(name, 12, FontStyle.Regular), new SolidBrush(Color.Black), e.Bounds.Left, 
-                                  e.Bounds.Top);
+            e.Graphics.DrawString(name, new Font(name, 12, FontStyle.Regular), new SolidBrush(Color.Black), 
+                                  e.Bounds.Left, e.Bounds.Top);
         }
 
         private void listBox1_SelectedIndexChanged(object sender, EventArgs e)

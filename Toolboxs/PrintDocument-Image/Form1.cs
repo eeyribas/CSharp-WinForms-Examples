@@ -59,10 +59,10 @@ namespace PrintDocument_Image
 
             if (checkBox2.Checked)
             {
-                x = pageSettings.Margins.Left + ((pageSettings.PaperSize.Width - pageSettings.Margins.Left - pageSettings.Margins.Right) -
-                    pictureBox1.Image.Width) / 2;
-                y = pageSettings.Margins.Top + ((pageSettings.PaperSize.Height - pageSettings.Margins.Top - pageSettings.Margins.Bottom) -
-                    pictureBox1.Image.Height) / 2;
+                x = pageSettings.Margins.Left + ((pageSettings.PaperSize.Width - pageSettings.Margins.Left - 
+                    pageSettings.Margins.Right) - pictureBox1.Image.Width) / 2;
+                y = pageSettings.Margins.Top + ((pageSettings.PaperSize.Height - pageSettings.Margins.Top - 
+                    pageSettings.Margins.Bottom) - pictureBox1.Image.Height) / 2;
             }
 
             e.Graphics.DrawImage(pictureBox1.Image, x, y, weight, height);

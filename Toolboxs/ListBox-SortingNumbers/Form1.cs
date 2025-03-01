@@ -42,8 +42,8 @@ namespace ListBox_SortingNumbers
 
         private void button2_Click(object sender, EventArgs e)
         {
-            listBox1.Items.Clear();
             Random random = new Random();
+            listBox1.Items.Clear();
             for (int i = 1; i <= 2000; i++)
                 listBox1.Items.Add(((int)random.Next(1000)).ToString());
 
@@ -71,8 +71,8 @@ namespace ListBox_SortingNumbers
 
         private void button3_Click(object sender, EventArgs e)
         {
-            listBox1.Items.Clear();
             Random random = new Random();
+            listBox1.Items.Clear();
             for (int i = 1; i <= 2000; i++)
                 listBox1.Items.Add(((int)random.Next(1000)).ToString());
 
@@ -107,8 +107,8 @@ namespace ListBox_SortingNumbers
 
         private void button4_Click(object sender, EventArgs e)
         {
-            listBox1.Items.Clear();
             Random random = new Random();
+            listBox1.Items.Clear();
             for (int i = 1; i <= 2000; i++)
                 listBox1.Items.Add(((int)random.Next(1000)).ToString());
 

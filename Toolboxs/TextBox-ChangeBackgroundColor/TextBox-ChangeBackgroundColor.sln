@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32901.82
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextBox-ChangeBackgroundColor", "TextBox-ChangeBackgroundColor.csproj", "{6FA3E44E-32BA-447E-8E9E-0A8A7D85AACF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6FA3E44E-32BA-447E-8E9E-0A8A7D85AACF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FA3E44E-32BA-447E-8E9E-0A8A7D85AACF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FA3E44E-32BA-447E-8E9E-0A8A7D85AACF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FA3E44E-32BA-447E-8E9E-0A8A7D85AACF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {50517F08-34B0-4B51-A45A-E4958EA3B852}
+	EndGlobalSection
+EndGlobal

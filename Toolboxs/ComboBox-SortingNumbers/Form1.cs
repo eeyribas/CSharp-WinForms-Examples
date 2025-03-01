@@ -12,7 +12,6 @@ namespace ComboBox_SortingNumbers
 {
     public partial class Form1 : Form
     {
-        private Random random;
         private double[] a, b;
         private int n;
 
@@ -23,12 +22,12 @@ namespace ComboBox_SortingNumbers
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            random = new Random();
             button1_Click(sender, e);
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
+            Random random = new Random();
             n = random.Next(15, 31);
             a = new double[n];
 

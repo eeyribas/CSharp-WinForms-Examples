@@ -61,12 +61,10 @@ namespace ListView_AddTextAndSelectedItem
         {
             double sum = 0;
             double[] items = new double[listView1.Items.Count];
-
             for (int i = 0; i < listView1.Items.Count; i++)
             {
                 items[i] = Convert.ToDouble(listView1.Items[i].SubItems[1].Text.ToString());
                 sum += items[i];
-
             }
 
             label1.Text = Convert.ToString(sum);
@@ -86,7 +84,6 @@ namespace ListView_AddTextAndSelectedItem
                 listBox1.Items.Add("Group-1 Item-6");
                 listBox1.Items.Add("Group-1 Item-7");
                 listBox1.Items.Add("Group-1 Item-8");
-
             }
             else if (comboBox1.SelectedIndex == 1 || comboBox1.Text == "Group-2")
             {
@@ -97,7 +94,6 @@ namespace ListView_AddTextAndSelectedItem
                 listBox1.Items.Add("Group-2 Item-5");
                 listBox1.Items.Add("Group-2 Item-6");
                 listBox1.Items.Add("Group-2 Item-7");
-
             }
             else if (comboBox1.SelectedIndex == 2 || comboBox1.Text == "Group-3")
             {
@@ -110,7 +106,6 @@ namespace ListView_AddTextAndSelectedItem
                 listBox1.Items.Add("Group-3 Item-7");
                 listBox1.Items.Add("Group-3 Item-8");
                 listBox1.Items.Add("Group-3 Item-9");
-
             }
             else if (comboBox1.SelectedIndex == 3 || comboBox1.Text == "Group-4")
             {
@@ -119,7 +114,6 @@ namespace ListView_AddTextAndSelectedItem
                 listBox1.Items.Add("Group-4 Item-3");
                 listBox1.Items.Add("Group-4 Item-4");
                 listBox1.Items.Add("Group-4 Item-5");
-
             }
             else
             {

@@ -17,20 +17,29 @@ namespace TextBox_ChangeColor
             InitializeComponent();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
-            textBox1.ResetText();
-            textBox2.ResetText();
+            Random random = new Random();
+            foreach (Control control in this.Controls)
+            {
+                if (control.GetType().Name == "TextBox")
+                {
+                    control.BackColor = Color.FromArgb(random.Next(255), random.Next(255), random.Next(255));
+                    control.ForeColor = Color.FromArgb(random.Next(255), random.Next(255), random.Next(255));
+                }
+            }
         }
 
-        private void textBox_Changed(object sender, EventArgs e)
+        private void button2_Click(object sender, EventArgs e)
         {
-            label1.Text = textBox1.TextLength.ToString();
-            label2.Text = textBox2.TextLength.ToString();
-
-            Color color = (textBox1.Text == textBox2.Text) ? Color.Green : Color.Red;
-            for (int i = 0; i < Controls.Count; i++)
-                Controls[i].ForeColor = color;
+            foreach (Control control in this.Controls)
+            {
+                if (control.GetType().Name == "TextBox")
+                {
+                    control.ResetBackColor();
+                    control.ResetForeColor();
+                }
+            }
         }
     }
 }
