@@ -48,8 +48,8 @@ namespace StatusBar_PCMemoryInformation
                 else
                     percentages[i] = (float)z / y * 100;
 
-                statusBarPanel.ToolTipText = drivers[i] + "=" + (y / 1024 / 1024).ToString() + " MB Full, " + (z / 1024 / 1024).ToString() 
-                                           + " MB Empty";
+                statusBarPanel.ToolTipText = drivers[i] + "=" + (y / 1024 / 1024).ToString() + " MB Full, " + 
+                                             (z / 1024 / 1024).ToString() + " MB Empty";
             }
 
             statusBarPanel = statusBar1.Panels.Add("Hour");
@@ -91,21 +91,21 @@ namespace StatusBar_PCMemoryInformation
     
                 int hour = DateTime.Now.Hour;
                 int angle = -hour * 30 + 90;
-                float sx = (float)(xMiddle + diameter * 2 / 3 * Math.Cos(angle * 3.1415 / 180));
-                float sy = (float)(yMiddle - diameter * 2 / 3 * Math.Sin(angle * 3.1415 / 180));
-                sbdevent.Graphics.DrawLine(new Pen(Color.Red, 2), xMiddle, yMiddle, sx, sy);
+                float sX = (float)(xMiddle + diameter * 2 / 3 * Math.Cos(angle * 3.1415 / 180));
+                float sY = (float)(yMiddle - diameter * 2 / 3 * Math.Sin(angle * 3.1415 / 180));
+                sbdevent.Graphics.DrawLine(new Pen(Color.Red, 2), xMiddle, yMiddle, sX, sY);
 
                 int minute = DateTime.Now.Minute;
                 angle = -minute * 6 + 90;
-                sx = (float)(xMiddle + diameter * Math.Cos(angle * 3.1415 / 180));
-                sy = (float)(yMiddle - diameter * Math.Sin(angle * 3.1415 / 180));
-                sbdevent.Graphics.DrawLine(new Pen(Color.Blue, 2), xMiddle, yMiddle, sx, sy);
+                sX = (float)(xMiddle + diameter * Math.Cos(angle * 3.1415 / 180));
+                sY = (float)(yMiddle - diameter * Math.Sin(angle * 3.1415 / 180));
+                sbdevent.Graphics.DrawLine(new Pen(Color.Blue, 2), xMiddle, yMiddle, sX, sY);
 
                 int second = DateTime.Now.Second;
                 angle = -second * 6 + 90;
-                sx = (float)(xMiddle + diameter * Math.Cos(angle * 3.1415 / 180));
-                sy = (float)(yMiddle - diameter * Math.Sin(angle * 3.1415 / 180));
-                sbdevent.Graphics.DrawLine(new Pen(Color.Black, 1), xMiddle, yMiddle, sx, sy);
+                sX = (float)(xMiddle + diameter * Math.Cos(angle * 3.1415 / 180));
+                sY = (float)(yMiddle - diameter * Math.Sin(angle * 3.1415 / 180));
+                sbdevent.Graphics.DrawLine(new Pen(Color.Black, 1), xMiddle, yMiddle, sX, sY);
             }
         }
 

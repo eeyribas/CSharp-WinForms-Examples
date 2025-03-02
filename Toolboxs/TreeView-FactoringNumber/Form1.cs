@@ -20,16 +20,8 @@ namespace TreeView_FactoringNumber
         private void button1_Click(object sender, EventArgs e)
         {
             treeView1.Nodes.Clear();
-
-            try
-            {
-                treeView1.Nodes.Add(int.Parse(textBox1.Text).ToString());
-                MessageBox.Show("You can access the prime factors by double-clicking on the number in the list.");
-            }
-            catch
-            {
-                MessageBox.Show("Error!");
-            }
+            treeView1.Nodes.Add(int.Parse(textBox1.Text).ToString());
+            MessageBox.Show("You can access the prime factors by double-clicking on the number in the list.");
         }
 
         private void treeView1_AfterSelect(object sender, TreeViewEventArgs e)

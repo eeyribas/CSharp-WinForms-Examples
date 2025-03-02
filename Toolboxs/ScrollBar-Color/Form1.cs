@@ -23,8 +23,8 @@ namespace ScrollBar_Color
             hScrollBar2.Maximum = 255;
             hScrollBar3.Maximum = 255;
 
-            hScrollBar2.Scroll += new System.Windows.Forms.ScrollEventHandler(hScrollBar1_Scroll);
-            hScrollBar3.Scroll += new System.Windows.Forms.ScrollEventHandler(hScrollBar1_Scroll);
+            hScrollBar2.Scroll += new ScrollEventHandler(hScrollBar1_Scroll);
+            hScrollBar3.Scroll += new ScrollEventHandler(hScrollBar1_Scroll);
         }
 
         private void hScrollBar1_Scroll(object sender, ScrollEventArgs e)

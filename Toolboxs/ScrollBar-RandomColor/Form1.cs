@@ -12,7 +12,7 @@ namespace ScrollBar_RandomColor
 {
     public partial class Form1 : Form
     {
-        private Random random;
+        private Random random = new Random();
 
         public Form1()
         {
@@ -21,7 +21,6 @@ namespace ScrollBar_RandomColor
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            random = new Random();
             button1_Click(sender, e);
         }
 

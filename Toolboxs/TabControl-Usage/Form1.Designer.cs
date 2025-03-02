@@ -29,7 +29,6 @@ namespace TabControl_Usage
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.textBox9 = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
@@ -49,7 +48,6 @@ namespace TabControl_Usage
             this.textBox5 = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.imageList1 = new System.Windows.Forms.ImageList(this.components);
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.TabPage1 = new System.Windows.Forms.TabPage();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
@@ -234,20 +232,11 @@ namespace TabControl_Usage
             this.label5.TabIndex = 6;
             this.label5.Text = "Text-5 :";
             // 
-            // imageList1
-            // 
-            this.imageList1.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList1.ImageStream")));
-            this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
-            this.imageList1.Images.SetKeyName(0, "");
-            this.imageList1.Images.SetKeyName(1, "");
-            this.imageList1.Images.SetKeyName(2, "");
-            // 
             // tabControl1
             // 
             this.tabControl1.Controls.Add(this.TabPage1);
             this.tabControl1.Controls.Add(this.TabPage2);
             this.tabControl1.Controls.Add(this.TabPage3);
-            this.tabControl1.ImageList = this.imageList1;
             this.tabControl1.Location = new System.Drawing.Point(12, 12);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
@@ -368,7 +357,6 @@ namespace TabControl_Usage
         internal System.Windows.Forms.TextBox textBox5;
         internal System.Windows.Forms.Label label4;
         internal System.Windows.Forms.Label label5;
-        internal System.Windows.Forms.ImageList imageList1;
         internal System.Windows.Forms.TabControl tabControl1;
         internal System.Windows.Forms.TabPage TabPage1;
         internal System.Windows.Forms.PictureBox pictureBox1;
